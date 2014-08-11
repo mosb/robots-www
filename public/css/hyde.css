@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Adobe Caslon Pro", serif;
+  font-family: "adobe-caslon-pro", serif;
 }
 @media (min-width: 48em) {
   html {
@@ -79,7 +79,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "jaf-facitweb", sans-serif;
   font-size: 3.25rem;
 }
 
