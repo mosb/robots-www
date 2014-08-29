@@ -10,15 +10,13 @@ title:            Michael A Osborne
 tagline:          'Associate Professor in Machine Learning'
 description:      'Associate Professor in Machine Learning at the
                   <a href="http://www.ox.ac.uk">University of Oxford</a>'
-url:
-baseurl:
+
+url:              http://www.robots.ox.ac.uk/~mosb
+baseurl:          /
 
 author:
   name:           'Michael Osborne'
   url:            http://www.robots.ox.ac.uk/~mosb
-
-paginate:         1
-
 
 github:
   repo:           https://github.com/mosb/robots-www

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+td.caption {
+text-align: right;
+}
+
+body {
+    background: #FDFC9A;
+    padding:     0 0 20px 0;
+    font-family: 'Crimson Text', serif;
+}
+
+#thinDivider {
+	float: left;
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 18px;
+	border-top: 1px solid #9f9e9e;
+	height: 0px;
+	background: #000000;
+}
+
+
+#container {
+    position: relative;
+    width: 60%;
+    left: 50%;
+    margin-top: 70px;
+    margin-left: -30%;
+    margin-bottom: 70px;
+    background: #FDFC9A;
+    overflow: auto;
+
+}
+
+#main
+{
+    margin: 50px;
+}
+
+h1 {
+  font-size:      xx-large;
+  padding-bottom: 0px;
+  margin-bottom:  0px;
+}
+
+h2 {
+    padding-top: 0px;
+}
+
+h3 {
+font-size:      medium;
+    padding-top: 25px;
+}
+
+h4 {
+display: inline;
+    font-style: italic;
+}
+
+span {
+}
+
+hr {
+    margin-top: 25px;
+}
+
+a:link
+ { font-variant: small-caps;text-decoration: none; color:black}
+ a:visited
+ {  font-variant: small-caps;text-decoration: none; color:black }
+  a:active
+ { font-variant: small-caps;text-decoration: none; color:black }
+ a:hover
+ { font-variant: small-caps;text-decoration: underline; color:black }
+
