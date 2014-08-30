@@ -8,11 +8,15 @@ permalink:        pretty
 # Setup
 title:            Michael A Osborne
 tagline:          'Associate Professor in Machine Learning'
-description:      'Associate Professor in Machine Learning at the
-                  <a href="http://www.ox.ac.uk">University of Oxford</a>'
+description:      'Associate Professor in Machine Learning at the <a href="http://www.ox.ac.uk">University of Oxford</a>'
+
+scholar:
+  style: apa
+  repository: public/pdf
+  bibliography_template: bibliography
 
 url:              http://www.robots.ox.ac.uk/~mosb
-baseurl:          /
+baseurl:
 
 author:
   name:           'Michael Osborne'

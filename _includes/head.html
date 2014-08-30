@@ -15,9 +15,14 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/hyde.css">
+
+  <link href="{{site.baseurl}}/public/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="{{site.baseurl}}/public/css/mosb.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/hyde.css">
+
 
   <!-- Analytics -->
   <script>
@@ -49,8 +54,16 @@
     })(document);
   </script>
 
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="{{site.baseurl}}/public/js/bootstrap.min.js"></script>
+
+  <!-- MathJax -->
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
   <!-- Icons -->
-  <link rel="shortcut icon" href="{{ site.baseurl }}public/ico/favicon.ico">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/ico/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
