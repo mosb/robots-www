@@ -20,7 +20,7 @@ scholar:
   order: descending
 
 url:              http://www.robots.ox.ac.uk/~mosb
-baseurl:
+baseurl:          /
 
 author:
   name:           'Michael Osborne'

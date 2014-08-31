@@ -3,35 +3,87 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
+<div style="float:right">
+      <a class="twitter-timeline" href="https://twitter.com/maosbot"
+      data-widget-id="486877788473815040">
+          Tweets by @maosbot
       </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
+      <script>
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],
+          p=/^http:/.test(d.location)?'http':'https';
+          if(!d.getElementById(id)){js=d.createElement(s);js.id=id;
+          js.src=p+"://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js,fjs);
+          }}(document,"script","twitter-wjs");
+      </script>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+<h2>Profile</h2>
+<p>
+I'm an Associate Professor in Machine Learning, Official Fellow of <a
+href="http://www.exeter.ox.ac.uk">Exeter College</a>  and Faculty Member of
+the <a href="http://www.oxford-man.ox.ac.uk/">Oxford-Man Institute of
+Quantitative Finance,</a> all at the <a
+href="http://www.ox.ac.uk">University of Oxford.</a> I co-lead the <a
+href="http://www.robots.ox.ac.uk/~parg">Machine Learning Research Group,</a> a
+sub-group of the <a href="http://www.robots.ox.ac.uk/">Robotics Research
+Group</a> in the <a href="http://www.eng.ox.ac.uk/">Department of Engineering
+Science.</a> </p>
+
+<p>
+  I blog at <a href="http://scriptogr.am/mosb">scriptogr.am/mosb</a>
+  <a href="http://scriptogr.am/mosb/feed">(feed)</a> and tweet as
+  <a href="https://twitter.com/maosbot">maosbot.</a> Older news is available
+  for <a href="news.html">2013-2014.</a>
+</p>
+
+<h2>Research Expertise</h2>
+<p> I design
+intelligent algorithms capable of making sense of complex big data. Building
+such algorithms requires the use of techniques from Machine Learning and
+Computational Statistics; I work to create modular numerical algorithms that
+speak the common language of probability theory. My work in non-parametric
+data analytics has been successfully applied in diverse and challenging
+contexts. These contexts range from astrostatistics, where my probabilistic
+algorithms have aided the detection of planets in distant solar systems, to
+zoology, where my work has helped to clarify how pigeons are able to navigate
+such extraordinary distances.</p>
+<p>I have particular expertise in active
+learning, Gaussian processes, changepoint detection, Bayesian optimisation and
+Bayesian quadrature. More details are available in my <a
+href="publications.html">publications.</a></p>
+
+<h2>Impact on Industry and Policy</h2>
+<p>
+My career has been shaped by extensive engagement with industry, both in
+research and consultancy arrangements. My DPhil work on sensor networks had
+significant influence on the EPSRC/Industry research project <a
+href="http://www.aladdinproject.org">ALADDIN,</a> winner of the <i> Engineer
+Award Aerospace and Defence 2009</i>. My work on fault detection and big data
+analytics has been demonstrated within a variety of industrial contexts. Most
+recently, I have addressed key societal challenges, analysing how intelligent
+algorithms might soon substitute for human workers, and predicting the
+resulting impact on employment. This latter work has enjoyed broad media
+coverage (featured in <i>The Economist, the Financial Times, Forbes, The
+Independent, WGBH Radio</i> and the <i>BBC World Service</i>) and has
+substantial policy implications related to the future of
+employment.
+
+</p>
+<div>
+<h2>Contact</h2>
+<script language="JavaScript">
+<!--
+document.write('<a href="mailto:' + 'mosb' + '@' + 'robots.ox.ac.uk' + '">');
+document.write('mosb' + '@' + 'robots.ox.ac.uk' + '</a>');
+//-->
+</script><br>
+  +44 (0)1865 273007 <BR>
+  <a href="http://maps.google.co.uk/maps/ms?msid=208001318046621592827.00048522c12bce7ee270f&msa=0">Room 20.05a, Information Engineering Building</a><BR>
+  Department of Engineering Science<BR>
+  University of Oxford<BR>
+  Parks Road<BR>
+  Oxford,
+  <span>OX1 3PJ</span>,
+  United Kingdom<BR>
 </div>
