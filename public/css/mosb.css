@@ -1,12 +1,12 @@
 
 a:link
-{ text-decoration : none; color:#D381C3;}
+{ text-decoration : none; color:#105A94;}
 a:visited
-{ text-decoration : none; color:#D381C3;}
+{ text-decoration : none; color:#105A94;}
 a:active
-{ text-decoration : none; color:#D381C3;}
+{ text-decoration : none; color:#105A94;}
 a:hover
-{ text-decoration : underline; color:#D381C3;}
+{ text-decoration : underline; color:#105A94;}
 /*a[href$=".PDF"], a[href$="pdf"] {
 padding           : 2px 2px 2px 20px;
 background        : url("/public/ico/pdficon_small.png") left center no-repeat;
@@ -69,14 +69,36 @@ font-family:    "jaf-facitweb", sans-serif;
 }
 
 h2 {
-color : #BE643C;
+color : #F96D26;
 padding           : 0px;
 padding-top       : 4px;
-font-family       : "adobe-caslon-pro", serif;
+font-family       : "jaf-facitweb", sans-serif;
 font-weight       : normal;
-font-size         : large;
+font-size         : larger;
+font-weight       : bold;
 text-transform:     uppercase;
-line-height       : 18px;
+/*line-height       : 18px;*/
+}
+
+h3 {
+/*padding-bottom    : 10px;*/
+font-family       : "adobe-caslon-pro", serif;
+/*padding-top       : 20px;*/
+text-transform:     uppercase;
+font-size         : medium;
+color        : #D381C3;
+}
+
+h4
+{
+padding-top       : 10px;
+font-family       : "adobe-caslon-pro", serif;
+font-style        : italic;
+color        : #BE643C;
+font-weight       : bold;
+text-indent       : 0px;
+font-size: medium;
+padding-bottom    : 3px;
 }
 
 .sidebar a:link
@@ -95,6 +117,10 @@ line-height       : 18px;
   text-align: right;
 }
 
+.sidebar-nav-item.active {
+  text-transform:     lowercase;
+}
+
 .lead {
 text-align: center;
 font-family       : "adobe-caslon-pro", serif;
@@ -102,26 +128,7 @@ font-style        : italic;
 font-size: large;
 }
 
-h3 {
-font-family       : "jaf-facitweb", sans-serif;
-padding-bottom    : 10px;
-padding-top       : 20px;
-font-size         : large;
-font-weight       : bold;
-color        : #F96D26;
-}
 
-h4
-{
-padding-top       : 10px;
-font-family       : "adobe-caslon-pro", serif;
-font-style        : italic;
-color        : #76C7B7;
-font-weight       : bold;
-text-indent       : 0px;
-font-size: medium;
-padding-bottom    : 3px;
-}
 
 
 hr {
