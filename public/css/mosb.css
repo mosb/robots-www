@@ -1,17 +1,5 @@
 
-a:link
-{ text-decoration : none; color:#105A94;}
-a:visited
-{ text-decoration : none; color:#105A94;}
-a:active
-{ text-decoration : none; color:#105A94;}
-a:hover
-{ text-decoration : underline; color:#105A94;}
-/*a[href$=".PDF"], a[href$="pdf"] {
-padding           : 2px 2px 2px 20px;
-background        : url("/public/ico/pdficon_small.png") left center no-repeat;
-}
-*/
+
 
 @media{
   .content {
@@ -47,7 +35,7 @@ p + p {
 body {
   color : #303030;
 background        : #95AEC7;
-/*padding           : 0 0 20px 0;*/
+padding           : 0 0 20px 0;
 font-family       : "adobe-caslon-pro", serif;
 font-size: medium;
 }
@@ -107,6 +95,20 @@ text-indent       : 0px;
 font-size: medium;
 padding-bottom    : 3px;
 }
+
+.page a:link
+{ text-decoration : none; color:#105A94;}
+.page a:visited
+{ text-decoration : none; color:#105A94;}
+.page a:active
+{ text-decoration : none; color:#105A94;}
+.page a:hover
+{ text-decoration : underline; color:#105A94;}
+/*a[href$=".PDF"], a[href$="pdf"] {
+padding           : 2px 2px 2px 20px;
+background        : url("/public/ico/pdficon_small.png") left center no-repeat;
+}
+*/
 
 .sidebar a:link
 { text-decoration : none; color:#6699CC;}

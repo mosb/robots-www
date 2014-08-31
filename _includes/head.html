@@ -14,9 +14,27 @@
     {% endif %}
   </title>
 
+  <script type="text/javascript">
+    (function(d) {
+      var config = {
+        kitId: 'flp8eda',
+        scriptTimeout: 3000
+      },
+      h=d.documentElement,
+      t=setTimeout(function(){h.className=h.className.
+          replace(/\bwf-loading\b/g,"")+" wf-inactive";},
+          config.scriptTimeout),tk=d.createElement("script"),f=false,
+      s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";
+      tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;
+      tk.onload=tk.onreadystatechange=function(){a=this.readyState;
+          if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);
+          try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+
   <!-- CSS -->
 
-  <link href="{{ site.baseurl }}public/css/bootstrap.min.css" rel="stylesheet">
+   <link href="{{ site.baseurl }}public/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
@@ -34,24 +52,6 @@
     ga('create', 'UA-27639330-3', 'ox.ac.uk');
     ga('send', 'pageview');
 
-  </script>
-
-  <script type="text/javascript">
-    (function(d) {
-      var config = {
-        kitId: 'flp8eda',
-        scriptTimeout: 3000
-      },
-      h=d.documentElement,
-      t=setTimeout(function(){h.className=h.className.
-          replace(/\bwf-loading\b/g,"")+" wf-inactive";},
-          config.scriptTimeout),tk=d.createElement("script"),f=false,
-      s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";
-      tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;
-      tk.onload=tk.onreadystatechange=function(){a=this.readyState;
-          if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);
-          try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
   </script>
 
   <!-- bootstrap -->
