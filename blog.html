@@ -4,7 +4,7 @@ layout: page
 ---
   <div>
 
-  <p class="rss-subscribe">Subscribe to blog posts <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS.</a></p>
+  <p class="rss-subscribe">Subscribe to blog posts <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS.</a></p>
 
   <br>
   <ul class="posts">
@@ -13,8 +13,9 @@ layout: page
       <li class="post-list">
         <span class="list-date">{{ post.date | date_to_string }}</span>
         &raquo;
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
       </li>
+      <!-- I commented out "{{ post.url | prepend: site.baseurl }}" -->
     {% endfor %}
   </ul>
 
