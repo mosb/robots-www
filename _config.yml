@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
@@ -14,6 +14,8 @@ scholar:
   style: apa
   repository: public/pdf
   bibliography_template: bibliography
+  sort_by: year
+  order: descending
 
 url:              http://www.robots.ox.ac.uk/~mosb
 baseurl:

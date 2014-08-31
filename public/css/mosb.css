@@ -1,17 +1,30 @@
+
+a:link
+{ text-decoration : none; color:#0D5A94;}
+a:visited
+{ text-decoration : none; color:#0D5A94;}
+a:active
+{ text-decoration : none; color:#0D5A94;}
+a:hover
+{ text-decoration : underline; color:#0D5A94;}
+/*a[href$=".PDF"], a[href$="pdf"] {
+padding           : 2px 2px 2px 20px;
+background        : url("/public/ico/pdficon_small.png") left center no-repeat;
+}
+*/
+
 @media{
   .content {
     max-width: 33em;
   }
 }
 
-
 .post-date {
   display: block;
   margin-top: 0em;
   margin-bottom: 0em;
-  color: #9a9a9a;
+  color: #515151;
 }
-
 
 p {
   margin-top: 1.375em;
@@ -24,7 +37,7 @@ p + p {
 }
 
 body {
-/*background        : #E5FDFF;*/
+background        : #E8E6DF;
 /*padding           : 0 0 20px 0;*/
 font-family       : "adobe-caslon-pro", serif;
 font-size: medium;
@@ -35,13 +48,17 @@ font-size         : xx-large;
 font-weight       : bold;
 font-family       : "jaf-facitweb", sans-serif;
 padding-top       : 0px;
-padding-bottom    : 0px;
+padding-bottom    : 0.5em;
+color: #FFCC66;
 margin-bottom     : 0px;
 }
 
 .sidebar-about h1 {
-  font-size: 2.7rem;
-  font-family: "jaf-facitweb", sans-serif;
+font-size:      2.2rem;
+text-transform: uppercase;
+text-align: center;
+color: #FFCC66;
+font-family:    "jaf-facitweb", sans-serif;
 }
 
 h2 {
@@ -54,14 +71,26 @@ text-transform:     uppercase;
 line-height       : 18px;
 }
 
+.sidebar a:link
+{ text-decoration : none; color:#6699CC;}
+.sidebar a:visited
+{ text-decoration : none; color:#6699CC;}
+.sidebar a:active
+{ text-decoration : none; color:#6699CC;}
+.sidebar a:hover
+{ text-decoration : underline; color:#6699CC;}
+
 .sidebar-nav-item {
   text-transform:     uppercase;
+  font-family: "jaf-facitweb", sans-serif;
+  text-align: right;
 }
 
 .lead {
+text-align: center;
 font-family       : "adobe-caslon-pro", serif;
 font-style        : italic;
-font-size: medium;
+font-size: large;
 }
 
 h3 {
@@ -93,19 +122,14 @@ margin-top        : 25px;
 /*text-transform  : lowercase;*/
 /*}*/
 
-a:link
-{ text-decoration : none; color:#FF6200;}
-a:visited
-{ text-decoration : none; color:#FF6200;}
-a:active
-{ text-decoration : none; color:#FF6200;}
-a:hover
-{ text-decoration : underline; color:#FF6200;}
-/*a[href$=".PDF"], a[href$="pdf"] {
-padding           : 2px 2px 2px 20px;
-background        : url("/public/ico/pdficon_small.png") left center no-repeat;
+li
+{
+list-style-type   : decimal;
+padding-top       : 0px;
+padding           : 0px;
+margin            : 0px;
 }
-*/
+
 /* jwvdm below */
 
 div#photo-well {
@@ -125,7 +149,7 @@ img[alt=aneic-objects]{
 }
 
 img[alt=photo] {
-    width: 150px;
+    width: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -178,7 +202,7 @@ img[alt=contact] {
 }
 
 .title, .subtitle {
-  color: #ffffff;
+  /*color: #ffffff;*/
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -211,7 +235,7 @@ img[alt=contact] {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: #7fbbba;
+  background-color: #6699CC;
   color: #fff;
 }
 
@@ -220,7 +244,7 @@ img[alt=contact] {
 .nav > li.active > a:focus
 {
   color: #fff;
-  background-color: #ff9933;
+  background-color: #FFCC66;
 }
 
 /*.nav > li.disabled > a {
@@ -240,8 +264,8 @@ img[alt=contact] {
 }
 
 .content {
-  background-color: #fff;
-  color: #345;
+  background-color: #F2F0EC;
+  color: #2D2D2D;
   border-radius: 3px;
   padding: 30px;
   /*box-shadow: 5px 5px 5px #012;*/
@@ -254,7 +278,7 @@ img[alt=contact] {
 }
 
 .footer a {
-  color: #7fbbba;
+  color: #F2F0EC;
 }
 
 .nav-pills > li + li {
