@@ -12,14 +12,13 @@ tagline:     'Associate Professor in Machine Learning'
 description: 'Associate Professor in Machine Learning at the <a href="http://www.ox.ac.uk">University of Oxford</a>'
 
 scholar:
-style:                 apa
-repository:            /public/pdf
-replace_strings:       true
-
-join_strings:          true
-bibliography_template: bibliography
-sort_by:               year
-order:                 descending
+  style: apa
+  repository: public/pdf
+  replace_strings: true
+  join_strings: true
+  bibliography_template: bibliography
+  sort_by: year
+  order: descending
 
 url:     http://www.robots.ox.ac.uk/~mosb
 baseurl: /
