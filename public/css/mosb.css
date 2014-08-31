@@ -23,7 +23,14 @@ background        : url("/public/ico/pdficon_small.png") left center no-repeat;
   display: block;
   margin-top: 0em;
   margin-bottom: 0em;
-  color: #515151;
+  color: #B0B0B0;
+  font-family: "Source Code Pro", Monaco, "Courier New", monospace;
+  /*font-family:    "jaf-facitweb", sans-serif;*/
+}
+
+.list-date {
+  font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
+  color: #B0B0B0;
 }
 
 p {
@@ -74,7 +81,7 @@ padding           : 0px;
 padding-top       : 4px;
 font-family       : "jaf-facitweb", sans-serif;
 font-weight       : normal;
-font-size         : larger;
+font-size         : x-large;
 font-weight       : bold;
 text-transform:     uppercase;
 /*line-height       : 18px;*/
@@ -128,7 +135,11 @@ font-style        : italic;
 font-size: large;
 }
 
-
+.mosb
+{
+  font-weight: bold;
+  color: #FBA330;
+}
 
 
 hr {
@@ -143,9 +154,17 @@ margin-top        : 25px;
 li
 {
 list-style-type   : decimal;
-padding-top       : 0px;
-padding           : 0px;
+/*padding-top       : 0px;*/
+padding           : 5px;
 margin            : 0px;
+}
+
+.post-list
+{
+list-style-type   : none;
+/*padding-top       : 0px;*/
+/*padding           : 5px;*/
+/*margin            : 0px;*/
 }
 
 /* jwvdm below */

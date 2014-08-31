@@ -13,6 +13,8 @@ description:      'Associate Professor in Machine Learning at the <a href="http:
 scholar:
   style: apa
   repository: public/pdf
+  replace_strings: true
+  join_strings: true
   bibliography_template: bibliography
   sort_by: year
   order: descending

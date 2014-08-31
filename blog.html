@@ -4,15 +4,16 @@ layout: page
 ---
   <div>
 
-  <p class="rss-subscribe">subscribe to blog posts <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">Subscribe to blog posts <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS.</a></p>
 
+  <br>
   <ul class="posts">
     {% for post in site.posts %}
     {% assign author = site.data.authors[post.author] %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <li class="post-list">
+        <span class="list-date">{{ post.date | date_to_string }}</span>
+        &raquo;
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        by {{author.name}}
       </li>
     {% endfor %}
   </ul>
