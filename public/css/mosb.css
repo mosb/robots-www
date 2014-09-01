@@ -175,6 +175,17 @@ div#photo-well {
     margin-left: 30px;
 }
 
+img[alt=photo] {
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[alt=CV] {
+  background-color: #E0E0E0;
+}
+
 img[alt=ebfret-screenshot]{
     width: 300px;
     /*float: left;*/
@@ -187,11 +198,24 @@ img[alt=aneic-objects]{
     margin-right: 30px;
 }
 
-img[alt=photo] {
-    width: 120px;
-    display: block;
+.social-icons img {
+    width: 32px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*.social-icons {
+  list-style: none;
+}
+*/
+.social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
 }
 
 /*div.well {

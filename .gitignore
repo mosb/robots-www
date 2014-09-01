@@ -39,3 +39,7 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+public/ico/GitHub-Logos/
+public/ico/GitHub-Mark/
+public/ico/g+icon_grey/
+public/ico/g+icon_white/

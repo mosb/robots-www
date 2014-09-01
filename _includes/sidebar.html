@@ -11,7 +11,7 @@
 				</a>
 
 			</h1>
-			<img alt="photo" src="/public/image/oval.png"/>
+			<img alt="photo" src="{{ site.baseurl }}public/image/oval.png"/>
 			<p class="lead">{{ site.description }}</p>
 
 		</div>
@@ -36,8 +36,37 @@
 
 		</nav>
 
-		<a class="sidebar-nav-item" href="https://github.com/OxfordML">GitHub</a>
-		<a class="sidebar-nav-item" href="/public/pdf/MAOsborne.pdf">CV</a>
+		<!-- <a class="sidebar-nav-item" href="https://github.com/OxfordML">GitHub</a> -->
+		<!-- <a class="sidebar-nav-item" href="{{ site.baseurl }}public/pdf/MAOsborne.pdf">CV</a> -->
+
+		<div class="social-icons">
+		    <ul>
+		        <li>
+					<a href="{{ site.baseurl }}public/pdf/MAOsborne.pdf">
+						<img src="{{ site.baseurl }}public/ico/CV.png"
+							alt="CV" >
+					</a>
+				</li>
+		        <li>
+					<a href="https://github.com/OxfordML">
+						<img src="{{ site.baseurl }}public/ico/GitHub-Mark-Light-32px.png"
+							alt="GitHub">
+					</a>
+				</li>
+		        <li>
+					<a href="https://twitter.com/maosbot">
+						<img src="{{ site.baseurl }}public/ico/Twitter_logo_blue.png"
+							alt="twitter">
+					</a>
+				</li>
+		        <li>
+					<a href="https://plus.google.com/u/0/+MichaelOsborne">
+						<img src="{{ site.baseurl }}public/ico/g+icon_grey.png"
+							alt="gplus">
+					</a>
+				</li>
+		    </ul>
+		</div>
 
 		<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
 
