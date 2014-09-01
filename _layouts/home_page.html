@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include sidebar.html %}
+
+    <div style="float:right">
+          <a class="twitter-timeline" href="https://twitter.com/maosbot"
+          data-widget-id="486877788473815040">
+              Tweets by @maosbot
+          </a>
+          <script>
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],
+              p=/^http:/.test(d.location)?'http':'https';
+              if(!d.getElementById(id)){js=d.createElement(s);js.id=id;
+              js.src=p+"://platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js,fjs);
+              }}(document,"script","twitter-wjs");
+          </script>
+    </div>
+
+    <div class="content container">
+        <div class="page">
+          <h1 class="page-title">{{ page.title }}</h1>
+          {{ content }}
+        </div>
+    </div>
+
+  </body>
+</html>
+
+
+
