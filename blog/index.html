@@ -1,0 +1,23 @@
+---
+title: Blog
+layout: page
+---
+  <div>
+
+  <p class="rss-subscribe">Subscribe to these blog posts <a href="{{ site.baseurl }}blog/feed.xml">via RSS.</a></p>
+
+  <br>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.categories contains 'blog' %}
+        {% assign author = site.data.authors[post.author] %}
+        <li class="post-list">
+          <span class="list-date">{{ post.date | date_to_string }}</span>
+          &raquo;
+          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  </div>

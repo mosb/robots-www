@@ -161,6 +161,10 @@ padding           : 5px;
 margin            : 0px;
 }
 
+.collaborators li {
+  list-style-type: none;
+}
+
 .post-list
 {
 list-style-type   : none;

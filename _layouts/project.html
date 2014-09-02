@@ -1,0 +1,32 @@
+---
+layout: default
+comments: false
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ content }}
+
+  <h2>Collaborators</h2>
+  <ul class="collaborators">
+    {% for collaborator in page.collaborators %}
+      <li>
+        <span class="collaborator">
+          <a class="post-link" href="{{ collaborator.url }}">
+            {{ collaborator.name }},
+          </a> {{ collaborator.institute }}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Publication Highlights</h2>
+  <ul class="bibliography">
+    {% for paper in page.papers %}
+      <li>
+        {% reference paper --file osborne %}
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

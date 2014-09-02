@@ -1,0 +1,17 @@
+---
+layout: page
+title: Projects
+---
+<div>
+
+<ul class="posts">
+  {% for post in site.posts %}
+    {% if post.categories contains 'project' %}
+        <li class="post-list">
+          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+</div>

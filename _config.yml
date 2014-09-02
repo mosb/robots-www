@@ -11,6 +11,14 @@ name:        Michael A Osborne
 tagline:     'Associate Professor in Machine Learning'
 description: 'Associate Professor in Machine Learning at the <a href="http://www.ox.ac.uk">University of Oxford</a>'
 
+# This makes the generator look at the date of each post (see "Every Jekyll
+# Post has a Date"). Posts whose date is in the future will not be published.
+# NB: This does not mean that, when you finally hit the date of a future post,
+# the post will automatically appear. It only means that it will appear the
+# next time you publish!
+# https://github.com/bobgilmore/jekyll-blog/blob/master/_posts/2014-01-13-deferring-publication-in-jekyll.md
+future: false
+
 scholar:
   style: apa
   repository: public/pdf
@@ -28,4 +36,29 @@ author:
   url:    http://www.robots.ox.ac.uk/~mosb
 
 github:
-  repo:           https://github.com/mosb/robots-www
+  repo: https://github.com/mosb/robots-www
+
+  # TODO: update to "posts" in more recent jekyll versions
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      published:  true
+      author:     mosb
+  -
+    scope:
+      path: "blog"
+      type: "post"
+    values:
+      layout: post
+      comments: true
+  -
+    scope:
+      path: "projects"
+      type: "post"
+    values:
+      layout: project
+      categories: project # overrides previous default layout
+      comments: false
