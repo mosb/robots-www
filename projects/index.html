@@ -8,7 +8,9 @@ title: Projects
   {% for post in site.posts %}
     {% if post.categories contains 'project' %}
         <li class="post-list">
-          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+          <h2>
+              <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+          </h2>
         </li>
     {% endif %}
   {% endfor %}

@@ -2,250 +2,228 @@
 
 
 @media{
-  .content {
-    max-width: 33em;
-  }
+    .content {
+        max-width: 33em;
+    }
 }
-
 .post-date {
-  display: block;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  color: #B0B0B0;
-  font-family: "Source Code Pro", Monaco, "Courier New", monospace;
-  /*font-family:    "jaf-facitweb", sans-serif;*/
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    color: #B0B0B0;
+    font-family: "Source Code Pro", Monaco, "Courier New", monospace;
+    /*font-family:    "jaf-facitweb", sans-serif;*/
 }
-
 .list-date {
-  font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
-  color: #B0B0B0;
+    font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
+    color: #B0B0B0;
 }
-
 p {
-  margin-top: 1.375em;
-  margin-bottom: 0;
+    margin-top: 1.375em;
+    margin-bottom: 0;
 }
-
 p + p {
-  margin-top: 0;
-  text-indent: 1.375em;
+    margin-top: 0;
+    text-indent: 1.375em;
 }
+/* THis is the background colour*/
 
-/* THis is the bakcground colour*/
 body {
-  color : #303030;
-background        : #95AEC7;
-padding           : 0 0 20px 0;
-font-family       : "adobe-caslon-pro", serif;
-font-size: medium;
+    color: #303030;
+    background: #95AEC7;
+    padding: 0 0 20px 0;
+    font-family: "adobe-caslon-pro", serif;
+    font-size: medium;
 }
 
 h1 {
-font-size         : xx-large;
-font-weight       : bold;
-font-family       : "jaf-facitweb", sans-serif;
-padding-top       : 0px;
-padding-bottom    : 0.5em;
-margin-bottom     : 0px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "jaf-facitweb", sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0.5em;
+    margin-bottom: 0px;
 }
-
 .sidebar-about h1 {
-font-size:      2.2rem;
-text-transform: uppercase;
-text-align: center;
-font-family:    "jaf-facitweb", sans-serif;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "jaf-facitweb", sans-serif;
 }
-
 .page h1 {
-  color : #6FB3D2;
+    color: #6FB3D2;
 }
 .post h1 {
-  color : #6FB3D2;
+    color: #6FB3D2;
 }
-
 h2 {
-color : #F96D26;
-padding           : 0px;
-padding-top       : 4px;
-font-family       : "jaf-facitweb", sans-serif;
-font-weight       : normal;
-font-size         : x-large;
-font-weight       : bold;
-text-transform:     uppercase;
-/*line-height       : 18px;*/
+    color: #F96D26;
+    padding: 0px;
+    padding-top: 4px;
+    font-family: "jaf-facitweb", sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*line-height       : 18px;*/
 }
-
 h3 {
-/*padding-bottom    : 10px;*/
-font-family       : "adobe-caslon-pro", serif;
-/*padding-top       : 20px;*/
-text-transform:     uppercase;
-font-size         : medium;
-color        : #D381C3;
+    /*padding-bottom    : 10px;*/
+    font-family: "adobe-caslon-pro", serif;
+    /*padding-top       : 20px;*/
+    text-transform: uppercase;
+    font-size: medium;
+    color: #D381C3;
 }
-
-h4
-{
-padding-top       : 10px;
-font-family       : "adobe-caslon-pro", serif;
-font-style        : italic;
-color        : #BE643C;
-font-weight       : bold;
-text-indent       : 0px;
-font-size: medium;
-padding-bottom    : 3px;
+h4 {
+    padding-top: 10px;
+    font-family: "adobe-caslon-pro", serif;
+    font-style: italic;
+    color: #BE643C;
+    font-weight: bold;
+    text-indent: 0px;
+    font-size: medium;
+    padding-bottom: 3px;
 }
-
-.page a:link
-{ text-decoration : none; color:#105A94;}
-.page a:visited
-{ text-decoration : none; color:#105A94;}
-.page a:active
-{ text-decoration : none; color:#105A94;}
-.page a:hover
-{ text-decoration : underline; color:#105A94;}
+.page a:link {
+    text-decoration: none;
+    color: #105A94;
+}
+.page a:visited {
+    text-decoration: none;
+    color: #105A94;
+}
+.page a:active {
+    text-decoration: none;
+    color: #105A94;
+}
+.page a:hover {
+    text-decoration: underline;
+    color: #105A94;
+}
 /*a[href$=".PDF"], a[href$="pdf"] {
 padding           : 2px 2px 2px 20px;
 background        : url("/public/ico/pdficon_small.png") left center no-repeat;
 }
 */
 
-.sidebar a:link
-{ text-decoration : none; color:#6699CC;}
-.sidebar a:visited
-{ text-decoration : none; color:#6699CC;}
-.sidebar a:active
-{ text-decoration : none; color:#6699CC;}
-.sidebar a:hover
-{ text-decoration : underline; color:#6699CC;}
-
+.sidebar a:link {
+    text-decoration: none;
+    color: #6699CC;
+}
+.sidebar a:visited {
+    text-decoration: none;
+    color: #6699CC;
+}
+.sidebar a:active {
+    text-decoration: none;
+    color: #6699CC;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+    color: #6699CC;
+}
 .sidebar-nav-item {
-  text-transform:     uppercase;
-  font-family: "jaf-facitweb", sans-serif;
-  font-size: large;
-  text-align: right;
+    text-transform: uppercase;
+    font-family: "jaf-facitweb", sans-serif;
+    font-size: large;
+    text-align: right;
 }
-
 .sidebar-nav-item.active {
-  text-transform:     lowercase;
+    text-transform: lowercase;
 }
-
 .lead {
-text-align: center;
-font-family       : "adobe-caslon-pro", serif;
-font-style        : italic;
-font-size: large;
+    text-align: center;
+    font-family: "adobe-caslon-pro", serif;
+    font-style: italic;
+    font-size: large;
 }
-
-.mosb
-{
-  font-weight: bold;
-  color: #FBA330;
+.mosb {
+    font-weight: bold;
+    color: #FBA330;
 }
-
-
 hr {
-margin-top        : 25px;
+    margin-top: 25px;
 }
 
-/*span#current{*/
-/*text-decoration   : none;*/
-/*text-transform  : lowercase;*/
-/*}*/
-
-li
-{
-list-style-type   : decimal;
-/*padding-top       : 0px;*/
-padding           : 5px;
-margin            : 0px;
+li {
+    list-style-type: decimal;
+    /*padding-top       : 0px;*/
+    padding: 5px;
+    margin: 0px;
 }
-
 .collaborators li {
-  list-style-type: none;
+    list-style-type: none;
 }
-
-.post-list
-{
-list-style-type   : none;
-/*padding-top       : 0px;*/
-/*padding           : 5px;*/
-/*margin            : 0px;*/
+.post-list {
+    list-style-type: none;
+    /*padding-top       : 0px;*/
+    /*padding           : 5px;*/
+    /*margin            : 0px;*/
 }
-
 /* jwvdm below */
 
 div#photo-well {
     margin-left: 30px;
 }
-
 img[alt=photo] {
     width: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 img[alt=CV] {
-  background-color: #F5F5F5;
+    background-color: #F5F5F5;
 }
-
-img[alt=ebfret-screenshot]{
+img[alt=ebfret-screenshot] {
     width: 300px;
     /*float: left;*/
     margin-right: 30px;
 }
-
-img[alt=aneic-objects]{
+img[alt=aneic-objects] {
     width: 300px;
     /*float: left;*/
     margin-right: 30px;
 }
-
 .social-icons img {
     width: 32px;
     margin-left: auto;
     margin-right: auto;
 }
-
 /*.social-icons {
   list-style: none;
 }
 */
-.social-icons li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  float: left;
-  width: 25%;
-  padding: 10px;
-  text-align: center;
-}
 
+.social-icons li {
+    margin: 0;
+    list-style: none;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
 /*div.well {
     padding: 0px;
 }
 */
+
 img[alt=contact] {
     height: 14px;
 }
-
 .float-left {
     float: left;
     margin-left: 20px;
     margin-right: 60px;
 }
-
 .float-right {
     float: right;
     margin-right: 20px;
     margin-left: 60px;
 }
-
 .logo {
-  vertical-align: bottom;
+    vertical-align: bottom;
 }
-
 /*.container {
   margin-left: 20px;
   margin-right: 20px;
@@ -253,66 +231,52 @@ img[alt=contact] {
 */
 
 .nav {
-  white-space: nowrap;
+    white-space: nowrap;
 }
-
 .header > .row {
-  padding-left: 20px;
-  padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
 .nav, .title {
-   font-weight: 700;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   font-size: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 120%;
 }
-
 .title, .subtitle {
-  /*color: #ffffff;*/
-  padding-top: 8px;
-  padding-bottom: 8px;
+    /*color: #ffffff;*/
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-
-
 .header {
-  /*padding-left: 20px;*/
-  padding-left: 15px;
-  padding-top: 12px;
-  padding-bottom: 8px;
+    /*padding-left: 20px;*/
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 8px;
 }
-
 .header .col-md-6 {
-  padding-left: 0px;
+    padding-left: 0px;
 }
-
 /*.nav a {
   color: #fff;
 }
 */
 
 .nav > li > a {
-  /*border-radius: 3px 3px 0px 0px;*/
-  border-radius: 3px;
-  text-decoration: none;
-  background-color: transparent;
-  color: #cccccc;
-  padding: 8px;
+    /*border-radius: 3px 3px 0px 0px;*/
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #cccccc;
+    padding: 8px;
 }
-
-.nav > li > a:hover,
-.nav > li > a:focus {
-  background-color: #6699CC;
-  color: #fff;
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #6699CC;
+    color: #fff;
 }
-
-.nav > li.active > a,
-.nav > li.active > a:hover,
-.nav > li.active > a:focus
-{
-  color: #fff;
+.nav > li.active > a, .nav > li.active > a:hover, .nav > li.active > a:focus {
+    color: #fff;
 }
-
 /*.nav > li.disabled > a {
   color: #999999;
 }
@@ -326,54 +290,44 @@ img[alt=contact] {
 */
 
 .nav-pills > li + li {
-  margin-left: 5px;
+    margin-left: 5px;
 }
-
 .content {
-  background-color: #FFFFFF;
-  color: #2D2D2D;
-  border-radius: 3px;
-  padding: 30px;
-  /*box-shadow: 5px 5px 5px #012;*/
+    background-color: #FFFFFF;
+    color: #2D2D2D;
+    border-radius: 3px;
+    padding: 30px;
+    /*box-shadow: 5px 5px 5px #012;*/
 }
-
 .footer {
-  padding-top: 10px;
-  padding-left: 10px;
-  color: #999;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #999;
 }
-
 .footer a {
-  color: #F2F0EC;
+    color: #F2F0EC;
 }
-
 .nav-pills > li + li {
-  margin-left: 5px;
+    margin-left: 5px;
 }
-
 ol.bibliography {
-  padding-left: 1.5em;
-  list-style: disc;
+    padding-left: 1.5em;
+    list-style: disc;
 }
-
 ol.bibliography > li {
-  padding-top: 8px;
-  padding-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-
 ol.bibliography .nav > li > a {
-  padding-left: 0;
+    padding-left: 0;
 }
-
-ol.bibliography .nav-pills > li > a,
-ol.bibliography .nav-pills > li > a:hover {
-  font-size: 90%;
-  text-transform: uppercase;
-  font-family       : "jaf-facitweb", sans-serif;
-  color: #888;
-  background-color: transparent;
+ol.bibliography .nav-pills > li > a, ol.bibliography .nav-pills > li > a:hover {
+    font-size: 90%;
+    text-transform: uppercase;
+    font-family: "jaf-facitweb", sans-serif;
+    color: #888;
+    background-color: transparent;
 }
-
 ol.bibliography .nav-pills > li > a:hover {
-  color: #235;
+    color: #235;
 }
