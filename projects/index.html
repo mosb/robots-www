@@ -12,6 +12,11 @@ title: Projects
               <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
           </h2>
           {{ post.excerpt }}
+          <span class="list-date">
+            {{ post.date | date: "%Y" }}
+            &ndash;
+            {{ post.end_date | date: "%Y" }}
+          </span>
         </li>
     {% endif %}
   {% endfor %}

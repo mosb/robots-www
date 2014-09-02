@@ -190,10 +190,10 @@ img[alt=aneic-objects] {
     margin-left: auto;
     margin-right: auto;
 }
-/*.social-icons {
-  list-style: none;
+
+.social-icons ul {
+    text-align: center;
 }
-*/
 
 .social-icons li {
     margin: 0;
@@ -201,8 +201,8 @@ img[alt=aneic-objects] {
     float: left;
     width: 20%;
     padding: 10px;
-    text-align: center;
 }
+
 /*div.well {
     padding: 0px;
 }
