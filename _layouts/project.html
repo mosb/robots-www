@@ -24,7 +24,7 @@ comments: false
   <ol class="bibliography">
     {% for paper in page.papers %}
       <li>
-        {% reference paper --file osborne %}
+        <a href="{{ site.baseurl }}paperscode/#{{ paper }}">{% reference paper --file osborne %}</a>
       </li>
     {% endfor %}
   </ol>
