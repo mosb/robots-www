@@ -8,7 +8,7 @@ comments: false
   {{ content }}
 
   <h2>Collaborators</h2>
-  <ul class="collaborators">
+  <ul class="plus">
     {% for collaborator in page.collaborators %}
       <li>
         <span class="collaborator">
@@ -21,12 +21,12 @@ comments: false
   </ul>
 
   <h2>Publication Highlights</h2>
-  <ul class="bibliography">
+  <ol class="bibliography">
     {% for paper in page.papers %}
       <li>
         {% reference paper --file osborne %}
       </li>
     {% endfor %}
-  </ul>
+  </ol>
 
 </div>
