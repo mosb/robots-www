@@ -8,9 +8,12 @@ collaborators:
 - name: Roman Garnett
   url: http://www-kd.iai.uni-bonn.de/index.php?page=people_details&id=60
   institute: University of Bonn/Washington University in St Louis
+- name: David Duvenaud
+  url: http://mlg.eng.cam.ac.uk/duvenaud
+  insitute: Harvard University
 papers:
-- osborne2012bayesian
-- osborne2012active
+- osborne_bayesian_2012
+- osborne_active_2012
 ---
 
 [Probabilistic Numerics](http://www.probabilistic-numerics.org) is the study of numerical methods as learning algorithms.

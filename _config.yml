@@ -43,21 +43,21 @@ defaults:
   -
     scope:
       path: ""
-      type: "post"
+      type: "posts"
     values:
       published:  true
       author:     mosb
   -
     scope:
       path: "blog"
-      type: "post"
+      type: "posts"
     values:
       layout: post
       comments: true
   -
     scope:
       path: "projects"
-      type: "post"
+      type: "posts"
     values:
       layout: project
       categories: project # overrides previous default layout
