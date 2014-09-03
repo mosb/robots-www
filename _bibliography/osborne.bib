@@ -104,12 +104,12 @@ We conclude by testing our proposals on real weather sensor networks. We further
 	title = {Bayesian optimization for sensor set selection},
 	isbn = {1605589888},
 	doi = {10.1145/1791212.1791238},
+	abstract = {We consider the problem of selecting an optimal set of sensors, as determined, for example, by the predictive accuracy of the resulting sensor network. Given an underlying metric between pairs of set elements, we introduce a natural metric between sets of sensors for this task. Using this metric, we can construct covariance functions over sets, and thereby perform Gaussian process inference over a function whose domain is a power set. If the function has additional inputs, our covariances can be readily extended to incorporate them—allowing us to consider, for example, functions over both sets and time. These functions can then be optimized using Gaussian process global optimization ({GPGO}). We use the root mean squared error ({RMSE}) of the predictions made using a set of sensors at a particular time as an example of such a function to be optimized; the optimal point specifies the best choice of sensor locations. We demonstrate the resulting method by dynamically selecting the best subset of a given set of weather sensors for the prediction of the air temperature across the United Kingdom.},
 	booktitle = {Proceedings of the 9th {ACM}/{IEEE} International Conference on Information Processing in Sensor Networks},
 	publisher = {{ACM}},
 	author = {Garnett, R. and Osborne, M. A. and Roberts, S. J.},
 	year = {2010},
 	pages = {209--219},
-	abstract = {We consider the problem of selecting an optimal set of sensors, as determined, for example, by the predictive accuracy of the resulting sensor network. Given an underlying metric between pairs of set elements, we introduce a natural metric between sets of sensors for this task. Using this metric, we can construct covariance functions over sets, and thereby perform Gaussian process inference over a function whose domain is a power set. If the function has additional inputs, our covariances can be readily extended to incorporate them—allowing us to consider, for example, functions over both sets and time. These functions can then be optimized using Gaussian process global optimization (GPGO). We use the root mean squared error (RMSE) of the predictions made using a set of sensors at a particular time as an example of such a function to be optimized; the optimal point specifies the best choice of sensor locations. We demonstrate the resulting method by dynamically selecting the best subset of a given set of weather sensors for the prediction of the air temperature across the United Kingdom.},
 	file = {../public/pdf/137/ipsn673-garnett.pdf}
 }
 
@@ -241,6 +241,7 @@ gap between the current optical and {NIR} spectrum.},
 	booktitle = {{AAAI}},
 	author = {Osborne, Michael A. and Garnett, Roman and Swersky, Kevin and De Freitas, Nando},
 	year = {2012},
+	note = {https://github.com/{OxfordML}/fault-bucket.m},
 	file = {../public/pdf/125/Osborne_Garnett_Swersky_de_Freitas_fault_bucket_aaai_2012.pdf}
 }
 
@@ -355,13 +356,14 @@ signals.},
 	file = {../public/pdf/158/1310.5738v1.pdf}
 }
 
-@article{garnett_active_2013,
+@inproceedings{garnett_active_2014,
 	title = {Active Learning of Linear Embeddings for Gaussian Processes},
 	url = {http://arxiv.org/abs/1310.6740},
 	abstract = {We propose an active learning method for discovering low-dimensional structure in high-dimensional Gaussian process ({GP}) tasks. Such problems are increasingly frequent and important, but have hitherto presented severe practical difficulties. We further introduce a novel technique for approximately marginalizing {GP} hyperparameters, yielding marginal predictions robust to hyperparameter mis-specification. Our method offers an efficient means of performing {GP} regression, quadrature, or Bayesian optimization in high-dimensional spaces.},
-	journal = {{arXiv} preprint {arXiv}:1310.6740},
+	booktitle = {30th Conference on Uncertainty in Artificial Intelligence},
 	author = {Garnett, Roman and Osborne, Michael A. and Hennig, Philipp},
-	year = {2013},
+	year = {2014},
+	note = {https://github.com/rmgarnett/active\_gp\_hyperlearning},
 	file = {../public/pdf/150/1310.6740v1.pdf}
 }
 
@@ -392,6 +394,7 @@ signals.},
 	journal = {Proc. Workshop on Machine Learning for Global Challenges},
 	author = {Osborne, Michael and Garnett, Roman and Swersky, Kevin and de Freitas, Nando},
 	year = {2011},
+	note = {https://github.com/{OxfordML}/fault-bucket.m},
 	file = {../public/pdf/156/osborne_et_al_mlgc_2011.pdf}
 }
 
@@ -419,6 +422,7 @@ signals.},
 	journal = {{arXiv} preprint {arXiv}:1407.7969},
 	author = {Nickson, Thomas and Osborne, Michael A. and Reece, Steven and Roberts, Stephen J.},
 	year = {2014},
+	note = {https://github.com/{OxfordML}/{BayesianOptimisation}.jl},
 	file = {../public/pdf/151/1407.7969v1.pdf}
 }
 
@@ -456,9 +460,9 @@ signals.},
 @inproceedings{gunter_efficient_2014,
 	title = {Efficient Bayesian Nonparametric Modelling of Structured Point Processes},
 	url = {http://arxiv.org/abs/1407.6949},
+	abstract = {This paper presents a Bayesian generative model for dependent Cox point processes, alongside an efficient inference scheme which scales as if the point processes were modelled independently. We can handle missing data naturally, infer latent structure, and cope with large numbers of observed processes. A further novel contribution enables the model to work effectively in higher dimensional spaces. Using this method, we achieve vastly improved predictive performance on both 2D and 1D real data, validating our structured approach.},
 	booktitle = {Uncertainty in Artificial Intelligence ({UAI})},
 	author = {Gunter, Tom and Lloyd, Chris and Osborne, Michael A. and Roberts, Stephen J.},
 	year = {2014},
-	abstract={This paper presents a Bayesian generative model for dependent Cox point processes, alongside an efficient inference scheme which scales as if the point processes were modelled independently. We can handle missing data naturally, infer latent structure, and cope with large numbers of observed processes. A further novel contribution enables the model to work effectively in higher dimensional spaces. Using this method, we achieve vastly improved predictive performance on both 2D and 1D real data, validating our structured approach.},
 	file = {../public/pdf/51/1407.6949v1.pdf}
 }
