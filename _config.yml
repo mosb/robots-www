@@ -38,7 +38,6 @@ author:
 github:
   repo: https://github.com/mosb/robots-www
 
-  # TODO: update to "posts" in more recent jekyll versions
 defaults:
   -
     scope:
@@ -62,3 +61,4 @@ defaults:
       layout: project
       categories: project # overrides previous default layout
       comments: false
+      end_date: {{ site.time }}

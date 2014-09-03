@@ -199,8 +199,8 @@ img[alt=aneic-objects] {
     margin: 0;
     list-style: none;
     float: left;
-    width: 20%;
-    padding: 10px;
+    /*width: 20%;*/
+    /*padding: 10px;*/
 }
 
 /*div.well {
