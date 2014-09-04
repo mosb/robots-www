@@ -14,7 +14,7 @@ layout: page
         <li class="post-list">
           <span class="list-date">{{ post.date | date_to_string }}</span>
           &raquo;
-          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
         </li>
       {% endif %}
     {% endfor %}

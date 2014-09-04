@@ -19,6 +19,10 @@ description: 'Associate Professor in Machine Learning at the <a href="http://www
 # https://github.com/bobgilmore/jekyll-blog/blob/master/_posts/2014-01-13-deferring-publication-in-jekyll.md
 future: false
 
+ftp_host: 'robots.ox.ac.uk'
+ftp_dir: '/homes/51/mosb/WWW/'
+ftp_passive: false
+
 scholar:
   style: apa
   repository: public/pdf
@@ -28,8 +32,8 @@ scholar:
   sort_by: year
   order: descending
 
-url:     http://www.robots.ox.ac.uk/~mosb
-baseurl: /
+url: http://www.robots.ox.ac.uk/~mosb
+baseurl: http://www.robots.ox.ac.uk/~mosb/
 
 author:
   name:   'Michael Osborne'
