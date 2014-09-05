@@ -23,6 +23,10 @@ ftp_host: 'robots.ox.ac.uk'
 ftp_dir: '/homes/51/mosb/WWW/'
 ftp_passive: false
 
+# publish with the below
+# rsync -avz /Users/michaelosborne/Documents/MosbWWW/robots-www/_site/ mosb@robots.ox.ac.uk:~/WWW
+
+
 scholar:
   style: apa
   repository: public/pdf
