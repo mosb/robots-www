@@ -76,6 +76,6 @@
 
 /*http://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html*/
  /* Add to css/syntax.css */
-.post > .highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+.post > .highlight .lineno { color: #ccc; display:inline-block; padding: 0 2px; border-right:1px solid #ccc; }
 .post > .highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
 
