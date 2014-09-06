@@ -25,8 +25,7 @@ document.write('<a href="mailto:' + 'mosb' + '@' + 'robots.ox.ac.uk' + '">');
 document.write('mosb' + '@' + 'robots.ox.ac.uk' + '</a>');
 //-->
 </script>
-+44 (0)1865 273007  
-[Room 20.05a, Information Engineering Building](http://maps.google.co.uk/maps/ms?msid=208001318046621592827.00048522c12bce7ee270f&msa=0) 
+<a href="http://maps.google.co.uk/maps/ms?msid=208001318046621592827.00048522c12bce7ee270f&msa=0">Room 20.05a, Information Engineering Building</a>  
 Department of Engineering Science  
 University of Oxford  
 Parks Road  
