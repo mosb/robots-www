@@ -5,6 +5,7 @@ date:       2014-09-01
 published:  true
 author:     mosb
 categories: [workshops, roundtable_manifesto]
+excerpt: "What can Probabilistic Numerics learn from Probabilistic Programming?"
 ---
 
 **This is a cross-post from [probabilistic-numerics.org.](http://www.probabilistic-numerics.org/2014/09/01/Roundtable-ProbNum-ProbProg)**

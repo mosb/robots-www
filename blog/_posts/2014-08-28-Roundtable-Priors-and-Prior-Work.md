@@ -5,10 +5,11 @@ date:       2014-09-03
 published:  true
 author:     mosb
 categories: [workshops, roundtable_manifesto]
+excerpt: "There is a tension within in ProbNum: 
+to what extent should we be in the business of reintepreting existing numerics as learning algorithms, and to what extent should we be developing ab initio solutions to numerical problems?"
 ---
 
 **This is a cross-post from [probabilistic-numerics.org.](http://www.probabilistic-numerics.org/2014/09/03/Roundtable-Priors-and-Prior-Work)**
-
 
 *We in Probabilistic Numerics (ProbNum) face many unanswered questions in growing the field.
 Our [roundtable in Tübingen](http://www.probabilistic-numerics.org/2014/08/22/Roundtable-2014-in-Tuebingen/) aimed to bring together our new community to begin to address some of these questions. 

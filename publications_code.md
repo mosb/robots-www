@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Papers/Code
+title: Publications & Code
+tags: pubs
 ---
 
 Selected publications with accompanying PDFs are listed below; Endnote and citation statistics are available at my [Google scholar](http://scholar.google.co.uk/citations?user=iTNcAakAAAAJ)

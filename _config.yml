@@ -36,16 +36,16 @@ scholar:
   sort_by: year
   order: descending
 
-# Use the below when serving locally
-# url: /
-# baseurl: /
+# url: http://www.robots.ox.ac.uk/~mosb
+# baseurl: http://www.robots.ox.ac.uk/~mosb/
 
-url: http://www.robots.ox.ac.uk/~mosb
-baseurl: http://www.robots.ox.ac.uk/~mosb/
+# Use the below when serving locally
+# url: 0.0.0.0:4000
+baseurl: /
+
 
 author:
   name:   'Michael Osborne'
-  url:    http://www.robots.ox.ac.uk/~mosb
 
 github:
   repo: https://github.com/mosb/robots-www
@@ -65,6 +65,7 @@ defaults:
     values:
       layout: post
       comments: true
+      tags: blog
   -
     scope:
       path: "projects"
@@ -74,3 +75,4 @@ defaults:
       categories: project # overrides previous default layout
       comments: false
       end_date: {{ site.time }}
+      tags: project

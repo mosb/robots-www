@@ -6,6 +6,7 @@ published:  true
 comments:   true
 author:     mosb
 categories: [workshops, roundtable_manifesto]
+excerpt: "What is a well-defined notion of uncertainty for a probabilistic numerical method?"
 ---
 
 **This is a cross-post from [probabilistic-numerics.org.](http://www.probabilistic-numerics.org/2014/08/27/Roundtable-Uncertainty)**

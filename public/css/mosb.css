@@ -73,13 +73,13 @@ h3 {
     /*padding-top       : 20px;*/
     text-transform: uppercase;
     font-size: medium;
-    color: #D381C3;
+    color: #BE643C;
 }
 h4 {
     padding-top: 10px;
     font-family: "adobe-caslon-pro", serif;
     font-style: italic;
-    color: #BE643C;
+    color: #D381C3;
     font-weight: bold;
     text-indent: 0px;
     font-size: medium;
@@ -132,6 +132,11 @@ background        : url("/public/ico/pdficon_small.png") left center no-repeat;
 .sidebar-nav-item.active {
     text-transform: lowercase;
 }
+
+a.read_more {
+    font-style: italic;
+}
+
 .lead {
     text-align: center;
     font-family: "adobe-caslon-pro", serif;
@@ -172,7 +177,7 @@ img[alt=photo] {
     margin-right: auto;
 }
 img[alt=CV] {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 img[alt=ebfret-screenshot] {
     width: 300px;
@@ -335,7 +340,7 @@ ol.bibliography .nav > li > a {
     padding-left: 0;
 }
 ol.bibliography .nav-pills > li > a, ol.bibliography .nav-pills > li > a:hover {
-    font-size: 90%;
+    font-size: small;
     text-transform: uppercase;
     font-family: "jaf-facitweb", sans-serif;
     color: #888;
