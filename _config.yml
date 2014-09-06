@@ -36,12 +36,11 @@ scholar:
   sort_by: year
   order: descending
 
-# url: http://www.robots.ox.ac.uk/~mosb
-# baseurl: http://www.robots.ox.ac.uk/~mosb/
+url: http://www.robots.ox.ac.uk/~mosb
+baseurl: http://www.robots.ox.ac.uk/~mosb/
 
 # Use the below when serving locally
-# url: 0.0.0.0:4000
-baseurl: /
+# baseurl: /
 
 
 author:

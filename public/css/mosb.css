@@ -68,7 +68,8 @@ h2 {
     /*line-height       : 18px;*/
 }
 h2.topper{
-    text-align: right;
+    text-align: left;
+    text-transform: lowercase;
 }
 
 h3 {

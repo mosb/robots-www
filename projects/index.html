@@ -10,11 +10,11 @@ tags: project
     {% if post.categories contains 'project' %}
         <li class="post-list">
           <h2>
-            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            <a class="post-link" href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
           </h2>
           {{ post.excerpt | strip_html }}
           <!-- strip_html removes an otherwise undesirable line break -->
-          <a class="read_more" href="{{ post.url }}">Read more.</a>
+          <a class="read_more" href="{{site.url}}{{ post.url }}">Read more.</a>
           <br>
           <span class="list-date">
             {{ post.date | date: "%Y" }}
