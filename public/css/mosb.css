@@ -68,6 +68,7 @@ h2 {
     /*line-height       : 18px;*/
 }
 h2.topper{
+    color: #6FB3D2;
     text-align: left;
     text-transform: lowercase;
 }
