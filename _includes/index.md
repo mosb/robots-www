@@ -1,7 +1,7 @@
 
 ## Profile
 
-I'm an Associate Professor in Machine Learning, Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>  and Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk /">Oxford-Man Institute of Quantitative Finance,</a> all at the <a href="http://www.ox.ac.uk">University of Oxford.</a> I co-lead the <a href="http://www.robots.ox.ac.uk/~parg">Machine Learning Research Group,</a> a sub-group of the <a href="http://www.robots.ox.ac.uk/">Robotics Research Group</a> in the <a href="http://www.eng.ox.ac.uk/">Department of Engineering
+I'm an Associate Professor in Machine Learning, Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>  and Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk">Oxford-Man Institute of Quantitative Finance,</a> all at the <a href="http://www.ox.ac.uk">University of Oxford.</a> I co-lead the <a href="http://www.robots.ox.ac.uk/~parg">Machine Learning Research Group,</a> a sub-group of the <a href="http://www.robots.ox.ac.uk/">Robotics Research Group</a> in the <a href="http://www.eng.ox.ac.uk/">Department of Engineering
 Science.</a> My full CV is [available.]({{ site.baseurl }}public/pdf/MAOsborne.pdf)
 
 My news is available on [Twitter;](http://twitter.com/maosbot) older news is available for <a href="{{ site.baseurl }}news">2013-2014.</a>

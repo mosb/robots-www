@@ -1,5 +1,22 @@
 
+@article{ng_using_2014,
+	title = {Using textons to rank crystallization droplets by the likely presence of crystals},
+	volume = {70},
+	issn = {1399-0047},
+	url = {http://scripts.iucr.org/cgi-bin/paper?S1399004714017581},
+	doi = {10.1107/S1399004714017581},
+	abstract = {The visual inspection of crystallization experiments is an important yet time-consuming and subjective step in X-ray crystallography. Previously published studies have focused on automatically classifying crystallization droplets into distinct but ultimately arbitrary experiment outcomes; here, a method is described that instead ranks droplets by their likelihood of containing crystals or microcrystals, thereby prioritizing for visual inspection those images that are most likely to contain useful information. The use of textons is introduced to describe crystallization droplets objectively, allowing them to be scored with the posterior probability of a random forest classifier trained against droplets manually annotated for the presence or absence of crystals or microcrystals. Unlike multi- class classification, this two-class system lends itself naturally to unidirectional ranking, which is most useful for assisting sequential viewing because images can be arranged simply by using these scores: this places droplets with probable crystal- line behaviour early in the viewing order. Using this approach, the top ten wells included at least one human-annotated crystal or microcrystal for 94\% of the plates in a data set of 196 plates imaged with a Minstrel {HT} system. The algorithm is robustly transferable to at least one other imaging system: when the parameters trained from Minstrel {HT} images are applied to a data set imaged by the Rock Imager system, human-annotated crystals ranked in the top ten wells for 90\% of the plates. Because rearranging images is fundamental to the approach, a custom viewer was written to seamlessly support such ranked viewing, along with another important output of the algorithm, namely the shape of the curve of scores, which is itself a useful overview of the behaviour of the plate; additional features with known usefulness were adopted from existing viewers. Evidence is presented that such ranked viewing of images allows faster but more accurate evaluation of drops, in particular for the identification of microcrystals.},
+	number = {10},
+	urldate = {2014-09-30},
+	journal = {Acta Crystallographica Section D Biological Crystallography},
+	author = {Ng, Jia Tsing and Dekker, Carien and Kroemer, Markus and Osborne, Michael and von Delft, Frank},
+	month = oct,
+	year = {2014},
+	file = {../public/pdf/219/nj5198.pdf}
+}
+
 @inproceedings{osborne_towards_2008,
+	address = {Washington, {DC}, {USA}},
 	series = {{IPSN} '08},
 	title = {Towards Real-Time Information Processing of Sensor Network Data Using Computationally Efficient Multi-output Gaussian Processes},
 	isbn = {978-0-7695-3157-1},
@@ -178,11 +195,11 @@ We conclude by testing our proposals on real weather sensor networks. We further
 	volume = {18},
 	url = {http://pubs.acs.org/doi/abs/10.1021/cm052839p},
 	doi = {10.1021/cm052839p},
+	abstract = {Synthetic sitinakite contains in its structure a discrete wire-like sublattice of linked {TiO}6 octahedra. This sublattice is held apart by silicate tetrahedra forming one-dimensional channels that run down the c axis. The optical properties of this structural arrangement have been studied and compared with other titanosilicate phases, the best known being {ETS}-10. Thus, sitinakite which has twice the titanate wire diameter of {ETS}-10 has a band gap of 4.07 {eV} compared with 3.87 {eV}. The reduced electron−hole effective mass of the sitinakite quantum-confined system has been calculated through use of the effective mass model and compared with that of other titanosilicate materials. The sitinakite phase has been shown to effectively photodegrade methylene blue ({MB}) dye at {pH} 7 using visible light excitation and displays a higher degradation rate than {TiO}2 (Degussa, P25) under the same experimental conditions. On the contrary, under {UV} excitation, the photodegradation rate obtained using P25 is much higher than that using sitinakite. Given that the band edge of sitinkaite is significantly blue shifted compared with that of P25, photodegradation of {MB} using sitinakite is attributed to sensitization of the {MB} cationic dye which is strongly adsorbed onto the negatively charged sitinakite surfaces.},
 	number = {26},
 	journal = {Chemistry of materials},
 	author = {Luca, Vittorio and Osborne, Michael and Sizgek, Devlet and Griffith, Christopher and Araujo, Paula Z.},
 	year = {2006},
-	abstract={Synthetic sitinakite contains in its structure a discrete wire-like sublattice of linked TiO6 octahedra. This sublattice is held apart by silicate tetrahedra forming one-dimensional channels that run down the c axis. The optical properties of this structural arrangement have been studied and compared with other titanosilicate phases, the best known being ETS-10. Thus, sitinakite which has twice the titanate wire diameter of ETS-10 has a band gap of 4.07 eV compared with 3.87 eV. The reduced electron−hole effective mass of the sitinakite quantum-confined system has been calculated through use of the effective mass model and compared with that of other titanosilicate materials. The sitinakite phase has been shown to effectively photodegrade methylene blue (MB) dye at pH 7 using visible light excitation and displays a higher degradation rate than TiO2 (Degussa, P25) under the same experimental conditions. On the contrary, under UV excitation, the photodegradation rate obtained using P25 is much higher than that using sitinakite. Given that the band edge of sitinkaite is significantly blue shifted compared with that of P25, photodegradation of MB using sitinakite is attributed to sensitization of the MB cationic dye which is strongly adsorbed onto the negatively charged sitinakite surfaces.},
 	pages = {6132--6138}
 }
 
@@ -430,7 +447,6 @@ signals.},
 	title = {Gaussian processes for global optimization},
 	abstract = {We introduce a novel Bayesian approach to global optimization using Gaussian processes. We frame the optimization of both noisy and noiseless functions as sequential decision problems, and introduce myopic and non-myopic solutions to them. Here our solutions can be tailored to exactly the degree of confidence we require of them. The use of Gaussian processes allows us to benefit from the incorporation of prior knowledge about our objective function, and also from any derivative observations. Using this latter fact, we introduce an innovative method to combat conditioning problems. Our algorithm demonstrates a significant improvement over its competitors in overall performance across a wide range of canonical test problems.},
 	booktitle = {3rd international conference on learning and intelligent optimization ({LION}3)},
-	publisher = {},
 	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J.},
 	year = {2009},
 	pages = {1--15},
@@ -465,4 +481,22 @@ signals.},
 	author = {Gunter, Tom and Lloyd, Chris and Osborne, Michael A. and Roberts, Stephen J.},
 	year = {2014},
 	file = {../public/pdf/51/1407.6949v1.pdf}
+}
+
+@inproceedings{osborne_prediction_2012-1,
+	title = {Prediction and Fault Detection of Environmental Signals with Uncharacterised Faults (Appendix)},
+	abstract = {Many signals of interest are corrupted by faults of an unknown type. We propose an approach that uses Gaussian processes and a general “fault bucket” to capture a priori uncharacterised faults, along with an approximate method for marginalising the potential faultiness of all observations. This gives rise to an efficient, flexible algorithm for the detection and automatic correction of faults. Our method is deployed in the domain of water monitoring and management, where it is able to solve several fault detection, correction, and prediction problems. The method works well despite the fact that the data is plagued with numerous difficulties, including missing observations, multiple discontinuities, nonlinearity and many unanticipated types of fault.},
+	author = {Osborne, Michael A. and Garnett, Roman and Swersky, Kevin and De Freitas, Nando},
+	year = {2012},
+	note = {https://github.com/{OxfordML}/fault-bucket.m},
+	file = {../public/pdf/126/fault_bucket_appendix.pdf}
+}
+
+@inproceedings{osborne_bayesian_2012-1,
+	title = {Bayesian Quadrature for Ratios: Now With Even More Bayesian Quadrature},
+	shorttitle = {Bayesian Quadrature for Ratios},
+	booktitle = {International Conference on Artificial Intelligence and Statistics},
+	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J. and Hart, Christopher and Aigrain, Suzanne and Gibson, Neale P. and Aigrain, Suzanne},
+	year = {2012},
+	file = {../public/pdf/225/Osborne et al. - Bayesian Quadrature for Ratios Now With Even More.pdf}
 }
