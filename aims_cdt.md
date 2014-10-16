@@ -1,6 +1,6 @@
 ---
 layout: teaching
-title: AIMS CDT: Data, Estimation and Inference
+title: "AIMS CDT: Data, Estimation and Inference"
 tags: teaching
 ---
 
@@ -13,23 +13,31 @@ The course continues by covering temporal filtering and Gaussian processes, and 
 ### Lectures
 
 <ul class='plus'>
-    <li>[topic 1 handouts: foundations of probability]({{ site.baseurl }}teaching/AIMS_CDT/1_slides_foundations.pdf)</li>
-    <li>[topic 2 handouts: probability of continuous variables]({{ site.baseurl }}teaching/AIMS_CDT/2_slides_continuous.pdf)</li>
-    <li>[topic 3 handouts: the gaussian distribution: the best distribution]({{ site.baseurl }}teaching/AIMS_CDT/3_slides_Gaussian.pdf)</li>
-    <li>[gaussian identities cheat sheet]({{ site.baseurl }}teaching/AIMS_CDT/Gaussian_identities.pdf)</li>
-    <li>[topic 4 handouts: maximum likelihood estimation]({{ site.baseurl }}teaching/AIMS_CDT/4_slides_ML.pdf)</li>
-    <li>[topic 5 handouts: maximum a posteriori estimation]({{ site.baseurl }}teaching/AIMS_CDT/5_slides_MAP.pdf)</li>
-    <li>[topic 6 handouts: decision theory and classification]({{ site.baseurl }}teaching/AIMS_CDT/6_slides_decisions.pdf)</li>
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/1_slides_foundations.pdf">topic 1 handouts: foundations of probability</a></li>
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/2_slides_continuous.pdf">topic 2 handouts: probability of continuous variables</a></li>
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/3_slides_Gaussian.pdf">topic 3 handouts: the gaussian distribution: the best distribution</a></li>
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/Gaussian_identities.pdf">gaussian identities cheat sheet</a></li>
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/4_slides_ML.pdf">topic 4 handouts: maximum likelihood estimation</a></li>
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/5_slides_MAP.pdf">topic 5 handouts: maximum a posteriori estimation</a></li>
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/6_slides_decisions.pdf">topic 6 handouts: decision theory and classification</a></li>
 </ul>
 
 
 ### Question Sheets
 
-To come.
+<ul class='plus'>
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/AIMS_DEI_1_Questions.pdf">question sheet 1</a></li>
+    <!-- <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/AIMS_DEI_1Hints.pdf">question sheet 1 hints</a></li> -->
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/AIMS_DEI_2_Questions.pdf">question sheet 2</a></li>
+    <!-- <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/AIMS_DEI_2Hints.pdf">question sheet 2 hints</a></li> -->
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/AIMS_DEI_2q1.m">matlab for question sheet 2 q 1</a></li>
+</ul>
 
 ### Assessed Lab
 
-To come.
+<ul class='plus'>
+    <li><a href="{{ site.baseurl }}teaching/AIMS_CDT/sotonmet.txt">sotonmet data</a></li>
+</ul>
 
 ## Core reading
 
