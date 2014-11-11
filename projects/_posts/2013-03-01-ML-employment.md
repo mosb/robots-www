@@ -7,6 +7,7 @@ collaborators:
   institute: University of Oxford
 papers:
 - frey_future_2013
+- knowles-cutler_agiletown_2014
 - frey_improving_2013
 ---
 
