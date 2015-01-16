@@ -41,6 +41,7 @@ baseurl: http://www.robots.ox.ac.uk/~mosb/
 
 # Use the below when serving locally
 # baseurl: /
+# jekyll serve -w --baseurl
 
 
 author:
