@@ -1,6 +1,3 @@
-
-*Newsflash: I'm recruiting a 30-month postdoc to work on  decentralised probabilistic prediction for renewable energy storage: more details on the project [here.]({{ site.baseurl }}projects/project/2014/12/01/imbeds/) [Apply here](http://www.eng.ox.ac.uk/work-here/) (deadline mid-January)!*
-
 ## Profile
 
 I'm an Associate Professor in Machine Learning, Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>  and Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk">Oxford-Man Institute of Quantitative Finance,</a> all at the <a href="http://www.ox.ac.uk">University of Oxford.</a> I co-lead the <a href="http://www.robots.ox.ac.uk/~parg">Machine Learning Research Group,</a> a sub-group of the <a href="http://www.robots.ox.ac.uk/">Robotics Research Group</a> in the <a href="http://www.eng.ox.ac.uk/">Department of Engineering
