@@ -6,6 +6,7 @@ collaborators:
   url: http://www.oxfordmartin.ox.ac.uk/people/453
   institute: University of Oxford
 papers:
+- frey_technology_2015 
 - frey_future_2013
 - knowles-cutler_agiletown_2014
 - frey_improving_2013

@@ -32,7 +32,7 @@ body {
     color: #303030;
     background: #95AEC7;
     padding: 0 0 20px 0;
-    font-family: "adobe-caslon-pro", serif;
+    font-family: "edita", serif;
     font-size: medium;
 }
 
@@ -76,7 +76,7 @@ h2.topper{
 
 h3 {
     /*padding-bottom    : 10px;*/
-    font-family: "adobe-caslon-pro", serif;
+    font-family: "edita", serif;
     /*padding-top       : 20px;*/
     text-transform: uppercase;
     font-size: medium;
@@ -84,7 +84,7 @@ h3 {
 }
 h4 {
     padding-top: 10px;
-    font-family: "adobe-caslon-pro", serif;
+    font-family: "edita", serif;
     font-style: italic;
     color: #D381C3;
     font-weight: bold;
@@ -162,7 +162,7 @@ a.read_more {
 
 .lead {
     text-align: center;
-    font-family: "adobe-caslon-pro", serif;
+    font-family: "edita", serif;
     font-style: italic;
     font-size: large;
 }
