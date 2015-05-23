@@ -5,7 +5,7 @@ tags: blog
 ---
   <div>
 
-  <p class="rss-subscribe">Subscribe to these blog posts <a href="{{ site.baseurl }}blog/feed.xml">via RSS.</a></p>
+  <p class="rss-subscribe">Subscribe to these blog posts <a href="{{ site.baseurl }}/blog/feed.xml">via RSS.</a></p>
 
   <br>
   <ul class="posts">
@@ -15,11 +15,11 @@ tags: blog
         <li class="post-list">
           <span class="list-date">{{ post.date | date_to_string }}</span>
           &raquo;
-          <a class="post-link" href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             <br>
             {{ post.excerpt | strip_html }}
             <!-- strip_html removes an otherwise undesirable line break -->
-            <a class="read_more" href="{{site.url}}{{ post.url }}">Read more.</a>
+            <a class="read_more" href="{{ site.baseurl }}{{ post.url }}">Read more.</a>
         </li>
       {% endif %}
     {% endfor %}

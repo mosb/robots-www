@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink: /:year/:title/
 
 # Setup
 title:       Michael A Osborne
@@ -36,12 +36,13 @@ scholar:
   sort_by: year
   order: descending
 
-url: http://www.robots.ox.ac.uk/~mosb
-baseurl: http://www.robots.ox.ac.uk/~mosb/
+# url: http://www.robots.ox.ac.uk/~mosb
+
+baseurl: /~mosb
 
 # Use the below when serving locally
-# baseurl: /
-# jekyll serve -w --baseurl
+# url: /
+# jekyll serve -w --url
 
 
 author:

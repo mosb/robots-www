@@ -6,19 +6,19 @@
 
 			<h1>
 
-				<a href="{{ site.baseurl }}">
+				<a href="{{ site.baseurl }}/">
 					{{ site.title }}
 				</a>
 
 			</h1>
 			<img alt="photo"
-				src="{{ site.baseurl }}public/image/osborne_photo.jpg"/>
+				src="{{ site.baseurl }}/public/image/osborne_photo.jpg"/>
 			<p class="lead">{{ site.description }}</p>
 
 		</div>
 
 		<nav class="sidebar-nav">
-	      <a class="sidebar-nav-item{% if page.tags == 'about' %} active{% endif %}" href="{{ site.url }}">Home</a>
+	      <a class="sidebar-nav-item{% if page.tags == 'about' %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
 			{% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -37,7 +37,7 @@
 								{% endif %}
 							{% endfor %}
 						{% endfor %}
-			            <a class="sidebar-nav-item {{extra_class}}" href="{{site.url}}{{node.url}}"> {{ node.title }} </a>
+			            <a class="sidebar-nav-item {{extra_class}}" href="{{ site.baseurl }}{{node.url}}"> {{ node.title }} </a>
 					{% endif %}
 				{% endif %}
 			{% endfor %}
@@ -45,32 +45,32 @@
 		</nav>
 
 		<!-- <a class="sidebar-nav-item" href="https://github.com/OxfordML">GitHub</a> -->
-		<!-- <a class="sidebar-nav-item" href="{{ site.baseurl }}public/pdf/MAOsborne.pdf">CV</a> -->
+		<!-- <a class="sidebar-nav-item" href="{{ site.baseurl }}/public/pdf/MAOsborne.pdf">CV</a> -->
 
 
 		<div class="social-icons">
 		    <ul>
 		        <li>
-					<a href="{{ site.baseurl }}public/pdf/MAOsborne.pdf">
-						<img src="{{ site.baseurl }}public/ico/CV.ico"
+					<a href="{{ site.baseurl }}/public/pdf/MAOsborne.pdf">
+						<img src="{{ site.baseurl }}/public/ico/CV.ico"
 							alt="CV" >
 					</a>
 				</li>
 		        <li>
 					<a href="https://github.com/OxfordML">
-						<img src="{{ site.baseurl }}public/ico/GitHub-Mark-Light-120px-plus.png"
+						<img src="{{ site.baseurl }}/public/ico/GitHub-Mark-Light-120px-plus.png"
 							alt="GitHub">
 					</a>
 				</li>
 		        <li>
 					<a href="https://plus.google.com/u/0/+MichaelOsborne">
-						<img src="{{ site.baseurl }}public/ico/g+icon_grey.png"
+						<img src="{{ site.baseurl }}/public/ico/g+icon_grey.png"
 							alt="gplus">
 					</a>
 				</li>
 		        <li>
 					<a href="https://twitter.com/maosbot">
-						<img src="{{ site.baseurl }}public/ico/Twitter_logo_blue.png"
+						<img src="{{ site.baseurl }}/public/ico/Twitter_logo_blue.png"
 							alt="twitter">
 					</a>
 				</li>
