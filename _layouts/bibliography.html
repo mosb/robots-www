@@ -11,7 +11,8 @@
     <li><a class="bib-materials" data-target="#{{key}}_bibtex" data-toggle="collapse" href="#{{key}}" onclick="return false">Bib</a></li>
 
     {% if entry.file %}
-    <li><a class="bib-materials" href="{{entry.file}}">PDF</a></li>
+    <li><a class="bib-materials" href="~mosb/{{ entry.file }}">PDF</a></li>
+    <!-- TODO: fix the horrible hack above: unfortunately, replacing ~mosb with {{site.baseurl}} doesn't work! -->
     {% endif %}
 
     {% if entry.url %}

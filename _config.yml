@@ -36,14 +36,7 @@ scholar:
   sort_by: year
   order: descending
 
-# url: http://www.robots.ox.ac.uk/~mosb
-
 baseurl: /~mosb
-
-# Use the below when serving locally
-# url: /
-# jekyll serve -w --url
-
 
 author:
   name:   'Michael Osborne'
