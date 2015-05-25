@@ -19,6 +19,7 @@
     color: #B0B0B0;
 }
 p {
+    text-align: justify;
     margin-top: 1.375em;
     margin-bottom: 0;
 }
