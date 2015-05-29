@@ -3,7 +3,8 @@ markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
-permalink: /:year/:title/
+permalink: pretty
+# changing this to custom will put links to pages at *.html rather than */
 
 # Setup
 title:       Michael A Osborne
