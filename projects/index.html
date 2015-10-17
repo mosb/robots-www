@@ -6,7 +6,8 @@ tags: project
 <div>
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% assign sorted_posts = site.posts | sort: 'weight' %}
+  {% for post in sorted_posts reversed %}
     {% if post.categories contains 'project' %}
         <li class="post-list">
           <h2>

@@ -1,6 +1,7 @@
 ---
 title: Active Inference for Sensor Networks
 date: 2008-01-01
+weight: 10
 collaborators:
 - name: Alex Rogers
   url: http://users.ecs.soton.ac.uk/acr/
