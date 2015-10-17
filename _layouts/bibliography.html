@@ -11,6 +11,7 @@
     <li><a class="bib-materials" data-target="#{{key}}_bibtex" data-toggle="collapse" href="#{{key}}" onclick="return false">Bib</a></li>
 
     {% if entry.file %}
+    <!-- {{site.baseurl}} doesn't seem to work, but /~mosb/ does: I don't know why -->
     <li><a class="bib-materials" href="/~mosb/public/pdf/{{ entry.file }}">PDF</a></li>
     {% endif %}
 
