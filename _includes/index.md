@@ -1,6 +1,6 @@
 ## Profile
 
-I'm an Associate Professor in Machine Learning, Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>  and Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk">Oxford-Man Institute of Quantitative Finance,</a> all at the <a href="http://www.ox.ac.uk">University of Oxford.</a> I co-lead the <a href="http://www.robots.ox.ac.uk/~parg">Machine Learning Research Group,</a> a sub-group of the <a href="http://www.robots.ox.ac.uk/">Robotics Research Group</a> in the <a href="http://www.eng.ox.ac.uk/">Department of Engineering
+I'm the Dyson Associate Professor in Machine Learning, Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>  and Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk">Oxford-Man Institute of Quantitative Finance,</a> all at the <a href="http://www.ox.ac.uk">University of Oxford.</a> I co-lead the <a href="http://www.robots.ox.ac.uk/~parg">Machine Learning Research Group,</a> a sub-group of the <a href="http://www.robots.ox.ac.uk/">Robotics Research Group</a> in the <a href="http://www.eng.ox.ac.uk/">Department of Engineering
 Science.</a> My full CV is [available.]({{ site.baseurl }}/public/pdf/MAOsborne.pdf)
 
 My news is available on [Twitter;](http://twitter.com/maosbot) older news is available for <a href="{{ site.baseurl }}/news">2013-2014.</a>
@@ -8,7 +8,7 @@ My news is available on [Twitter;](http://twitter.com/maosbot) older news is ava
 
 ## Research Expertise
 
-I design intelligent algorithms capable of making sense of complex data. Building such algorithms requires the use of techniques from Machine Learning and Computational Statistics; I work to create modular numerical algorithms that speak the common language of probability theory. My work in non-parametric data analytics has been successfully applied in diverse and challenging contexts. These contexts range from astrostatistics, where my probabilistic algorithms have aided the detection of planets in distant solar systems, to zoology, where my work has helped to clarify how pigeons are able to navigate such extraordinary distances. I have particular expertise in active learning, Gaussian processes, changepoint detection, Bayesian optimisation and Bayesian quadrature. More details are available in my <a href="{{ site.baseurl }}/paperscode">publications.</a>
+I design intelligent algorithms capable of making sense of complex data. Building such algorithms requires the use of techniques from Machine Learning and Computational Statistics; I work to create modular numerical algorithms that speak the common language of probability theory. My work in non-parametric data analytics has been successfully applied in diverse and challenging contexts. These contexts range from astrostatistics, where my probabilistic algorithms have aided the detection of planets in distant solar systems, to zoology, where my work has helped to clarify how pigeons are able to navigate such extraordinary distances. I have particular expertise in [probabilistic numerics,](www.probnum.org) active learning, Gaussian processes, changepoint detection and Bayesian optimisation. More details are available in my <a href="{{ site.baseurl }}/paperscode">publications.</a>
 
 ## Impact on Industry and Policy
 
