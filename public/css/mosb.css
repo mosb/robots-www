@@ -52,13 +52,13 @@ h1 {
     font-family: "jaf-facitweb", sans-serif;
 }
 .page h1 {
-    color: #6FB3D2;
+    color: #105a94;
 }
 .post h1 {
-    color: #6FB3D2;
+    color: #105a94;
 }
 h2 {
-    color: #F96D26;
+    color: #ef811b;
     padding: 0px;
     padding-top: 4px;
     font-family: "jaf-facitweb", sans-serif;
@@ -70,7 +70,7 @@ h2 {
 }
 h2.topper{
     /*doesn't work!*/
-    /*color: #6FB3D2;*/
+    /*color: #105a94;*/
     text-align: left;
     text-transform: lowercase;
 }
@@ -81,49 +81,46 @@ h3 {
     /*padding-top       : 20px;*/
     text-transform: uppercase;
     font-size: medium;
-    color: #BE643C;
+    color: #a4007c;
 }
 h4 {
     padding-top: 10px;
     font-family: "edita", serif;
     font-style: italic;
-    color: #D381C3;
+    color: #e60077;
     font-weight: bold;
     text-indent: 0px;
     font-size: medium;
     padding-bottom: 3px;
 }
+
+a {
+    color: #672000;
+}
+
 .page a:link {
     text-decoration: none;
-    color: #105A94;
 }
 .page a:visited {
     text-decoration: none;
-    color: #105A94;
 }
 .page a:active {
     text-decoration: none;
-    color: #105A94;
 }
 .page a:hover {
     text-decoration: underline;
-    color: #105A94;
 }
 .post a:link {
     text-decoration: none;
-    color: #105A94;
 }
 .post a:visited {
     text-decoration: none;
-    color: #105A94;
 }
 .post a:active {
     text-decoration: none;
-    color: #105A94;
 }
 .post a:hover {
     text-decoration: underline;
-    color: #105A94;
 }
 /*a[href$=".PDF"], a[href$="pdf"] {
 padding           : 2px 2px 2px 20px;

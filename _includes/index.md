@@ -5,16 +5,15 @@ Science.</a> My full CV is [available.]({{ site.baseurl }}/public/pdf/MAOsborne.
 
 My news is available on [Twitter;](http://twitter.com/maosbot) older news is available for <a href="{{ site.baseurl }}/news">2013-2014.</a>
 
-
 ## Research Expertise
 
-I design intelligent algorithms capable of making sense of complex data. Building such algorithms requires the use of techniques from Machine Learning and Computational Statistics; I work to create modular numerical algorithms that speak the common language of probability theory. My work in non-parametric data analytics has been successfully applied in diverse and challenging contexts. These contexts range from astrostatistics, where my probabilistic algorithms have aided the detection of planets in distant solar systems, to zoology, where my work has helped to clarify how pigeons are able to navigate such extraordinary distances. I have particular expertise in [probabilistic numerics,](www.probnum.org) active learning, Gaussian processes, changepoint detection and Bayesian optimisation. More details are available in my <a href="{{ site.baseurl }}/paperscode">publications.</a>
+My goal is to develop machine intelligence in sympathy with societal needs. Within machine learning, I have particular expertise in Gaussian processes, active learning, Bayesian optimisation and Bayesian quadrature, and I am a founder of the emerging field of [probabilistic numerics.](www.probnum.org) 
+                                                                                                     
+My work in non-parametric data analytics has been successfully applied in diverse and challenging contexts. These contexts range from astrostatistics, where my probabilistic algorithms have aided the detection of planets in distant solar systems, to zoology, where my work has helped to clarify how pigeons are able to navigate such extraordinary distances. I have particular expertise in [ active learning, Gaussian processes, changepoint detection and Bayesian optimisation. More details are available in my <a href="{{ site.baseurl }}/paperscode">publications.</a>
 
 ## Impact on Industry and Policy
 
-My career has been shaped by extensive engagement with industry, both in research and consultancy arrangements. My DPhil work on sensor networks had significant influence on the EPSRC/Industry research project <a href="http://www.aladdinproject.org">ALADDIN,</a> winner of the <i> Engineer Award Aerospace and Defence 2009</i>. My work on fault detection and big data analytics has been demonstrated within a variety of industrial contexts. 
-
-Most recently, I have addressed the broader societal consequences of machine learning and robotics. In particular, I have worked to analyse how intelligent algorithms might soon substitute for human workers, and to predict the resulting impact on employment. This latter work has enjoyed broad media coverage (featured in <i>The Economist, the Financial Times, the Wall Street Journal, The Independent, ITV News</i> and the <i>BBC World Service</i>) and has substantial policy implications related to the future of employment.
+My career has been shaped by extensive engagement with industry, both in research and consultancy arrangements. Most recently, I have addressed the broader societal consequences of machine learning and robotics. In particular, I have worked to analyse how intelligent algorithms might soon substitute for human workers, and to predict the resulting impact on employment. This latter work has enjoyed broad and sustained media coverage (featured in <i>BBC Newsnight, the Economist, the Financial Times, the Wall Street Journal, the Independent, the Guardian</i> and <i>the New York Times</i>) and has substantial policy implications related to the future of employment.
 
 ## Contact
 
