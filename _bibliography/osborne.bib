@@ -55,7 +55,7 @@
 	author = {Frey, Carl Benedikt and Osborne, Michael A.},
 	month = sep,
 	year = {2013},
-	file = {[63/Frey and Osborne - 2013 - The future of employment how susceptible are jobs.pdf}
+	file = {63/Frey and Osborne - 2013 - The future of employment how susceptible are jobs.pdf}
 }
 
 @techreport{osborne_gaussian_2007,
@@ -464,7 +464,7 @@ signals.},
 	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J.},
 	year = {2009},
 	pages = {1--15},
-	file = {[115/Osborne et al. - 2009 - Gaussian processes for global optimization.pdf}
+	file = {115/Osborne et al. - 2009 - Gaussian processes for global optimization.pdf}
 }
 
 @inproceedings{garnett_sequential_2009,
@@ -512,7 +512,7 @@ signals.},
 	booktitle = {International {Conference} on {Artificial} {Intelligence} and {Statistics}},
 	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J. and Hart, Christopher and Aigrain, Suzanne and Gibson, Neale P. and Aigrain, Suzanne},
 	year = {2012},
-	file = {[225/Osborne et al. - Bayesian Quadrature for Ratios Now With Even More.pdf}
+	file = {225/Osborne et al. - Bayesian Quadrature for Ratios Now With Even More.pdf}
 }
 
 @techreport{knowles-cutler_agiletown_2014,
@@ -528,17 +528,6 @@ The report brings together research from Oxford Martin School academics Carl Ben
 	month = oct,
 	year = {2014},
 	file = {299/uk-london-futures-agiletown-nov-14.pdf}
-}
-
-@misc{frey_technology_2015,
-	title = {Technology at {Work}: {The} {Future} of {Innovation} and {Employment}},
-	shorttitle = {Technology at {Work}},
-	url = {http://www.oxfordmartin.ox.ac.uk/publications/view/1883},
-	urldate = {2015-03-05},
-	journal = {Oxford Martin School},
-	author = {Frey, Carl Benedikt and Osborne, Michael A.},
-	year = {2015},
-	file = {735/Technology at Work.pdf}
 }
 
 @techreport{bakhshi_creativity_2015,
@@ -620,19 +609,6 @@ The report brings together research from Oxford Martin School academics Carl Ben
 	file = {1316/1506.07304v1.pdf}
 }
 
-@inproceedings{gonzalez_glasses_2016,
-	title = {{GLASSES} : {Relieving} {The} {Myopia} {Of} {Bayesian} {Optimisation}},
-	url = {http://arxiv.org/pdf/1510.06299v1.pdf},
-	abstract = {We present GLASSES: Global optimisation with Look-Ahead through Stochastic
-Simulation and Expected-loss Search. The majority of global optimisation
-approaches in use are myopic, in only considering the impact of the next function value; the non-myopic approaches that do exist are able to consider only a handful of future evaluations. Our novel algorithm, GLASSES, permits the consideration of dozens of evaluations into the future.  This is done by approximating the ideal look-ahead loss function, which is expensive to evaluate, by a cheaper alternative in which the future steps of the algorithm are simulated beforehand. An Expectation Propagation algorithm is used to compute the expected value of the loss. We show that the far-horizon planning thus enabled leads to substantive performance gains in empirical tests.},
-	urldate = {2015-10-27},
-	booktitle = {International {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
-	author = {González, Javier and Osborne, Michael A. and Lawrence, Neil D.},
-	year = {2016},
-	file = {1328/1510.06299v1.pdf}
-}
-
 @article{nickson_blitzkriging_2015,
 	title = {Blitzkriging : {Kronecker}-structured {Stochastic} {Gaussian} {Processes}},
 	shorttitle = {Blitzkriging},
@@ -680,15 +656,75 @@ approaches in use are myopic, in only considering the impact of the next functio
 	file = {1479/rainforth2015BOPP.pdf}
 }
 
-@article{cutajar_preconditioning_2016,
+@inproceedings{cutajar_preconditioning_2016,
 	title = {Preconditioning {Kernel} {Matrices}},
 	url = {http://arxiv.org/abs/1602.06693},
 	abstract = {The computational and storage complexity of kernel machines presents the primary barrier to their scaling to large, modern, datasets. A common way to tackle the scalability issue is to use the conjugate gradient algorithm, which relieves the constraints on both storage (the kernel matrix need not be stored) and computation (both stochastic gradients and parallelization can be used). Even so, conjugate gradient is not without its own issues: the conditioning of kernel matrices is often such that conjugate gradients will have poor convergence in practice. Preconditioning is a common approach to alleviating this issue. Here we propose preconditioned conjugate gradients for kernel machines, and develop a broad range of preconditioners particularly useful for kernel matrices. We describe a scalable approach to both solving kernel machines and learning their hyperparameters. We show this approach is exact in the limit of iterations and outperforms state-of-the-art approximations for a given computational budget.},
 	urldate = {2016-02-23},
-	journal = {arXiv:1602.06693 [stat]},
+	booktitle = {Proceedings of {The} 33rd {International} {Conference} on {Machine} {Learning}},
 	author = {Cutajar, Kurt and Osborne, Michael A. and Cunningham, John P. and Filippone, Maurizio},
 	month = feb,
 	year = {2016},
 	keywords = {Statistics - Computation, Statistics - Machine Learning, Statistics - Methodology},
-	file = {1526/Cutajar et al. - 2016 - Preconditioning Kernel Matrices.pdf;arXiv.org Snapshot:files/1527/1602.html:text/html}
+	file = {1526/Cutajar et al. - 2016 - Preconditioning Kernel Matrices.pdf}
+}
+
+@inproceedings{lloyd_latent_2016,
+	title = {Latent {Point} {Process} {Allocation}},
+	url = {http://jmlr.org/proceedings/papers/v51/lloyd16.html},
+	abstract = {We introduce a probabilistic model for the factorisation of continuous Poisson process rate functions. Our model can be thought of as a topic model for Poisson point processes in which each point is assigned to one of a set of latent rate functions that are shared across multiple outputs. We show that the model brings a means of incorporating structure in point process inference beyond the state-of-the-art. We derive an efficient variational inference scheme for the model based on sparse Gaussian processes that scales linearly in the number of data points. Finally, we demonstrate, using examples from spatial and temporal statistics, how the model can be used for discovering hidden structure with greater precision than standard frequentist approaches.},
+	urldate = {2016-05-03},
+	booktitle = {Proceedings of the 19th {International} {Conference} on {Artificial} {Intelligence} and {Statistics}},
+	author = {Lloyd, Chris and Gunter, Tom and Osborne, Michael and Roberts, Stephen and Nickson, Tom},
+	year = {2016},
+	pages = {389--397},
+	file = {1693/Lloyd et al. - 2016 - Latent Point Process Allocation.pdf}
+}
+
+@inproceedings{gonzalez_glasses:_2016,
+	title = {{GLASSES}: {Relieving} {The} {Myopia} {Of} {Bayesian} {Optimisation}},
+	shorttitle = {{GLASSES}},
+	url = {http://jmlr.org/proceedings/papers/v51/gonzalez16b.html},
+	abstract = {We present GLASSES: Global optimisation with Look-Ahead through Stochastic
+Simulation and Expected-loss Search. The majority of global optimisation
+approaches in use are myopic, in only considering the impact of the next function value; the non-myopic approaches that do exist are able to consider only a handful of future evaluations. Our novel algorithm, GLASSES, permits the consideration of dozens of evaluations into the future.  This is done by approximating the ideal look-ahead loss function, which is expensive to evaluate, by a cheaper alternative in which the future steps of the algorithm are simulated beforehand. An Expectation Propagation algorithm is used to compute the expected value of the loss. We show that the far-horizon planning thus enabled leads to substantive performance gains in empirical tests.},
+	urldate = {2016-05-03},
+	booktitle = {Proceedings of the 19th {International} {Conference} on {Artificial} {Intelligence} and {Statistics}},
+	author = {Gonzalez, Javier and Osborne, Michael and Lawrence, Neil},
+	year = {2016},
+	note = {http://sheffieldml.github.io/GPyOpt},
+	pages = {790--799},
+	file = {1696/Gonzalez et al. - 2016 - GLASSES Relieving The Myopia Of Bayesian Optimisa.pdf}
+}
+
+@techreport{frey_technology_2016,
+	type = {Citi {GPS} {Report}},
+	title = {Technology at {Work} v2: {The} {Future} {Is} {Not} {What} {It} {Used} to {Be}},
+	shorttitle = {Technology at {Work} v2.0},
+	url = {http://www.oxfordmartin.ox.ac.uk/publications/view/2092},
+	abstract = {Technology at Work v2.0: The Future Is Not What It Used to Be, produced by the Oxford Martin School and Citi, provides in-depth analysis of the vulnerabilities of countries and cities to job automation, explores what automation will mean for traditional models of economic growth, and considers how governments can prepare for the potentially disruptive impacts of job automation on society.
+
+It builds on 2013 research by Carl Benedikt Frey and Michael Osborne which found that 47 per cent of US jobs were at risk of automation over the next two decades, and on the first Technology at Work Citi GPS report, published in 2015.
+
+As well as collaborating on the Citi GPS series of reports, the School has partnered with Citi to create a new programme of research, the Oxford Martin Programme on Technology and Employment, to investigate the implications of a rapidly changing technological landscape for economies and societies.},
+	urldate = {2016-05-08},
+	author = {Frey, Carl Benedikt and Osborne, Michael A.},
+	year = {2016},
+	file = {1703/Citi_GPS_Technology_Work_2.pdf}
+}
+
+@techreport{frey_technology_2015,
+	type = {Citi {GPS} {Report}},
+	title = {Technology at {Work}: {The} {Future} of {Innovation} and {Employment}},
+	shorttitle = {Technology at {Work}},
+	url = {http://www.oxfordmartin.ox.ac.uk/publications/view/1883},
+	abstract = {Technology at Work: The Future of Innovation and Employment, is the latest Citi GPS report from the Oxford Martin School and Citi. It explores trends in automation and points to sluggish job creation caused partly by increasing automation, and argues that secular stagnation in the digital age can only be avoided by a shift towards inclusive growth.
+
+The authors highlight the key challenges, explore some of the new technology brought on by the digital age and set out an agenda for change, calling for long term thinking to mitigate the negative effects of an ever more automated and digital economy.
+
+Technology at Work marks the start of a new programme of research supported by Citi, the Oxford Martin Programme on Technology and Employment.},
+	urldate = {2016-05-08},
+	author = {Frey, Carl Benedikt and Osborne, Michael A},
+	year = {2015},
+	file = {1706/GPS_final.pdf}
 }
