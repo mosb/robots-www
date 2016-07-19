@@ -7,11 +7,11 @@ My news is available on [Twitter;](http://twitter.com/maosbot) older news is ava
 
 ## Research Expertise
 
-My goal is to develop machine intelligence in sympathy with societal needs. Within machine learning, I have particular expertise in Gaussian processes, active learning, Bayesian optimisation and Bayesian quadrature, and I am a founder of the emerging field of [probabilistic numerics.](www.probnum.org) 
+My goal is to develop machine intelligence in sympathy with societal needs. Within machine learning, I have particular expertise in Gaussian processes, active learning, Bayesian optimisation and Bayesian quadrature, and I am a co-founder of the emerging field of [probabilistic numerics.](http://probabilistic-numerics.org) 
                                                                                                      
 My work in non-parametric data analytics has been successfully applied in diverse and challenging contexts. These contexts range from astrostatistics, where my probabilistic algorithms have aided the detection of planets in distant solar systems, to zoology, where my work has helped to clarify how pigeons are able to navigate such extraordinary distances. 
 
-More details are available in my <a href="{{ site.baseurl }}/paperscode">publications.</a>
+More details are available in my [publications.]({{ site.baseurl }}/publications_code/ )
 
 ## Impact on Industry and Policy
 
