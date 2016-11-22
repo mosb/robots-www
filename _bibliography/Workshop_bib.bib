@@ -1,0 +1,96 @@
+
+@inproceedings{gibson_nir_2011,
+	title = {{NIR} {Transmission} {Spectra} of {HD}189733: {Application} of {Gaussian} {Processes} for {Removing} {Systematics}},
+	volume = {2},
+	url = {http://goo.gl/4DmFW4},
+	abstract = {The interpretation of HST transmission spectroscopy signals has recently
+been the subject of much debate, in particular the NIR NICMOS data of HD
+189733. At optical wavelengths, a high-altitude haze has been confirmed
+with both STIS and ACS, whereas the presence of molecules has been
+claimed with NICMOS. However, this detection of molecules has been
+disputed based on the ad hoc model used to remove the systematics, the
+choice of which changes the interpretation of the transmission signal.
+Here, we introduce a powerful new technique, Gaussian Processes (GPs),
+to model the systematics and simultaneously extract the transmission
+spectrum, and demonstrate its application to the NICMOS data. GPs are a
+Bayesian technique widely used in the machine learning community, which
+allow us to define a distribution over functions. Rather than impose a
+strict, functional form of systematics correction, we marginalise over
+potentially infinite numbers of basis functions, effectively inferring
+the form of the systematics correction from the data itself. This
+results in a more robust interpretation of the signal. We also present
+similar analyses of HST/WFC3 observations of HD 189733, which bridge the
+gap between the current optical and NIR spectrum.},
+	booktitle = {{AAS}/{Division} for {Extreme} {Solar} {Systems} {Abstracts}},
+	author = {Gibson, Neale and Aigrain, Suzanne and Roberts, Stephen J. and Evans, Tom and Osborne, Michael A. and Pont, Frederic and Sing, David K.},
+	year = {2011},
+	keywords = {workshop},
+	pages = {1106}
+}
+
+@inproceedings{aigrain_gaussian_2011,
+	title = {Gaussian {Processes} : the {Next} {Step} in {Exoplanet} {Data} {Analysis}},
+	volume = {2},
+	abstract = {When searching for or characterising exoplanets, we typically need to isolate a deterministic signal from stochastic processes-astrophysical or instrumental" noise"-in time-series data. Gaussian processes (GPs) enable us to construct distributions over random functions, and to infer the properties of" signal" and" noise" in a way that is both flexible and robust.},
+	booktitle = {{AAS}/{Division} for {Extreme} {Solar} {Systems} {Abstracts}},
+	author = {Aigrain, Suzanne and Gibson, Neale P. and Roberts, Stephen J. and Evans, Tom and McQuillan, Amy and Reece, Steve and Osborne, Michael A.},
+	year = {2011},
+	keywords = {workshop},
+	pages = {1105},
+	file = {165/algrain_suzanne.pdf}
+}
+
+@inproceedings{calliess_towards_2012,
+	title = {Towards auction-based multi-agent collision-avoidance under continuous stochastic dynamics},
+	abstract = {We describe an approach to multi-agent planning under continuous stochastic dynamics. The approach yields collision-free state tra jectories with adjustably high certainty, while aiming for low social cost. To this end we describe a collision-detection module based on a distribution-independent probabilistic bound. We employ an optimization-based approach to incrementally alter plans until all collisions are avoided with sufficiently high confidence. We consider the case of feedback controlled agents, and alter plans by introducing new setpoints to the agents’ controllers. In the context of a simple stochastic path planning scenario, we compare two alternative strategies for finding such setpoints.
+Due to their practical importance, multi-agent collision avoidance and control have been extensively studied across different communities including AI, robotics and control. However, these works typically assume linear and discrete dynamic models; by contrast, our work intends to overcome these limitations and to present solutions for continuous state space. While our current experiments were conducted with linear stochastic differential equation (SDE) models with state-independent noise (yielding Gaussian processes) our method is also applicable to non-Gaussian cases with state-dependent uncertainties.
+To ensure collision avoidance yields low social cost across the entire agent collective, we compare two different coordination mechanisms. Firstly, we consider a simple fixed-priority scheme Erdmann \& Lozano-Perez (1987), and secondly, we modify an auction-based coordination protocol Calliess et al. (2011) to work in our continuous setting. In contrast to pre-existing work in auction-style multi-agent planning (e.g. Tovey et al. (2005); Lagoudakis et al. (2005); Calliess et al. (2011)) and multi-agent collision avoidance (e.g. Kostic et al. (2010); Ayanian \& Kumar (2010)), we avoid a priori discretizations of space and time and present solutions for continuous time and state space.},
+	booktitle = {{ICML}-2012, {Workshop} on {Markets}, {Mechanisms}, and {Multi}-{Agent} {Models}-{Examining} the {Interaction} of {Machine} {Learning} and {Economics}},
+	author = {Calliess, Jan-P. and Osborne, Michael A. and Roberts, Stephen J.},
+	year = {2012},
+	keywords = {workshop},
+	file = {164/calliess_ICML_workshop_2012.pdf}
+}
+
+@inproceedings{calliess_towards_2012-1,
+	title = {Towards optimization-based multi-agent collision-avoidance under continuous stochastic dynamics},
+	abstract = {In our ongoing work, we aim to control a team of agents so as to achieve a prescribed goal state while being confident that collisions with other agents are avoided. Each agent is associated with a feedback controlled plant, whose continuous state trajectories follow some stochastic differential dynamics. To this end we describe a collision-detection module based on a distribution-independent probabilistic bound and employ a fixed priority method to resolve collisions. Due to their practical importance, multi-agent collision avoidance and control have been extensively studied across different communities including AI, robotics and control. However, these works typically assume linear and discrete dynamic models; by contrast, our work intends to overcome these limitations and to present solutions for continuous state space. While our current experiments were conducted with linear stochastic differential equation (SDE) models with state-independent noise (yielding Gaussian processes) we believe that our approach could also be applicable to nonGaussian cases with state-dependent uncertainties.},
+	booktitle = {Workshops at the {Twenty}-{Sixth} {AAAI} {Conference} on {Artificial} {Intelligence}},
+	author = {Calliess, Jan-Peter and Osborne, Michael A. and Roberts, Stephen},
+	year = {2012},
+	keywords = {workshop},
+	file = {163/TowardsOptimization.pdf}
+}
+
+@inproceedings{osborne_machine_2011,
+	title = {A machine learning approach to pattern detection and prediction for environmental monitoring and water sustainability},
+	abstract = {We describe one of the successful products of a research partnership among several academic institutions (CMU, Oxford and UBC) and a water monitoring company (Aquatic Informatics). Water monitoring sensors are very diverse and remotely distributed. They produce vast quantities of data. The data itself is nonlinear and nonstationary. In addition, unanticipated environmental conditions and limitations in the sensing and communications hardware cause the data to be corrupted by previously uncharacterized nonlinearities, missing observations, spikes and multiple discontinuities. To improve the quality of the data and the monitoring process, this paper introduces an approach that uses Gaussian processes and a general “fault bucket” to capture a priori uncharacterized faults, along with an approximate method for marginalizing the potential faultiness of all observations. This gives rise to an efficient, flexible algorithm for the detection and automatic correction of faults. The probabilistic nature of the method is ideal for reporting uncertainty estimates to human operators. The approach can also be applied to detect patterns, other than faults, which are of great environmental significance. We present a fish sustainability example, where specific patterns in water level need to be detected so that fish don’t get trapped and die in shallow pools.},
+	booktitle = {Proc. {Workshop} on {Machine} {Learning} for {Global} {Challenges}},
+	author = {Osborne, Michael A. and Garnett, Roman and Swersky, Kevin and de Freitas, Nando},
+	year = {2011},
+	note = {https://github.com/OxfordML/fault-bucket.m},
+	keywords = {workshop},
+	file = {156/osborne_et_al_mlgc_2011.pdf}
+}
+
+@inproceedings{nyikosa_adaptive_2015,
+	title = {Adaptive {Bayesian} {Optimisation} for {Online} {Portfolio} {Selection}},
+	abstract = {We present a Bayesian approach for online portfolio selection, a fundamental problem in computational finance. We pose the problem as the global optimi- sation of an expensive, time-varying, black-box function. As the optimum is itself dynamic, we use a model that allows us to capture time-dependent patterns of the function and to provide sequential decision processes that enable us to select optimal portfolios to invest in an online manner.},
+	booktitle = {Workshop on {Bayesian} {Optimization} at {NIPS} 2015},
+	author = {Nyikosa, Favour and Osborne, Michael A. and Roberts, Stephen J.},
+	year = {2015},
+	keywords = {workshop},
+	file = {1425/NyikosaOsborneRobertsNipsBayesopt2015.pdf}
+}
+
+@inproceedings{rainforth_bayesian_2015,
+	title = {Bayesian {Optimization} for {Probabilistic} {Programs}},
+	url = {http://www.robots.ox.ac.uk/~twgr/assets/pdf/rainforth2015BOPP.pdf},
+	abstract = {We outline a general purpose framework for black-box marginal maximum a pos- teriori estimation of probabilistic program variables using Bayesian optimization with Gaussian processes.  We introduce the concept of an optimization query, whereby a probabilistic program returns an infinite lazy sequence of increasingly optimal estimates, and explain how a general purpose program transformation would allow the evidence of any probabilistic program, and therefore any graphical model, to be optimized with respect to an arbitrary subset of its variables.},
+	urldate = {2016-01-15},
+	booktitle = {Workshop on "{Black} {Box} {Learning} and {Inference}" at {NIPS} 2015},
+	author = {Rainforth, Tom and van de Meent, Jan-Willem and Osborne, Michael A. and Wood, Frank},
+	year = {2015},
+	keywords = {workshop},
+	file = {1479/rainforth2015BOPP.pdf}
+}

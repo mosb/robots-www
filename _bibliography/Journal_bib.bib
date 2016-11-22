@@ -1,0 +1,140 @@
+
+@article{ng_using_2014,
+	title = {Using textons to rank crystallization droplets by the likely presence of crystals},
+	volume = {70},
+	issn = {1399-0047},
+	url = {http://scripts.iucr.org/cgi-bin/paper?S1399004714017581},
+	doi = {10.1107/S1399004714017581},
+	abstract = {The visual inspection of crystallization experiments is an important yet time-consuming and subjective step in X-ray crystallography. Previously published studies have focused on automatically classifying crystallization droplets into distinct but ultimately arbitrary experiment outcomes; here, a method is described that instead ranks droplets by their likelihood of containing crystals or microcrystals, thereby prioritizing for visual inspection those images that are most likely to contain useful information. The use of textons is introduced to describe crystallization droplets objectively, allowing them to be scored with the posterior probability of a random forest classifier trained against droplets manually annotated for the presence or absence of crystals or microcrystals. Unlike multi- class classification, this two-class system lends itself naturally to unidirectional ranking, which is most useful for assisting sequential viewing because images can be arranged simply by using these scores: this places droplets with probable crystal- line behaviour early in the viewing order. Using this approach, the top ten wells included at least one human-annotated crystal or microcrystal for 94\% of the plates in a data set of 196 plates imaged with a Minstrel HT system. The algorithm is robustly transferable to at least one other imaging system: when the parameters trained from Minstrel HT images are applied to a data set imaged by the Rock Imager system, human-annotated crystals ranked in the top ten wells for 90\% of the plates. Because rearranging images is fundamental to the approach, a custom viewer was written to seamlessly support such ranked viewing, along with another important output of the algorithm, namely the shape of the curve of scores, which is itself a useful overview of the behaviour of the plate; additional features with known usefulness were adopted from existing viewers. Evidence is presented that such ranked viewing of images allows faster but more accurate evaluation of drops, in particular for the identification of microcrystals.},
+	number = {10},
+	urldate = {2014-09-30},
+	journal = {Acta Crystallographica Section D Biological Crystallography},
+	author = {Ng, Jia Tsing and Dekker, Carien and Kroemer, Markus and Osborne, Michael A. and von Delft, Frank},
+	month = oct,
+	year = {2014},
+	file = {219/nj5198.pdf}
+}
+
+@article{frey_future_2016,
+	title = {The future of employment: how susceptible are jobs to computerisation?},
+	shorttitle = {The future of employment},
+	url = {http://www.oxfordmartin.ox.ac.uk/downloads/academic/future-of-employment.pdf},
+	abstract = {We examine how susceptible jobs are to computerisation. To assess this, we begin by implementing a novel methodology to estimate the probability of computerisation for 702 detailed occupations, using a Gaussian process classifier. Based on these estimates, we examine expected impacts of future computerisation on US labour market outcomes, with the primary objective of analysing the number of jobs at risk and the relationship between an occupation’s probability of computerisation, wages and educational attainment. According to our estimates, about 47 percent of total US employment is at risk. We further provide evidence that wages and educational attainment exhibit a strong negative relationship with an occupation’s probability of computerisation.},
+	urldate = {2014-08-30},
+	journal = {Technological Forecasting and Social Change},
+	author = {Frey, Carl Benedikt and Osborne, Michael A.},
+	year = {2016},
+	file = {63/Frey and Osborne - 2013 - The future of employment how susceptible are jobs.pdf}
+}
+
+@article{garnett_sequential_2010,
+	title = {Sequential {Bayesian} prediction in the presence of changepoints and faults},
+	volume = {53},
+	doi = {doi:10.1093/comjnl/bxq003},
+	abstract = {We introduce a new sequential algorithm for making robust predictions in the presence of changepoints. Unlike previous approaches, which focus on the problem of detecting and locating changepoints, our algorithm focuses on the problem of making predictions even when such changes might be present. We introduce nonstationary covariance functions to be used in Gaussian process prediction that model such changes, and then proceed to demonstrate how to effectively manage the hyperparameters associated with those covariance functions. We further introduce covariance functions to be used in situations where our observation model undergoes changes, as is the case for sensor faults. By using Bayesian quadrature, we can integrate out the hyperparameters, allowing us to calculate the full marginal predictive distribution. Furthermore, if desired, the posterior distribution over putative changepoint locations can be calculated as a natural byproduct of our prediction algorithm.},
+	number = {9},
+	journal = {The Computer Journal},
+	author = {Garnett, Roman and Osborne, Michael A. and Reece, Steven and Rogers, Alex and Roberts, Stephen J.},
+	year = {2010},
+	pages = {1430},
+	file = {140/journal_changept.pdf}
+}
+
+@article{mann_objectively_2011,
+	title = {Objectively identifying landmark use and predicting flight trajectories of the homing pigeon using {Gaussian} processes},
+	volume = {8},
+	doi = {10.1098/rsif.2010.0301},
+	abstract = {Pigeons home along idiosyncratic habitual routes from familiar locations. It has been suggested that memorized visual landmarks underpin this route learning. However, the inability to experimentally alter the landscape on large scales has hindered the discovery of the particular features to which birds attend. Here, we present a method for objectively classifying the most informative regions of animal paths. We apply this method to flight trajectories from homing pigeons to identify probable locations of salient visual landmarks. We construct and apply a Gaussian process model of flight trajectory generation for pigeons trained to home from specific release sites. The model shows increasing predictive power as the birds become familiar with the sites, mirroring the animal’s learning process. We subsequently find that the most informative elements of the flight trajectories coincide with landscape features that have previously been suggested as important components of the homing task.},
+	number = {55},
+	journal = {Journal of The Royal Society Interface},
+	author = {Mann, Richard and Freeman, Robin and Osborne, Michael A. and Garnett, Roman and Armstrong, Chris and Meade, Jessica and Biro, Dora and Guilford, Tim and Roberts, Stephen J.},
+	year = {2011},
+	pages = {210--219},
+	file = {139/J. R. Soc. Interface-2011-Mann-210-9.pdf}
+}
+
+@article{osborne_real-time_2012,
+	title = {Real-{Time} {Information} {Processing} of {Environmental} {Sensor} {Network} {Data}},
+	volume = {9},
+	doi = {10.1145/2379799.2379800},
+	abstract = {In this paper, we consider the problem faced by a sensor network operator who must infer, in real-time, the value of some environmental parameter that is being monitored at discrete points in space and time by a sensor network. We describe a powerful and generic approach built upon an efficient multi-output Gaussian process that facilitates this information acquisition and processing. Our algorithm allows effective inference even with minimal domain knowledge, and we further introduce a formulation of Bayesian Monte Carlo to permit the principled management of the hyperparameters introduced by our flexible models. We demonstrate how our methods can be applied in cases where the data is delayed, intermittently missing, censored and/or correlated. We validate our approach using data collected from three networks of weather sensors and show that it yields better inference performance than both conventional independent Gaussian processes and the Kalman filter. Finally, we show that our formalism efficiently re-uses previous computations by following an online update procedure as new data sequentially arrives, and that this results in a four-fold increase in computational speed in the largest cases considered.},
+	number = {1},
+	journal = {ACM Transactions on Sensor Networks},
+	author = {Osborne, Michael A. and Roberts, Stephen J. and Rogers, Alex and Jennings, Nicholas R.},
+	year = {2012},
+	pages = {1:1--1:32},
+	file = {149/tosn_gp_revised.pdf}
+}
+
+@article{gibson_gaussian_2012,
+	title = {A {Gaussian} process framework for modelling instrumental systematics: application to transmission spectroscopy},
+	volume = {419},
+	doi = {10.1111/j.1365-2966.2011.19915.x},
+	abstract = {Transmission spectroscopy, which consists of measuring the wavelength-dependent absorption of starlight by a planet’s atmosphere during a transit, is a powerful probe of atmospheric composition. However, the expected signal is typically orders of magnitude smaller than instrumental systematics, and the results are crucially dependent on the treatment of the latter. In this paper, we propose a new method to infer transit parameters in the presence of systematic noise using Gaussian processes, a technique widely used in the machine learning community for Bayesian regression and classification problems. Our method makes use of auxiliary information about the state of the instrument, but does so in a non-parametric manner, without imposing a specific dependence of the systematics on the instrumental parameters, and naturally allows for the correlated nature of the noise. We give an example application of the method to archival NICMOS transmission spectroscopy of the hot Jupiter HD 189733, which goes some way towards reconciling the controversy surrounding this dataset in the literature. Finally, we provide an appendix giving a general introduction to Gaussian processes for regression, in order to encourage their application to a wider range of problems.},
+	number = {3},
+	journal = {Monthly Notices of the Royal Astronomical Society},
+	author = {Gibson, Neale P. and Aigrain, Suzanne and Roberts, Stephen J. and Evans, Tom and Osborne, Michael A. and Pont, Frederic},
+	year = {2012},
+	pages = {2683--2694},
+	file = {124/Gibson2011instrumental_systematics.pdf}
+}
+
+@article{luca_photodegradation_2006,
+	title = {Photodegradation of methylene blue using crystalline titanosilicate quantum-confined semiconductor},
+	volume = {18},
+	url = {http://pubs.acs.org/doi/abs/10.1021/cm052839p},
+	doi = {10.1021/cm052839p},
+	abstract = {Synthetic sitinakite contains in its structure a discrete wire-like sublattice of linked TiO6 octahedra. This sublattice is held apart by silicate tetrahedra forming one-dimensional channels that run down the c axis. The optical properties of this structural arrangement have been studied and compared with other titanosilicate phases, the best known being ETS-10. Thus, sitinakite which has twice the titanate wire diameter of ETS-10 has a band gap of 4.07 eV compared with 3.87 eV. The reduced electron−hole effective mass of the sitinakite quantum-confined system has been calculated through use of the effective mass model and compared with that of other titanosilicate materials. The sitinakite phase has been shown to effectively photodegrade methylene blue (MB) dye at pH 7 using visible light excitation and displays a higher degradation rate than TiO2 (Degussa, P25) under the same experimental conditions. On the contrary, under UV excitation, the photodegradation rate obtained using P25 is much higher than that using sitinakite. Given that the band edge of sitinkaite is significantly blue shifted compared with that of P25, photodegradation of MB using sitinakite is attributed to sensitization of the MB cationic dye which is strongly adsorbed onto the negatively charged sitinakite surfaces.},
+	number = {26},
+	journal = {Chemistry of materials},
+	author = {Luca, Vittorio and Osborne, Michael A. and Sizgek, Devlet and Griffith, Christopher and Araujo, Paula Z.},
+	year = {2006},
+	pages = {6132--6138}
+}
+
+@article{roberts_gaussian_2013,
+	title = {Gaussian processes for time-series modelling},
+	volume = {371},
+	doi = {10.1098/rsta.2011.0550},
+	abstract = {In this paper we offer a gentle introduction to Gaussian processes for timeseries data analysis. The conceptual framework of Bayesian modelling for timeseries data is discussed and the foundations of Bayesian non-parametric modelling presented for Gaussian processes. We discuss how domain knowledge influences design of the Gaussian process models and provide case examples to highlight the approaches.},
+	number = {1984},
+	journal = {Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+	author = {Roberts, Stephen J. and Osborne, Michael A. and Ebden, Mark and Reece, Steve and Gibson, Neale P. and Aigrain, Suzanne},
+	year = {2013},
+	pages = {20110550},
+	file = {120/philTransA_2012.pdf}
+}
+
+@article{hennig_probabilistic_2015,
+	title = {Probabilistic {Numerics} and {Uncertainty} in {Computations}},
+	volume = {471},
+	issn = {1364-5021},
+	url = {http://rspa.royalsocietypublishing.org/content/royprsa/471/2179/20150142.full.pdf?ijkey=wr6Ggr6GGGgbJYr&keytype=ref},
+	doi = {10.1098/rspa.2015.0142},
+	abstract = {We deliver a call to arms for probabilistic numerical methods: algorithms for numerical tasks, including linear algebra, integration, optimization and solving differential equations, that return uncertainties in their calculations. Such uncertainties, arising from the loss of precision induced by numerical calculation with limited time or hardware, are important for much contemporary science and industry. Within applications such as climate science and astrophysics, the need to make decisions on the basis of computations with large and complex data has led to a renewed focus on the management of numerical uncertainty. We describe how several seminal classic numerical methods can be interpreted naturally as probabilistic inference. We then show that the probabilistic view suggests new algorithms that can flexibly be adapted to suit application specifics, while delivering improved empirical performance. We provide concrete illustrations of the benefits of probabilistic numeric algorithms on real scientific problems from astrometry and astronomical imaging, while highlighting open problems with these new algorithms. Finally, we describe how probabilistic numerical methods provide a coherent framework for identifying the uncertainty in calculations performed with a combination of numerical algorithms (e.g. both numerical optimisers and differential equation solvers), potentially allowing the diagnosis (and control) of error sources in computations.},
+	number = {2179},
+	urldate = {2015-06-05},
+	journal = {Proceedings of the Royal Society A},
+	author = {Hennig, Philipp and Osborne, Michael A. and Girolami, Mark A.},
+	year = {2015},
+	file = {985/Hen_Osb_Gir_RSPA_2015.pdf}
+}
+
+@article{rajpaul_gaussian_2015,
+	title = {A {Gaussian} process framework for modelling stellar activity signals in radial velocity data},
+	volume = {452},
+	issn = {0035-8711, 1365-2966},
+	url = {http://mnras.oxfordjournals.org/content/452/3/2269},
+	doi = {10.1093/mnras/stv1428},
+	abstract = {To date, the radial velocity (RV) method has been one of the most productive techniques for detecting and confirming extrasolar planetary candidates. Unfortunately, stellar activity can induce RV variations which can drown out or even mimic planetary signals – and it is notoriously difficult to model and thus mitigate the effects of these activity-induced nuisance signals. This is expected to be a major obstacle to using next-generation spectrographs to detect lower mass planets, planets with longer periods, and planets around more active stars. Enter Gaussian processes (GPs) which, we note, have a number of attractive features that make them very well suited to disentangling stellar activity signals from planetary signals. We present here a GP framework we developed to model RV time series jointly with ancillary activity indicators (e.g. bisector velocity spans, line widths, chromospheric activity indices), allowing the activity component of RV time series to be constrained and disentangled from e.g. planetary components. We discuss the mathematical details of our GP framework, and present results illustrating its encouraging performance on both synthetic and real RV data sets, including the publicly available Alpha Centauri B data set.},
+	language = {en},
+	number = {3},
+	urldate = {2015-10-14},
+	journal = {Monthly Notices of the Royal Astronomical Society},
+	author = {Rajpaul, Vinesh and Aigrain, Suzanne and Osborne, Michael A. and Reece, Steve and Roberts, Stephen J.},
+	month = sep,
+	year = {2015},
+	keywords = {methods: data analysis, planetary systems, stars: activity, stars: individual: Alpha Centauri B, stars: individual: Gliese 15 A, techniques: radial velocities},
+	pages = {2269--2291},
+	file = {1316/1506.07304v1.pdf}
+}
