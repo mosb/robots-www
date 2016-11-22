@@ -19,26 +19,28 @@ regex = re.compile(r"(?<=file = {).*?(files/)", re.IGNORECASE)
 
 for publication_type in publication_types:
     publication_bib = publication_type + '.bib'
+    publication_bib_path = '_bibliography/' + publication_bib
     shutil.copyfile(
         '_bibliography/' + publication_type + '/' + publication_bib,
-        '_bibliography/' + publication_bib
+        publication_bib_path
     )
 
     # Read in the file
-    filedata = None
-    with open(publication_bib, 'r') as file :
-      filedata = file.read()
+    file_data = None
+    with open(publication_bib_path, 'r') as file :
+        file_data = file.readlines()
 
-    # Remove unnecessary':application/pdf'
-    filedata = filedata.replace(':application/pdf', '')
+    with open(publication_bib_path, 'w+') as file:
+        for line in file_data:
 
-    # Tidy up file paths : edit file links to eg {162/1403.4640.pdf}
-    for line in filedata:
-        line = regex.sub("", line)
+            # Remove unnecessary':application/pdf'
+            line = line.replace(':application/pdf', '')
 
-    # Write the file out again
-    with open(publication_bib, 'w') as file:
-      file.write(filedata)
+            # Tidy up file paths : edit file links to eg {162/1403.4640.pdf}
+            line = regex.sub("", line)
+
+            # Write the file out again
+            file.write(line)
 
     # shutil.copytree( -r _bibliography/Osborne/files/ public/pdf
 
