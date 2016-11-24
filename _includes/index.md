@@ -1,6 +1,6 @@
 ## Profile
 
-I a machine learning researcher with a few different hats within the <a href="http://www.ox.ac.uk">University of Oxford</a>:
+I am a machine learning researcher with a few different hats within the <a href="http://www.ox.ac.uk">University of Oxford</a>:
 
 * Dyson Associate Professor in Machine Learning; 
 * Co-Director of the [Oxford Martin Programme on Technology and Employment](www.oxfordmartin.ox.ac.uk/research/programmes/tech-employment);
@@ -35,6 +35,6 @@ United Kingdom
 
 ## About this site
 
-[This site](https://github.com/mosb/robots-www,) was built using [Hyde,](https://github.com/poole/hyde) a theme for [Jekyll,](http://jekyllrb.com/) along with [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) and liberal borrowing from [Jan-Willem van de Meent's](http://www.robots.ox.ac.uk/~jwvdm/) [excellent site.](https://github.com/jwvdm/robots-homepage) The colours are drawn from [base16,](http://chriskempson.github.io/base16/) and the fonts are [JAF Facit](https://typekit.com/fonts/jaf-facitweb) and [Edita.](https://typekit.com/fonts/edita) The site was written in [Sublime Text.](http://www.sublimetext.com/)
+[This site](https://github.com/mosb/robots-www,) was built using [Hyde,](https://github.com/poole/hyde) a theme for [Jekyll,](http://jekyllrb.com/) along with [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) and liberal borrowing from [Jan-Willem van de Meent's](http://www.robots.ox.ac.uk/~jwvdm/) [excellent site.](https://github.com/jwvdm/robots-homepage) The colours are drawn from [base16,](http://chriskempson.github.io/base16/) and the fonts are [Karmina Sans](https://typekit.com/fonts/karmina-sans) and [Karmina.](https://typekit.com/fonts/karmina) The site was written in [Sublime Text.](http://www.sublimetext.com/)
 
 
