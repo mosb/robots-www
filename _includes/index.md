@@ -1,21 +1,21 @@
 ## Profile
 
-I'm the Dyson Associate Professor in Machine Learning, Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>  and Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk">Oxford-Man Institute of Quantitative Finance,</a> all at the <a href="http://www.ox.ac.uk">University of Oxford.</a> I co-lead the <a href="http://www.robots.ox.ac.uk/~parg">Machine Learning Research Group,</a> a sub-group of the <a href="http://www.robots.ox.ac.uk/">Robotics Research Group</a> in the <a href="http://www.eng.ox.ac.uk/">Department of Engineering
-Science.</a> My full CV is [available.]({{ site.baseurl }}/public/pdf/MAOsborne.pdf)
+I a machine learning researcher with a few different hats within the <a href="http://www.ox.ac.uk">University of Oxford</a>:
 
-My news is available on [Twitter;](http://twitter.com/maosbot) older news is available for <a href="{{ site.baseurl }}/news">2013-2014.</a>
+* Dyson Associate Professor in Machine Learning; 
+* Co-Director of the [Oxford Martin Programme on Technology and Employment](www.oxfordmartin.ox.ac.uk/research/programmes/tech-employment);
+* Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a> and 
+* Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk">Oxford-Man Institute of Quantitative Finance.</a>
 
-## Research Expertise
+If you want to get to know me in gruesome detail: 
 
-My goal is to develop machine intelligence in sympathy with societal needs. Within machine learning, I have particular expertise in Gaussian processes, active learning, Bayesian optimisation and Bayesian quadrature, and I am a co-founder of the emerging field of [probabilistic numerics.](http://probabilistic-numerics.org) 
-                                                                                                     
-My work in non-parametric data analytics has been successfully applied in diverse and challenging contexts. These contexts range from astrostatistics, where my probabilistic algorithms have aided the detection of planets in distant solar systems, to zoology, where my work has helped to clarify how pigeons are able to navigate such extraordinary distances. 
+* my full CV is [available;]({{ site.baseurl }}/public/pdf/MAOsborne.pdf) 
+* My news is available on [Twitter;](http://twitter.com/maosbot) 
+* older news is available for <a href="{{ site.baseurl }}/news">2013-2014. 
+    
+Within machine learning, I have particular expertise in Gaussian processes, active learning, Bayesian optimisation and Bayesian quadrature, and I am dead keen on the emerging field of [probabilistic numerics.](http://probabilistic-numerics.org) I have applied machine learning to scientific and engineering problems in fields as diverse as exoplanet search, finance, crystallography, autonomous robotics, and the study of pigeon navigation.
 
-More details are available in my [publications.]({{ site.baseurl }}/publications_code/ )
-
-## Impact on Industry and Policy
-
-My career has been shaped by extensive engagement with industry, both in research and consultancy arrangements. Most recently, I have addressed the broader societal consequences of machine learning and robotics. In particular, I have worked to analyse how intelligent algorithms might soon substitute for human workers, and to predict the resulting impact on employment. This latter work has enjoyed broad and sustained media coverage (featured in <i>BBC Newsnight, the Economist, the Financial Times, the Wall Street Journal, the Independent, the Guardian</i> and <i>the New York Times</i>) and has substantial policy implications related to the future of employment.
+I'm also interested in how new technologies, particularly machine learning, are changing the nature of work. My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) has been covered by BBC Newsnight, CNN, The Economist, Financial Times, Wall Street Journal, Foreign Affairs, New York Times, Washington Post, Der Spiegel, Scientific American, TIME Magazine and The Guardian. See [here](http://www.oxfordmartin.ox.ac.uk/people/647) and [here](http://carlbenediktfrey.com/in-the-media/) for relatively comprehensive lists of media coverage.
 
 ## Contact
 
@@ -25,12 +25,12 @@ document.write('<a href="mailto:' + 'mosb' + '@' + 'robots.ox.ac.uk' + '">');
 document.write('mosb' + '@' + 'robots.ox.ac.uk' + '</a>');
 //-->
 </script>
-<a href="http://maps.google.co.uk/maps/ms?msid=208001318046621592827.00048522c12bce7ee270f&msa=0">Room 20.05a, Information Engineering Building</a>  
-Department of Engineering Science  
-University of Oxford  
-Parks Road  
+
+[Eagle House](https://www.google.co.uk/maps/place/Oxford-Man+Institute+of+Quantitative+Finance/@51.7615793,-1.2695656,15z/data=!4m2!3m1!1s0x0:0x5542aa1404fd503d)  
+Walton Well Road  
 Oxford  
-OX1 3PJ  
+OX2 6ED  
+Oxford  
 United Kingdom  
 
 ## About this site

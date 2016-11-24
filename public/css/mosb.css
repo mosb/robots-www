@@ -10,13 +10,13 @@
     display: block;
     margin-top: 0em;
     margin-bottom: 0em;
-    color: #B0B0B0;
+    color: #a39e9b;
     font-family: "Source Code Pro", Monaco, "Courier New", monospace;
     /*font-family:    "jaf-facitweb", sans-serif;*/
 }
 .list-date {
     font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
-    color: #B0B0B0;
+    color: #a39e9b;
 }
 p {
     text-align: justify;
@@ -30,8 +30,8 @@ p + p {
 /* THis is the background colour*/
 
 body {
-    color: #303030;
-    background: #95AEC7;
+    color: #4f424c;
+    background: #5bc4bf;
     padding: 0 0 20px 0;
     font-family: "edita", serif;
     font-size: medium;
@@ -52,13 +52,13 @@ h1 {
     font-family: "jaf-facitweb", sans-serif;
 }
 .page h1 {
-    color: #105a94;
+    color: #e96ba8;
 }
 .post h1 {
-    color: #105a94;
+    color: #e96ba8;
 }
 h2 {
-    color: #ef811b;
+    color: #f99b15;
     padding: 0px;
     padding-top: 4px;
     font-family: "jaf-facitweb", sans-serif;
@@ -70,7 +70,7 @@ h2 {
 }
 h2.topper{
     /*doesn't work!*/
-    /*color: #105a94;*/
+    /*color: #815ba4;*/
     text-align: left;
     text-transform: lowercase;
 }
@@ -81,13 +81,13 @@ h3 {
     /*padding-top       : 20px;*/
     text-transform: uppercase;
     font-size: medium;
-    color: #a4007c;
+    color: #48b685;
 }
 h4 {
     padding-top: 10px;
     font-family: "edita", serif;
     font-style: italic;
-    color: #e60077;
+    color: #ef6155;
     font-weight: bold;
     text-indent: 0px;
     font-size: medium;
@@ -95,7 +95,7 @@ h4 {
 }
 
 a {
-    color: #672000;
+    color: #815ba4;
 }
 
 .page a:link {
@@ -130,19 +130,19 @@ background        : url("/public/ico/pdficon_small.png") left center no-repeat;
 
 .sidebar a:link {
     text-decoration: none;
-    color: #6699CC;
+    color: #06b6ef;
 }
 .sidebar a:visited {
     text-decoration: none;
-    color: #6699CC;
+    color: #06b6ef;
 }
 .sidebar a:active {
     text-decoration: none;
-    color: #6699CC;
+    color: #06b6ef;
 }
 .sidebar a:hover {
     text-decoration: underline;
-    color: #6699CC;
+    color: #06b6ef;
 }
 .sidebar-nav-item {
     text-transform: uppercase;
@@ -166,7 +166,7 @@ a.read_more {
 }
 .mosb {
     font-weight: bold;
-    color: #FBA330;
+    color: #f99b15;
 }
 hr {
     margin-top: 25px;
@@ -196,9 +196,6 @@ img[alt=photo] {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-img[alt=CV] {
-    background-color: #FFFFFF;
 }
 img[alt=ebfret-screenshot] {
     width: 300px;
@@ -306,11 +303,11 @@ img[alt=contact] {
     border-radius: 3px;
     text-decoration: none;
     background-color: transparent;
-    color: #cccccc;
+    color: #8d8687;
     padding: 8px;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-    background-color: #6699CC;
+    background-color: #815ba4;
     color: #fff;
 }
 .nav > li.active > a, .nav > li.active > a:hover, .nav > li.active > a:focus {
@@ -332,8 +329,8 @@ img[alt=contact] {
     margin-left: 5px;
 }
 .content {
-    background-color: #FFFFFF;
-    color: #2D2D2D;
+    background-color: #e7e9db;
+    color: #2f1e2e;
     border-radius: 3px;
     padding: 30px;
     /*box-shadow: 5px 5px 5px #012;*/
@@ -341,10 +338,10 @@ img[alt=contact] {
 .footer {
     padding-top: 10px;
     padding-left: 10px;
-    color: #999;
+    color: #8d8687;
 }
 .footer a {
-    color: #F2F0EC;
+    color: #e7e9db;
 }
 .nav-pills > li + li {
     margin-left: 5px;
@@ -364,7 +361,7 @@ ol.bibliography .nav-pills > li > a, ol.bibliography .nav-pills > li > a:hover {
     font-size: small;
     text-transform: uppercase;
     font-family: "jaf-facitweb", sans-serif;
-    color: #888;
+    color: #8d8687;
     background-color: transparent;
 }
 ol.bibliography .nav-pills > li > a:hover {

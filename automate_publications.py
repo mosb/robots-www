@@ -70,4 +70,4 @@ chmod -R a+rx ./public/pdf
 jekyll build
 """
 # rsync -avz /Users/michaelosborne/Documents/WWW/MosbWWW/robots-www/_site/ mosb@robots.ox.ac.uk:~/WWW
-process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+# process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
