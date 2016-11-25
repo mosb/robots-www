@@ -39,7 +39,7 @@ body {
 
 h1 {
     font-size: xx-large;
-    font-weight: bold;
+    font-weight: 700;
     font-family: "karmina-sans", sans-serif;
     padding-top: 0px;
     padding-bottom: 0.5em;
@@ -64,7 +64,7 @@ h2 {
     font-family: "karmina-sans", sans-serif;
     font-weight: normal;
     font-size: x-large;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     /*line-height       : 18px;*/
 }
@@ -88,7 +88,7 @@ h4 {
     font-family: "karmina", serif;
     font-style: italic;
     color: #ef6155;
-    font-weight: bold;
+    font-weight: 700;
     text-indent: 0px;
     font-size: medium;
     padding-bottom: 3px;
@@ -165,7 +165,7 @@ a.read_more {
     font-size: large;
 }
 .mosb {
-    font-weight: bold;
+    font-weight: 700;
     color: #f99b15;
 }
 hr {
