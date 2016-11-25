@@ -13,9 +13,7 @@ If you want to get to know me in gruesome detail:
 * My news is available on [Twitter;](http://twitter.com/maosbot) 
 * older news is available for <a href="{{ site.baseurl }}/news">2013-2014. 
     
-Within machine learning, I have particular expertise in Gaussian processes, active learning, Bayesian optimisation and Bayesian quadrature, and I am dead keen on the emerging field of [probabilistic numerics.](http://probabilistic-numerics.org) I have applied machine learning to scientific and engineering problems in fields as diverse as exoplanet search, finance, crystallography, autonomous robotics, and the study of pigeon navigation.
-
-I'm also interested in how new technologies, particularly machine learning, are changing the nature of work. My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) has been covered by BBC Newsnight, CNN, The Economist, Financial Times, Wall Street Journal, Foreign Affairs, New York Times, Washington Post, Der Spiegel, Scientific American, TIME Magazine and The Guardian. See [here](http://www.oxfordmartin.ox.ac.uk/people/647) and [here](http://carlbenediktfrey.com/in-the-media/) for relatively comprehensive lists of media coverage.
+Within machine learning, I have particular expertise in Gaussian processes, active learning, Bayesian optimisation and Bayesian quadrature, and I am dead keen on the emerging field of [probabilistic numerics.](http://probabilistic-numerics.org) I have applied machine learning to scientific and engineering problems in fields as diverse as exoplanet search, finance, crystallography, autonomous robotics, and the study of pigeon navigation. I'm also interested in how new technologies, particularly machine learning, are changing the nature of work. 
 
 ## Contact
 
@@ -35,6 +33,6 @@ United Kingdom
 
 ## About this site
 
-[This site](https://github.com/mosb/robots-www,) was built using [Hyde,](https://github.com/poole/hyde) a theme for [Jekyll,](http://jekyllrb.com/) along with [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) and liberal borrowing from [Jan-Willem van de Meent's](http://www.robots.ox.ac.uk/~jwvdm/) [excellent site.](https://github.com/jwvdm/robots-homepage) The colours are drawn from [base16,](http://chriskempson.github.io/base16/) and the fonts are [Karmina Sans](https://typekit.com/fonts/karmina-sans) and [Karmina.](https://typekit.com/fonts/karmina) The site was written in [Sublime Text.](http://www.sublimetext.com/)
+[This site](https://github.com/mosb/robots-www,) was built using [Hyde,](https://github.com/poole/hyde) a theme for [Jekyll,](http://jekyllrb.com/) along with [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) and liberal borrowing from [Jan-Willem van de Meent's](http://www.robots.ox.ac.uk/~jwvdm/) [excellent site.](https://github.com/jwvdm/robots-homepage) The colours are drawn from [base16,](http://chriskempson.github.io/base16/) and the fonts are [Karmina Sans](https://typekit.com/fonts/karmina-sans) and [Karmina.](https://typekit.com/fonts/karmina) 
 
 
