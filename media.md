@@ -6,11 +6,14 @@ tags: media
 
 ## Media coverage
 
-My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) has been covered by BBC Newsnight, CNN, The Economist, Financial Times, Wall Street Journal, Foreign Affairs, New York Times, Washington Post, Der Spiegel, Scientific American, TIME Magazine and The Guardian. See [here](http://www.oxfordmartin.ox.ac.uk/people/647) and [here](http://carlbenediktfrey.com/in-the-media/) for more comprehensive lists of media coverage.
+My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) has been covered by BBC Newsnight, CNN, The Economist, Financial Times, Wall Street Journal, Foreign Affairs, New York Times, Washington Post, Der Spiegel, Scientific American, TIME Magazine and The Guardian, amongst many other venues. For more comprehensive lists of media coverage of our work, see
 
-## Talks
+* [the Oxford Martin School's list](http://www.oxfordmartin.ox.ac.uk/people/647) and 
+* [Carl's list.](http://carlbenediktfrey.com/in-the-media/)
 
-You might be interested in the list of my talks, below, for which video (or at least slides) are available. 
+## Talk videos
+
+Videos are available for those of my talks listed below. I have also cheekily included a couple for which I only slides. 
 
 * Oct 2016: [*Probabilistic numerics* @ Twitter Cortex, Boston](https://www.periscope.tv/w/1dRKZRvZpyrKB)
 * Feb 2016: [*Algorithms among us: machine learning and society* @ Oxford Martin School](http://www.oxfordmartin.ox.ac.uk/videos/view/541)
