@@ -14,7 +14,7 @@ profile.
 * [Preprints](#Preprints)
 * [Reports](#Reports)
 * [Workshop papers](#Workshop)
-* [Theses](#Theses)
+* [Thesis](#Thesis)
 
 ## <a name="Journal">Journal papers</a>
 
@@ -36,6 +36,6 @@ profile.
 
 {% bibliography --file Workshop_bib %}
 
-## <a name="Theses">Theses</a>
+## <a name="Thesis">Thesis</a>
 
 {% bibliography --file Theses_bib %}
