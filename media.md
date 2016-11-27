@@ -17,7 +17,9 @@ Videos are available for those of my talks listed below. I have also cheekily in
 
 * Oct 2016: [*Probabilistic numerics* @ Twitter Cortex, Boston](https://www.periscope.tv/w/1dRKZRvZpyrKB)
 * Feb 2016: [*Algorithms among us: machine learning and society* @ Oxford Martin School](http://www.oxfordmartin.ox.ac.uk/videos/view/541)
-* Jun 2015: [*Technology at Work* @ Saïd Business School](https://www.youtube.com/watch?v=DocR4IZzBzU)
+* Sep 2015: [*Bayesian Optimisation is Probabilistic Numerics* @ Gaussian Processes for Global Optimization workshop in Sheffield](https://www.youtube.com/watch?v=MNcl_DIq5vM)
+* Jun 2015: [*Technology at Work* @ "Silicon Valley comes to Oxford", Saïd Business School, Oxford](https://www.youtube.com/watch?v=DocR4IZzBzU)
+    - [A Q&A/discussion with Prof Nick Bostrom and me.](https://www.youtube.com/watch?v=-nGNZq0fbv8) at the same event. 
 * Apr 2015: [*Future of Working: The Future of Employment and Job Automation* @ QUT, Brisbane](https://www.youtube.com/watch?v=uW9H2icp8BE&t=1s)
 * Nov 2014: [*Computerisation and the reinvention of work* @ "digitising europe" summit, Berlin](https://www.youtube.com/watch?v=61JyvmQXpww)
     - [A video of my being interviewed at the same event.](https://www.youtube.com/watch?v=U3xcFLmankg)
