@@ -19,10 +19,10 @@ Videos are available for those of my talks listed below. I have also cheekily in
 * Feb 2016: [*Algorithms among us: machine learning and society* @ Oxford Martin School](http://www.oxfordmartin.ox.ac.uk/videos/view/541)
 * Sep 2015: [*Bayesian Optimisation is Probabilistic Numerics* @ Gaussian Processes for Global Optimization workshop in Sheffield](https://www.youtube.com/watch?v=MNcl_DIq5vM)
 * Jun 2015: [*Technology at Work* @ "Silicon Valley comes to Oxford", Saïd Business School, Oxford](https://www.youtube.com/watch?v=DocR4IZzBzU)
-    - [A Q&A/discussion with Prof Nick Bostrom and me.](https://www.youtube.com/watch?v=-nGNZq0fbv8) at the same event. 
+    - @ the same event: [a Q&A/discussion with Prof Nick Bostrom and me](https://www.youtube.com/watch?v=-nGNZq0fbv8)  
 * Apr 2015: [*Future of Working: The Future of Employment and Job Automation* @ QUT, Brisbane](https://www.youtube.com/watch?v=uW9H2icp8BE&t=1s)
 * Nov 2014: [*Computerisation and the reinvention of work* @ "digitising europe" summit, Berlin](https://www.youtube.com/watch?v=61JyvmQXpww)
-    - [A video of my being interviewed at the same event.](https://www.youtube.com/watch?v=U3xcFLmankg)
+    - @ the same event: [a video of my being interviewed](https://www.youtube.com/watch?v=U3xcFLmankg)
 * Feb 2015: [*Probabilistic numerics* @ Imperial College, London](http://panopto.imperial.ac.uk/Panopto/Pages/Viewer.aspx?id=9ca7b787-7310-469d-a47c-deaac7ca313f)
 * Sep 2014: [*Big model configuration with Bayesian quadrature* @ Gaussian processes summer school, Sheffield (slides only)](http://ml.dcs.shef.ac.uk/gpss/gpss14/)
 * Mar 2014: [*Replaced by robots? The challenges and opportunities of automation for the workforce* @ Oxford Martin School](http://www.oxfordmartin.ox.ac.uk/videos/view/375)
