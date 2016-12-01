@@ -4,11 +4,11 @@ date: 2008-01-01
 weight: 10
 collaborators:
 - name: Alex Rogers
-  url: http://users.ecs.soton.ac.uk/acr/
-  institute: University of Southampton
+  url: https://www.cs.ox.ac.uk/people/alex.rogers/
+  institute: University of Oxford
 - name: Roman Garnett
-  url: http://www-kd.iai.uni-bonn.de/index.php?page=people_details&id=60
-  institute: University of Bonn
+  url: http://www.cse.wustl.edu/~garnett/
+  institute: Washington University in St Louis
 - name: Steve Reece
   url: http://www.robots.ox.ac.uk/~reece/
   institute: University of Oxford

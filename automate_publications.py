@@ -64,6 +64,18 @@ for publication_type in publication_types:
     # )
     # output, error = process.communicate()
 
+all_bib_path = '_bibliography/all_bib.bib'
+
+bib_files = [
+    '_bibliography/'+ pub_file + '_bib.bib'
+    for pub_file in publication_types
+]
+
+# create unified bibliography
+with open(all_bib_path, 'wb') as outfile:
+    for f in bib_files:
+        with open(f, "rb") as infile:
+            outfile.write(infile.read())
 
 bashCommand = """
 chmod -R a+rx ./public/pdf
