@@ -87,7 +87,7 @@ h4 {
     padding-top: 10px;
     font-family: "karmina", serif;
     font-style: italic;
-    color: #ef6155;
+    color: rgb(239, 97, 85);
     font-weight: 700;
     text-indent: 0px;
     font-size: medium;
@@ -166,7 +166,7 @@ a.read_more {
 }
 .mosb {
     font-weight: 700;
-    color: #f99b15;
+    color: #rgb(249, 155, 21);
 }
 hr {
     margin-top: 25px;

@@ -1,16 +1,163 @@
 
+@inproceedings{mann_gaussian_2009,
+	title = {Gaussian {Processes} for {Prediction} of {Homing} {Pigeon} {Flight} {Trajectories}},
+	volume = {1193},
+	doi = {10.1063/1.3275635},
+	abstract = {We construct and apply a stochastic Gaussian Process (GP) model of flight trajectory generation for pigeons trained to home from specific release sites. The model shows increasing pre- dictive power as the birds become familiar with the sites, mirroring the animal’s learning process. We show how the increasing similarity between successive flight trajectories can be used to infer, with increasing accuracy, an idealised route that captures the repeated spatial aspects of the bird’s flight. We subsequently use techniques associated with reduced-rank GP approximations to objec- tively identify the key waypoints used by each bird to memorise its idiosyncratic habitual route between the release site and the home loft.},
+	booktitle = {{AIP} {Conference} {Proceedings}},
+	author = {Mann, Richard and Freeman, Robin and Osborne, Michael A. and Garnett, Roman and Meade, Jessica and Armstrong, Chris and Biro, Dora and Guilford, Tim and Roberts, Stephen J. and Goggans, Paul M.},
+	year = {2009},
+	pages = {360},
+	file = {1281/mann_maxent_final.pdf}
+}
+
+@inproceedings{calliess_conservative_2014,
+	title = {Conservative collision prediction and avoidance for stochastic trajectories in continuous time and space},
+	isbn = {1-4503-2738-9},
+	abstract = {Existing work in multi-agent collision prediction and avoidance typically assumes discrete-time tra jectories with Gaussian uncertainty or that are completely deterministic. We propose an approach that allows detection of collisions even between continuous, stochastic trajectories with the only restriction that means and covariances can be computed. To this end, we employ probabilistic bounds to derive criterion functions whose nega tive sign provably is indicative of probable colli sions. For criterion functions that are Lipschitz, an algorithm is provided to rapidly find negative values or prove their absence. We propose an iterative policy-search approach that avoids prior discretisations and yields collision-free trajectories with adjustably high certainty. We test our method with both fixed-priority and auction based protocols for coordinating the iterative plan ning process. Results are provided in collision avoidance simulations of feedback controlled plants.},
+	booktitle = {Proceedings of the 2014 international conference on {Autonomous} agents and multi-agent systems ({AAMAS})},
+	publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
+	author = {Calliess, Jan-Peter and Osborne, Michael A. and Roberts, Stephen J.},
+	year = {2014},
+	pages = {1109--1116},
+	file = {2184/fp604-calliess.pdf}
+}
+
+@inproceedings{osborne_active_2010,
+	title = {Active data selection for sensor networks with faults and changepoints},
+	isbn = {1-4244-6695-4},
+	abstract = {We describe a Bayesian formalism for the intelligent selection of observations from sensor networks that may intermittently undergo faults or changepoints. Such active data selection is performed with the goal of taking as few observations as necessary in order to maintain a reasonable level of uncertainty about the variables of interest. The presence of faults/changepoints is not always obvious and therefore our algorithm must first detect their occurrence. Having done so, our selection of observations must be appropriately altered. Faults corrupt our observations, reducing their impact; changepoints (abrupt changes in the characteristics of data) may require the transition to an entirely different sampling schedule. Our solution is to employ a Gaussian process formalism that allows for sequential time-series prediction about variables of interest along with a decision theoretic approach to the problem of selecting observations.},
+	booktitle = {Advanced {Information} {Networking} and {Applications} ({AINA}), 2010 24th {IEEE} {International} {Conference} on},
+	publisher = {IEEE},
+	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J.},
+	year = {2010},
+	pages = {533--540},
+	file = {1518/FaultySelection.pdf}
+}
+
+@inproceedings{mathibela_can_2012,
+	title = {Can priors be trusted? learning to anticipate roadworks},
+	isbn = {1-4673-3064-7},
+	abstract = {This paper addresses the question of how much a previously obtained map of a road environment should be trusted for vehicle localisation, during autonomous driving, by assessing the probability that roadworks are being traversed. We compare two formulations of a roadwork prior: one based on Gaussian Process (GP) Classification and the other a more conventional Hidden Markov Model (HMM) in order to model correlations between nearby parts of a vehicle trajectory. Impor- tantly, our formulation allows this prior to be updated efficiently and repeatedly to gain an ever more accurate model of the environment over time. In the absence of, or in addition to, any in-situ observations, information from dedicated web resources can readily be incorporated into the framework. We evaluate our model using real data from an autonomous car and show that although the GP and HMM are roughly commensurate in terms of mapping roadworks, the GP provides a more powerful representation and lower prediction error. Our method allows us to truly map and anticipate roadworks on urban roads.},
+	booktitle = {Intelligent {Transportation} {Systems} ({ITSC}), 2012 15th {International} {IEEE} {Conference} on},
+	publisher = {IEEE},
+	author = {Mathibela, Bonolo and Osborne, Michael A. and Posner, Ingmar and Newman, Paul},
+	year = {2012},
+	pages = {927--932},
+	file = {2080/roadworks_2012.pdf}
+}
+
+@inproceedings{rogers_information_2008,
+	title = {Information agents for pervasive sensor networks},
+	isbn = {0-7695-3113-X},
+	abstract = {In this paper, we describe an information agent, that resides on a mobile computer or personal digital assistant (PDA), that can autonomously acquire sensor readings from pervasive sensor networks (deciding when and which sensor to acquire readings from at any time). Moreover, it can perform a range of information processing tasks including modelling the accuracy of the sensor readings, predicting the value of missing sensor readings, and predicting how the monitored environmental parameters will evolve into the future. Our motivating scenario is the need to provide situational awareness support to first responders at the scene of a large scale incident, and we describe how we use an iterative formulation of a multi-output Gaussian process to build a probabilistic model of the environmental parameters being measured by local sensors, and the correlations and delays that exist between them. We validate our approach using data collected from a network of weather sensors located on the south coast of England.},
+	booktitle = {Pervasive {Computing} and {Communications}, 2008. {PerCom} 2008. {Sixth} {Annual} {IEEE} {International} {Conference} on},
+	publisher = {IEEE},
+	author = {Rogers, Alex and Ramchurn, Sarvapali D. and Jennings, Nicholas R. and Osborne, Michael A. and Roberts, Stephen J.},
+	year = {2008},
+	pages = {294--299},
+	file = {1644/rogers-InformationAgents.pdf}
+}
+
+@inproceedings{gunter_efficient_2014,
+	title = {Efficient {Bayesian} {Nonparametric} {Modelling} of {Structured} {Point} {Processes}},
+	url = {http://arxiv.org/abs/1407.6949},
+	abstract = {This paper presents a Bayesian generative model for dependent Cox point processes, alongside an efficient inference scheme which scales as if the point processes were modelled independently. We can handle missing data naturally, infer latent structure, and cope with large numbers of observed processes. A further novel contribution enables the model to work effectively in higher dimensional spaces. Using this method, we achieve vastly improved predictive performance on both 2D and 1D real data, validating our structured approach.},
+	booktitle = {30th {Conference} on {Uncertainty} in {Artificial} {Intelligence} ({UAI})},
+	author = {Gunter, Tom and Lloyd, Chris and Osborne, Michael A. and Roberts, Stephen J.},
+	year = {2014},
+	file = {1447/1407.6949v1.pdf}
+}
+
+@inproceedings{lloyd_latent_2016,
+	title = {Latent {Point} {Process} {Allocation}},
+	url = {http://jmlr.org/proceedings/papers/v51/lloyd16.html},
+	abstract = {We introduce a probabilistic model for the factorisation of continuous Poisson process rate functions. Our model can be thought of as a topic model for Poisson point processes in which each point is assigned to one of a set of latent rate functions that are shared across multiple outputs. We show that the model brings a means of incorporating structure in point process inference beyond the state-of-the-art. We derive an efficient variational inference scheme for the model based on sparse Gaussian processes that scales linearly in the number of data points. Finally, we demonstrate, using examples from spatial and temporal statistics, how the model can be used for discovering hidden structure with greater precision than standard frequentist approaches.},
+	booktitle = {Proceedings of the 19th {International} {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
+	author = {Lloyd, Chris and Gunter, Tom and Osborne, Michael A. and Roberts, Stephen J. and Nickson, Tom},
+	year = {2016},
+	pages = {389--397},
+	file = {1064/Lloyd et al. - 2016 - Latent Point Process Allocation.pdf}
+}
+
+@inproceedings{garnett_active_2014,
+	title = {Active {Learning} of {Linear} {Embeddings} for {Gaussian} {Processes}},
+	url = {http://arxiv.org/abs/1310.6740},
+	abstract = {We propose an active learning method for discovering low-dimensional structure in high-dimensional Gaussian process (GP) tasks. Such problems are increasingly frequent and important, but have hitherto presented severe practical difficulties. We further introduce a novel technique for approximately marginalizing GP hyperparameters, yielding marginal predictions robust to hyperparameter mis-specification. Our method offers an efficient means of performing GP regression, quadrature, or Bayesian optimization in high-dimensional spaces.},
+	booktitle = {30th {Conference} on {Uncertainty} in {Artificial} {Intelligence} ({UAI})},
+	author = {Garnett, Roman and Osborne, Michael A. and Hennig, Philipp},
+	year = {2014},
+	note = {https://is.gd/orezZh},
+	file = {1673/1310.6740v1.pdf}
+}
+
+@inproceedings{osborne_prediction_2012,
+	title = {Prediction and {Fault} {Detection} of {Environmental} {Signals} with {Uncharacterised} {Faults}.},
+	abstract = {Many signals of interest are corrupted by faults of an unknown type. We propose an approach that uses Gaussian processes and a general “fault bucket” to capture a priori uncharacterised faults, along with an approximate method for marginalising the potential faultiness of all observations. This gives rise to an efficient, flexible algorithm for the detection and automatic correction of faults. Our method is deployed in the domain of water monitoring and management, where it is able to solve several fault detection, correction, and prediction problems. The method works well despite the fact that the data is plagued with numerous difficulties, including missing observations, multiple discontinuities, nonlinearity and many unanticipated types of fault.},
+	booktitle = {The {Association} for the {Advancement} of {Artificial} {Intelligence} {Conference} {On} {Artificial} {Intelligence} ({AAAI})},
+	author = {Osborne, Michael A. and Garnett, Roman and Swersky, Kevin and De Freitas, Nando},
+	year = {2012},
+	note = {https://is.gd/9M0ZYE},
+	file = {2015/Osborne_Garnett_Swersky_de_Freitas_fault_bucket_aaai_2012.pdf}
+}
+
 @inproceedings{gunter_sampling_2014,
 	title = {Sampling for {Inference} in {Probabilistic} {Models} with {Fast} {Bayesian} {Quadrature}},
 	url = {http://arxiv.org/abs/1411.0439},
 	abstract = {We propose a novel sampling framework for inference in probabilistic models: an active learning approach that converges more quickly (in wall-clock time) than Markov chain Monte Carlo (MCMC) benchmarks. The central challenge in probabilistic inference is numerical integration, to average over ensembles of models or unknown (hyper-)parameters (for example to compute the marginal likelihood or a partition function). MCMC has provided approaches to numerical integration that deliver state-of-the-art inference, but can suffer from sample inefficiency and poor convergence diagnostics. Bayesian quadrature techniques offer a model-based solution to such problems, but their uptake has been hindered by prohibitive computation costs. We introduce a warped model for probabilistic integrands (likelihoods) that are known to be non-negative, permitting a cheap active learning scheme to optimally select sample locations. Our algorithm is demonstrated to offer faster convergence (in seconds) relative to simple Monte Carlo and annealed importance sampling on both synthetic and real-world examples.},
-	urldate = {2014-11-07},
 	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} ({NIPS})},
 	author = {Gunter, Tom and Osborne, Michael A. and Garnett, Roman and Hennig, Philipp and Roberts, Stephen J.},
 	month = nov,
 	year = {2014},
-	note = {https://github.com/OxfordML/wsabi},
+	note = {00000
+https://github.com/OxfordML/wsabi},
 	keywords = {Statistics - Machine Learning},
-	file = {266/Gunter et al. - 2014 - Sampling for Inference in Probabilistic Models wit.pdf}
+	file = {1874/Gunter et al. - 2014 - Sampling for Inference in Probabilistic Models wit.pdf}
+}
+
+@inproceedings{osborne_gaussian_2009,
+	title = {Gaussian processes for global optimization},
+	abstract = {We introduce a novel Bayesian approach to global optimization using Gaussian processes. We frame the optimization of both noisy and noiseless functions as sequential decision problems, and introduce myopic and non-myopic solutions to them. Here our solutions can be tailored to exactly the degree of confidence we require of them. The use of Gaussian processes allows us to benefit from the incorporation of prior knowledge about our objective function, and also from any derivative observations. Using this latter fact, we introduce an innovative method to combat conditioning problems. Our algorithm demonstrates a significant improvement over its competitors in overall performance across a wide range of canonical test problems.},
+	booktitle = {3rd international conference on learning and intelligent optimization ({LION}3)},
+	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J.},
+	year = {2009},
+	pages = {1--15},
+	file = {1419/Osborne et al. - 2009 - Gaussian processes for global optimization.pdf}
+}
+
+@inproceedings{garnett_bayesian_2010,
+	title = {Bayesian optimization for sensor set selection},
+	isbn = {1-60558-988-8},
+	doi = {10.1145/1791212.1791238},
+	abstract = {We consider the problem of selecting an optimal set of sensors, as determined, for example, by the predictive accuracy of the resulting sensor network. Given an underlying metric between pairs of set elements, we introduce a natural metric between sets of sensors for this task. Using this metric, we can construct covariance functions over sets, and thereby perform Gaussian process inference over a function whose domain is a power set. If the function has additional inputs, our covariances can be readily extended to incorporate them—allowing us to consider, for example, functions over both sets and time. These functions can then be optimized using Gaussian process global optimization (GPGO). We use the root mean squared error (RMSE) of the predictions made using a set of sensors at a particular time as an example of such a function to be optimized; the optimal point specifies the best choice of sensor locations. We demonstrate the resulting method by dynamically selecting the best subset of a given set of weather sensors for the prediction of the air temperature across the United Kingdom.},
+	booktitle = {Proceedings of the 9th {ACM}/{IEEE} {International} {Conference} on {Information} {Processing} in {Sensor} {Networks} ({IPSN})},
+	publisher = {ACM},
+	author = {Garnett, Roman and Osborne, Michael A. and Roberts, Stephen J.},
+	year = {2010},
+	pages = {209--219},
+	file = {1242/ipsn673-garnett.pdf}
+}
+
+@inproceedings{osborne_bayesian_2012,
+	title = {Bayesian quadrature for ratios},
+	abstract = {We describe a novel approach to quadrature for ratios of probabilistic integrals, such as are used to compute posterior probabilities. This approach offers performance superior to Monte Carlo methods by exploiting a Bayesian quadrature framework. We improve upon previous Bayesian quadrature techniques by explicitly modelling the nonnegativity of our integrands, and the correlations that exist between them. It offers most where the integrand is multi-modal and expensive to evaluate. We demonstrate the efficacy of our method on data from the Kepler space telescope.},
+	booktitle = {International {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
+	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J. and Hart, Christopher and Aigrain, Suzanne and Gibson, Neale},
+	year = {2012},
+	pages = {832--840},
+	file = {1997/109_paper.pdf}
+}
+
+@inproceedings{fischer_recommending_2013,
+	title = {Recommending energy tariffs and load shifting based on smart household usage profiling},
+	isbn = {1-4503-1965-3},
+	abstract = {We present a system and study of personalized energyrelated recommendation. AgentSwitch utilizes electricity usage data collected from users’ households over a period of time to realize a range of smart energy-related recommendations on energy tariffs, load detection and usage shifting. The web service is driven by a third party real-time energy tariff API (uSwitch), an energy data store, a set of algorithms for usage prediction, and appliance-level load disaggregation. We present the system design and user evaluation consisting of interviews and interface walkthroughs. We recruited participants from a previous study during which three months of their household’s energy use was recorded to evaluate personalized recommendations in AgentSwitch. Our contributions are a) a systems architecture for personalized energy services; and b) findings from the evaluation that reveal challenges in designing energy-related recommender systems. In response to the challenges we formulate design recommendations to mitigate barriers to switching tariffs, to incentivize load shifting, and to automate energy management.},
+	booktitle = {Proceedings of the 2013 international conference on {Intelligent} user interfaces ({IUI})},
+	publisher = {ACM},
+	author = {Fischer, Joel E. and Ramchurn, Sarvapali D. and Osborne, Michael A. and Parson, Oliver and Huynh, Trung Dong and Alam, Muddasser and Pantidi, Nadia and Moran, Stuart and Bachour, Khaled and Reece, Steve},
+	year = {2013},
+	pages = {383--394},
+	file = {1155/IUI2013-agentswitch-camera-ready.pdf}
 }
 
 @inproceedings{osborne_towards_2008,
@@ -28,155 +175,7 @@
 	year = {2008},
 	keywords = {Gaussian processes, information processing, sensor network},
 	pages = {109--120},
-	file = {145/osborne-GaussianProcesses.pdf}
-}
-
-@inproceedings{rogers_information_2008,
-	title = {Information agents for pervasive sensor networks},
-	isbn = {0-7695-3113-X},
-	abstract = {In this paper, we describe an information agent, that resides on a mobile computer or personal digital assistant (PDA), that can autonomously acquire sensor readings from pervasive sensor networks (deciding when and which sensor to acquire readings from at any time). Moreover, it can perform a range of information processing tasks including modelling the accuracy of the sensor readings, predicting the value of missing sensor readings, and predicting how the monitored environmental parameters will evolve into the future. Our motivating scenario is the need to provide situational awareness support to first responders at the scene of a large scale incident, and we describe how we use an iterative formulation of a multi-output Gaussian process to build a probabilistic model of the environmental parameters being measured by local sensors, and the correlations and delays that exist between them. We validate our approach using data collected from a network of weather sensors located on the south coast of England.},
-	booktitle = {Pervasive {Computing} and {Communications}, 2008. {PerCom} 2008. {Sixth} {Annual} {IEEE} {International} {Conference} on},
-	publisher = {IEEE},
-	author = {Rogers, Alex and Ramchurn, Sarvapali D. and Jennings, Nicholas R. and Osborne, Michael A. and Roberts, Stephen J.},
-	year = {2008},
-	pages = {294--299},
-	file = {122/rogers-InformationAgents.pdf}
-}
-
-@inproceedings{osborne_active_2010,
-	title = {Active data selection for sensor networks with faults and changepoints},
-	isbn = {1-4244-6695-4},
-	abstract = {We describe a Bayesian formalism for the intelligent selection of observations from sensor networks that may intermittently undergo faults or changepoints. Such active data selection is performed with the goal of taking as few observations as necessary in order to maintain a reasonable level of uncertainty about the variables of interest. The presence of faults/changepoints is not always obvious and therefore our algorithm must first detect their occurrence. Having done so, our selection of observations must be appropriately altered. Faults corrupt our observations, reducing their impact; changepoints (abrupt changes in the characteristics of data) may require the transition to an entirely different sampling schedule. Our solution is to employ a Gaussian process formalism that allows for sequential time-series prediction about variables of interest along with a decision theoretic approach to the problem of selecting observations.},
-	booktitle = {Advanced {Information} {Networking} and {Applications} ({AINA}), 2010 24th {IEEE} {International} {Conference} on},
-	publisher = {IEEE},
-	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J.},
-	year = {2010},
-	pages = {533--540},
-	file = {118/FaultySelection.pdf}
-}
-
-@inproceedings{garnett_bayesian_2010,
-	title = {Bayesian optimization for sensor set selection},
-	isbn = {1-60558-988-8},
-	doi = {10.1145/1791212.1791238},
-	abstract = {We consider the problem of selecting an optimal set of sensors, as determined, for example, by the predictive accuracy of the resulting sensor network. Given an underlying metric between pairs of set elements, we introduce a natural metric between sets of sensors for this task. Using this metric, we can construct covariance functions over sets, and thereby perform Gaussian process inference over a function whose domain is a power set. If the function has additional inputs, our covariances can be readily extended to incorporate them—allowing us to consider, for example, functions over both sets and time. These functions can then be optimized using Gaussian process global optimization (GPGO). We use the root mean squared error (RMSE) of the predictions made using a set of sensors at a particular time as an example of such a function to be optimized; the optimal point specifies the best choice of sensor locations. We demonstrate the resulting method by dynamically selecting the best subset of a given set of weather sensors for the prediction of the air temperature across the United Kingdom.},
-	booktitle = {Proceedings of the 9th {ACM}/{IEEE} {International} {Conference} on {Information} {Processing} in {Sensor} {Networks} ({IPSN})},
-	publisher = {ACM},
-	author = {Garnett, Roman and Osborne, Michael A. and Roberts, Stephen J.},
-	year = {2010},
-	pages = {209--219},
-	file = {137/ipsn673-garnett.pdf}
-}
-
-@inproceedings{mann_gaussian_2009,
-	title = {Gaussian {Processes} for {Prediction} of {Homing} {Pigeon} {Flight} {Trajectories}},
-	volume = {1193},
-	doi = {10.1063/1.3275635},
-	abstract = {We construct and apply a stochastic Gaussian Process (GP) model of flight trajectory generation for pigeons trained to home from specific release sites. The model shows increasing pre- dictive power as the birds become familiar with the sites, mirroring the animal’s learning process. We show how the increasing similarity between successive flight trajectories can be used to infer, with increasing accuracy, an idealised route that captures the repeated spatial aspects of the bird’s flight. We subsequently use techniques associated with reduced-rank GP approximations to objec- tively identify the key waypoints used by each bird to memorise its idiosyncratic habitual route between the release site and the home loft.},
-	booktitle = {{AIP} {Conference} {Proceedings}},
-	author = {Mann, Richard and Freeman, Robin and Osborne, Michael A. and Garnett, Roman and Meade, Jessica and Armstrong, Chris and Biro, Dora and Guilford, Tim and Roberts, Stephen J. and Goggans, Paul M.},
-	year = {2009},
-	pages = {360},
-	file = {144/mann_maxent_final.pdf}
-}
-
-@inproceedings{osborne_bayesian_2012,
-	title = {Bayesian quadrature for ratios},
-	abstract = {We describe a novel approach to quadrature for ratios of probabilistic integrals, such as are used to compute posterior probabilities. This approach offers performance superior to Monte Carlo methods by exploiting a Bayesian quadrature framework. We improve upon previous Bayesian quadrature techniques by explicitly modelling the nonnegativity of our integrands, and the correlations that exist between them. It offers most where the integrand is multi-modal and expensive to evaluate. We demonstrate the efficacy of our method on data from the Kepler space telescope.},
-	booktitle = {International {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
-	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J. and Hart, Christopher and Aigrain, Suzanne and Gibson, Neale},
-	year = {2012},
-	pages = {832--840},
-	file = {127/109_paper.pdf}
-}
-
-@inproceedings{osborne_prediction_2012,
-	title = {Prediction and {Fault} {Detection} of {Environmental} {Signals} with {Uncharacterised} {Faults}.},
-	abstract = {Many signals of interest are corrupted by faults of an unknown type. We propose an approach that uses Gaussian processes and a general “fault bucket” to capture a priori uncharacterised faults, along with an approximate method for marginalising the potential faultiness of all observations. This gives rise to an efficient, flexible algorithm for the detection and automatic correction of faults. Our method is deployed in the domain of water monitoring and management, where it is able to solve several fault detection, correction, and prediction problems. The method works well despite the fact that the data is plagued with numerous difficulties, including missing observations, multiple discontinuities, nonlinearity and many unanticipated types of fault.},
-	booktitle = {The {Association} for the {Advancement} of {Artificial} {Intelligence} {Conference} {On} {Artificial} {Intelligence} ({AAAI})},
-	author = {Osborne, Michael A. and Garnett, Roman and Swersky, Kevin and De Freitas, Nando},
-	year = {2012},
-	note = {https://github.com/OxfordML/fault-bucket.m},
-	file = {125/Osborne_Garnett_Swersky_de_Freitas_fault_bucket_aaai_2012.pdf}
-}
-
-@inproceedings{mathibela_can_2012,
-	title = {Can priors be trusted? learning to anticipate roadworks},
-	isbn = {1-4673-3064-7},
-	abstract = {This paper addresses the question of how much a previously obtained map of a road environment should be trusted for vehicle localisation, during autonomous driving, by assessing the probability that roadworks are being traversed. We compare two formulations of a roadwork prior: one based on Gaussian Process (GP) Classification and the other a more conventional Hidden Markov Model (HMM) in order to model correlations between nearby parts of a vehicle trajectory. Impor- tantly, our formulation allows this prior to be updated efficiently and repeatedly to gain an ever more accurate model of the environment over time. In the absence of, or in addition to, any in-situ observations, information from dedicated web resources can readily be incorporated into the framework. We evaluate our model using real data from an autonomous car and show that although the GP and HMM are roughly commensurate in terms of mapping roadworks, the GP provides a more powerful representation and lower prediction error. Our method allows us to truly map and anticipate roadworks on urban roads.},
-	booktitle = {Intelligent {Transportation} {Systems} ({ITSC}), 2012 15th {International} {IEEE} {Conference} on},
-	publisher = {IEEE},
-	author = {Mathibela, Bonolo and Osborne, Michael A. and Posner, Ingmar and Newman, Paul},
-	year = {2012},
-	pages = {927--932},
-	file = {148/roadworks_2012.pdf}
-}
-
-@inproceedings{osborne_active_2012,
-	title = {Active learning of model evidence using {Bayesian} quadrature},
-	abstract = {Numerical integration is a key component of many problems in scientific computing, statistical modelling, and machine learning. Bayesian Quadrature is a modelbased method for numerical integration which, relative to standard Monte Carlo methods, offers increased sample efficiency and a more robust estimate of the uncertainty in the estimated integral. We propose a novel Bayesian Quadrature approach for numerical integration when the integrand is non-negative, such as the case of computing the marginal likelihood, predictive distribution, or normalising constant of a probabilistic model. Our approach approximately marginalises the quadrature model’s hyperparameters in closed form, and introduces an active learning scheme to optimally select function evaluations, as opposed to using Monte Carlo samples. We demonstrate our method on both a number of synthetic benchmarks and a real scientific problem from astronomy.},
-	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} ({NIPS})},
-	author = {Osborne, Michael A. and Duvenaud, David K. and Garnett, Roman and Rasmussen, Carl E. and Roberts, Stephen J. and Ghahramani, Zoubin},
-	year = {2012},
-	pages = {46--54},
-	file = {133/bbq_nips_final.pdf}
-}
-
-@inproceedings{fischer_recommending_2013,
-	title = {Recommending energy tariffs and load shifting based on smart household usage profiling},
-	isbn = {1-4503-1965-3},
-	abstract = {We present a system and study of personalized energyrelated recommendation. AgentSwitch utilizes electricity usage data collected from users’ households over a period of time to realize a range of smart energy-related recommendations on energy tariffs, load detection and usage shifting. The web service is driven by a third party real-time energy tariff API (uSwitch), an energy data store, a set of algorithms for usage prediction, and appliance-level load disaggregation. We present the system design and user evaluation consisting of interviews and interface walkthroughs. We recruited participants from a previous study during which three months of their household’s energy use was recorded to evaluate personalized recommendations in AgentSwitch. Our contributions are a) a systems architecture for personalized energy services; and b) findings from the evaluation that reveal challenges in designing energy-related recommender systems. In response to the challenges we formulate design recommendations to mitigate barriers to switching tariffs, to incentivize load shifting, and to automate energy management.},
-	booktitle = {Proceedings of the 2013 international conference on {Intelligent} user interfaces ({IUI})},
-	publisher = {ACM},
-	author = {Fischer, Joel E. and Ramchurn, Sarvapali D. and Osborne, Michael A. and Parson, Oliver and Huynh, Trung Dong and Alam, Muddasser and Pantidi, Nadia and Moran, Stuart and Bachour, Khaled and Reece, Steve},
-	year = {2013},
-	pages = {383--394},
-	file = {132/IUI2013-agentswitch-camera-ready.pdf}
-}
-
-@inproceedings{ramchurn_agentswitch_2013,
-	title = {{AgentSwitch} : towards smart energy tariff selection},
-	isbn = {1-4503-1993-9},
-	abstract = {In this paper, we present AgentSwitch, a prototype agent-based platform to solve the electricity tariff selection problem. AgentSwitch incorporates novel algorithms to make predictions of hourly energy usage as well as detect (and suggest to the user) deferrable loads that could be shifted to off-peak times to maximise savings. To take advantage of group discounts from energy retailers, we develop a new scalable collective energy purchasing mechanism, based on the Shapley value, that ensures individual members of a collective (interacting through AgentSwitch) fairly share the discounts. To demonstrate the effectiveness of our algorithms we empirically evaluate them individually on real-world data (with up to 3000 homes in the UK) and show that they outperform the state of the art in their domains. Finally, to ensure individual components are accountable in providing recommendations, we provide a novel provenance-tracking service to record the flow of data in the system, and therefore provide users with a means of checking the provenance of suggestions from AgentSwitch and assess their reliability.},
-	booktitle = {Proceedings of the 2013 international conference on {Autonomous} agents and multi-agent systems ({AAMAS})},
-	publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
-	author = {Ramchurn, Sarvapali D. and Osborne, Michael A. and Parson, Oliver and Rahwan, Talal and Maleki, Sasan and Reece, Steve and Huynh, Trung D. and Alam, Muddasser and Fischer, Joel E. and Rodden, Tom},
-	year = {2013},
-	pages = {981--988},
-	file = {123/AAMAS2013-agentswitch.pdf}
-}
-
-@inproceedings{garnett_active_2014,
-	title = {Active {Learning} of {Linear} {Embeddings} for {Gaussian} {Processes}},
-	url = {http://arxiv.org/abs/1310.6740},
-	abstract = {We propose an active learning method for discovering low-dimensional structure in high-dimensional Gaussian process (GP) tasks. Such problems are increasingly frequent and important, but have hitherto presented severe practical difficulties. We further introduce a novel technique for approximately marginalizing GP hyperparameters, yielding marginal predictions robust to hyperparameter mis-specification. Our method offers an efficient means of performing GP regression, quadrature, or Bayesian optimization in high-dimensional spaces.},
-	booktitle = {30th {Conference} on {Uncertainty} in {Artificial} {Intelligence} ({UAI})},
-	author = {Garnett, Roman and Osborne, Michael A. and Hennig, Philipp},
-	year = {2014},
-	note = {https://github.com/rmgarnett/active\_gp\_hyperlearning},
-	file = {150/1310.6740v1.pdf}
-}
-
-@inproceedings{calliess_conservative_2014,
-	title = {Conservative collision prediction and avoidance for stochastic trajectories in continuous time and space},
-	isbn = {1-4503-2738-9},
-	abstract = {Existing work in multi-agent collision prediction and avoidance typically assumes discrete-time tra jectories with Gaussian uncertainty or that are completely deterministic. We propose an approach that allows detection of collisions even between continuous, stochastic trajectories with the only restriction that means and covariances can be computed. To this end, we employ probabilistic bounds to derive criterion functions whose nega tive sign provably is indicative of probable colli sions. For criterion functions that are Lipschitz, an algorithm is provided to rapidly find negative values or prove their absence. We propose an iterative policy-search approach that avoids prior discretisations and yields collision-free trajectories with adjustably high certainty. We test our method with both fixed-priority and auction based protocols for coordinating the iterative plan ning process. Results are provided in collision avoidance simulations of feedback controlled plants.},
-	booktitle = {Proceedings of the 2014 international conference on {Autonomous} agents and multi-agent systems ({AAMAS})},
-	publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
-	author = {Calliess, Jan-Peter and Osborne, Michael A. and Roberts, Stephen J.},
-	year = {2014},
-	pages = {1109--1116},
-	file = {135/fp604-calliess.pdf}
-}
-
-@inproceedings{osborne_gaussian_2009,
-	title = {Gaussian processes for global optimization},
-	abstract = {We introduce a novel Bayesian approach to global optimization using Gaussian processes. We frame the optimization of both noisy and noiseless functions as sequential decision problems, and introduce myopic and non-myopic solutions to them. Here our solutions can be tailored to exactly the degree of confidence we require of them. The use of Gaussian processes allows us to benefit from the incorporation of prior knowledge about our objective function, and also from any derivative observations. Using this latter fact, we introduce an innovative method to combat conditioning problems. Our algorithm demonstrates a significant improvement over its competitors in overall performance across a wide range of canonical test problems.},
-	booktitle = {3rd international conference on learning and intelligent optimization ({LION}3)},
-	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J.},
-	year = {2009},
-	pages = {1--15},
-	file = {115/Osborne et al. - 2009 - Gaussian processes for global optimization.pdf}
+	file = {987/osborne-GaussianProcesses.pdf}
 }
 
 @inproceedings{garnett_sequential_2009,
@@ -188,28 +187,19 @@
 	author = {Garnett, Roman and Osborne, Michael A. and Roberts, Stephen J.},
 	year = {2009},
 	pages = {345--352},
-	file = {143/changepoint.pdf}
+	file = {2076/changepoint.pdf}
 }
 
-@inproceedings{gunter_efficient_2014,
-	title = {Efficient {Bayesian} {Nonparametric} {Modelling} of {Structured} {Point} {Processes}},
-	url = {http://arxiv.org/abs/1407.6949},
-	abstract = {This paper presents a Bayesian generative model for dependent Cox point processes, alongside an efficient inference scheme which scales as if the point processes were modelled independently. We can handle missing data naturally, infer latent structure, and cope with large numbers of observed processes. A further novel contribution enables the model to work effectively in higher dimensional spaces. Using this method, we achieve vastly improved predictive performance on both 2D and 1D real data, validating our structured approach.},
-	booktitle = {30th {Conference} on {Uncertainty} in {Artificial} {Intelligence} ({UAI})},
-	author = {Gunter, Tom and Lloyd, Chris and Osborne, Michael A. and Roberts, Stephen J.},
-	year = {2014},
-	file = {51/1407.6949v1.pdf}
-}
-
-@inproceedings{lloyd_variational_2015,
-	title = {Variational {Inference} for {Gaussian} {Process} {Modulated} {Poisson} {Processes}},
-	url = {http://jmlr.org/proceedings/papers/v37/lloyd15.html},
-	urldate = {2015-06-03},
-	booktitle = {Proceedings of {The} 32nd {International} {Conference} on {Machine} {Learning} ({ICML})},
-	author = {Lloyd, Chris and Gunter, Tom and Osborne, Michael A. and Roberts, Stephen},
-	year = {2015},
-	pages = {1814--1822},
-	file = {1327/lloyd15.pdf}
+@inproceedings{ramchurn_agentswitch_2013,
+	title = {{AgentSwitch} : towards smart energy tariff selection},
+	isbn = {1-4503-1993-9},
+	abstract = {In this paper, we present AgentSwitch, a prototype agent-based platform to solve the electricity tariff selection problem. AgentSwitch incorporates novel algorithms to make predictions of hourly energy usage as well as detect (and suggest to the user) deferrable loads that could be shifted to off-peak times to maximise savings. To take advantage of group discounts from energy retailers, we develop a new scalable collective energy purchasing mechanism, based on the Shapley value, that ensures individual members of a collective (interacting through AgentSwitch) fairly share the discounts. To demonstrate the effectiveness of our algorithms we empirically evaluate them individually on real-world data (with up to 3000 homes in the UK) and show that they outperform the state of the art in their domains. Finally, to ensure individual components are accountable in providing recommendations, we provide a novel provenance-tracking service to record the flow of data in the system, and therefore provide users with a means of checking the provenance of suggestions from AgentSwitch and assess their reliability.},
+	booktitle = {Proceedings of the 2013 international conference on {Autonomous} agents and multi-agent systems ({AAMAS})},
+	publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
+	author = {Ramchurn, Sarvapali D. and Osborne, Michael A. and Parson, Oliver and Rahwan, Talal and Maleki, Sasan and Reece, Steve and Huynh, Trung D. and Alam, Muddasser and Fischer, Joel E. and Rodden, Tom},
+	year = {2013},
+	pages = {981--988},
+	file = {1977/AAMAS2013-agentswitch.pdf}
 }
 
 @inproceedings{briol_frank-wolfe_2015,
@@ -217,39 +207,32 @@
 	shorttitle = {Frank-{Wolfe} {Bayesian} {Quadrature}},
 	url = {http://arxiv.org/abs/1506.02681},
 	abstract = {There is renewed interest in formulating integration as an inference problem, motivated by obtaining a full distribution over numerical error that can be propagated through subsequent computation. Current methods, such as Bayesian Quadrature, demonstrate impressive empirical performance but lack theoretical analysis. An important challenge is to reconcile these probabilistic integrators with rigorous convergence guarantees. In this paper, we present the first probabilistic integrator that admits such theoretical treatment, called Frank-Wolfe Bayesian Quadrature (FWBQ). Under FWBQ, convergence to the true value of the integral is shown to be exponential and posterior contraction rates are proven to be superexponential. In simulations, FWBQ is competitive with state-of-the-art methods and out-performs alternatives based on Frank-Wolfe optimisation. Our approach is applied to successfully quantify numerical error in the solution to a challenging model choice problem in cellular biology.},
-	urldate = {2015-09-13},
 	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} ({NIPS})},
 	author = {Briol, François-Xavier and Oates, Chris J. and Girolami, Mark and Osborne, Michael A.},
 	month = jun,
 	year = {2015},
 	keywords = {Statistics - Machine Learning},
-	file = {1427/main.pdf}
+	file = {1575/main.pdf}
 }
 
-@inproceedings{cutajar_preconditioning_2016,
-	title = {Preconditioning {Kernel} {Matrices}},
-	url = {http://arxiv.org/abs/1602.06693},
-	abstract = {The computational and storage complexity of kernel machines presents the primary barrier to their scaling to large, modern, datasets. A common way to tackle the scalability issue is to use the conjugate gradient algorithm, which relieves the constraints on both storage (the kernel matrix need not be stored) and computation (both stochastic gradients and parallelization can be used). Even so, conjugate gradient is not without its own issues: the conditioning of kernel matrices is often such that conjugate gradients will have poor convergence in practice. Preconditioning is a common approach to alleviating this issue. Here we propose preconditioned conjugate gradients for kernel machines, and develop a broad range of preconditioners particularly useful for kernel matrices. We describe a scalable approach to both solving kernel machines and learning their hyperparameters. We show this approach is exact in the limit of iterations and outperforms state-of-the-art approximations for a given computational budget.},
-	urldate = {2016-02-23},
-	booktitle = {Proceedings of {The} 33rd {International} {Conference} on {Machine} {Learning} ({ICML})},
-	author = {Cutajar, Kurt and Osborne, Michael A. and Cunningham, John P. and Filippone, Maurizio},
-	month = feb,
-	year = {2016},
-	note = {https://github.com/mauriziofilippone/preconditioned\_GPs},
-	keywords = {Statistics - Computation, Statistics - Machine Learning, Statistics - Methodology},
-	file = {1526/Cutajar et al. - 2016 - Preconditioning Kernel Matrices.pdf}
+@inproceedings{osborne_active_2012,
+	title = {Active learning of model evidence using {Bayesian} quadrature},
+	abstract = {Numerical integration is a key component of many problems in scientific computing, statistical modelling, and machine learning. Bayesian Quadrature is a modelbased method for numerical integration which, relative to standard Monte Carlo methods, offers increased sample efficiency and a more robust estimate of the uncertainty in the estimated integral. We propose a novel Bayesian Quadrature approach for numerical integration when the integrand is non-negative, such as the case of computing the marginal likelihood, predictive distribution, or normalising constant of a probabilistic model. Our approach approximately marginalises the quadrature model’s hyperparameters in closed form, and introduces an active learning scheme to optimally select function evaluations, as opposed to using Monte Carlo samples. We demonstrate our method on both a number of synthetic benchmarks and a real scientific problem from astronomy.},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} ({NIPS})},
+	author = {Osborne, Michael A. and Duvenaud, David K. and Garnett, Roman and Rasmussen, Carl E. and Roberts, Stephen J. and Ghahramani, Zoubin},
+	year = {2012},
+	pages = {46--54},
+	file = {1748/bbq_nips_final.pdf}
 }
 
-@inproceedings{lloyd_latent_2016,
-	title = {Latent {Point} {Process} {Allocation}},
-	url = {http://jmlr.org/proceedings/papers/v51/lloyd16.html},
-	abstract = {We introduce a probabilistic model for the factorisation of continuous Poisson process rate functions. Our model can be thought of as a topic model for Poisson point processes in which each point is assigned to one of a set of latent rate functions that are shared across multiple outputs. We show that the model brings a means of incorporating structure in point process inference beyond the state-of-the-art. We derive an efficient variational inference scheme for the model based on sparse Gaussian processes that scales linearly in the number of data points. Finally, we demonstrate, using examples from spatial and temporal statistics, how the model can be used for discovering hidden structure with greater precision than standard frequentist approaches.},
-	urldate = {2016-05-03},
-	booktitle = {Proceedings of the 19th {International} {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
-	author = {Lloyd, Chris and Gunter, Tom and Osborne, Michael A. and Roberts, Stephen J. and Nickson, Tom},
+@inproceedings{sarkar_machine_2016,
+	title = {A {Machine} {Learning} {Approach} to the {Prediction} of {Tidal} {Currents}.},
+	url = {http://users.ox.ac.uk/~spet1235/ISOPE-2016-TPC-0969-final.pdf},
+	abstract = {We propose the use of techniques from Machine Learning for the prediction of tidal currents. The classical methodology of harmonic analysis is widely used in the prediction of tidal currents and computer algorithms based on the method have been used for decades for the purpose. The approach determines parameters by minimizing the difference between the raw data and model output using the least squares optimization approach. However, although the approach is considered to be state-of-the-art, it possesses several drawbacks that can lead to significant prediction errors, especially at locations of fast tidal currents and ’noisy’ tidal signal. In general, careful selection of tidal constituents is required in order to achieve good predictions, and the underlying assumption of stationarity in time can restrict the applicability of the method to particular situations. There is a need for principled approaches which can handle uncertainty and accommodate noise in the data. In this work, we use Gaussian process, a Bayesian non-parametric technique, to predict tidal currents. The overall objective is to take advantage of the recent progress in machine learning to construct a robust yet efficient algorithm. The development can specifically benefit the tidal energy community, aiming to harness energy from location of fast tidal currents.},
+	booktitle = {The {Proceedings} of {The} {Twenty}-sixth (2016) {International} {Ocean} {And} {Polar} {Engineering} {Conference}},
+	author = {Sarkar, Dripta and Osborne, Michael and Adcock, Thomas},
 	year = {2016},
-	pages = {389--397},
-	file = {1693/Lloyd et al. - 2016 - Latent Point Process Allocation.pdf}
+	file = {923/Sarkar et al. - A Machine Learning Approach to the Prediction of T.pdf}
 }
 
 @inproceedings{gonzalez_glasses:_2016,
@@ -259,13 +242,35 @@
 	abstract = {We present GLASSES: Global optimisation with Look-Ahead through Stochastic
 Simulation and Expected-loss Search. The majority of global optimisation
 approaches in use are myopic, in only considering the impact of the next function value; the non-myopic approaches that do exist are able to consider only a handful of future evaluations. Our novel algorithm, GLASSES, permits the consideration of dozens of evaluations into the future.  This is done by approximating the ideal look-ahead loss function, which is expensive to evaluate, by a cheaper alternative in which the future steps of the algorithm are simulated beforehand. An Expectation Propagation algorithm is used to compute the expected value of the loss. We show that the far-horizon planning thus enabled leads to substantive performance gains in empirical tests.},
-	urldate = {2016-05-03},
 	booktitle = {Proceedings of the 19th {International} {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
 	author = {Gonzalez, Javier and Osborne, Michael A. and Lawrence, Neil},
 	year = {2016},
-	note = {http://sheffieldml.github.io/GPyOpt},
+	note = {https://is.gd/P3KiBx},
 	pages = {790--799},
-	file = {1696/Gonzalez et al. - 2016 - GLASSES Relieving The Myopia Of Bayesian Optimisa.pdf}
+	file = {1209/Gonzalez et al. - 2016 - GLASSES Relieving The Myopia Of Bayesian Optimisa.pdf}
+}
+
+@inproceedings{cutajar_preconditioning_2016,
+	title = {Preconditioning {Kernel} {Matrices}},
+	url = {http://arxiv.org/abs/1602.06693},
+	abstract = {The computational and storage complexity of kernel machines presents the primary barrier to their scaling to large, modern, datasets. A common way to tackle the scalability issue is to use the conjugate gradient algorithm, which relieves the constraints on both storage (the kernel matrix need not be stored) and computation (both stochastic gradients and parallelization can be used). Even so, conjugate gradient is not without its own issues: the conditioning of kernel matrices is often such that conjugate gradients will have poor convergence in practice. Preconditioning is a common approach to alleviating this issue. Here we propose preconditioned conjugate gradients for kernel machines, and develop a broad range of preconditioners particularly useful for kernel matrices. We describe a scalable approach to both solving kernel machines and learning their hyperparameters. We show this approach is exact in the limit of iterations and outperforms state-of-the-art approximations for a given computational budget.},
+	booktitle = {Proceedings of {The} 33rd {International} {Conference} on {Machine} {Learning} ({ICML})},
+	author = {Cutajar, Kurt and Osborne, Michael A. and Cunningham, John P. and Filippone, Maurizio},
+	month = feb,
+	year = {2016},
+	note = {https://is.gd/365blF},
+	keywords = {Statistics - Computation, Statistics - Machine Learning, Statistics - Methodology},
+	file = {1525/Cutajar et al. - 2016 - Preconditioning Kernel Matrices.pdf}
+}
+
+@inproceedings{lloyd_variational_2015,
+	title = {Variational {Inference} for {Gaussian} {Process} {Modulated} {Poisson} {Processes}},
+	url = {http://jmlr.org/proceedings/papers/v37/lloyd15.html},
+	booktitle = {Proceedings of {The} 32nd {International} {Conference} on {Machine} {Learning} ({ICML})},
+	author = {Lloyd, Chris and Gunter, Tom and Osborne, Michael A. and Roberts, Stephen},
+	year = {2015},
+	pages = {1814--1822},
+	file = {1290/lloyd15.pdf}
 }
 
 @inproceedings{riar_energy_2016,
@@ -279,28 +284,53 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2016},
 	keywords = {Batteries, battery, battery state of charge variations reduction, Battery storage system, computational burden, converter topology, distributed energy resource, distributed power generation, electrical energy storage optimal management, EMS control schemes, energy conservation, energy efficiency awareness, Energy management, energy management system, energy management systems, energy storage, grid-load connection, microgrid, microgrid energy management system, Microgrids, Model predictive control, model predictive control scheme, MPC scheme, Optimisation, Optimization, photovoltaic power systems, photovoltaic (PV) system, photovoltaics, power 5 kW, power 10 kW, power convertors, Power generation, power generation control, power generation prediction, power grids, Predictive control, PV, secondary cells, semiconductor device, State of charge},
 	pages = {1--7},
-	file = {1857/7527042.html:text/html;IEEE Xplore Full Text PDF:files/1856/Riar et al. - 2016 - Energy management of a microgrid Compensating for.pdf}
+	file = {1340/Riar et al. - 2016 - Energy management of a microgrid Compensating for.pdf}
 }
 
 @inproceedings{rainforth_bayesian_2016,
 	title = {Bayesian {Optimization} for {Probabilistic} {Programs}},
-	url = {http://www.robots.ox.ac.uk/~twgr/assets/pdf/rainforth2016BOPP.pdf},
-	abstract = {We outline a general purpose framework for black-box marginal maximum a pos- teriori estimation of probabilistic program variables using Bayesian optimization with Gaussian processes. We introduce the concept of an optimization query, whereby a probabilistic program returns an infinite lazy sequence of increasingly optimal estimates, and explain how a general purpose program transformation would allow the evidence of any probabilistic program, and therefore any graphical model, to be optimized with respect to an arbitrary subset of its variables.},
-	urldate = {2016-01-15},
-	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} ({NIPS})},
-	author = {Rainforth, Tom and van de Meent, Jan-Willem and Osborne, Michael A. and Wood, Frank and Le, Tuan Anh},
+	url = {http://papers.nips.cc/paper/6421-bayesian-optimization-for-probabilistic-programs.pdf},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 29},
+	publisher = {Curran Associates, Inc.},
+	author = {Rainforth, Tom and Le, Tuan Anh and van de Meent, Jan-Willem and Osborne, Michael A and Wood, Frank},
+	editor = {Lee, D. D. and Sugiyama, M. and Luxburg, U. V. and Guyon, I. and Garnett, R.},
 	year = {2016},
-	note = {https://bitbucket.org/twgr/bopp},
-	file = {1855/rainforth2016BOPP.pdf}
+	pages = {280--288},
+	file = {2281/Rainforth et al. - 2016 - Bayesian Optimization for Probabilistic Programs.pdf}
 }
 
-@inproceedings{sarkar_machine_2016,
-	title = {A {Machine} {Learning} {Approach} to the {Prediction} of {Tidal} {Currents}.},
-	url = {http://users.ox.ac.uk/~spet1235/ISOPE-2016-TPC-0969-final.pdf},
-	abstract = {We propose the use of techniques from Machine Learning for the prediction of tidal currents. The classical methodology of harmonic analysis is widely used in the prediction of tidal currents and computer algorithms based on the method have been used for decades for the purpose. The approach determines parameters by minimizing the difference between the raw data and model output using the least squares optimization approach. However, although the approach is considered to be state-of-the-art, it possesses several drawbacks that can lead to significant prediction errors, especially at locations of fast tidal currents and ’noisy’ tidal signal. In general, careful selection of tidal constituents is required in order to achieve good predictions, and the underlying assumption of stationarity in time can restrict the applicability of the method to particular situations. There is a need for principled approaches which can handle uncertainty and accommodate noise in the data. In this work, we use Gaussian process, a Bayesian non-parametric technique, to predict tidal currents. The overall objective is to take advantage of the recent progress in machine learning to construct a robust yet efficient algorithm. The development can specifically benefit the tidal energy community, aiming to harness energy from location of fast tidal currents.},
-	urldate = {2016-11-22},
-	booktitle = {The {Proceedings} of {The} {Twenty}-sixth (2016) {International} {Ocean} {And} {Polar} {Engineering} {Conference}},
-	author = {Sarkar, Dripta and Osborne, Michael and Adcock, Thomas},
-	year = {2016},
-	file = {1891/Sarkar et al. - A Machine Learning Approach to the Prediction of T.pdf}
+@inproceedings{fitzsimons_bayesian_2017,
+	title = {Bayesian {Inference} of {Log} {Determinants}},
+	url = {https://arxiv.org/abs/1704.01445},
+	urldate = {2017-06-21},
+	booktitle = {Uncertainty in {Artificial} {Intelligence} (to appear)},
+	author = {Fitzsimons, Jack and Cutajar, Kurt and Osborne, Michael and Roberts, Stephen and Filippone, Maurizio},
+	year = {2017},
+	file = {2307/Fitzsimons et al. - 2017 - Bayesian Inference of Log Determinants.pdf}
+}
+
+@inproceedings{bewsher_distribution_2017,
+	title = {Distribution of {Gaussian} {Process} {Arc} {Lengths}},
+	url = {http://proceedings.mlr.press/v54/bewsher17a.html},
+	abstract = {We present the first treatment of the arc length of the GP with more than a single output dimension. GPs are commonly used for tasks such as trajectory modelling, where path length is a crucial ...},
+	language = {en},
+	urldate = {2017-06-21},
+	booktitle = {{PMLR}},
+	author = {Bewsher, Justin and Tosi, Alessandra and Osborne, Michael and Roberts, Stephen},
+	month = apr,
+	year = {2017},
+	pages = {1412--1420},
+	file = {2310/Bewsher et al. - 2017 - Distribution of Gaussian Process Arc Lengths.pdf}
+}
+
+
+@inproceedings{fruehwirt_bayesian_2017,
+	title = {Bayesian {Gaussian} {Process} {Classification} from {Event}-{Related} {Brain} {Potentials} in {Alzheimer}’s {Disease}},
+	volume = {10259},
+	url = {http://books.google.com/books?hl=en&lr=&id=cJgnDwAAQBAJ&oi=fnd&pg=PA65&dq=info:1NqNXvxzCQEJ:scholar.google.com&ots=c1Ig4IlhV7&sig=1HL9zCmR-HcklnY-iAvL0lBtRpw},
+	booktitle = {Artificial {Intelligence} in {Medicine}: 16th {Conference} on {Artificial} {Intelligence} in {Medicine}, {AIME} 2017, {Vienna}, {Austria}, {June} 21-24, 2017, {Proceedings}},
+	publisher = {Springer},
+	author = {Fruehwirt, Wolfgang and Zhang, Pengfei and Gerstgrasser, Matthias and Grossegger, Dieter and Schmidt, Reinhold and Benke, Thomas and Dal-Bianco, Peter and Ransmayr, Gerhard and Weydemann, Leonard and Garn, Heinrich and {others}},
+	year = {2017},
+	pages = {65}
 }

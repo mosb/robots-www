@@ -4,6 +4,7 @@ I am a machine learning researcher with a few different hats within the <a href=
 
 * Dyson Associate Professor in Machine Learning; 
 * Co-Director of the [Oxford Martin Programme on Technology and Employment](www.oxfordmartin.ox.ac.uk/research/programmes/tech-employment);
+* Co-Director of the [EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines and Systems](http://aims.robots.ox.ac.uk);
 * Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a> and 
 * Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk">Oxford-Man Institute of Quantitative Finance.</a>
 

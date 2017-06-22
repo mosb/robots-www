@@ -3,6 +3,7 @@ import shutil
 import re
 import subprocess
 
+
 def copytree(src, dst, symlinks=False, ignore=None):
     # http://stackoverflow.com/questions/1868714/how-do-i-copy-an-entire-directory-of-files-into-an-existing-directory-using-pyth
     if not os.path.exists(dst):
@@ -16,7 +17,9 @@ def copytree(src, dst, symlinks=False, ignore=None):
             if not os.path.exists(d) or os.stat(s).st_mtime - os.stat(d).st_mtime > 1:
                 shutil.copy2(s, d)
 
-os.chdir('/Users/michaelosborne/Documents/WWW/MosbWWW/robots-www/')
+
+os.chdir('/Users/mosb/Documents/WWW/MosbWWW/robots-www/')
+
 
 publication_types = [
     'Journal',
@@ -41,7 +44,7 @@ for publication_type in publication_types:
 
     # Read in the file
     file_data = None
-    with open(publication_bib_path, 'r') as file :
+    with open(publication_bib_path, 'r') as file:
         file_data = file.readlines()
 
     with open(publication_bib_path, 'w+') as file:
@@ -80,6 +83,6 @@ with open(all_bib_path, 'wb') as outfile:
 bashCommand = """
 chmod -R a+rx ./public/pdf
 jekyll build
-"""
+# """
 # rsync -avz /Users/michaelosborne/Documents/WWW/MosbWWW/robots-www/_site/ mosb@robots.ox.ac.uk:~/WWW
 # process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
