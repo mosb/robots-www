@@ -109,7 +109,7 @@
 	author = {Gunter, Tom and Osborne, Michael A. and Garnett, Roman and Hennig, Philipp and Roberts, Stephen J.},
 	month = nov,
 	year = {2014},
-	note = {00000
+	note = {00000 
 https://github.com/OxfordML/wsabi},
 	keywords = {Statistics - Machine Learning},
 	file = {1874/Gunter et al. - 2014 - Sampling for Inference in Probabilistic Models wit.pdf}
@@ -266,6 +266,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 @inproceedings{lloyd_variational_2015,
 	title = {Variational {Inference} for {Gaussian} {Process} {Modulated} {Poisson} {Processes}},
 	url = {http://jmlr.org/proceedings/papers/v37/lloyd15.html},
+	abstract = {We present the first fully variational Bayesian inference scheme for continuous Gaussian-process-modulated Poisson processes. Such point processes are used in a variety of domains, including neuroscience, geo-statistics and astronomy, but their use is hindered by the computational cost of existing inference schemes. Our scheme: requires no discretisation of the domain; scales linearly in the number of observed events; and is many orders of magnitude faster than previous sampling based approaches. The resulting algorithm is shown to outperform standard methods on synthetic examples, coal mining disaster data and in the prediction of Malaria incidences in Kenya.},
 	booktitle = {Proceedings of {The} 32nd {International} {Conference} on {Machine} {Learning} ({ICML})},
 	author = {Lloyd, Chris and Gunter, Tom and Osborne, Michael A. and Roberts, Stephen},
 	year = {2015},
@@ -299,9 +300,23 @@ approaches in use are myopic, in only considering the impact of the next functio
 	file = {2281/Rainforth et al. - 2016 - Bayesian Optimization for Probabilistic Programs.pdf}
 }
 
+@inproceedings{fruehwirt_bayesian_2017,
+	title = {Bayesian {Gaussian} {Process} {Classification} from {Event}-{Related} {Brain} {Potentials} in {Alzheimer}’s {Disease}},
+	volume = {10259},
+	url = {https://is.gd/z5lLxE},
+	abstract = {Event-related potentials (ERPs) have been shown to reflect neurodegenerative processes in Alzheimer’s disease (AD) and might qualify as non-invasive and cost-effective markers to facilitate the objectivization of AD assessment in daily clinical practice. Lately, the combination of multivariate pattern analysis (MVPA) and Gaussian process classification (GPC) has gained interest in the neuroscientific community. Here, we demonstrate how a MVPA-GPC approach can be applied to electrophysiological data. Furthermore, in order to account for the temporal information of ERPs, we develop a novel method that integrates interregional synchrony of ERP time signatures. By using real-life ERP recordings of a prospective AD cohort study (PRODEM), we empirically investigate the usefulness of the proposed framework to build neurophysiological markers for single subject classification tasks. GPC outperforms the probabilistic reference method in both tasks, with the highest AUC overall (0.802) being achieved using the new spatiotemporal method in the prediction of rapid cognitive decline.},
+	booktitle = {Artificial {Intelligence} in {Medicine}: 16th {Conference} on {Artificial} {Intelligence} in {Medicine}, {AIME} 2017, {Vienna}, {Austria}, {June} 21-24, 2017, {Proceedings}},
+	publisher = {Springer},
+	author = {Fruehwirt, Wolfgang and Zhang, Pengfei and Gerstgrasser, Matthias and Grossegger, Dieter and Schmidt, Reinhold and Benke, Thomas and Dal-Bianco, Peter and Ransmayr, Gerhard and Weydemann, Leonard and Garn, Heinrich and Waser, Markus and Osborne, Michael A and Dorffner, Georg},
+	year = {2017},
+	pages = {65},
+	file = {2312/Bayesian_Gaussian_Process_Classification_from_Event-Related_Brain_Potentials_in_AD.pdf}
+}
+
 @inproceedings{fitzsimons_bayesian_2017,
 	title = {Bayesian {Inference} of {Log} {Determinants}},
 	url = {https://arxiv.org/abs/1704.01445},
+	abstract = {The log-determinant of a kernel matrix appears in a variety of machine learning problems, ranging from determinantal point processes and generalized Markov random fields, through to the training of Gaussian processes. Exact calculation of this term is often intractable when the size of the kernel matrix exceeds a few thousand. In the spirit of probabilistic numerics, we reinterpret the problem of computing the log-determinant as a Bayesian inference problem. In particular, we combine prior knowledge in the form of bounds from matrix theory and evidence derived from stochastic trace estimation to obtain probabilistic estimates for the log-determinant and its associated uncertainty within a given computational budget. Beyond its novelty and theoretic appeal, the performance of our proposal is competitive with state-of-the-art approaches to approximating the log-determinant, while also quantifying the uncertainty due to budget-constrained evidence.},
 	urldate = {2017-06-21},
 	booktitle = {Uncertainty in {Artificial} {Intelligence} (to appear)},
 	author = {Fitzsimons, Jack and Cutajar, Kurt and Osborne, Michael and Roberts, Stephen and Filippone, Maurizio},
@@ -321,16 +336,4 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2017},
 	pages = {1412--1420},
 	file = {2310/Bewsher et al. - 2017 - Distribution of Gaussian Process Arc Lengths.pdf}
-}
-
-
-@inproceedings{fruehwirt_bayesian_2017,
-	title = {Bayesian {Gaussian} {Process} {Classification} from {Event}-{Related} {Brain} {Potentials} in {Alzheimer}’s {Disease}},
-	volume = {10259},
-	url = {http://books.google.com/books?hl=en&lr=&id=cJgnDwAAQBAJ&oi=fnd&pg=PA65&dq=info:1NqNXvxzCQEJ:scholar.google.com&ots=c1Ig4IlhV7&sig=1HL9zCmR-HcklnY-iAvL0lBtRpw},
-	booktitle = {Artificial {Intelligence} in {Medicine}: 16th {Conference} on {Artificial} {Intelligence} in {Medicine}, {AIME} 2017, {Vienna}, {Austria}, {June} 21-24, 2017, {Proceedings}},
-	publisher = {Springer},
-	author = {Fruehwirt, Wolfgang and Zhang, Pengfei and Gerstgrasser, Matthias and Grossegger, Dieter and Schmidt, Reinhold and Benke, Thomas and Dal-Bianco, Peter and Ransmayr, Gerhard and Weydemann, Leonard and Garn, Heinrich and {others}},
-	year = {2017},
-	pages = {65}
 }

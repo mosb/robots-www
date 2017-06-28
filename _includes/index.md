@@ -2,7 +2,7 @@
 
 I am a machine learning researcher with a few different hats within the <a href="http://www.ox.ac.uk">University of Oxford</a>:
 
-* Dyson Associate Professor in Machine Learning; 
+* Dyson Associate Professor in Machine Learning [(Department of Engineering Science)](https://www.eng.ox.ac.uk); 
 * Co-Director of the [Oxford Martin Programme on Technology and Employment](www.oxfordmartin.ox.ac.uk/research/programmes/tech-employment);
 * Co-Director of the [EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines and Systems](http://aims.robots.ox.ac.uk);
 * Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a> and 
