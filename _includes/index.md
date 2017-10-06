@@ -10,7 +10,9 @@ I am a machine learning researcher with a few different hats within the <a href=
 
 If you want to get to know me in gruesome detail: 
 
-* my full CV is [available;]({{ site.baseurl }}/public/pdf/MAOsborne.pdf) 
+* [here]({{ site.baseurl }}/bio) is a short biography;
+* you can examine a [high-resolution photo]({{ site.baseurl }}/public/image/OsborneMike05.jpg) of me;
+* my full academic CV is [available;]({{ site.baseurl }}/public/pdf/MAOsborne.pdf) 
 * My news is available on [Twitter;](http://twitter.com/maosbot) 
 * older news is available for <a href="{{ site.baseurl }}/news">2013-2014. 
     

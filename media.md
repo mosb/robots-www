@@ -13,7 +13,7 @@ My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) ha
 
 ## Videos of me talking
 
-Videos are available for those of my talks listed below. I have also cheekily included a couple for which I only slides. 
+Videos are available for those of my talks listed below. I have also cheekily included a couple for which I have only slides. 
 
 * Oct 2016: [*Probabilistic numerics* @ Twitter Cortex, Boston](https://www.periscope.tv/w/1dRKZRvZpyrKB)
 * Feb 2016: [*Algorithms among us: machine learning and society* @ Oxford Martin School](http://www.oxfordmartin.ox.ac.uk/videos/view/541)

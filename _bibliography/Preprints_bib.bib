@@ -7,7 +7,6 @@
 	journal = {arXiv preprint arXiv:1605.07496},
 	author = {Paul, Supratik and Ciosek, Kamil and Osborne, Michael A. and Whiteson, Shimon},
 	year = {2016},
-	note = {00003},
 	keywords = {preprint},
 	file = {1388/Paul et al. - 2016 - Alternating Optimisation and Quadrature for Robust.pdf}
 }
@@ -66,7 +65,7 @@ signals.},
 	author = {Briol, François-Xavier and Oates, Chris J. and Girolami, Mark and Osborne, Michael A. and Sejdinovic, Dino},
 	month = dec,
 	year = {2015},
-	keywords = {Computer Science - Numerical Analysis, Mathematics - Numerical Analysis, Mathematics - Statistics Theory, preprint, Statistics - Computation, Statistics - Machine Learning},
+	keywords = {Computer Science - Numerical Analysis, Mathematics - Numerical Analysis, Mathematics - Statistics Theory, Statistics - Computation, Statistics - Machine Learning, preprint},
 	file = {1412/Briol et al. - 2015 - Probabilistic Integration.pdf}
 }
 
@@ -87,7 +86,7 @@ signals.},
 	author = {Fitzsimons, Jack K. and Osborne, Michael A. and Roberts, Stephen J. and Fitzsimons, Joe F.},
 	month = jul,
 	year = {2016},
-	keywords = {Computer Science - Data Structures and Algorithms, Computer Science - Numerical Analysis, Mathematics - Numerical Analysis, preprint, Quantum Physics},
+	keywords = {preprint},
 	file = {1635/Fitzsimons et al. - 2016 - Improved stochastic trace estimation using mutuall.pdf}
 }
 
@@ -98,15 +97,14 @@ signals.},
 	journal = {arXiv preprint arXiv:1310.5738},
 	author = {Hutter, Frank and Osborne, Michael A.},
 	year = {2013},
-	note = {00000},
 	keywords = {preprint},
 	file = {2152/1310.5738v1.pdf}
 }
 
-@article{swersky_raiders_2013,
+@inproceedings{swersky_raiders_2013,
 	title = {Raiders of the lost architecture\_ {Kernels} for {Bayesian} optimization in conditional parameter spaces},
 	abstract = {In practical Bayesian optimization, we must often search over structures with differing numbers of parameters. For instance, we may wish to search over neural network architectures with an unknown number of layers. To relate performance data gathered for different architectures, we define a new kernel for conditional parameter spaces that explicitly includes information about which parameters are relevant in a given structure. We show that this kernel improves model quality and Bayesian optimization results over several simpler baseline kernels.},
-	journal = {NIPS workshop on Bayesian Optimization in theory and practice (BayesOpt’13)},
+	booktitle = {{NIPS} workshop on {Bayesian} {Optimization} in theory and practice ({BayesOpt}’13)},
 	author = {Swersky, Kevin and Duvenaud, David and Snoek, Jasper and Hutter, Frank and Osborne, Michael A.},
 	year = {2013},
 	keywords = {preprint},
@@ -168,6 +166,7 @@ as a testbed for our algorithm.},
 	journal = {arXiv preprint arXiv:1705.00891},
 	author = {Rizvi, Syed Ali Asad and Roberts, Stephen J. and Osborne, Michael A. and Nyikosa, Favour},
 	year = {2017},
+	keywords = {preprint},
 	file = {2301/Rizvi et al. - 2017 - A Novel Approach to Forecasting Financial Volatili.pdf}
 }
 
@@ -178,5 +177,46 @@ as a testbed for our algorithm.},
 	journal = {arXiv preprint arXiv:1704.07223},
 	author = {Fitzsimons, Jack and Granziol, Diego and Cutajar, Kurt and Osborne, Michael and Filippone, Maurizio and Roberts, Stephen},
 	year = {2017},
+	keywords = {preprint},
 	file = {2304/Fitzsimons et al. - 2017 - Entropic Trace Estimates for Log Determinants.pdf}
+}
+
+@article{mcleod_practical_2017,
+	title = {Practical {Bayesian} {Optimization} for {Variable} {Cost} {Objectives}},
+	url = {http://arxiv.org/abs/1703.04335},
+	abstract = {We propose a novel Bayesian Optimization approach for black-box functions with an environmental variable whose value determines the tradeoff between evaluation cost and the fidelity of the evaluations. Further, we use a novel approach to sampling support points, allowing faster construction of the acquisition function. This allows us to achieve optimization with lower overheads than previous approaches and is implemented for a more general class of problem. We show this approach to be effective on synthetic and real world benchmark problems.},
+	urldate = {2017-06-30},
+	journal = {arXiv:1703.04335 [stat]},
+	author = {McLeod, Mark and Osborne, Michael A. and Roberts, Stephen J.},
+	month = mar,
+	year = {2017},
+	keywords = {preprint},
+	file = {2401/McLeod et al. - 2017 - Practical Bayesian Optimization for Variable Cost .pdf}
+}
+
+@article{rontsis_distributionally_2017,
+	title = {Distributionally {Robust} {Optimization} {Techniques} in {Batch} {Bayesian} {Optimization}},
+	url = {http://arxiv.org/abs/1707.04191},
+	abstract = {We propose a novel, theoretically-grounded, acquisition function for batch Bayesian optimisation informed by insights from distributionally robust optimization. Our acquisition function is a lower bound on the well-known Expected Improvement function - which requires a multi-dimensional Gaussian Expectation over a piecewise affine function - and is computed by evaluating instead the best-case expectation over all probability distributions consistent with the same mean and variance as the original Gaussian distribution. We show that, unlike alternative approaches including Expected Improvement, our proposed acquisition function avoids multi-dimensional integrations entirely, and can be calculated exactly as the solution of a convex optimization problem in the form of a tractable semidefinite program (SDP). Moreover, we prove that the solution of this SDP also yields exact numerical derivatives, which enable efficient optimisation of the acquisition function. Numerical results suggest that our acquisition function performs very similar to the computationally intractable exact Expected Improvement and considerably better than other heuristics.},
+	urldate = {2017-07-14},
+	journal = {arXiv:1707.04191 [stat]},
+	author = {Rontsis, Nikitas and Osborne, Michael A. and Goulart, Paul J.},
+	month = jul,
+	year = {2017},
+	note = {https://github.com/oxfordcontrol/Bayesian-Optimization},
+	keywords = {preprint},
+	file = {2460/Rontsis et al. - 2017 - Distributionally Robust Optimization Techniques in.pdf}
+}
+
+@article{rainforth_bayesian_2017,
+	title = {Bayesian {Optimization} for {Probabilistic} {Programs}},
+	url = {http://arxiv.org/abs/1707.04314},
+	abstract = {We present the first general purpose framework for marginal maximum a posteriori estimation of probabilistic program variables. By using a series of code transformations, the evidence of any probabilistic program, and therefore of any graphical model, can be optimized with respect to an arbitrary subset of its sampled variables. To carry out this optimization, we develop the first Bayesian optimization package to directly exploit the source code of its target, leading to innovations in problem-independent hyperpriors, unbounded optimization, and implicit constraint satisfaction; delivering significant performance improvements over prominent existing packages. We present applications of our method to a number of tasks including engineering design and parameter optimization.},
+	urldate = {2017-07-17},
+	journal = {arXiv:1707.04314 [cs, stat]},
+	author = {Rainforth, Tom and Le, Tuan Anh and van de Meent, Jan-Willem and Osborne, Michael A. and Wood, Frank},
+	month = jul,
+	year = {2017},
+	keywords = {preprint},
+	file = {2464/Rainforth et al. - 2017 - Bayesian Optimization for Probabilistic Programs.pdf}
 }
