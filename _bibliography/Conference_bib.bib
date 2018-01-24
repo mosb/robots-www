@@ -295,6 +295,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Rainforth, Tom and Le, Tuan Anh and van de Meent, Jan-Willem and Osborne, Michael A and Wood, Frank},
 	editor = {Lee, D. D. and Sugiyama, M. and Luxburg, U. V. and Guyon, I. and Garnett, R.},
 	year = {2016},
+	note = {https://github.com/probprog/bopp},
 	pages = {280--288},
 	file = {2281/Rainforth et al. - 2016 - Bayesian Optimization for Probabilistic Programs.pdf}
 }
@@ -312,12 +313,23 @@ approaches in use are myopic, in only considering the impact of the next functio
 	file = {2312/Bayesian_Gaussian_Process_Classification_from_Event-Related_Brain_Potentials_in_AD.pdf}
 }
 
+@inproceedings{fitzsimons_entropic_2017,
+	title = {Entropic {Trace} {Estimates} for {Log} {Determinants}},
+	url = {https://arxiv.org/abs/1704.07223},
+	abstract = {The scalable calculation of matrix determinants has been a bottleneck to the widespread application of many machine learning methods such as determinantal point processes, Gaussian processes, generalised Markov random  elds, graph models and many others. In this work, we estimate log determinants under the framework of maximum entropy, given information in the form of moment constraints from stochastic trace estimation. The estimates demonstrate a signi cant improvement on state-of-the-art alternative methods, as shown on a wide variety of matrices from the SparseSuite Matrix Collection. By taking the example of a general Markov random  eld, we also demonstrate how this approach can signifcantly accelerate inference in large-scale learning methods involving the log determinant.},
+	urldate = {2017-06-21},
+	booktitle = {{ECML}/{PKDD} 2017, {European} {Conference} on {Machine} {Learning} and {Principles} and {Practice} of {Knowledge} {Discovery} in {Databases}, {September} 18-22, 2017, {Skopje}, {Macedonia}},
+	author = {Fitzsimons, Jack and Granziol, Diego and Cutajar, Kurt and Osborne, Michael and Filippone, Maurizio and Roberts, Stephen},
+	year = {2017},
+	file = {2304/Fitzsimons et al. - 2017 - Entropic Trace Estimates for Log Determinants.pdf}
+}
+
 @inproceedings{fitzsimons_bayesian_2017,
 	title = {Bayesian {Inference} of {Log} {Determinants}},
 	url = {https://arxiv.org/abs/1704.01445},
 	abstract = {The log-determinant of a kernel matrix appears in a variety of machine learning problems, ranging from determinantal point processes and generalized Markov random fields, through to the training of Gaussian processes. Exact calculation of this term is often intractable when the size of the kernel matrix exceeds a few thousand. In the spirit of probabilistic numerics, we reinterpret the problem of computing the log-determinant as a Bayesian inference problem. In particular, we combine prior knowledge in the form of bounds from matrix theory and evidence derived from stochastic trace estimation to obtain probabilistic estimates for the log-determinant and its associated uncertainty within a given computational budget. Beyond its novelty and theoretic appeal, the performance of our proposal is competitive with state-of-the-art approaches to approximating the log-determinant, while also quantifying the uncertainty due to budget-constrained evidence.},
 	urldate = {2017-06-21},
-	booktitle = {Uncertainty in {Artificial} {Intelligence} (to appear)},
+	booktitle = {Uncertainty in {Artificial} {Intelligence}},
 	author = {Fitzsimons, Jack and Cutajar, Kurt and Osborne, Michael and Roberts, Stephen and Filippone, Maurizio},
 	year = {2017},
 	file = {2307/Fitzsimons et al. - 2017 - Bayesian Inference of Log Determinants.pdf}
@@ -326,13 +338,24 @@ approaches in use are myopic, in only considering the impact of the next functio
 @inproceedings{bewsher_distribution_2017,
 	title = {Distribution of {Gaussian} {Process} {Arc} {Lengths}},
 	url = {http://proceedings.mlr.press/v54/bewsher17a.html},
-	abstract = {We present the first treatment of the arc length of the GP with more than a single output dimension. GPs are commonly used for tasks such as trajectory modelling, where path length is a crucial ...},
+	abstract = {We present the first treatment of the arc length of the Gaussian Process (gp) with more than a single output dimension. Gps are commonly used for tasks such as trajectory modelling, where path length is a crucial quantity of interest. Previously, only paths in one dimension have been considered, with no theoretical consideration of higher dimensional problems. We fill the gap in the existing literature by deriving the moments of the arc length for a stationary gp with multiple output dimensions. A new method is used to derive the mean of a one-dimensional gp over a finite interval, by considering the distribution of the arc length integrand. This technique is used to derive an approximate distribution over the arc length of a vector valued gp in Rn by moment matching the distribution. Numerical simulations confirm our theoretical derivations.},
 	language = {en},
 	urldate = {2017-06-21},
-	booktitle = {{PMLR}},
+	booktitle = {Proceedings of the 20th {International} {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
 	author = {Bewsher, Justin and Tosi, Alessandra and Osborne, Michael and Roberts, Stephen},
 	month = apr,
 	year = {2017},
-	pages = {1412--1420},
 	file = {2310/Bewsher et al. - 2017 - Distribution of Gaussian Process Arc Lengths.pdf}
+}
+
+@inproceedings{paul_alternating_2018,
+	title = {Alternating {Optimisation} and {Quadrature} for {Robust} {Control}},
+	url = {http://www.cs.ox.ac.uk/people/shimon.whiteson/pubs/paulaaai18.pdf},
+	abstract = {Bayesian optimisation has been successfully applied to a variety of reinforcement learning problems. However, the traditional approach for learning optimal policies in simulators does not utilise the opportunity to improve learning by adjusting certain environment variables: state features that are unobservable and randomly determined by the environment in a physical setting but are controllable in a simulator. This paper considers the problem of finding a robust policy while taking into account the impact of environment variables. We present Alternating Optimisation and Quadrature (ALOQ), which uses Bayesian optimisation and Bayesian quadrature to address such settings. ALOQ is robust to the presence of significant rare events, which may not be observable under random sampling, but play a substantial role in determining the optimal policy. Experimental results across different domains show that ALOQ can learn more efficiently and robustly than existing methods.},
+	urldate = {2017-12-21},
+	booktitle = {{AAAI}18},
+	author = {Paul, Supratik and Chatzilygeroudis, Konstantinos and Ciosek, Kamil and Mouret, Jean-Baptiste and Osborne, Michael A. and Whiteson, Shimon},
+	year = {2018},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Learning, Statistics - Machine Learning},
+	file = {2799/Paul et al. - 2016 - Alternating Optimisation and Quadrature for Robust.pdf}
 }

@@ -1,16 +1,4 @@
 
-@article{paul_alternating_2016,
-	title = {Alternating {Optimisation} and {Quadrature} for {Robust} {Reinforcement} {Learning}},
-	url = {http://arxiv.org/abs/1605.07496},
-	abstract = {Bayesian optimisation has been successfully applied to a variety of reinforcement learning problems. However, the traditional approach for learning optimal policies in simulators does not utilise the opportunity to improve learning by adjusting certain environment variables - state features that are randomly determined by the environment in a physical setting but are controllable in a simulator. This paper considers the problem of finding an optimal policy while taking into account the impact of environment variables. We present alternating optimisation and quadrature (ALOQ), which uses Bayesian optimisation and Bayesian quadrature to address such settings. ALOQ is robust to the presence of significant rare events, which may not be observable under random sampling, but have a considerable impact on determining the optimal policy. We provide experimental results demonstrating our approach learning more efficiently than existing methods.},
-	urldate = {2016-08-26},
-	journal = {arXiv preprint arXiv:1605.07496},
-	author = {Paul, Supratik and Ciosek, Kamil and Osborne, Michael A. and Whiteson, Shimon},
-	year = {2016},
-	keywords = {preprint},
-	file = {1388/Paul et al. - 2016 - Alternating Optimisation and Quadrature for Robust.pdf}
-}
-
 @article{nickson_blitzkriging_2015,
 	title = {Blitzkriging : {Kronecker}-structured {Stochastic} {Gaussian} {Processes}},
 	shorttitle = {Blitzkriging},
@@ -170,17 +158,6 @@ as a testbed for our algorithm.},
 	file = {2301/Rizvi et al. - 2017 - A Novel Approach to Forecasting Financial Volatili.pdf}
 }
 
-@article{fitzsimons_entropic_2017,
-	title = {Entropic {Trace} {Estimates} for {Log} {Determinants}},
-	url = {https://arxiv.org/abs/1704.07223},
-	urldate = {2017-06-21},
-	journal = {arXiv preprint arXiv:1704.07223},
-	author = {Fitzsimons, Jack and Granziol, Diego and Cutajar, Kurt and Osborne, Michael and Filippone, Maurizio and Roberts, Stephen},
-	year = {2017},
-	keywords = {preprint},
-	file = {2304/Fitzsimons et al. - 2017 - Entropic Trace Estimates for Log Determinants.pdf}
-}
-
 @article{mcleod_practical_2017,
 	title = {Practical {Bayesian} {Optimization} for {Variable} {Cost} {Objectives}},
 	url = {http://arxiv.org/abs/1703.04335},
@@ -195,28 +172,28 @@ as a testbed for our algorithm.},
 }
 
 @article{rontsis_distributionally_2017,
-	title = {Distributionally {Robust} {Optimization} {Techniques} in {Batch} {Bayesian} {Optimization}},
+	title = {Distributionally {Ambiguous} {Optimization} {Techniques} in {Batch} {Bayesian} {Optimization}},
 	url = {http://arxiv.org/abs/1707.04191},
-	abstract = {We propose a novel, theoretically-grounded, acquisition function for batch Bayesian optimisation informed by insights from distributionally robust optimization. Our acquisition function is a lower bound on the well-known Expected Improvement function - which requires a multi-dimensional Gaussian Expectation over a piecewise affine function - and is computed by evaluating instead the best-case expectation over all probability distributions consistent with the same mean and variance as the original Gaussian distribution. We show that, unlike alternative approaches including Expected Improvement, our proposed acquisition function avoids multi-dimensional integrations entirely, and can be calculated exactly as the solution of a convex optimization problem in the form of a tractable semidefinite program (SDP). Moreover, we prove that the solution of this SDP also yields exact numerical derivatives, which enable efficient optimisation of the acquisition function. Numerical results suggest that our acquisition function performs very similar to the computationally intractable exact Expected Improvement and considerably better than other heuristics.},
-	urldate = {2017-07-14},
+	abstract = {We propose a novel, theoretically-grounded, acquisition function for batch Bayesian optimization informed by insights from distributionally ambiguous optimization. Our acquisition function is a lower bound on the well-known Expected Improvement function -- which requires a multi-dimensional Gaussian Expectation over a piecewise affine function -- and is computed by evaluating instead the best-case expectation over all probability distributions consistent with the same mean and variance as the original Gaussian distribution. Unlike alternative approaches including Expected Improvement, our proposed acquisition function avoids multi-dimensional integrations entirely, and can be computed exactly as the solution of a convex optimization problem in the form of a tractable semidefinite program (SDP). Moreover, we prove that the solution of this SDP also yields exact numerical derivatives, which enable efficient optimization of the acquisition function. Finally, it efficiently handles marginalized posteriors with respect to the Gaussian Process' hyperparameters. We demonstrate superior performance to heuristic alternatives and approximations of the intractable expected improvement, justifying this performance difference based on simple examples that break the assumptions of state-of-the-art methods.},
+	urldate = {2017-10-31},
 	journal = {arXiv:1707.04191 [stat]},
 	author = {Rontsis, Nikitas and Osborne, Michael A. and Goulart, Paul J.},
 	month = jul,
 	year = {2017},
 	note = {https://github.com/oxfordcontrol/Bayesian-Optimization},
-	keywords = {preprint},
-	file = {2460/Rontsis et al. - 2017 - Distributionally Robust Optimization Techniques in.pdf}
+	keywords = {preprint, Statistics - Machine Learning},
+	file = {2865/Rontsis et al. - 2017 - Distributionally Ambiguous Optimization Techniques.pdf}
 }
 
-@article{rainforth_bayesian_2017,
-	title = {Bayesian {Optimization} for {Probabilistic} {Programs}},
-	url = {http://arxiv.org/abs/1707.04314},
-	abstract = {We present the first general purpose framework for marginal maximum a posteriori estimation of probabilistic program variables. By using a series of code transformations, the evidence of any probabilistic program, and therefore of any graphical model, can be optimized with respect to an arbitrary subset of its sampled variables. To carry out this optimization, we develop the first Bayesian optimization package to directly exploit the source code of its target, leading to innovations in problem-independent hyperpriors, unbounded optimization, and implicit constraint satisfaction; delivering significant performance improvements over prominent existing packages. We present applications of our method to a number of tasks including engineering design and parameter optimization.},
-	urldate = {2017-07-17},
-	journal = {arXiv:1707.04314 [cs, stat]},
-	author = {Rainforth, Tom and Le, Tuan Anh and van de Meent, Jan-Willem and Osborne, Michael A. and Wood, Frank},
-	month = jul,
+@article{ru_fast_2017,
+	title = {Fast {Information}-theoretic {Bayesian} {Optimisation}},
+	url = {http://arxiv.org/abs/1711.00673},
+	abstract = {Information-theoretic Bayesian optimisation techniques have demonstrated state-of-the-art performance in tackling important global optimisation problems. However, current information-theoretic approaches: require many approximations in implementation; limit the choice of kernels available to model the objective; and introduce often-prohibitive computational overhead. We develop a fast information-theoretic Bayesian Optimisation method, FITBO, that circumvents the need for sampling the global minimiser, thus significantly reducing computational overhead. Moreover, in comparison with existing approaches, our method faces fewer constraints on kernel choice and enjoys the merits of dealing with the output space. We demonstrate empirically that FITBO inherits the performance associated with information-theoretic Bayesian optimisation, while being even faster than simpler Bayesian optimisation approaches, such as Expected Improvement.},
+	urldate = {2018-01-03},
+	journal = {arXiv:1711.00673 [stat]},
+	author = {Ru, Binxin and McLeod, Mark and Osborne, Michael},
+	month = nov,
 	year = {2017},
-	keywords = {preprint},
-	file = {2464/Rainforth et al. - 2017 - Bayesian Optimization for Probabilistic Programs.pdf}
+	keywords = {preprint, Statistics - Machine Learning},
+	file = {2813/Ru et al. - 2017 - Fast Information-theoretic Bayesian Optimisation.pdf}
 }

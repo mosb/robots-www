@@ -110,7 +110,6 @@
 	journal = {ACM Transactions on Sensor Networks},
 	author = {Osborne, Michael A. and Roberts, Stephen J. and Rogers, Alex and Jennings, Nicholas R.},
 	year = {2012},
-	note = {00000},
 	pages = {1:1--1:32},
 	file = {1240/tosn_gp_revised.pdf}
 }
@@ -156,6 +155,31 @@
 	keywords = {Employment, Occupational choice, Skill demand, Technological change, wage inequality},
 	pages = {254--280},
 	file = {2284/Frey and Osborne - 2017 - The future of employment How susceptible are jobs.pdf}
+}
+
+@article{zhang_spatial_2018,
+	title = {Spatial {Field} {Reconstruction} and {Sensor} {Selection} in {Heterogeneous} {Sensor} {Networks} with {Stochastic} {Energy} {Harvesting}},
+	url = {http://arxiv.org/abs/1801.05356},
+	abstract = {We address the two fundamental problems of spatial field reconstruction and sensor selection in het- erogeneous sensor networks. We consider the case where two types of sensors are deployed: the first consists of expensive, high quality sensors; and the second, of cheap low quality sensors, which are activated only if the intensity of the spatial field exceeds a pre-defined activation threshold (eg. wind sensors). In addition, these sensors are powered by means of energy harvesting and their time varying energy status impacts on the accuracy of the measurement that may be obtained. We account for this phenomenon by encoding the energy harvesting process into the second moment properties of the additive noise, resulting in a spatial heteroscedastic process. We then address the following two important problems: (i) how to efficiently perform spatial field reconstruction based on measurements obtained simultaneously from both networks; and (ii) how to perform query based sensor set selection with predictive MSE performance guarantee. We first show that the resulting predictive posterior distribution, which is key in fusing such disparate observations, involves solving intractable integrals. To overcome this problem, we solve the first problem by developing a low complexity algorithm based on the spatial best linear unbiased estimator (S-BLUE). Next, building on the S-BLUE, we address the second problem, and develop an efficient algorithm for query based sensor set selection with performance guarantee. Our algorithm is based on the Cross Entropy method which solves the combinatorial optimization problem in an efficient manner. We present a comprehensive study of the performance gain that can be obtained by augmenting the high-quality sensors with low-quality sensors using both synthetic and real insurance storm surge database known as the Extreme Wind Storms Catalogue.},
+	journal = {IEEE Transactions on Signal Processing},
+	author = {Zhang, Pengfei and Nevat, Ido and Peters, Gareth W. and Septier, Francois and Osborne, Michael A.},
+	year = {2018},
+	keywords = {Electrical Engineering and Systems Science - Signal Processing},
+	file = {2829/Zhang et al. - 2018 - Spatial Field Reconstruction and Sensor Selection .pdf}
+}
+
+@article{richardson_gaussian_2018,
+	title = {Gaussian {Process} {Regression} for {In}-situ {Capacity} {Estimation} of {Lithium}-ion {Batteries}},
+	issn = {1551-3203, 1941-0050},
+	url = {http://ieeexplore.ieee.org/document/8263147/},
+	doi = {10.1109/TII.2018.2794997},
+	abstract = {Accurate on-board capacity estimation is of critical importance in lithium-ion battery applications. Battery charg- ing/discharging often occurs under a constant current load, and hence voltage vs. time measurements under this condition may be accessible in practice. This paper presents a data-driven diagnostic technique, Gaussian Process regression for In-situ Capacity Estimation (GP-ICE), which estimates battery capacity using voltage measurements over short periods of galvanostatic operation. Unlike previous works, GP-ICE does not rely on interpreting the voltage-time data as Incremental Capacity (IC) or Differential Voltage (DV) curves. This overcomes the need to differentiate the voltage-time data (a process which amplifies measurement noise), and the requirement that the range of voltage measurements encompasses the peaks in the IC/DV curves. GP-ICE is applied to two datasets, consisting of 8 and 20 cells respectively. In each case, within certain voltage ranges, as little as 10 seconds of galvanostatic operation enables capacity estimates with approximately 2–3 \% RMSE.},
+	urldate = {2018-01-19},
+	journal = {IEEE Transactions on Industrial Informatics},
+	author = {Richardson, Robert R. and Birkl, Christoph R. and Osborne, Michael A. and Howey, David},
+	year = {2018},
+	pages = {1--1},
+	file = {2842/Richardson et al. - 2018 - Gaussian Process Regression for In-situ Capacity E.pdf}
 }
 @inproceedings{mann_gaussian_2009,
 	title = {Gaussian {Processes} for {Prediction} of {Homing} {Pigeon} {Flight} {Trajectories}},
@@ -453,6 +477,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Rainforth, Tom and Le, Tuan Anh and van de Meent, Jan-Willem and Osborne, Michael A and Wood, Frank},
 	editor = {Lee, D. D. and Sugiyama, M. and Luxburg, U. V. and Guyon, I. and Garnett, R.},
 	year = {2016},
+	note = {https://github.com/probprog/bopp},
 	pages = {280--288},
 	file = {2281/Rainforth et al. - 2016 - Bayesian Optimization for Probabilistic Programs.pdf}
 }
@@ -470,12 +495,23 @@ approaches in use are myopic, in only considering the impact of the next functio
 	file = {2312/Bayesian_Gaussian_Process_Classification_from_Event-Related_Brain_Potentials_in_AD.pdf}
 }
 
+@inproceedings{fitzsimons_entropic_2017,
+	title = {Entropic {Trace} {Estimates} for {Log} {Determinants}},
+	url = {https://arxiv.org/abs/1704.07223},
+	abstract = {The scalable calculation of matrix determinants has been a bottleneck to the widespread application of many machine learning methods such as determinantal point processes, Gaussian processes, generalised Markov random  elds, graph models and many others. In this work, we estimate log determinants under the framework of maximum entropy, given information in the form of moment constraints from stochastic trace estimation. The estimates demonstrate a signi cant improvement on state-of-the-art alternative methods, as shown on a wide variety of matrices from the SparseSuite Matrix Collection. By taking the example of a general Markov random  eld, we also demonstrate how this approach can signifcantly accelerate inference in large-scale learning methods involving the log determinant.},
+	urldate = {2017-06-21},
+	booktitle = {{ECML}/{PKDD} 2017, {European} {Conference} on {Machine} {Learning} and {Principles} and {Practice} of {Knowledge} {Discovery} in {Databases}, {September} 18-22, 2017, {Skopje}, {Macedonia}},
+	author = {Fitzsimons, Jack and Granziol, Diego and Cutajar, Kurt and Osborne, Michael and Filippone, Maurizio and Roberts, Stephen},
+	year = {2017},
+	file = {2304/Fitzsimons et al. - 2017 - Entropic Trace Estimates for Log Determinants.pdf}
+}
+
 @inproceedings{fitzsimons_bayesian_2017,
 	title = {Bayesian {Inference} of {Log} {Determinants}},
 	url = {https://arxiv.org/abs/1704.01445},
 	abstract = {The log-determinant of a kernel matrix appears in a variety of machine learning problems, ranging from determinantal point processes and generalized Markov random fields, through to the training of Gaussian processes. Exact calculation of this term is often intractable when the size of the kernel matrix exceeds a few thousand. In the spirit of probabilistic numerics, we reinterpret the problem of computing the log-determinant as a Bayesian inference problem. In particular, we combine prior knowledge in the form of bounds from matrix theory and evidence derived from stochastic trace estimation to obtain probabilistic estimates for the log-determinant and its associated uncertainty within a given computational budget. Beyond its novelty and theoretic appeal, the performance of our proposal is competitive with state-of-the-art approaches to approximating the log-determinant, while also quantifying the uncertainty due to budget-constrained evidence.},
 	urldate = {2017-06-21},
-	booktitle = {Uncertainty in {Artificial} {Intelligence} (to appear)},
+	booktitle = {Uncertainty in {Artificial} {Intelligence}},
 	author = {Fitzsimons, Jack and Cutajar, Kurt and Osborne, Michael and Roberts, Stephen and Filippone, Maurizio},
 	year = {2017},
 	file = {2307/Fitzsimons et al. - 2017 - Bayesian Inference of Log Determinants.pdf}
@@ -484,28 +520,27 @@ approaches in use are myopic, in only considering the impact of the next functio
 @inproceedings{bewsher_distribution_2017,
 	title = {Distribution of {Gaussian} {Process} {Arc} {Lengths}},
 	url = {http://proceedings.mlr.press/v54/bewsher17a.html},
-	abstract = {We present the first treatment of the arc length of the GP with more than a single output dimension. GPs are commonly used for tasks such as trajectory modelling, where path length is a crucial ...},
+	abstract = {We present the first treatment of the arc length of the Gaussian Process (gp) with more than a single output dimension. Gps are commonly used for tasks such as trajectory modelling, where path length is a crucial quantity of interest. Previously, only paths in one dimension have been considered, with no theoretical consideration of higher dimensional problems. We fill the gap in the existing literature by deriving the moments of the arc length for a stationary gp with multiple output dimensions. A new method is used to derive the mean of a one-dimensional gp over a finite interval, by considering the distribution of the arc length integrand. This technique is used to derive an approximate distribution over the arc length of a vector valued gp in Rn by moment matching the distribution. Numerical simulations confirm our theoretical derivations.},
 	language = {en},
 	urldate = {2017-06-21},
-	booktitle = {{PMLR}},
+	booktitle = {Proceedings of the 20th {International} {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
 	author = {Bewsher, Justin and Tosi, Alessandra and Osborne, Michael and Roberts, Stephen},
 	month = apr,
 	year = {2017},
-	pages = {1412--1420},
 	file = {2310/Bewsher et al. - 2017 - Distribution of Gaussian Process Arc Lengths.pdf}
 }
-@article{paul_alternating_2016,
-	title = {Alternating {Optimisation} and {Quadrature} for {Robust} {Reinforcement} {Learning}},
-	url = {http://arxiv.org/abs/1605.07496},
-	abstract = {Bayesian optimisation has been successfully applied to a variety of reinforcement learning problems. However, the traditional approach for learning optimal policies in simulators does not utilise the opportunity to improve learning by adjusting certain environment variables - state features that are randomly determined by the environment in a physical setting but are controllable in a simulator. This paper considers the problem of finding an optimal policy while taking into account the impact of environment variables. We present alternating optimisation and quadrature (ALOQ), which uses Bayesian optimisation and Bayesian quadrature to address such settings. ALOQ is robust to the presence of significant rare events, which may not be observable under random sampling, but have a considerable impact on determining the optimal policy. We provide experimental results demonstrating our approach learning more efficiently than existing methods.},
-	urldate = {2016-08-26},
-	journal = {arXiv preprint arXiv:1605.07496},
-	author = {Paul, Supratik and Ciosek, Kamil and Osborne, Michael A. and Whiteson, Shimon},
-	year = {2016},
-	keywords = {preprint},
-	file = {1388/Paul et al. - 2016 - Alternating Optimisation and Quadrature for Robust.pdf}
-}
 
+@inproceedings{paul_alternating_2018,
+	title = {Alternating {Optimisation} and {Quadrature} for {Robust} {Control}},
+	url = {http://www.cs.ox.ac.uk/people/shimon.whiteson/pubs/paulaaai18.pdf},
+	abstract = {Bayesian optimisation has been successfully applied to a variety of reinforcement learning problems. However, the traditional approach for learning optimal policies in simulators does not utilise the opportunity to improve learning by adjusting certain environment variables: state features that are unobservable and randomly determined by the environment in a physical setting but are controllable in a simulator. This paper considers the problem of finding a robust policy while taking into account the impact of environment variables. We present Alternating Optimisation and Quadrature (ALOQ), which uses Bayesian optimisation and Bayesian quadrature to address such settings. ALOQ is robust to the presence of significant rare events, which may not be observable under random sampling, but play a substantial role in determining the optimal policy. Experimental results across different domains show that ALOQ can learn more efficiently and robustly than existing methods.},
+	urldate = {2017-12-21},
+	booktitle = {{AAAI}18},
+	author = {Paul, Supratik and Chatzilygeroudis, Konstantinos and Ciosek, Kamil and Mouret, Jean-Baptiste and Osborne, Michael A. and Whiteson, Shimon},
+	year = {2018},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Learning, Statistics - Machine Learning},
+	file = {2799/Paul et al. - 2016 - Alternating Optimisation and Quadrature for Robust.pdf}
+}
 @article{nickson_blitzkriging_2015,
 	title = {Blitzkriging : {Kronecker}-structured {Stochastic} {Gaussian} {Processes}},
 	shorttitle = {Blitzkriging},
@@ -665,17 +700,6 @@ as a testbed for our algorithm.},
 	file = {2301/Rizvi et al. - 2017 - A Novel Approach to Forecasting Financial Volatili.pdf}
 }
 
-@article{fitzsimons_entropic_2017,
-	title = {Entropic {Trace} {Estimates} for {Log} {Determinants}},
-	url = {https://arxiv.org/abs/1704.07223},
-	urldate = {2017-06-21},
-	journal = {arXiv preprint arXiv:1704.07223},
-	author = {Fitzsimons, Jack and Granziol, Diego and Cutajar, Kurt and Osborne, Michael and Filippone, Maurizio and Roberts, Stephen},
-	year = {2017},
-	keywords = {preprint},
-	file = {2304/Fitzsimons et al. - 2017 - Entropic Trace Estimates for Log Determinants.pdf}
-}
-
 @article{mcleod_practical_2017,
 	title = {Practical {Bayesian} {Optimization} for {Variable} {Cost} {Objectives}},
 	url = {http://arxiv.org/abs/1703.04335},
@@ -690,89 +714,99 @@ as a testbed for our algorithm.},
 }
 
 @article{rontsis_distributionally_2017,
-	title = {Distributionally {Robust} {Optimization} {Techniques} in {Batch} {Bayesian} {Optimization}},
+	title = {Distributionally {Ambiguous} {Optimization} {Techniques} in {Batch} {Bayesian} {Optimization}},
 	url = {http://arxiv.org/abs/1707.04191},
-	abstract = {We propose a novel, theoretically-grounded, acquisition function for batch Bayesian optimisation informed by insights from distributionally robust optimization. Our acquisition function is a lower bound on the well-known Expected Improvement function - which requires a multi-dimensional Gaussian Expectation over a piecewise affine function - and is computed by evaluating instead the best-case expectation over all probability distributions consistent with the same mean and variance as the original Gaussian distribution. We show that, unlike alternative approaches including Expected Improvement, our proposed acquisition function avoids multi-dimensional integrations entirely, and can be calculated exactly as the solution of a convex optimization problem in the form of a tractable semidefinite program (SDP). Moreover, we prove that the solution of this SDP also yields exact numerical derivatives, which enable efficient optimisation of the acquisition function. Numerical results suggest that our acquisition function performs very similar to the computationally intractable exact Expected Improvement and considerably better than other heuristics.},
-	urldate = {2017-07-14},
+	abstract = {We propose a novel, theoretically-grounded, acquisition function for batch Bayesian optimization informed by insights from distributionally ambiguous optimization. Our acquisition function is a lower bound on the well-known Expected Improvement function -- which requires a multi-dimensional Gaussian Expectation over a piecewise affine function -- and is computed by evaluating instead the best-case expectation over all probability distributions consistent with the same mean and variance as the original Gaussian distribution. Unlike alternative approaches including Expected Improvement, our proposed acquisition function avoids multi-dimensional integrations entirely, and can be computed exactly as the solution of a convex optimization problem in the form of a tractable semidefinite program (SDP). Moreover, we prove that the solution of this SDP also yields exact numerical derivatives, which enable efficient optimization of the acquisition function. Finally, it efficiently handles marginalized posteriors with respect to the Gaussian Process' hyperparameters. We demonstrate superior performance to heuristic alternatives and approximations of the intractable expected improvement, justifying this performance difference based on simple examples that break the assumptions of state-of-the-art methods.},
+	urldate = {2017-10-31},
 	journal = {arXiv:1707.04191 [stat]},
 	author = {Rontsis, Nikitas and Osborne, Michael A. and Goulart, Paul J.},
 	month = jul,
 	year = {2017},
 	note = {https://github.com/oxfordcontrol/Bayesian-Optimization},
-	keywords = {preprint},
-	file = {2460/Rontsis et al. - 2017 - Distributionally Robust Optimization Techniques in.pdf}
+	keywords = {preprint, Statistics - Machine Learning},
+	file = {2865/Rontsis et al. - 2017 - Distributionally Ambiguous Optimization Techniques.pdf}
 }
 
-@article{rainforth_bayesian_2017,
-	title = {Bayesian {Optimization} for {Probabilistic} {Programs}},
-	url = {http://arxiv.org/abs/1707.04314},
-	abstract = {We present the first general purpose framework for marginal maximum a posteriori estimation of probabilistic program variables. By using a series of code transformations, the evidence of any probabilistic program, and therefore of any graphical model, can be optimized with respect to an arbitrary subset of its sampled variables. To carry out this optimization, we develop the first Bayesian optimization package to directly exploit the source code of its target, leading to innovations in problem-independent hyperpriors, unbounded optimization, and implicit constraint satisfaction; delivering significant performance improvements over prominent existing packages. We present applications of our method to a number of tasks including engineering design and parameter optimization.},
-	urldate = {2017-07-17},
-	journal = {arXiv:1707.04314 [cs, stat]},
-	author = {Rainforth, Tom and Le, Tuan Anh and van de Meent, Jan-Willem and Osborne, Michael A. and Wood, Frank},
-	month = jul,
+@article{ru_fast_2017,
+	title = {Fast {Information}-theoretic {Bayesian} {Optimisation}},
+	url = {http://arxiv.org/abs/1711.00673},
+	abstract = {Information-theoretic Bayesian optimisation techniques have demonstrated state-of-the-art performance in tackling important global optimisation problems. However, current information-theoretic approaches: require many approximations in implementation; limit the choice of kernels available to model the objective; and introduce often-prohibitive computational overhead. We develop a fast information-theoretic Bayesian Optimisation method, FITBO, that circumvents the need for sampling the global minimiser, thus significantly reducing computational overhead. Moreover, in comparison with existing approaches, our method faces fewer constraints on kernel choice and enjoys the merits of dealing with the output space. We demonstrate empirically that FITBO inherits the performance associated with information-theoretic Bayesian optimisation, while being even faster than simpler Bayesian optimisation approaches, such as Expected Improvement.},
+	urldate = {2018-01-03},
+	journal = {arXiv:1711.00673 [stat]},
+	author = {Ru, Binxin and McLeod, Mark and Osborne, Michael},
+	month = nov,
 	year = {2017},
-	keywords = {preprint},
-	file = {2464/Rainforth et al. - 2017 - Bayesian Optimization for Probabilistic Programs.pdf}
+	keywords = {preprint, Statistics - Machine Learning},
+	file = {2813/Ru et al. - 2017 - Fast Information-theoretic Bayesian Optimisation.pdf}
 }
 @techreport{frey_technology_2015,
-  type = {Citi GPS Report},
-  title = {Technology at {{Work}}: {{The Future}} of {{Innovation}} and {{Employment}}},
-  shorttitle = {Technology at {{Work}}},
-  abstract = {Technology at Work: The Future of Innovation and Employment, is the latest Citi GPS report from the Oxford Martin School and Citi. It explores trends in automation and points to sluggish job creation caused partly by increasing automation, and argues that secular stagnation in the digital age can only be avoided by a shift towards inclusive growth.
+	type = {Citi {GPS} {Report}},
+	title = {Technology at {Work}: {The} {Future} of {Innovation} and {Employment}},
+	shorttitle = {Technology at {Work}},
+	url = {http://www.oxfordmartin.ox.ac.uk/publications/view/1883},
+	abstract = {Technology at Work: The Future of Innovation and Employment, is the latest Citi GPS report from the Oxford Martin School and Citi. It explores trends in automation and points to sluggish job creation caused partly by increasing automation, and argues that secular stagnation in the digital age can only be avoided by a shift towards inclusive growth.
 
 The authors highlight the key challenges, explore some of the new technology brought on by the digital age and set out an agenda for change, calling for long term thinking to mitigate the negative effects of an ever more automated and digital economy.
 
 Technology at Work marks the start of a new programme of research supported by Citi, the Oxford Martin Programme on Technology and Employment.},
-  timestamp = {2017-06-20T09:15:48Z},
-  author = {Frey, Carl Benedikt and Osborne, Michael A},
-  year = {2015},
-  file = {1480/GPS_final.pdf}
+	author = {Frey, Carl Benedikt and Osborne, Michael A},
+	year = {2015},
+	file = {1480/GPS_final.pdf}
 }
 
 @techreport{frey_agiletown_2014,
-  title = {Agiletown : The Relentless March of Technology and {{London}}'s Response},
-  abstract = {Our London Futures insights series focuses on the London economy and what it needs to do to maintain and reinforce its position as a leading global business hub. Our latest report in the programme, Agiletown: the relentless march of technology and London's response, focuses on the challenges and opportunities that technology presents to London.
+	title = {Agiletown : the relentless march of technology and {London}’s response},
+	url = {http://www.deloitte.com/view/en_GB/uk/market-insights/uk-futures/london-futures/index.htm},
+	abstract = {Our London Futures insights series focuses on the London economy and what it needs to do to maintain and reinforce its position as a leading global business hub. Our latest report in the programme, Agiletown: the relentless march of technology and London’s response, focuses on the challenges and opportunities that technology presents to London.
 
 The findings indicate that a significant shift is occurring in the labour market. Jobs that do not need to be done in London, or can be fully replaced by technology, will continue to leave the city. However, the job losses will be outweighed by new jobs requiring skills that involve creativity, complex problem-solving and high technical content.
 
 The report brings together research from Oxford Martin School academics Carl Benedikt Frey and Michael A Osborne on the potential impact of automation on jobs in the UK and London over the next two decades, and a Deloitte survey of 100 London based organisations, exploring the new jobs that will be created, the skills that will be needed, and the implications for current working practices.},
-  timestamp = {2017-06-29T00:11:29Z},
-  institution = {Deloitte},
-  author = {Frey, Carl Benedikt and Osborne, Michael A.},
-  month = oct,
-  year = {2014},
-  file = {1892/uk-london-futures-agiletown-nov-14.pdf}
+	institution = {Deloitte},
+	author = {Frey, Carl Benedikt and Osborne, Michael A.},
+	month = oct,
+	year = {2014},
+	file = {1892/uk-london-futures-agiletown-nov-14.pdf}
 }
 
 @techreport{bakhshi_creativity_2015,
-  title = {Creativity {{Vs Robots}}},
-  abstract = {This report explores future automation and creativity in the UK and US workforces. We find that creative jobs will be much more resistant to automation than most other jobs.},
-  timestamp = {2017-06-20T08:45:35Z},
-  urldate = {2015-04-24},
-  institution = {Nesta},
-  author = {Bakhshi, Hasan and Frey, Carl Benedikt and Osborne, Michael A.},
-  year = {2015},
-  file = {1866/creativity_vs._robots_wv.pdf}
+	title = {Creativity {Vs} {Robots}},
+	url = {http://www.nesta.org.uk/publications/creativity-vs-robots},
+	abstract = {This report explores future automation and creativity in the UK and US workforces. We find that creative jobs will be much more resistant to automation than most other jobs.},
+	urldate = {2015-04-24},
+	institution = {Nesta},
+	author = {Bakhshi, Hasan and Frey, Carl Benedikt and Osborne, Michael A.},
+	year = {2015},
+	file = {1866/creativity_vs._robots_wv.pdf}
 }
 
 @techreport{frey_technology_2016,
-  type = {Citi GPS Report},
-  title = {Technology at {{Work}} v2: {{The Future Is Not What It Used}} to {{Be}}},
-  shorttitle = {Technology at {{Work}} v2.0},
-  abstract = {Technology at Work v2.0: The Future Is Not What It Used to Be, produced by the Oxford Martin School and Citi, provides in-depth analysis of the vulnerabilities of countries and cities to job automation, explores what automation will mean for traditional models of economic growth, and considers how governments can prepare for the potentially disruptive impacts of job automation on society.
+	type = {Citi {GPS} {Report}},
+	title = {Technology at {Work} v2: {The} {Future} {Is} {Not} {What} {It} {Used} to {Be}},
+	shorttitle = {Technology at {Work} v2.0},
+	url = {http://www.oxfordmartin.ox.ac.uk/publications/view/2092},
+	abstract = {Technology at Work v2.0: The Future Is Not What It Used to Be, produced by the Oxford Martin School and Citi, provides in-depth analysis of the vulnerabilities of countries and cities to job automation, explores what automation will mean for traditional models of economic growth, and considers how governments can prepare for the potentially disruptive impacts of job automation on society.
 
 It builds on 2013 research by Carl Benedikt Frey and Michael Osborne which found that 47 per cent of US jobs were at risk of automation over the next two decades, and on the first Technology at Work Citi GPS report, published in 2015. 
 
 As well as collaborating on the Citi GPS series of reports, the School has partnered with Citi to create a new programme of research, the Oxford Martin Programme on Technology and Employment, to investigate the implications of a rapidly changing technological landscape for economies and societies.},
-  timestamp = {2017-06-20T09:15:36Z},
-  author = {Frey, Carl Benedikt and Osborne, Michael A.},
-  year = {2016},
-  file = {1204/Citi_GPS_Technology_Work_2.pdf}
+	author = {Frey, Carl Benedikt and Osborne, Michael A.},
+	year = {2016},
+	file = {1204/Citi_GPS_Technology_Work_2.pdf}
 }
 
-
-
+@techreport{bakhshi_future_2017,
+	address = {United Kingdom},
+	title = {The future of skills: employment in 2030},
+	shorttitle = {The future of skills},
+	url = {https://futureskills.pearson.com},
+	abstract = {Recent debates about the future of jobs have mainly focused on whether or not they are at risk of automation. Studies have generally minimised the potential effects of automation on job creation, and have tended to ignore other relevant trends, including globalisation, population ageing, urbanisation, and the rise of the green economy. This study uses a novel and comprehensive method to map out how employment is likely to change, and the implications for skills. --Executive summary.},
+	language = {English},
+	institution = {Pearson},
+	author = {Bakhshi, Hasan and Downing, Jonathan M and Osborne, Michael A and Schneider, Philippe},
+	year = {2017},
+	file = {2864/Bakhshi et al. - 2017 - The future of skills employment in 2030.pdf}
+}
 @inproceedings{calliess_towards_2012,
 	title = {Towards auction-based multi-agent collision-avoidance under continuous stochastic dynamics},
 	abstract = {We describe an approach to multi-agent planning under continuous stochastic dynamics. The approach yields collision-free state tra jectories with adjustably high certainty, while aiming for low social cost. To this end we describe a collision-detection module based on a distribution-independent probabilistic bound. We employ an optimization-based approach to incrementally alter plans until all collisions are avoided with sufficiently high confidence. We consider the case of feedback controlled agents, and alter plans by introducing new setpoints to the agents’ controllers. In the context of a simple stochastic path planning scenario, we compare two alternative strategies for finding such setpoints.
@@ -856,6 +890,16 @@ gap between the current optical and NIR spectrum.},
 	file = {1566/NyikosaOsborneRobertsNipsBayesopt2015.pdf}
 }
 
+@inproceedings{swersky_raiders_2013,
+	title = {Raiders of the lost architecture\_ {Kernels} for {Bayesian} optimization in conditional parameter spaces},
+	abstract = {In practical Bayesian optimization, we must often search over structures with differing numbers of parameters. For instance, we may wish to search over neural network architectures with an unknown number of layers. To relate performance data gathered for different architectures, we define a new kernel for conditional parameter spaces that explicitly includes information about which parameters are relevant in a given structure. We show that this kernel improves model quality and Bayesian optimization results over several simpler baseline kernels.},
+	booktitle = {{NIPS} workshop on {Bayesian} {Optimization} in theory and practice ({BayesOpt}’13)},
+	author = {Swersky, Kevin and Duvenaud, David and Snoek, Jasper and Hutter, Frank and Osborne, Michael A.},
+	year = {2013},
+	keywords = {preprint},
+	file = {1173/hier-kern-workshop.pdf}
+}
+
 @inproceedings{aigrain_gaussian_2011,
 	title = {Gaussian {Processes} : the {Next} {Step} in {Exoplanet} {Data} {Analysis}},
 	volume = {2},
@@ -866,6 +910,28 @@ gap between the current optical and NIR spectrum.},
 	keywords = {workshop},
 	pages = {1105},
 	file = {2053/algrain_suzanne.pdf}
+}
+
+@inproceedings{fruehwirt_gaussian_2017,
+	title = {Gaussian process classification from multivariate spatio-temporal brain potential patterns in {Alzheimer}’s disease},
+	abstract = {The diagnosis of Alzheimer’s disease (AD) in routine clinical practice is most commonly based on subjective clinical interpretations. Event-related potentials (ERPs) have been shown to reflect neu- rodegenerative processes in AD and might qualify as affordable and thereby widely available markers to facilitate the objectivization of AD assessment. Here, we present a novel method combining multivariate pattern analysis (MVPA) and Gaussian process classification (GP) and aim to de- velop ERP markers for two crucial AD classification problems, i.e., the prediction of rapid cognitive decline (RCD) and the distinction between carriers and non-carriers of the ε4 allele of the apolipoprotein E gene, the main genetic risk factor for AD.},
+	booktitle = {{IJCAI} {BOOM} workshop},
+	author = {Fruehwirt, Wolfgang and Zhang, Pengfei and Gerstgrasser, Matthias and Osborne, Michael A and Grossegger, Dieter and Schmidt, Reinhold and Benke, Thomas and Dal-Bianco, Peter and Ransmayr, Gerhard and Weydemann, Leonard and Garn, Heinrich and Waser, Markus and Roberts, Stephen J. and Dorffner, Georg},
+	year = {2017},
+	file = {2576/GPC_from_multivariate_spatio-temporal_brain_potential_patterns_in_AD.pdf}
+}
+
+@inproceedings{zhang_sensor_2017,
+	title = {Sensor {Selection} and {Random} {Field} {Reconstruction} for {Robust} and {Cost}-effective {Heterogeneous} {Weather} {Sensor} {Networks} for the {Developing} {World}},
+	url = {http://arxiv.org/abs/1711.04308},
+	abstract = {We address the two fundamental problems of spatial field reconstruction and sensor selection in heterogeneous sensor networks: (i) how to efficiently perform spatial field reconstruction based on measurements obtained simultaneously from networks with both high and low quality sensors; and (ii) how to perform query based sensor set selection with predictive MSE performance guarantee. For the first problem, we developed a low complexity algorithm based on the spatial best linear unbiased estimator (S-BLUE). Next, building on the S-BLUE, we address the second problem, and develop an efficient algorithm for query based sensor set selection with performance guarantee. Our algorithm is based on the Cross Entropy method which solves the combinatorial optimization problem in an efficient manner.},
+	urldate = {2017-11-17},
+	booktitle = {{NIPS} 2017 {Workshop} on {Machine} {Learning} for the {Developing} {World}},
+	author = {Zhang, Pengfei and Nevat, Ido and Peters, Gareth W. and Fruehwirt, Wolfgang and Huang, Yongchao and Anders, Ivonne and Osborne, Michael},
+	month = nov,
+	year = {2017},
+	keywords = {Statistics - Machine Learning, Electrical Engineering and Systems Science - Signal Processing},
+	file = {2734/Zhang et al. - 2017 - Sensor Selection and Random Field Reconstruction f.pdf}
 }
 @phdthesis{osborne_bayesian_2010,
 	title = {Bayesian {Gaussian} {Processes} for {Sequential} {Prediction}, {Optimisation} and {Quadrature}},
