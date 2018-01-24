@@ -16,6 +16,7 @@ collaborators:
   url: http://www.robots.ox.ac.uk/~sjrob/
   institute: University of Oxford
 papers:
+- zhang_spatial_2018
 - osborne_real-time_2012
 - osborne_active_2010
 - garnett_bayesian_2010
