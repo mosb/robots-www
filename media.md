@@ -15,6 +15,7 @@ My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) ha
 
 Videos are available for those of my talks listed below. I have also cheekily included a couple for which I have only slides. 
 
+* June 2017: [*Technology at Work: The Future of Employment* @ Deep Learning Summer School, Montreal](https://www.youtube.com/watch?v=-eQNObP6QrQ)
 * Oct 2016: [*Probabilistic numerics* @ Twitter Cortex, Boston](https://www.periscope.tv/w/1dRKZRvZpyrKB)
 * Feb 2016: [*Algorithms among us: machine learning and society* @ Oxford Martin School](http://www.oxfordmartin.ox.ac.uk/videos/view/541)
 * Sep 2015: [*Bayesian Optimisation is Probabilistic Numerics* @ Gaussian Processes for Global Optimization workshop in Sheffield](https://www.youtube.com/watch?v=MNcl_DIq5vM)
