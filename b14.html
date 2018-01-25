@@ -1,21 +1,16 @@
 ---
 layout: teaching
-title: B14 Estimation and Inference
+title: B14 Inference
 tags: teaching
 ---
 
-<p>This course provides an introduction to probability theory,
-including various properties of distributions and their representation as
- belief networks. It covers maximum likelihood estimation and compares against
- Bayesian inference. The course concludes by introducing decision theory and classification. The course is taught by <a href="index.html">Michael A Osborne,</a> based on that devised by Prof David Murray.</p>
+<p>This course follows on from <a href="http://www.robots.ox.ac.uk/~mfallon/teaching/">B14 Estimation</a>.
+It provides an introduction to probabilistic inference, covering maximum likelihood estimation and comparing against Bayesian inference.
+The course concludes by introducing decision theory and classification. The course is taught by <a href="index.html">Michael A Osborne,</a> based on that devised by Prof David Murray.</p>
 <br>
 <h2>Course Materials</h2>
 <h3>Lectures</h3>
 <ul class='plus'>
-<li><a href="{{ site.baseurl }}/teaching/B14/1_slides_foundations.pdf">topic 1 handouts: foundations of probability</a></li>
-<li><a href="{{ site.baseurl }}/teaching/B14/2_slides_continuous.pdf">topic 2 handouts: probability of continuous variables</a></li>
-<li><a href="{{ site.baseurl }}/teaching/B14/3_slides_Gaussian.pdf">topic 3 handouts: the gaussian distribution: the best distribution</a></li>
-<li><a href="{{ site.baseurl }}/teaching/B14/Gaussian_identities.pdf">gaussian identities cheat sheet</a></li>
 <li><a href="{{ site.baseurl }}/teaching/B14/4_slides_ML.pdf">topic 4 handouts: maximum likelihood estimation</a></li>
 <li><a href="{{ site.baseurl }}/teaching/B14/5_slides_MAP.pdf">topic 5 handouts: maximum a posteriori estimation</a></li>
 <li><a href="{{ site.baseurl }}/teaching/B14/6_slides_decisions.pdf">topic 6 handouts: decision theory and classification</a></li>
@@ -25,41 +20,24 @@ including various properties of distributions and their representation as
 <!-- <p><a href="{{ site.baseurl }}/teaching/B14/slides_summary.pdf">topic 8 handouts: summary</a></p> -->
 <h3>Classes</h3>
 <ul class='plus'>
-<li><a href="{{ site.baseurl }}/teaching/B14/B14-1Questions.pdf">question sheet 1</a></li>
-<li><a href="{{ site.baseurl }}/teaching/B14/B14-1Hints.pdf">question sheet 1 hints</a></li>
-<li><a href="{{ site.baseurl }}/teaching/B14/B14-1Solutions.pdf">question sheet 1 solutions</a></li>
-<li><a href="{{ site.baseurl }}/teaching/B14/B14-2Questions.pdf">question sheet 2</a></li>
-<li><a href="{{ site.baseurl }}/teaching/B14/B14-2Hints.pdf">question sheet 2 hints</a></li>
-<li><a href="{{ site.baseurl }}/teaching/B14/B14-2q1.m">matlab for question sheet 2 q 1</a></li>
-<li><a href="{{ site.baseurl }}/teaching/B14/B14-2Solutions.pdf">question sheet 2 solutions</a></li>
+<li><a href="{{ site.baseurl }}/teaching/B14/B14-2Questions.pdf">question sheet</a></li>
+<li><a href="{{ site.baseurl }}/teaching/B14/B14-2Hints.pdf">question sheet hints</a></li>
+<li><a href="{{ site.baseurl }}/teaching/B14/B14-2q1.m">matlab for question sheet q 1</a></li>
+<li><a href="{{ site.baseurl }}/teaching/B14/B14-2Solutions.pdf">question sheet solutions</a></li>
 </ul>
 <h2>Course Outline</h2>
-
-<p>
-  Basics of pdfs: properties, joints, conditional and marginalisation,
-  combining pdfs (convolutions, multiplications). Parametric representation of
-  pdfs: multi-variate Gaussian distribution and its properties, moments,
-  correlation. Central limit theorem. Belief Networks. Modelling sensors
-  probabilistically; Bayes rule. Estimators: ML, MAP and Bayes, bias and
-  variance, applications to model fitting. Recursive estimation; Decisions and
-  classification: linear classifier, Jacobian for prop. uncertainty.
-</p>
 
 <p>After this course the student will have an understanding of the following, all in the context of the interpretation of sensor data:
 </p>
 <ul class='plus'>
-<li>Basic properties of distributions: independence, joint and conditional distributions, marginals. Bayes' theorem. The extension from univariate to multivariate distributions.</li>
-<li>How to represent distributions parametrically, how to transform into new sets of random variables, and how to combine density functions.</li>
-<li>The representation of a distribution as a belief network.</li>
-<li>The multivariate Gaussian distribution and its properties.</li>
-<li>How to devise generative models and the optimization of their parameters using Maximum Likelihood Estimation.</li>
-<li>The relationship between MLE and Least Squares optimization.</li>
-<li>The use of priors and Bayes' rule in Maximum A Posteriori estimation.</li>
-<li>Sequential inference, in particular, Kalman filtering.</li>
-<li>Bayesian Decision Theory: the specification of appropriate loss functions, and the minimisation of expected loss to select actions.</li>
-<li>Classifiers and Decision Surfaces, particularly the discriminant function derived from Normal distributions.</li>
-<li>Linear Classifiers - decision hyperplanes and their appearance in Logistic Regression.</li>
-<li>Shortcomings of linear methods, and possibilities for non-linear classification.</li>
+    <li>How to devise generative models and the optimization of their parameters using Maximum Likelihood Estimation.</li>
+    <li>The relationship between MLE and Least Squares optimization.</li>
+    <li>The use of priors and Bayes' rule in Maximum A Posteriori estimation.</li>
+    <li>Sequential inference, in particular, Kalman filtering.</li>
+    <li>Bayesian Decision Theory: the specification of appropriate loss functions, and the minimisation of expected loss to select actions.</li>
+    <li>Classifiers and Decision Surfaces, particularly the discriminant function derived from Normal distributions.</li>
+    <li>Linear Classifiers – decision hyperplanes and their appearance in Logistic Regression.</li>
+    <li>Shortcomings of linear methods, and possibilities for non-linear classification.</li>
 </ul>
 
 <h2>Core reading</h2>
@@ -102,4 +80,7 @@ of appropriate length, for exam practice.</p>
 <li>2012: q3, q4</li>
 <li>2013: q3, q4</li>
 <li>2014: q3, q4</li>
+<li>2015: q3, q4</li>
+<li>2016: q3, q4</li>
+<li>2017: q3, q4</li>
 </ul>
