@@ -181,6 +181,33 @@
 	pages = {1--1},
 	file = {2842/Richardson et al. - 2018 - Gaussian Process Regression for In-situ Capacity E.pdf}
 }
+
+@article{sarkar_prediction_2018,
+	title = {Prediction of tidal currents using {Bayesian} machine learning},
+	volume = {158},
+	issn = {0029-8018},
+	url = {https://www.sciencedirect.com/science/article/pii/S0029801818302397},
+	doi = {10.1016/j.oceaneng.2018.03.007},
+	abstract = {We propose the use of machine learning techniques in the Bayesian framework for the prediction of tidal currents. Computer algorithms based on the classical harmonic analysis approach have been used for several decades in tidal predictions, however the method has several limitations in terms of handling of noise, expressing uncertainty, capturing non-sinusoidal, non-harmonic variations. There is a need for principled approaches which can handle uncertainty and accommodate noise in the data. In this work, we use Gaussian processes, a Bayesian non-parametric machine learning technique, to predict tidal currents. The probabilistic and non-parametric nature of the approach enables it to represent uncertainties in modelling and deal with complexities of the problem. The method makes use of kernel functions to capture structures in the data. The overall objective is to take advantage of the recent progress in machine learning to construct a robust algorithm. Using several sets of field data, we show that the machine learning approach can achieve better results than the traditional approaches.},
+	urldate = {2018-04-13},
+	journal = {Ocean Engineering},
+	author = {Sarkar, Dripta and Osborne, Michael A. and Adcock, Thomas A. A.},
+	month = jun,
+	year = {2018},
+	keywords = {Gaussian process, Machine learning, Prediction, Tidal currents},
+	pages = {221--231},
+	file = {3018/Sarkar et al. - 2018 - Prediction of tidal currents using Bayesian machin.pdf}
+}
+
+@article{lee_optimal_nodate,
+	title = {Optimal operation of an energy management system using model predictive control and {Gaussian} process time-series modelling},
+	issn = {2168-6777},
+	language = {No Linguistic Content},
+	journal = {IEEE J. Emerg. Sel. Topics Power Electron. IEEE Journal of Emerging and Selected Topics in Power Electronics},
+	author = {Lee, Jaehwa and Zhang, Pengfei and Gan, Leong Kit and Howey, David A and Osborne, Michael A and Tosi, Alessandra and Duncan, Stephen},
+	pages = {1},
+	file = {3007/Lee et al. - Optimal operation of an energy management system u.pdf}
+}
 @inproceedings{mann_gaussian_2009,
 	title = {Gaussian {Processes} for {Prediction} of {Homing} {Pigeon} {Flight} {Trajectories}},
 	volume = {1193},
@@ -511,7 +538,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	url = {https://arxiv.org/abs/1704.01445},
 	abstract = {The log-determinant of a kernel matrix appears in a variety of machine learning problems, ranging from determinantal point processes and generalized Markov random fields, through to the training of Gaussian processes. Exact calculation of this term is often intractable when the size of the kernel matrix exceeds a few thousand. In the spirit of probabilistic numerics, we reinterpret the problem of computing the log-determinant as a Bayesian inference problem. In particular, we combine prior knowledge in the form of bounds from matrix theory and evidence derived from stochastic trace estimation to obtain probabilistic estimates for the log-determinant and its associated uncertainty within a given computational budget. Beyond its novelty and theoretic appeal, the performance of our proposal is competitive with state-of-the-art approaches to approximating the log-determinant, while also quantifying the uncertainty due to budget-constrained evidence.},
 	urldate = {2017-06-21},
-	booktitle = {Uncertainty in {Artificial} {Intelligence}},
+	booktitle = {Uncertainty in {Artificial} {Intelligence} ({UAI})},
 	author = {Fitzsimons, Jack and Cutajar, Kurt and Osborne, Michael and Roberts, Stephen and Filippone, Maurizio},
 	year = {2017},
 	file = {2307/Fitzsimons et al. - 2017 - Bayesian Inference of Log Determinants.pdf}
@@ -540,6 +567,34 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2018},
 	keywords = {Computer Science - Artificial Intelligence, Computer Science - Learning, Statistics - Machine Learning},
 	file = {2799/Paul et al. - 2016 - Alternating Optimisation and Quadrature for Robust.pdf}
+}
+
+@inproceedings{abbati_adageo:_2018,
+	title = {{AdaGeo}: {Adaptive} {Geometric} {Learning} for {Optimization} and {Sampling}},
+	shorttitle = {{AdaGeo}},
+	url = {http://proceedings.mlr.press/v84/abbati18a.html},
+	abstract = {Gradient-based optimization and Markov Chain Monte Carlo sampling can be found at the heart of several machine learning methods. In high-dimensional settings, well-known issues such as slow-mixing,...},
+	language = {en},
+	urldate = {2018-04-13},
+	booktitle = {International {Conference} on {Artificial} {Intelligence} and {Statistics}},
+	author = {Abbati, Gabriele and Tosi, Alessandra and Osborne, Michael and Flaxman, Seth},
+	month = mar,
+	year = {2018},
+	pages = {226--234},
+	file = {3002/Abbati et al. - 2018 - AdaGeo Adaptive Geometric Learning for Optimizati.pdf}
+}
+
+@inproceedings{richardson_battery_2017,
+	title = {Battery {Capacity} {Estimation} {From} {Partial}-{Charging} {Data} {Using} {Gaussian} {Process} {Regression}},
+	url = {http://dx.doi.org/10.1115/DSCC2017-5365},
+	doi = {10.1115/DSCC2017-5365},
+	abstract = {Accurate on-board capacity estimation is of critical importance in lithium-ion battery applications. Battery charging/discharging often occurs under a constant current load, and hence voltage vs. time measurements under this condition may be accessible in practice. This paper presents a novel diagnostic technique, Gaussian Process regression for In-situ Capacity Estimation (GP-ICE), which is capable of estimating the battery capacity using voltage vs. time measurements over short periods of galvanostatic operation.The approach uses Gaussian process regression to map from voltage values at a selection of uniformly distributed times, to cell capacity. Unlike previous works, GP-ICE does not rely on interpreting the voltage-time data through the lens of Incremental Capacity (IC) or Differential Voltage (DV) analysis. This overcomes both the need to differentiate the voltage-time data (a process which amplifies measurement noise), and the requirement that the range of voltage measurements encompasses the peaks in the IC/DV curves. Rather, GP-ICE gives insight into which portions of the voltage range are most informative about the capacity for a particular cell. We apply GP-ICE to a dataset of 8 cells, which were aged by repeated application of an ARTEMIS urban drive cycle. Within certain voltage ranges, as little as 10 seconds of charge data is sufficient to enable capacity estimates with ∼ 2\% RMSE.},
+	urldate = {2018-04-16},
+	booktitle = {{ASME} 2017 {Dynamic} {Systems} and {Control} {Conference}},
+	author = {Richardson, Robert R. and Birkl, Christoph R. and Osborne, Michael A. and Howey, David A.},
+	month = oct,
+	year = {2017},
+	file = {3017/Richardson et al. - 2017 - Battery Capacity Estimation From Partial-Charging .pdf}
 }
 @article{nickson_blitzkriging_2015,
 	title = {Blitzkriging : {Kronecker}-structured {Stochastic} {Gaussian} {Processes}},
@@ -723,21 +778,47 @@ as a testbed for our algorithm.},
 	month = jul,
 	year = {2017},
 	note = {https://github.com/oxfordcontrol/Bayesian-Optimization},
-	keywords = {preprint, Statistics - Machine Learning},
+	keywords = {Statistics - Machine Learning, preprint},
 	file = {2865/Rontsis et al. - 2017 - Distributionally Ambiguous Optimization Techniques.pdf}
+}
+
+@article{zhao_quantum_2018,
+	title = {Quantum algorithms for training {Gaussian} {Processes}},
+	url = {http://arxiv.org/abs/1803.10520},
+	abstract = {Gaussian processes (GPs) are important models in supervised machine learning. Training in Gaussian processes refers to selecting the covariance functions and the associated parameters in order to improve the outcome of predictions, the core of which amounts to evaluating the logarithm of the marginal likelihood (LML) of a given model. LML gives a concrete measure of the quality of prediction that a GP model is expected to achieve. The classical computation of LML typically carries a polynomial time overhead with respect to the input size. We propose a quantum algorithm that computes the logarithm of the determinant of a Hermitian matrix, which runs in logarithmic time for sparse matrices. This is applied in conjunction with a variant of the quantum linear system algorithm that allows for logarithmic time computation of the form \${\textbackslash}mathbf\{y\}{\textasciicircum}TA{\textasciicircum}\{-1\}{\textbackslash}mathbf\{y\}\$, where \${\textbackslash}mathbf\{y\}\$ is a dense vector and \$A\$ is the covariance matrix. We hence show that quantum computing can be used to estimate the LML of a GP with exponentially improved efficiency under certain conditions.},
+	urldate = {2018-03-29},
+	journal = {arXiv:1803.10520 [quant-ph, stat]},
+	author = {Zhao, Zhikuan and Fitzsimons, Jack K. and Osborne, Michael A. and Roberts, Stephen J. and Fitzsimons, Joseph F.},
+	month = mar,
+	year = {2018},
+	keywords = {Computer Science - Learning, preprint, Quantum Physics, Statistics - Machine Learning},
+	file = {2962/Zhao et al. - 2018 - Quantum algorithms for training Gaussian Processes.pdf}
+}
+
+@article{nyikosa_bayesian_2018,
+	title = {Bayesian {Optimization} for {Dynamic} {Problems}},
+	url = {http://arxiv.org/abs/1803.03432},
+	abstract = {We propose practical extensions to Bayesian optimization for solving dynamic problems. We model dynamic objective functions using spatiotemporal Gaussian process priors which capture all the instances of the functions over time. Our extensions to Bayesian optimization use the information learnt from this model to guide the tracking of a temporally evolving minimum. By exploiting temporal correlations, the proposed method also determines when to make evaluations, how fast to make those evaluations, and it induces an appropriate budget of steps based on the available information. Lastly, we evaluate our technique on synthetic and real-world problems.},
+	urldate = {2018-04-16},
+	journal = {arXiv:1803.03432 [stat]},
+	author = {Nyikosa, Favour M. and Osborne, Michael A. and Roberts, Stephen J.},
+	month = mar,
+	year = {2018},
+	keywords = {preprint, Statistics - Machine Learning},
+	file = {3010/Nyikosa et al. - 2018 - Bayesian Optimization for Dynamic Problems.pdf}
 }
 
 @article{ru_fast_2017,
 	title = {Fast {Information}-theoretic {Bayesian} {Optimisation}},
 	url = {http://arxiv.org/abs/1711.00673},
-	abstract = {Information-theoretic Bayesian optimisation techniques have demonstrated state-of-the-art performance in tackling important global optimisation problems. However, current information-theoretic approaches: require many approximations in implementation; limit the choice of kernels available to model the objective; and introduce often-prohibitive computational overhead. We develop a fast information-theoretic Bayesian Optimisation method, FITBO, that circumvents the need for sampling the global minimiser, thus significantly reducing computational overhead. Moreover, in comparison with existing approaches, our method faces fewer constraints on kernel choice and enjoys the merits of dealing with the output space. We demonstrate empirically that FITBO inherits the performance associated with information-theoretic Bayesian optimisation, while being even faster than simpler Bayesian optimisation approaches, such as Expected Improvement.},
-	urldate = {2018-01-03},
+	abstract = {Information-theoretic Bayesian optimisation techniques have demonstrated state-of-the-art performance in tackling important global optimisation problems. However, current information-theoretic approaches require many approximations in implementation, introduce often-prohibitive computational overhead and limit the choice of kernels available to model the objective. We develop a fast information-theoretic Bayesian Optimisation method, FITBO, that avoids the need for sampling the global minimiser, thus significantly reducing computational overhead. Moreover, in comparison with existing approaches, our method faces fewer constraints on kernel choice and enjoys the merits of dealing with the output space. We demonstrate empirically that FITBO inherits the performance associated with information-theoretic Bayesian optimisation, while being even faster than simpler Bayesian optimisation approaches, such as Expected Improvement.},
+	urldate = {2018-04-16},
 	journal = {arXiv:1711.00673 [stat]},
-	author = {Ru, Binxin and McLeod, Mark and Osborne, Michael},
+	author = {Ru, Binxin and McLeod, Mark and Granziol, Diego and Osborne, Michael},
 	month = nov,
 	year = {2017},
 	keywords = {preprint, Statistics - Machine Learning},
-	file = {2813/Ru et al. - 2017 - Fast Information-theoretic Bayesian Optimisation.pdf}
+	file = {3014/Ru et al. - 2017 - Fast Information-theoretic Bayesian Optimisation.pdf}
 }
 @techreport{frey_technology_2015,
 	type = {Citi {GPS} {Report}},

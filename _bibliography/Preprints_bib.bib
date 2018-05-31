@@ -181,19 +181,45 @@ as a testbed for our algorithm.},
 	month = jul,
 	year = {2017},
 	note = {https://github.com/oxfordcontrol/Bayesian-Optimization},
-	keywords = {preprint, Statistics - Machine Learning},
+	keywords = {Statistics - Machine Learning, preprint},
 	file = {2865/Rontsis et al. - 2017 - Distributionally Ambiguous Optimization Techniques.pdf}
+}
+
+@article{zhao_quantum_2018,
+	title = {Quantum algorithms for training {Gaussian} {Processes}},
+	url = {http://arxiv.org/abs/1803.10520},
+	abstract = {Gaussian processes (GPs) are important models in supervised machine learning. Training in Gaussian processes refers to selecting the covariance functions and the associated parameters in order to improve the outcome of predictions, the core of which amounts to evaluating the logarithm of the marginal likelihood (LML) of a given model. LML gives a concrete measure of the quality of prediction that a GP model is expected to achieve. The classical computation of LML typically carries a polynomial time overhead with respect to the input size. We propose a quantum algorithm that computes the logarithm of the determinant of a Hermitian matrix, which runs in logarithmic time for sparse matrices. This is applied in conjunction with a variant of the quantum linear system algorithm that allows for logarithmic time computation of the form \${\textbackslash}mathbf\{y\}{\textasciicircum}TA{\textasciicircum}\{-1\}{\textbackslash}mathbf\{y\}\$, where \${\textbackslash}mathbf\{y\}\$ is a dense vector and \$A\$ is the covariance matrix. We hence show that quantum computing can be used to estimate the LML of a GP with exponentially improved efficiency under certain conditions.},
+	urldate = {2018-03-29},
+	journal = {arXiv:1803.10520 [quant-ph, stat]},
+	author = {Zhao, Zhikuan and Fitzsimons, Jack K. and Osborne, Michael A. and Roberts, Stephen J. and Fitzsimons, Joseph F.},
+	month = mar,
+	year = {2018},
+	keywords = {Computer Science - Learning, preprint, Quantum Physics, Statistics - Machine Learning},
+	file = {2962/Zhao et al. - 2018 - Quantum algorithms for training Gaussian Processes.pdf}
+}
+
+@article{nyikosa_bayesian_2018,
+	title = {Bayesian {Optimization} for {Dynamic} {Problems}},
+	url = {http://arxiv.org/abs/1803.03432},
+	abstract = {We propose practical extensions to Bayesian optimization for solving dynamic problems. We model dynamic objective functions using spatiotemporal Gaussian process priors which capture all the instances of the functions over time. Our extensions to Bayesian optimization use the information learnt from this model to guide the tracking of a temporally evolving minimum. By exploiting temporal correlations, the proposed method also determines when to make evaluations, how fast to make those evaluations, and it induces an appropriate budget of steps based on the available information. Lastly, we evaluate our technique on synthetic and real-world problems.},
+	urldate = {2018-04-16},
+	journal = {arXiv:1803.03432 [stat]},
+	author = {Nyikosa, Favour M. and Osborne, Michael A. and Roberts, Stephen J.},
+	month = mar,
+	year = {2018},
+	keywords = {preprint, Statistics - Machine Learning},
+	file = {3010/Nyikosa et al. - 2018 - Bayesian Optimization for Dynamic Problems.pdf}
 }
 
 @article{ru_fast_2017,
 	title = {Fast {Information}-theoretic {Bayesian} {Optimisation}},
 	url = {http://arxiv.org/abs/1711.00673},
-	abstract = {Information-theoretic Bayesian optimisation techniques have demonstrated state-of-the-art performance in tackling important global optimisation problems. However, current information-theoretic approaches: require many approximations in implementation; limit the choice of kernels available to model the objective; and introduce often-prohibitive computational overhead. We develop a fast information-theoretic Bayesian Optimisation method, FITBO, that circumvents the need for sampling the global minimiser, thus significantly reducing computational overhead. Moreover, in comparison with existing approaches, our method faces fewer constraints on kernel choice and enjoys the merits of dealing with the output space. We demonstrate empirically that FITBO inherits the performance associated with information-theoretic Bayesian optimisation, while being even faster than simpler Bayesian optimisation approaches, such as Expected Improvement.},
-	urldate = {2018-01-03},
+	abstract = {Information-theoretic Bayesian optimisation techniques have demonstrated state-of-the-art performance in tackling important global optimisation problems. However, current information-theoretic approaches require many approximations in implementation, introduce often-prohibitive computational overhead and limit the choice of kernels available to model the objective. We develop a fast information-theoretic Bayesian Optimisation method, FITBO, that avoids the need for sampling the global minimiser, thus significantly reducing computational overhead. Moreover, in comparison with existing approaches, our method faces fewer constraints on kernel choice and enjoys the merits of dealing with the output space. We demonstrate empirically that FITBO inherits the performance associated with information-theoretic Bayesian optimisation, while being even faster than simpler Bayesian optimisation approaches, such as Expected Improvement.},
+	urldate = {2018-04-16},
 	journal = {arXiv:1711.00673 [stat]},
-	author = {Ru, Binxin and McLeod, Mark and Osborne, Michael},
+	author = {Ru, Binxin and McLeod, Mark and Granziol, Diego and Osborne, Michael},
 	month = nov,
 	year = {2017},
 	keywords = {preprint, Statistics - Machine Learning},
-	file = {2813/Ru et al. - 2017 - Fast Information-theoretic Bayesian Optimisation.pdf}
+	file = {3014/Ru et al. - 2017 - Fast Information-theoretic Bayesian Optimisation.pdf}
 }
