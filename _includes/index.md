@@ -8,9 +8,7 @@ I am a machine learning researcher with a few different hats within the <a href=
 * Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a> and 
 * Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk">Oxford-Man Institute of Quantitative Finance.</a>
 
-I'm also a co-founder of [Mind Foundry](http://mindfoundry.ai). 
-
-If you want to get to know me in gruesome detail: 
+I'm also a co-founder of [Mind Foundry](http://mindfoundry.ai).  If you want to get to know me in gruesome detail: 
 
 * [here]({{ site.baseurl }}/bio) is a short biography;
 * you can examine a [high-resolution photo]({{ site.baseurl }}/public/image/OsborneMike05.jpg) of me;
