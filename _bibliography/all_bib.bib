@@ -596,6 +596,35 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2017},
 	file = {3017/Richardson et al. - 2017 - Battery Capacity Estimation From Partial-Charging .pdf}
 }
+
+@inproceedings{mcleod_optimization_2018,
+	title = {Optimization, fast and slow: optimally switching between local and {Bayesian} optimization},
+	shorttitle = {Optimization, fast and slow},
+	url = {http://arxiv.org/abs/1805.08610},
+	abstract = {We develop the first Bayesian Optimization algorithm, BLOSSOM, which selects between multiple alternative acquisition functions and traditional local optimization at each step. This is combined with a novel stopping condition based on expected regret. This pairing allows us to obtain the best characteristics of both local and Bayesian optimization, making efficient use of function evaluations while yielding superior convergence to the global minimum on a selection of optimization problems, and also halting optimization once a principled and intuitive stopping condition has been fulfilled.},
+	urldate = {2018-05-23},
+	booktitle = {Proceedings of the 35th {International} {Conference} on {Machine} {Learning}},
+	author = {McLeod, Mark and Osborne, Michael A. and Roberts, Stephen J.},
+	month = may,
+	year = {2018},
+	note = {https://github.com/markm541374/gpbo},
+	keywords = {Computer Science - Learning, Statistics - Machine Learning},
+	file = {3194/McLeod et al. - 2018 - Optimization, fast and slow optimally switching b.pdf}
+}
+
+@inproceedings{ru_fast_2017,
+	title = {Fast {Information}-theoretic {Bayesian} {Optimisation}},
+	url = {http://arxiv.org/abs/1711.00673},
+	abstract = {Information-theoretic Bayesian optimisation techniques have demonstrated state-of-the-art performance in tackling important global optimisation problems. However, current information-theoretic approaches require many approximations in implementation, introduce often-prohibitive computational overhead and limit the choice of kernels available to model the objective. We develop a fast information-theoretic Bayesian Optimisation method, FITBO, that avoids the need for sampling the global minimiser, thus significantly reducing computational overhead. Moreover, in comparison with existing approaches, our method faces fewer constraints on kernel choice and enjoys the merits of dealing with the output space. We demonstrate empirically that FITBO inherits the performance associated with information-theoretic Bayesian optimisation, while being even faster than simpler Bayesian optimisation approaches, such as Expected Improvement.},
+	urldate = {2018-06-07},
+	booktitle = {Proceedings of the 35th {International} {Conference} on {Machine} {Learning}},
+	author = {Ru, Binxin and McLeod, Mark and Granziol, Diego and Osborne, Michael A.},
+	month = nov,
+	year = {2017},
+	note = {https://github.com/rubinxin/FITBO},
+	keywords = {Statistics - Machine Learning},
+	file = {3192/Ru et al. - 2017 - Fast Information-theoretic Bayesian Optimisation.pdf}
+}
 @article{nickson_blitzkriging_2015,
 	title = {Blitzkriging : {Kronecker}-structured {Stochastic} {Gaussian} {Processes}},
 	shorttitle = {Blitzkriging},
@@ -764,6 +793,7 @@ as a testbed for our algorithm.},
 	author = {McLeod, Mark and Osborne, Michael A. and Roberts, Stephen J.},
 	month = mar,
 	year = {2017},
+	note = {https://github.com/markm541374/gpbo},
 	keywords = {preprint},
 	file = {2401/McLeod et al. - 2017 - Practical Bayesian Optimization for Variable Cost .pdf}
 }
@@ -791,7 +821,7 @@ as a testbed for our algorithm.},
 	author = {Zhao, Zhikuan and Fitzsimons, Jack K. and Osborne, Michael A. and Roberts, Stephen J. and Fitzsimons, Joseph F.},
 	month = mar,
 	year = {2018},
-	keywords = {Computer Science - Learning, preprint, Quantum Physics, Statistics - Machine Learning},
+	keywords = {Computer Science - Learning, Quantum Physics, Statistics - Machine Learning, preprint},
 	file = {2962/Zhao et al. - 2018 - Quantum algorithms for training Gaussian Processes.pdf}
 }
 
@@ -804,21 +834,34 @@ as a testbed for our algorithm.},
 	author = {Nyikosa, Favour M. and Osborne, Michael A. and Roberts, Stephen J.},
 	month = mar,
 	year = {2018},
-	keywords = {preprint, Statistics - Machine Learning},
+	keywords = {Statistics - Machine Learning, preprint},
 	file = {3010/Nyikosa et al. - 2018 - Bayesian Optimization for Dynamic Problems.pdf}
 }
 
-@article{ru_fast_2017,
-	title = {Fast {Information}-theoretic {Bayesian} {Optimisation}},
-	url = {http://arxiv.org/abs/1711.00673},
-	abstract = {Information-theoretic Bayesian optimisation techniques have demonstrated state-of-the-art performance in tackling important global optimisation problems. However, current information-theoretic approaches require many approximations in implementation, introduce often-prohibitive computational overhead and limit the choice of kernels available to model the objective. We develop a fast information-theoretic Bayesian Optimisation method, FITBO, that avoids the need for sampling the global minimiser, thus significantly reducing computational overhead. Moreover, in comparison with existing approaches, our method faces fewer constraints on kernel choice and enjoys the merits of dealing with the output space. We demonstrate empirically that FITBO inherits the performance associated with information-theoretic Bayesian optimisation, while being even faster than simpler Bayesian optimisation approaches, such as Expected Improvement.},
-	urldate = {2018-04-16},
-	journal = {arXiv:1711.00673 [stat]},
-	author = {Ru, Binxin and McLeod, Mark and Granziol, Diego and Osborne, Michael},
-	month = nov,
-	year = {2017},
-	keywords = {preprint, Statistics - Machine Learning},
-	file = {3014/Ru et al. - 2017 - Fast Information-theoretic Bayesian Optimisation.pdf}
+@article{granziol_entropic_2018,
+	title = {Entropic {Spectral} {Learning} in {Large} {Scale} {Networks}},
+	url = {http://arxiv.org/abs/1804.06802},
+	abstract = {We present a novel algorithm for learning the spectral density of large scale networks using stochastic trace estimation and the method of maximum entropy. The complexity of the algorithm is linear in the number of non-zero elements of the matrix, offering a computational advantage over other algorithms. We apply our algorithm to the problem of community detection in large networks. We show state-of-the-art performance on both synthetic and real datasets.},
+	urldate = {2018-04-19},
+	journal = {arXiv:1804.06802 [cs, math, stat]},
+	author = {Granziol, Diego and Ru, Binxin and Zohren, Stefan and Dong, Xiaowen and Osborne, Michael and Roberts, Stephen},
+	month = apr,
+	year = {2018},
+	keywords = {Computer Science - Information Theory, Computer Science - Learning, preprint, Statistics - Machine Learning},
+	file = {3040/Granziol et al. - 2018 - Entropic Spectral Learning in Large Scale Networks.pdf}
+}
+
+@article{paul_contextual_2018,
+	title = {Contextual {Policy} {Optimisation}},
+	url = {http://arxiv.org/abs/1805.10662},
+	abstract = {Policy gradient methods have been successfully applied to a variety of reinforcement learning tasks. However, while learning in a simulator, these methods do not utilise the opportunity to improve learning by adjusting certain environment variables: unobservable state features that are randomly determined by the environment in a physical setting, but that are controllable in a simulator. This can lead to slow learning, or convergence to highly suboptimal policies. In this paper, we present contextual policy optimisation (CPO). The central idea is to use Bayesian optimisation to actively select the distribution of the environment variable that maximises the improvement generated by each iteration of the policy gradient method. To make this Bayesian optimisation practical, we contribute two easy-to-compute low-dimensional fingerprints of the current policy. We apply CPO to a number of continuous control tasks of varying difficulty and show that CPO can efficiently learn policies that are robust to significant rare events, which are unlikely to be observable under random sampling but are key to learning good policies.},
+	urldate = {2018-05-29},
+	journal = {arXiv:1805.10662 [cs, stat]},
+	author = {Paul, Supratik and Osborne, Michael A. and Whiteson, Shimon},
+	month = may,
+	year = {2018},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Learning, preprint, Statistics - Machine Learning},
+	file = {3160/Paul et al. - 2018 - Contextual Policy Optimisation.pdf}
 }
 @techreport{frey_technology_2015,
 	type = {Citi {GPS} {Report}},
