@@ -1,7 +1,7 @@
 ---
 title: Active Inference for Sensor Networks
 date: 2008-01-01
-weight: 10
+weight: 15
 collaborators:
 - name: Alex Rogers
   url: https://www.cs.ox.ac.uk/people/alex.rogers/

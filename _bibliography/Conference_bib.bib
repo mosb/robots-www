@@ -224,6 +224,16 @@
 	file = {1748/bbq_nips_final.pdf}
 }
 
+@inproceedings{fitzsimons_improved_2018,
+	title = {Improved stochastic trace estimation using mutually unbiased bases},
+	url = {http://arxiv.org/abs/1608.00117},
+	abstract = {We examine the problem of estimating the trace of a matrix A when given access to an oracle which computes x† A x for an input vector x. We make use of the basis vectors from a set of mutually unbiased bases, widely studied in the field of quantum information processing, in the selection of probing vectors x. This approach offers a new state of the art single shot sampling variance while requiring only O(log(n)) random bits to generate each vector. This significantly improves on traditional methods such as Hutchinson's and Gaussian estimators in terms of the number of random bits required and worst case sample variance.},
+	booktitle = {34th {Conference} on {Uncertainty} in {Artificial} {Intelligence} ({UAI})},
+	author = {Fitzsimons, Jack K. and Osborne, Michael A. and Roberts, Stephen J. and Fitzsimons, Joe F.},
+	year = {2018},
+	file = {3304/Fitzsimons et al. - Improved Stochastic Trace Estimation using Mutuall.pdf}
+}
+
 @inproceedings{sarkar_machine_2016,
 	title = {A {Machine} {Learning} {Approach} to the {Prediction} of {Tidal} {Currents}.},
 	url = {http://users.ox.ac.uk/~spet1235/ISOPE-2016-TPC-0969-final.pdf},
@@ -244,7 +254,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	booktitle = {Proceedings of the 19th {International} {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
 	author = {Gonzalez, Javier and Osborne, Michael A. and Lawrence, Neil},
 	year = {2016},
-	note = {https://is.gd/P3KiBx},
+	note = {https://github.com/SheffieldML/GPyOpt/tree/GLASSES},
 	pages = {790--799},
 	file = {1209/Gonzalez et al. - 2016 - GLASSES Relieving The Myopia Of Bayesian Optimisa.pdf}
 }
@@ -290,7 +300,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 @inproceedings{rainforth_bayesian_2016,
 	title = {Bayesian {Optimization} for {Probabilistic} {Programs}},
 	url = {http://papers.nips.cc/paper/6421-bayesian-optimization-for-probabilistic-programs.pdf},
-	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 29},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 29 ({NIPS})},
 	publisher = {Curran Associates, Inc.},
 	author = {Rainforth, Tom and Le, Tuan Anh and van de Meent, Jan-Willem and Osborne, Michael A and Wood, Frank},
 	editor = {Lee, D. D. and Sugiyama, M. and Luxburg, U. V. and Guyon, I. and Garnett, R.},
@@ -353,7 +363,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	url = {http://www.cs.ox.ac.uk/people/shimon.whiteson/pubs/paulaaai18.pdf},
 	abstract = {Bayesian optimisation has been successfully applied to a variety of reinforcement learning problems. However, the traditional approach for learning optimal policies in simulators does not utilise the opportunity to improve learning by adjusting certain environment variables: state features that are unobservable and randomly determined by the environment in a physical setting but are controllable in a simulator. This paper considers the problem of finding a robust policy while taking into account the impact of environment variables. We present Alternating Optimisation and Quadrature (ALOQ), which uses Bayesian optimisation and Bayesian quadrature to address such settings. ALOQ is robust to the presence of significant rare events, which may not be observable under random sampling, but play a substantial role in determining the optimal policy. Experimental results across different domains show that ALOQ can learn more efficiently and robustly than existing methods.},
 	urldate = {2017-12-21},
-	booktitle = {{AAAI}18},
+	booktitle = {Proceedings of the {Thirty}-{Second} {AAAI} {Conference} on {Artificial} {Intelligence} ({AAAI})},
 	author = {Paul, Supratik and Chatzilygeroudis, Konstantinos and Ciosek, Kamil and Mouret, Jean-Baptiste and Osborne, Michael A. and Whiteson, Shimon},
 	year = {2018},
 	keywords = {Computer Science - Artificial Intelligence, Computer Science - Learning, Statistics - Machine Learning},
@@ -361,13 +371,13 @@ approaches in use are myopic, in only considering the impact of the next functio
 }
 
 @inproceedings{abbati_adageo_2018,
-	title = {{AdaGeo}: {Adaptive} {Geometric} {Learning} for {Optimization} and {Sampling}},
+	title = {{AdaGeo} : {Adaptive} {Geometric} {Learning} for {Optimization} and {Sampling}},
 	shorttitle = {{AdaGeo}},
 	url = {http://proceedings.mlr.press/v84/abbati18a.html},
 	abstract = {Gradient-based optimization and Markov Chain Monte Carlo sampling can be found at the heart of several machine learning methods. In high-dimensional settings, well-known issues such as slow-mixing,...},
 	language = {en},
 	urldate = {2018-04-13},
-	booktitle = {International {Conference} on {Artificial} {Intelligence} and {Statistics}},
+	booktitle = {International {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS})},
 	author = {Abbati, Gabriele and Tosi, Alessandra and Osborne, Michael and Flaxman, Seth},
 	month = mar,
 	year = {2018},
@@ -394,7 +404,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	url = {http://arxiv.org/abs/1805.08610},
 	abstract = {We develop the first Bayesian Optimization algorithm, BLOSSOM, which selects between multiple alternative acquisition functions and traditional local optimization at each step. This is combined with a novel stopping condition based on expected regret. This pairing allows us to obtain the best characteristics of both local and Bayesian optimization, making efficient use of function evaluations while yielding superior convergence to the global minimum on a selection of optimization problems, and also halting optimization once a principled and intuitive stopping condition has been fulfilled.},
 	urldate = {2018-05-23},
-	booktitle = {Proceedings of the 35th {International} {Conference} on {Machine} {Learning}},
+	booktitle = {Proceedings of the 35th {International} {Conference} on {Machine} {Learning} ({ICML})},
 	author = {McLeod, Mark and Osborne, Michael A. and Roberts, Stephen J.},
 	month = may,
 	year = {2018},
@@ -403,15 +413,14 @@ approaches in use are myopic, in only considering the impact of the next functio
 	file = {3194/McLeod et al. - 2018 - Optimization, fast and slow optimally switching b.pdf}
 }
 
-@inproceedings{ru_fast_2017,
+@inproceedings{ru_fast_2018,
 	title = {Fast {Information}-theoretic {Bayesian} {Optimisation}},
 	url = {http://arxiv.org/abs/1711.00673},
 	abstract = {Information-theoretic Bayesian optimisation techniques have demonstrated state-of-the-art performance in tackling important global optimisation problems. However, current information-theoretic approaches require many approximations in implementation, introduce often-prohibitive computational overhead and limit the choice of kernels available to model the objective. We develop a fast information-theoretic Bayesian Optimisation method, FITBO, that avoids the need for sampling the global minimiser, thus significantly reducing computational overhead. Moreover, in comparison with existing approaches, our method faces fewer constraints on kernel choice and enjoys the merits of dealing with the output space. We demonstrate empirically that FITBO inherits the performance associated with information-theoretic Bayesian optimisation, while being even faster than simpler Bayesian optimisation approaches, such as Expected Improvement.},
 	urldate = {2018-06-07},
-	booktitle = {Proceedings of the 35th {International} {Conference} on {Machine} {Learning}},
+	booktitle = {Proceedings of the 35th {International} {Conference} on {Machine} {Learning} ({ICML})},
 	author = {Ru, Binxin and McLeod, Mark and Granziol, Diego and Osborne, Michael A.},
-	month = nov,
-	year = {2017},
+	year = {2018},
 	note = {https://github.com/rubinxin/FITBO},
 	keywords = {Statistics - Machine Learning},
 	file = {3192/Ru et al. - 2017 - Fast Information-theoretic Bayesian Optimisation.pdf}
