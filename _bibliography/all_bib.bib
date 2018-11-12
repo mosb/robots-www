@@ -694,18 +694,6 @@ signals.},
 	file = {1015/1403.4640.pdf}
 }
 
-@article{briol_probabilistic_2015,
-	title = {Probabilistic {Integration}: {A} {Role} for {Statisticians} in {Numerical} {Analysis}?},
-	url = {http://arxiv.org/abs/1512.00933},
-	abstract = {Probabilistic numerical methods aim to model numerical error as a source of epistemic uncertainty that is subject to probabilistic analysis and reasoning, enabling the principled propagation of numerical uncertainty through a computational pipeline. In this paper we focus on numerical methods for integration. We present probabilistic (Bayesian) versions of both Markov chain and Quasi Monte Carlo methods for integration and provide rigorous theoretical guarantees for convergence rates, in both posterior mean and posterior contraction. The performance of probabilistic integrators is guaranteed to be no worse than non-probabilistic integrators and is, in many cases, asymptotically superior. These probabilistic integrators therefore enjoy the "best of both worlds", leveraging the sampling efficiency of advanced Monte Carlo methods whilst being equipped with valid probabilistic models for uncertainty quantification. Several applications and illustrations are provided, including examples from computer vision and system modelling using non-linear differential equations. A survey of open challenges in probabilistic integration is provided.},
-	journal = {arXiv:1512.00933 [cs, math, stat]},
-	author = {Briol, François-Xavier and Oates, Chris J. and Girolami, Mark and Osborne, Michael A. and Sejdinovic, Dino},
-	month = dec,
-	year = {2015},
-	keywords = {Computer Science - Numerical Analysis, Mathematics - Numerical Analysis, Mathematics - Statistics Theory, Statistics - Computation, Statistics - Machine Learning, preprint},
-	file = {1412/Briol et al. - 2015 - Probabilistic Integration.pdf}
-}
-
 @misc{osborne_epistemic_2008,
 	title = {Epistemic {Uncertainty} in {Quantum} {Mechanics}},
 	author = {Osborne, Michael A.},
@@ -713,18 +701,6 @@ signals.},
 	year = {2008},
 	keywords = {preprint},
 	file = {1460/Osborne2008Epistemic_uncertainty_in_quantum_mechanics.pdf}
-}
-
-@article{fitzsimons_improved_2016,
-	title = {Improved stochastic trace estimation using mutually unbiased bases},
-	url = {http://arxiv.org/abs/1608.00117},
-	abstract = {We examine the problem of estimating the trace of a matrix A when given access to an oracle which computes x† A x for an input vector x. We make use of the basis vectors from a set of mutually unbiased bases, widely studied in the field of quantum information processing, in the selection of probing vectors x. This approach offers a new state of the art single shot sampling variance while requiring only O(log(n)) random bits to generate each vector. This significantly improves on traditional methods such as Hutchinson's and Gaussian estimators in terms of the number of random bits required and worst case sample variance.},
-	journal = {arXiv:1608.00117 [quant-ph]},
-	author = {Fitzsimons, Jack K. and Osborne, Michael A. and Roberts, Stephen J. and Fitzsimons, Joe F.},
-	month = jul,
-	year = {2016},
-	keywords = {preprint},
-	file = {1635/Fitzsimons et al. - 2016 - Improved stochastic trace estimation using mutuall.pdf}
 }
 
 @article{hutter_kernel_2013,
@@ -870,7 +846,7 @@ as a testbed for our algorithm.},
 	author = {Granziol, Diego and Ru, Binxin and Zohren, Stefan and Dong, Xiaowen and Osborne, Michael and Roberts, Stephen},
 	month = apr,
 	year = {2018},
-	keywords = {Computer Science - Information Theory, Computer Science - Learning, preprint, Statistics - Machine Learning},
+	keywords = {Computer Science - Learning, Statistics - Machine Learning, preprint, Computer Science - Information Theory},
 	file = {3040/Granziol et al. - 2018 - Entropic Spectral Learning in Large Scale Networks.pdf}
 }
 
@@ -883,8 +859,48 @@ as a testbed for our algorithm.},
 	author = {Paul, Supratik and Osborne, Michael A. and Whiteson, Shimon},
 	month = may,
 	year = {2018},
-	keywords = {Computer Science - Artificial Intelligence, Computer Science - Learning, preprint, Statistics - Machine Learning},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Learning, Statistics - Machine Learning, preprint},
 	file = {3160/Paul et al. - 2018 - Contextual Policy Optimisation.pdf}
+}
+
+@article{richardson_battery_2018,
+	title = {Battery health prediction under generalized conditions using a {Gaussian} process transition model},
+	url = {http://arxiv.org/abs/1807.06350},
+	abstract = {Accurately predicting the future health of batteries is necessary to ensure reliable operation, minimise maintenance costs, and calculate the value of energy storage investments. The complex nature of degradation renders data-driven approaches a promising alternative to mechanistic modelling. This study predicts the changes in battery capacity over time using a Bayesian non-parametric approach based on Gaussian process regression. These changes can be integrated against an arbitrary input sequence to predict capacity fade in a variety of usage scenarios, forming a generalised health model. The approach naturally incorporates varying current, voltage and temperature inputs, crucial for enabling real world application. A key innovation is the feature selection step, where arbitrary length current, voltage and temperature measurement vectors are mapped to fixed size feature vectors, enabling them to be efficiently used as exogenous variables. The approach is demonstrated on the open-source NASA Randomised Battery Usage Dataset, with data of 26 cells aged under randomized operational conditions. Using half of the cells for training, and half for validation, the method is shown to accurately predict non-linear capacity fade, with a best case normalised root mean square error of 4.3\%, including accurate estimation of prediction uncertainty.},
+	urldate = {2018-07-25},
+	journal = {arXiv:1807.06350 [stat]},
+	author = {Richardson, Robert R. and Osborne, Michael A. and Howey, David A.},
+	month = jul,
+	year = {2018},
+	note = {arXiv: 1807.06350},
+	keywords = {Statistics - Applications, Statistics - Machine Learning, preprint},
+	file = {3285/Richardson et al. - 2018 - Battery health prediction under generalized condit.pdf}
+}
+
+@article{lennon_efficiently_2018,
+	title = {Efficiently measuring a quantum device using machine learning},
+	url = {http://arxiv.org/abs/1810.10042},
+	abstract = {Scalable quantum technologies will present challenges for characterizing and tuning quantum devices. This is a time-consuming activity, and as the size of quantum systems increases, this task will become intractable without the aid of automation. We present measurements on a quantum dot device performed by a machine learning algorithm. The algorithm selects the most informative measurements to perform next using information theory and a probabilistic deep-generative model, the latter capable of generating multiple full-resolution reconstructions from scattered partial measurements. We demonstrate, for two different measurement configurations, that the algorithm outperforms standard grid scan techniques, reducing the number of measurements required by up to 4 times and the measurement time by 3.7 times. Our contribution goes beyond the use of machine learning for data search and analysis, and instead presents the use of algorithms to automate measurement. This work lays the foundation for automated control of large quantum circuits.},
+	urldate = {2018-10-25},
+	journal = {arXiv:1810.10042 [cond-mat, physics:quant-ph]},
+	author = {Lennon, D. T. and Moon, H. and Camenzind, L. C. and Yu, Liuqi and Zumbühl, D. M. and Briggs, G. A. D. and Osborne, M. A. and Laird, E. A. and Ares, N.},
+	month = oct,
+	year = {2018},
+	keywords = {Computer Science - Machine Learning, Condensed Matter - Mesoscale and Nanoscale Physics, Quantum Physics},
+	file = {3919/Lennon et al. - 2018 - Efficiently measuring a quantum device using machi.pdf}
+}
+
+@article{paul_fingerprint_2018,
+	title = {Fingerprint {Policy} {Optimisation} for {Robust} {Reinforcement} {Learning}},
+	url = {http://arxiv.org/abs/1805.10662},
+	abstract = {Policy gradient methods have been successfully applied to a variety of reinforcement learning tasks. However, while learning in a simulator, these methods do not utilise the opportunity to improve learning by adjusting certain environment variables: unobservable state features that are randomly determined by the environment in a physical setting, but that are controllable in a simulator. This can lead to slow learning or convergence to highly suboptimal policies if the environment variable has a large impact on the transition dynamics. In this paper, we present fingerprint policy optimisation (FPO) which finds a policy that is optimal in expectation across the distribution of environment variables. The central idea is to use Bayesian optimisation (BO) to actively select the distribution of the environment variable that maximises the improvement generated by each iteration of the policy gradient method. To make this BO practical, we contribute two easy-to-compute low-dimensional fingerprints of the current policy. We apply FPO to a number of continuous control tasks of varying difficulty and show that FPO can efficiently learn policies that are robust to significant rare events, which are unlikely to be observable under random sampling but are key to learning good policies.},
+	urldate = {2018-10-25},
+	journal = {arXiv:1805.10662 [cs, stat]},
+	author = {Paul, Supratik and Osborne, Michael A. and Whiteson, Shimon},
+	month = may,
+	year = {2018},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning, preprint, Statistics - Machine Learning},
+	file = {3922/Paul et al. - 2018 - Fingerprint Policy Optimisation for Robust Reinfor.pdf}
 }
 @techreport{frey_technology_2015,
 	type = {Citi {GPS} {Report}},

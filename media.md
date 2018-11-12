@@ -15,7 +15,10 @@ My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) ha
 
 Videos are available for those of my talks listed below. I have also cheekily included a couple for which I have only slides. 
 
-* June 2017: [*Technology at Work: The Future of Employment* @ Deep Learning Summer School, Montreal](https://www.youtube.com/watch?v=-eQNObP6QrQ)
+* Sep 2018: [*Probabilistic Numerics: Nano-Machine-Learning* @ Machine Learning Summer School, Madrid](https://youtu.be/kltgG6ILRm0), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne1.pdf?raw=true)
+* Sep 2018: [*Bayesian Optimisation is Probabilistic Numerics* @ Machine Learning Summer School, Madrid](https://youtu.be/7-UvD3YP61k), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne2.pdf?raw=true)
+* Sep 2018: [*Technology at Work: The Future of Automation* @ Machine Learning Summer School, Madrid](https://youtu.be/6hU_O-WUcbg), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne3.pdf?raw=true)
+* Jun 2017: [*Technology at Work: The Future of Employment* @ Deep Learning Summer School, Montreal](https://www.youtube.com/watch?v=-eQNObP6QrQ)
 * Oct 2016: [*Probabilistic numerics* @ Twitter Cortex, Boston](https://www.periscope.tv/w/1dRKZRvZpyrKB)
 * Feb 2016: [*Algorithms among us: machine learning and society* @ Oxford Martin School](http://www.oxfordmartin.ox.ac.uk/videos/view/541)
 * Sep 2015: [*Bayesian Optimisation is Probabilistic Numerics* @ Gaussian Processes for Global Optimization workshop in Sheffield](https://www.youtube.com/watch?v=MNcl_DIq5vM)
