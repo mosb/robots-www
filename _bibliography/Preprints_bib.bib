@@ -214,20 +214,6 @@ as a testbed for our algorithm.},
 	file = {3160/Paul et al. - 2018 - Contextual Policy Optimisation.pdf}
 }
 
-@article{richardson_battery_2018,
-	title = {Battery health prediction under generalized conditions using a {Gaussian} process transition model},
-	url = {http://arxiv.org/abs/1807.06350},
-	abstract = {Accurately predicting the future health of batteries is necessary to ensure reliable operation, minimise maintenance costs, and calculate the value of energy storage investments. The complex nature of degradation renders data-driven approaches a promising alternative to mechanistic modelling. This study predicts the changes in battery capacity over time using a Bayesian non-parametric approach based on Gaussian process regression. These changes can be integrated against an arbitrary input sequence to predict capacity fade in a variety of usage scenarios, forming a generalised health model. The approach naturally incorporates varying current, voltage and temperature inputs, crucial for enabling real world application. A key innovation is the feature selection step, where arbitrary length current, voltage and temperature measurement vectors are mapped to fixed size feature vectors, enabling them to be efficiently used as exogenous variables. The approach is demonstrated on the open-source NASA Randomised Battery Usage Dataset, with data of 26 cells aged under randomized operational conditions. Using half of the cells for training, and half for validation, the method is shown to accurately predict non-linear capacity fade, with a best case normalised root mean square error of 4.3\%, including accurate estimation of prediction uncertainty.},
-	urldate = {2018-07-25},
-	journal = {arXiv:1807.06350 [stat]},
-	author = {Richardson, Robert R. and Osborne, Michael A. and Howey, David A.},
-	month = jul,
-	year = {2018},
-	note = {arXiv: 1807.06350},
-	keywords = {Statistics - Applications, Statistics - Machine Learning, preprint},
-	file = {3285/Richardson et al. - 2018 - Battery health prediction under generalized condit.pdf}
-}
-
 @article{lennon_efficiently_2018,
 	title = {Efficiently measuring a quantum device using machine learning},
 	url = {http://arxiv.org/abs/1810.10042},
@@ -237,7 +223,7 @@ as a testbed for our algorithm.},
 	author = {Lennon, D. T. and Moon, H. and Camenzind, L. C. and Yu, Liuqi and Zumbühl, D. M. and Briggs, G. A. D. and Osborne, M. A. and Laird, E. A. and Ares, N.},
 	month = oct,
 	year = {2018},
-	keywords = {Computer Science - Machine Learning, Condensed Matter - Mesoscale and Nanoscale Physics, Quantum Physics},
+	keywords = {Quantum Physics, Computer Science - Machine Learning, Condensed Matter - Mesoscale and Nanoscale Physics},
 	file = {3919/Lennon et al. - 2018 - Efficiently measuring a quantum device using machi.pdf}
 }
 
@@ -250,6 +236,45 @@ as a testbed for our algorithm.},
 	author = {Paul, Supratik and Osborne, Michael A. and Whiteson, Shimon},
 	month = may,
 	year = {2018},
-	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning, preprint, Statistics - Machine Learning},
+	keywords = {Computer Science - Artificial Intelligence, Statistics - Machine Learning, preprint, Computer Science - Machine Learning},
 	file = {3922/Paul et al. - 2018 - Fingerprint Policy Optimisation for Robust Reinfor.pdf}
+}
+
+@article{wagstaff_limitations_2019,
+	title = {On the {Limitations} of {Representing} {Functions} on {Sets}},
+	url = {http://arxiv.org/abs/1901.09006},
+	abstract = {Recent work on the representation of functions on sets has considered the use of summation in a latent space to enforce permutation invariance. In particular, it has been conjectured that the dimension of this latent space may remain fixed as the cardinality of the sets under consideration increases. However, we demonstrate that the analysis leading to this conjecture requires mappings which are highly discontinuous and argue that this is only of limited practical use. Motivated by this observation, we prove that an implementation of this model via continuous mappings (as provided by e.g. neural networks or Gaussian processes) actually imposes a constraint on the dimensionality of the latent space. Practical universal function representation for set inputs can only be achieved with a latent dimension at least the size of the maximum number of input elements.},
+	urldate = {2019-01-28},
+	journal = {arXiv:1901.09006 [cs, stat]},
+	author = {Wagstaff, Edward and Fuchs, Fabian B. and Engelcke, Martin and Posner, Ingmar and Osborne, Michael},
+	month = jan,
+	year = {2019},
+	keywords = {preprint},
+	file = {4124/Wagstaff et al. - 2019 - On the Limitations of Representing Functions on Se.pdf}
+}
+
+@article{alvi_asynchronous_2019,
+	title = {Asynchronous {Batch} {Bayesian} {Optimisation} with {Improved} {Local} {Penalisation}},
+	url = {http://arxiv.org/abs/1901.10452},
+	abstract = {Batch Bayesian optimisation (BO) has been successfully applied to hyperparameter tuning using parallel computing, but it is wasteful of resources: workers that complete jobs ahead of others are left idle. We address this problem by developing an approach, Penalising Locally for Asynchronous Bayesian Optimisation on \$k\$ workers (PLAyBOOK), for asynchronous parallel BO. We demonstrate empirically the efficacy of PLAyBOOK and its variants on synthetic tasks and a real-world problem. We undertake a comparison between synchronous and asynchronous BO, and show that asynchronous BO often outperforms synchronous batch BO in both wall-clock time and number of function evaluations.},
+	urldate = {2019-01-30},
+	journal = {arXiv:1901.10452 [cs, stat]},
+	author = {Alvi, Ahsan S. and Ru, Binxin and Calliess, Jan and Roberts, Stephen J. and Osborne, Michael A.},
+	month = jan,
+	year = {2019},
+	keywords = {Computer Science - Artificial Intelligence, Statistics - Machine Learning, preprint, Computer Science - Machine Learning},
+	file = {4158/Alvi et al. - 2019 - Asynchronous Batch Bayesian Optimisation with Impr.pdf}
+}
+
+@article{chai_automated_2019,
+	title = {Automated {Model} {Selection} with {Bayesian} {Quadrature}},
+	url = {http://arxiv.org/abs/1902.09724},
+	abstract = {We present a novel technique for tailoring Bayesian quadrature (BQ) to model selection. The state-of-the-art for comparing the evidence of multiple models relies on Monte Carlo methods, which converge slowly and are unreliable for computationally expensive models. Previous research has shown that BQ offers sample efficiency superior to Monte Carlo in computing the evidence of an individual model. However, applying BQ directly to model comparison may waste computation producing an overly-accurate estimate for the evidence of a clearly poor model. We propose an automated and efficient algorithm for computing the most-relevant quantity for model selection: the posterior probability of a model. Our technique maximizes the mutual information between this quantity and observations of the models' likelihoods, yielding efficient acquisition of samples across disparate model spaces when likelihood observations are limited. Our method produces more-accurate model posterior estimates using fewer model likelihood evaluations than standard Bayesian quadrature and Monte Carlo estimators, as we demonstrate on synthetic and real-world examples.},
+	urldate = {2019-03-01},
+	journal = {arXiv:1902.09724 [cs, stat]},
+	author = {Chai, Henry and Ton, Jean-Francois and Garnett, Roman and Osborne, Michael A.},
+	month = feb,
+	year = {2019},
+	keywords = {Statistics - Machine Learning, preprint, Computer Science - Machine Learning},
+	file = {4279/Chai et al. - 2019 - Automated Model Selection with Bayesian Quadrature.pdf}
 }
