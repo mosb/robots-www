@@ -9,7 +9,7 @@ tags: media
 My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) has been covered by BBC Newsnight, CNN, The Economist, Financial Times, Wall Street Journal, Foreign Affairs, New York Times, Washington Post, Der Spiegel, Scientific American, TIME Magazine and The Guardian, amongst many other venues. For more comprehensive lists of media coverage, see
 
 * [the Oxford Martin School's list](http://www.oxfordmartin.ox.ac.uk/people/647) and 
-* [Carl's list.](http://carlbenediktfrey.com/in-the-media/)
+* [Carl's list.](https://www.carlbenediktfrey.com/media-press)
 
 ## Videos of me talking
 
