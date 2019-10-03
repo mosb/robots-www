@@ -15,6 +15,7 @@ My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) ha
 
 Videos are available for those of my talks listed below. I have also cheekily included a couple for which I have only slides. 
 
+* Nov 2018: [Me walking and talking about probabilistic numerics](https://www.youtube.com/watch?v=__XPG6Gsi1w), Port Meadow, Oxford
 * Sep 2018: [*Probabilistic Numerics: Nano-Machine-Learning* @ Machine Learning Summer School, Madrid](https://youtu.be/kltgG6ILRm0), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne1.pdf?raw=true)
 * Sep 2018: [*Bayesian Optimisation is Probabilistic Numerics* @ Machine Learning Summer School, Madrid](https://youtu.be/7-UvD3YP61k), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne2.pdf?raw=true)
 * Sep 2018: [*Technology at Work: The Future of Automation* @ Machine Learning Summer School, Madrid](https://youtu.be/6hU_O-WUcbg), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne3.pdf?raw=true)

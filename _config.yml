@@ -9,8 +9,8 @@ permalink: pretty
 # Setup
 title:       Michael A Osborne
 name:        Michael A Osborne
-tagline:     'Associate Professor in Machine Learning'
-description: 'Dyson Associate Professor in Machine Learning at the <a href="http://www.ox.ac.uk">University of Oxford</a>'
+tagline:     'Professor of Machine Learning'
+description: 'Professor of Machine Learning at the <a href="http://www.ox.ac.uk">University of Oxford</a>'
 
 # This makes the generator look at the date of each post (see "Every Jekyll
 # Post has a Date"). Posts whose date is in the future will not be published.
