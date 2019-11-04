@@ -50,8 +50,11 @@ for publication_type in publication_types:
     with open(publication_bib_path, 'w+') as file:
         for line in file_data:
 
-            # Remove unnecessary':application/pdf'
+            # Remove unnecessary ':application/pdf'
             line = line.replace(':application/pdf', '')
+
+            # Replace '{{' with '{ {' to avoid confusing Jekyll
+            line = line.replace('{{', '{ {')
 
             # Tidy up file paths : edit file links to eg {162/1403.4640.pdf}
             line = regex.sub("", line)
