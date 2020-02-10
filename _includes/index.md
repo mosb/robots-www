@@ -36,7 +36,7 @@ United Kingdom
 
 ## About this site
 
-[This site](https://github.com/mosb/robots-www,) was built using [Hyde,](https://github.com/poole/hyde) a theme for [Jekyll,](http://jekyllrb.com/) along with [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) and liberal borrowing from [Jan-Willem van de Meent's](http://www.robots.ox.ac.uk/~jwvdm/) [excellent site.](https://github.com/jwvdm/robots-homepage) The colours are drawn from [base16,](http://chriskempson.github.io/base16/) and the fonts are [Karmina Sans](https://typekit.com/fonts/karmina-sans) and [Karmina.](https://typekit.com/fonts/karmina) 
+[This site](https://github.com/mosb/robots-www) was built using [Hyde,](https://github.com/poole/hyde) a theme for [Jekyll,](http://jekyllrb.com/) along with [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) and liberal borrowing from [Jan-Willem van de Meent's](http://www.robots.ox.ac.uk/~jwvdm/) [excellent site.](https://github.com/jwvdm/robots-homepage) The colours are drawn from [base16,](http://chriskempson.github.io/base16/) and the fonts are [Karmina Sans](https://typekit.com/fonts/karmina-sans) and [Karmina.](https://typekit.com/fonts/karmina) 
 
 This website was current as of {{ "now" | date: "%Y-%m-%d %H:%M" }}. 
 
