@@ -1,13 +1,12 @@
 ## Profile
 
-I am a machine learning researcher with a few different hats within the <a href="http://www.ox.ac.uk">University of Oxford</a>:
+I am a machine learning researcher, a co-founder of [Mind Foundry](http://mindfoundry.ai), with a few different hats within the <a href="http://www.ox.ac.uk">University of Oxford</a>:
 
 * Professor of Machine Learning ([Machine Learning Research Group](http://www.robots.ox.ac.uk/~parg) ⊂ [Information Engineering](http://www.robots.ox.ac.uk) ⊂ [Department of Engineering Science](https://www.eng.ox.ac.uk));
 * Director of the [EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines and Systems](http://aims.robots.ox.ac.uk);
-* Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a> and 
-* Faculty Member of the <a href="http://www.oxford-man.ox.ac.uk">Oxford-Man Institute of Quantitative Finance.</a>
+* Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>.
 
-I'm also a co-founder of [Mind Foundry](http://mindfoundry.ai).  If you want to get to know me in gruesome detail: 
+If you want to get to know me in gruesome detail: 
 
 * [here]({{ site.baseurl }}/bio) is a short biography;
 * you can examine a [high-resolution photo]({{ site.baseurl }}/public/image/OsborneMike05.jpg) of me;

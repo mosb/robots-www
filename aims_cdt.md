@@ -6,21 +6,41 @@ tags: teaching
 
 This course will be taught within the <a href="http://aims.robots.ox.ac.uk/">AIMS CDT.</a> The course will provide an introduction to probability theory, including various properties of distributions and their representation as belief networks.
 It will then tackle maximum likelihood estimation and compare against Bayesian inference.
-Some coverage of Gaussian processes, and their practical use, is provided before introducing decision theory and classification.
+Some coverage of Gaussian processes, and their practical use, concludes the course.
 
 ## Course Materials
 
 ### Lectures
 
 <ul class='plus'>
-    <li><a href="{{ site.baseurl }}/teaching/AIMS_CDT/1_slides_foundations.pdf">topic 1 handouts: foundations of probability</a></li>
-    <li><a href="{{ site.baseurl }}/teaching/AIMS_CDT/2_slides_continuous.pdf">topic 2 handouts: probability of continuous variables</a></li>
-    <li><a href="{{ site.baseurl }}/teaching/AIMS_CDT/3_slides_Gaussian.pdf">topic 3 handouts: the Gaussian distribution: the best distribution</a></li>
-    <li><a href="{{ site.baseurl }}/teaching/AIMS_CDT/Gaussian_identities.pdf">Gaussian identities cheat sheet</a></li>
-    <li><a href="{{ site.baseurl }}/teaching/AIMS_CDT/4_slides_ML.pdf">topic 4 handouts: maximum likelihood estimation</a></li>
-    <li><a href="{{ site.baseurl }}/teaching/AIMS_CDT/5_slides_MAP.pdf">topic 5 handouts: maximum a posteriori estimation</a></li>
-    <li><a href="{{ site.baseurl }}/teaching/AIMS_CDT/6_slides_Gaussian_processes.pdf">topic 6 handouts: Gaussian processes</a></li>
-    <li><a href="{{ site.baseurl }}/teaching/AIMS_CDT/7_slides_decisions.pdf">topic 7 handouts: decision theory and classification</a></li>
+    <li>Foundations of probability: 
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/1_slides_foundations.pdf">handouts;</a>
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_1_Foundations.mp4">video.</a>
+    </li>
+    <li>Probability of continuous variables: 
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/2_slides_continuous.pdf">handouts;</a>
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_2_Continuous_Variables.mp4">video.</a>
+    </li>
+    <li>The Gaussian distribution: the best distribution: 
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/3_slides_Gaussian.pdf">handouts;</a>
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_3_The_Gaussian.mp4">video.</a>
+    </li>
+    <li>Maximum likelihood estimation: 
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/4_slides_ML.pdf">handouts;</a>
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_4_Maximum_Likelihood_Estimation.mp4">video.</a>
+    </li>
+    <li>Maximum a posteriori estimation: 
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/5_slides_MAP.pdf">handouts;</a>
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_5_Maximum_A_Posteriori Estimation.mp4">video.</a>
+    </li>
+    <li>Gaussian processes: 
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/6_slides_Gaussian_processes.pdf">handouts;</a>
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_6_Gaussian_processes.mp4">video.</a>
+    </li>
+    <li>
+        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/Gaussian_identities.pdf">Gaussian identities cheat sheet</a>
+    </li>
+    <!-- <li><a href="{{ site.baseurl }}/teaching/AIMS_CDT/7_slides_decisions.pdf">topic 7 handouts: decision theory and classification</a></li> -->
 </ul>
 
 

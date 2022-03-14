@@ -7,6 +7,7 @@ collaborators:
   url: http://www.oxfordmartin.ox.ac.uk/people/453
   institute: University of Oxford
 papers:
+- duckworth_inferring_2019
 - frey_future_2017
 - bakhshi_future_2017
 - frey_technology_2016
