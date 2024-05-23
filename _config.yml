@@ -61,13 +61,13 @@ defaults:
       layout: post
       comments: true
       tags: blog
-  -
-    scope:
-      path: "projects"
-      type: "posts"
-    values:
-      layout: project
-      categories: project # overrides previous default layout
-      comments: false
-      end_date: {{ site.time }}
-      tags: project
+  # -
+  #   scope:
+  #     path: "projects"
+  #     type: "posts"
+  #   values:
+  #     layout: project
+  #     categories: project # overrides previous default layout
+  #     comments: false
+  #     end_date: {{ site.time }}
+  #     tags: project

@@ -13,7 +13,7 @@ My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) ha
 
 ## Videos of me talking
 
-Videos are available for those of my talks listed below. I have also cheekily included a couple for which I have only slides. 
+Videos are available for those of my talks listed below. I have also included some talks for which I have only slides. 
 
 * Nov 2018: [Me walking and talking about probabilistic numerics](https://www.youtube.com/watch?v=__XPG6Gsi1w), Port Meadow, Oxford
 * Sep 2018: [*Probabilistic Numerics: Nano-Machine-Learning* @ Machine Learning Summer School, Madrid](https://youtu.be/kltgG6ILRm0), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne1.pdf?raw=true)
