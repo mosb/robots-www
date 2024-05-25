@@ -9,12 +9,17 @@ profile.
 
 ## Contents
 
+* [Book](#Book)
 * [Journal papers](#Journal)
 * [Conference papers](#Conference)
 * [Preprints](#Preprints)
 * [Reports](#Reports)
 * [Workshop papers](#Workshop)
 * [Thesis](#Thesis)
+
+## <a name="Book">Book</a>
+
+{% bibliography --file Book_bib %}
 
 ## <a name="Journal">Journal papers</a>
 
@@ -32,7 +37,7 @@ profile.
 
 {% bibliography --file Reports_bib %}
 
-## <a name="Workshop">Workshop papers</a> 
+## <a name="Workshop">Workshop papers</a>
 
 {% bibliography --file Workshop_bib %}
 

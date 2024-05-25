@@ -1,19 +1,10 @@
 ---
 layout: page
-title: Media & Talks
+title: Talks
 tags: media
 ---
 
-## Media coverage
-
-My work on automation with [Carl Benedikt Frey ](http://carlbenediktfrey.com) has been covered by BBC Newsnight, CNN, The Economist, Financial Times, Wall Street Journal, Foreign Affairs, New York Times, Washington Post, Der Spiegel, Scientific American, TIME Magazine and The Guardian, amongst many other venues. For more comprehensive lists of media coverage, see
-
-* [the Oxford Martin School's list](http://www.oxfordmartin.ox.ac.uk/people/647) and 
-* [Carl's list.](https://www.carlbenediktfrey.com/media-press)
-
-## Videos of me talking
-
-Videos are available for those of my talks listed below. I have also included some talks for which I have only slides. 
+For non-academic talks, please visit [michaelaosborne.com.](https://michaelaosborne.com) Videos for my academic talks are listed below. I have also included some talks for which I have only slides. 
 
 * Nov 2018: [Me walking and talking about probabilistic numerics](https://www.youtube.com/watch?v=__XPG6Gsi1w), Port Meadow, Oxford
 * Sep 2018: [*Probabilistic Numerics: Nano-Machine-Learning* @ Machine Learning Summer School, Madrid](https://youtu.be/kltgG6ILRm0), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne1.pdf?raw=true)

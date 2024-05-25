@@ -2,7 +2,8 @@
 
 This is my academic site—you may prefer [michaelaosborne.com](https://michaelaosborne.com). About me:
 
-* Professor of Machine Learning ([Machine Learning Research Group](http://www.robots.ox.ac.uk/~parg) ⊂ [Information Engineering](http://www.robots.ox.ac.uk) ⊂ [Department of Engineering Science](https://www.eng.ox.ac.uk)) ⊂ <a href="http://www.ox.ac.uk">University of Oxford</a>;
+* Professor of Machine Learning at the <a href="http://www.ox.ac.uk">University of Oxford</a>;
+* Leader of the [Bayesian Exploration Lab](https://bxl.super.site/), a research group within the University—prospective students/postdocs/visitors, please read [this](https://bxl.super.site/joining-the-bxl);
 * Director of the [EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines and Systems](http://aims.robots.ox.ac.uk);
 * Co-Director of the [Oxford Martin AI Governance Initiative](https://www.oxfordmartin.ox.ac.uk/ai-governance);
 * Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>;
@@ -10,9 +11,9 @@ This is my academic site—you may prefer [michaelaosborne.com](https://michaela
 * Co-author of the first [Probabilistic Numerics textbook](https://www.probabilistic-numerics.org/textbooks/) with [Cambridge University Press](https://www.cambridge.org/core/books/probabilistic-numerics/0EBFF0B15E2481099F6EED1F62EE1ABE) ([free pdf for personal use](https://www.probabilistic-numerics.org/assets/ProbabilisticNumerics.pdf))
 * [Short biography]({{ site.baseurl }}/bio);
 * [High-resolution headshot]({{ site.baseurl }}/public/image/OsborneMike05.jpg); and
-* full [academic CV]({{ site.baseurl }}/public/pdf/MAOsborne.pdf).
+* Full [academic CV]({{ site.baseurl }}/public/pdf/MAOsborne.pdf).
     
-I primarily work on Bayesian optimisation, Gaussian processes, Bayesian quadrature and [Probabilistic Numerics,](https://www.probabilistic-numerics.org) (check out our Probabilistic Numerics textbook!), with applications within [battery modelling](https://howey.eng.ox.ac.uk/) and tuning [quantum devices.](https://www.natalia-ares.com/) I also work on AI safety and [AI Governance.](https://www.oxfordmartin.ox.ac.uk/ai-governance)
+I primarily work on Bayesian optimisation, Gaussian processes, Bayesian quadrature and [Probabilistic Numerics,](https://www.probabilistic-numerics.org), with applications within [battery modelling](https://howey.eng.ox.ac.uk/) and tuning [quantum devices.](https://www.natalia-ares.com/) I also work on AI safety and [AI Governance.](https://www.oxfordmartin.ox.ac.uk/ai-governance)
 
 ## Contact
 

@@ -22,6 +22,7 @@ os.chdir('/Users/mosb/Documents/WWW/MosbWWW/robots-www/')
 
 
 publication_types = [
+    'Book',
     'Journal',
     'Conference',
     'Preprints',
