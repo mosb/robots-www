@@ -8,8 +8,9 @@ This is my academic site—you may prefer [michaelaosborne.com](https://michaela
 * Co-Director of the [Oxford Martin AI Governance Initiative](https://www.oxfordmartin.ox.ac.uk/ai-governance);
 * Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>;
 * Co-founder of [Mind Foundry](http://mindfoundry.ai);
-* Co-author of the first [Probabilistic Numerics textbook](https://www.probabilistic-numerics.org/textbooks/) with [Cambridge University Press](https://www.cambridge.org/core/books/probabilistic-numerics/0EBFF0B15E2481099F6EED1F62EE1ABE) ([free pdf for personal use](https://www.probabilistic-numerics.org/assets/ProbabilisticNumerics.pdf))
+* Co-author of the first [Probabilistic Numerics textbook](https://www.probabilistic-numerics.org/textbooks/), published by [Cambridge University Press,](https://www.cambridge.org/core/books/probabilistic-numerics/0EBFF0B15E2481099F6EED1F62EE1ABE) ([free pdf for personal use](https://www.probabilistic-numerics.org/assets/ProbabilisticNumerics.pdf));
 * [Short biography]({{ site.baseurl }}/bio);
+* I developed [Long Covid](https://en.wikipedia.org/wiki/Long_COVID) in 2020, am covid-conscious, and will mask (in an [FFP3 respirator)](https://en.wikipedia.org/wiki/Face_masks_during_the_COVID-19_pandemic#Filtering_respirators) if we are to meet inside;
 * [High-resolution headshot]({{ site.baseurl }}/public/image/OsborneMike05.jpg); and
 * Full [academic CV]({{ site.baseurl }}/public/pdf/MAOsborne.pdf).
     
