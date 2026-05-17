@@ -2,7 +2,7 @@
 @inproceedings{wan_bayesian_2023,
 	title = {Bayesian {Optimisation} of {Functions} on {Graphs}},
 	volume = {36},
-	url = {https://proceedings.neurips.cc/paper_files/paper/2023/hash/86419aba4e5eafd2b1009a2e3c540bb0-Abstract-Conference.html},
+	url = {https://openreview.net/forum?id=UuNd9A6noD},
 	abstract = {The increasing availability of graph-structured data motivates the task of optimising over functions defined on the node set of graphs. Traditional graph search algorithms can be applied in this case, but they may be sample-inefficient and do not make use of information about the function values; on the other hand, Bayesian optimisation is a class of promising black-box solvers with superior sample efficiency, but it has scarcely been applied to such novel setups. To fill this gap, we propose a novel Bayesian optimisation framework that optimises over functions defined on generic, large-scale and potentially unknown graphs. Through the learning of suitable kernels on graphs, our framework has the advantage of adapting to the behaviour of the target function. The local modelling approach further guarantees the efficiency of our method. Extensive experiments on both synthetic and real-world graphs demonstrate the effectiveness of the proposed optimisation framework.},
 	language = {en},
 	urldate = {2024-05-23},
@@ -17,7 +17,7 @@
 @inproceedings{adachi_fast_2022,
 	title = {Fast {Bayesian} {Inference} with {Batch} {Bayesian} {Quadrature} via {Kernel} {Recombination}},
 	volume = {35},
-	url = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/697200c9d1710c2799720b660abd11bb-Abstract-Conference.html},
+	url = {https://openreview.net/forum?id=9wCQVgEWO2J},
 	abstract = {Calculation of Bayesian posteriors and model evidences typically requires numerical integration. Bayesian quadrature (BQ), a surrogate-model-based approach to numerical integration, is capable of superb sample efficiency, but its lack of parallelisation has hindered its practical applications. In this work, we propose a parallelised (batch) BQ method, employing techniques from kernel quadrature, that possesses an empirically exponential convergence rate.Additionally, just as with Nested Sampling, our method permits simultaneous inference of both posteriors and model evidence.Samples from our BQ surrogate model are re-selected to give a sparse set of samples, via a kernel recombination algorithm, requiring negligible additional time to increase the batch size.Empirically, we find that our approach significantly outperforms the sampling efficiency of both state-of-the-art BQ techniques and Nested Sampling in various real-world datasets, including lithium-ion battery analytics.},
 	language = {en},
 	urldate = {2024-05-23},
@@ -51,7 +51,7 @@
 @inproceedings{cohen_log-linear-time_2022,
 	title = {Log-{Linear}-{Time} {Gaussian} {Processes} {Using} {Binary} {Tree} {Kernels}},
 	volume = {35},
-	url = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/359ddb9caccb4c54cc915dceeacf4892-Abstract-Conference.html},
+	url = {https://openreview.net/forum?id=VB_mBqL4VW-},
 	abstract = {Gaussian processes (GPs) produce good probabilistic models of functions, but most GP kernels require O((n+m)n2) time, where n is the number of data points and m the number of predictive locations. We present a new kernel that allows for Gaussian process regression in O((n+m)log(n+m)) time. Our "binary tree" kernel places all data points on the leaves of a binary tree, with the kernel depending only on the depth of the deepest common ancestor. We can store the resulting kernel matrix in O(n) space in O(nlogn) time, as a sum of sparse rank-one matrices, and approximately invert the kernel matrix in O(n) time. Sparse GP methods also offer linear run time, but they predict less well than higher dimensional kernels. On a classic suite of regression tasks, we compare our kernel against Mat{\textbackslash}'ern, sparse, and sparse variational kernels. The binary tree GP assigns the highest likelihood to the test data on a plurality of datasets, usually achieves lower mean squared error than the sparse methods, and often ties or beats the Mat{\textbackslash}'ern GP. On large datasets, the binary tree GP is fastest, and much faster than a Mat{\textbackslash}'ern GP.},
 	language = {en},
 	urldate = {2024-05-24},
@@ -67,7 +67,7 @@
 @inproceedings{jorgensen_bezier_2022,
 	title = {Bezier {Gaussian} {Processes} for {Tall} and {Wide} {Data}},
 	volume = {35},
-	url = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/99c80ceb10cb674110f03b2def6a5b76-Abstract-Conference.html},
+	url = {https://openreview.net/forum?id=UBqGF-tW6A2},
 	abstract = {Modern approximations to Gaussian processes are suitable for tall data'', with a cost that scales well in the number of observations, but under-performs onwide data'', scaling poorly in the number of input features. That is, as the number of input features grows, good predictive performance requires the number of summarising variables, and their associated cost, to grow rapidly. We introduce a kernel that allows the number of summarising variables to grow exponentially with the number of input features, but requires only linear cost in both number of observations and input features. This scaling is achieved through our introduction of the Bezier buttress'', which allows approximate inference without computing matrix inverses or determinants. We show that our kernel has close similarities to some of the most used kernels in Gaussian process regression, and empirically demonstrate the kernel's ability to scale to both tall and wide datasets.},
 	language = {en},
 	urldate = {2024-05-24},
@@ -82,7 +82,7 @@
 @inproceedings{daulton_bayesian_2022,
 	title = {Bayesian {Optimization} over {Discrete} and {Mixed} {Spaces} via {Probabilistic} {Reparameterization}},
 	volume = {35},
-	url = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/531230cfac80c65017ad0f85d3031edc-Abstract-Conference.html},
+	url = {https://arxiv.org/abs/2210.10199},
 	abstract = {Optimizing expensive-to-evaluate black-box functions of discrete (and potentially continuous) design parameters is a ubiquitous problem in scientific and engineering applications. Bayesian optimization (BO) is a popular, sample-efficient method that leverages a probabilistic surrogate model and an acquisition function (AF) to select promising designs to evaluate. However, maximizing the AF over mixed or high-cardinality discrete search spaces is challenging standard gradient-based methods cannot be used directly or evaluating the AF at every point in the search space would be computationally prohibitive. To address this issue, we propose using probabilistic reparameterization (PR). Instead of directly optimizing the AF over the search space containing discrete parameters, we instead maximize the expectation of the AF over a probability distribution defined by continuous parameters. We prove that under suitable reparameterizations, the BO policy that maximizes the probabilistic objective is the same as that which maximizes the AF, and therefore, PR enjoys the same regret bounds as the original BO policy using the underlying AF. Moreover, our approach provably converges to a stationary point of the probabilistic objective under gradient ascent using scalable, unbiased estimators of both the probabilistic objective and its gradient. Therefore, as the number of starting points and gradient steps increase, our approach will recover of a maximizer of the AF (an often-neglected requisite for commonly used BO regret bounds). We validate our approach empirically and demonstrate state-of-the-art optimization performance on a wide range of real-world applications. PR is complementary to (and benefits) recent work and naturally generalizes to settings with multiple objectives and black-box constraints.},
 	language = {en},
 	urldate = {2024-05-24},
@@ -125,7 +125,7 @@
 @inproceedings{rudner_pathologies_2021,
 	title = {On {Pathologies} in {KL}-{Regularized} {Reinforcement} {Learning} from {Expert} {Demonstrations}},
 	volume = {34},
-	url = {https://papers.nips.cc/paper_files/paper/2021/hash/eecca5b6365d9607ee5a9d336962c534-Abstract.html},
+	url = {https://openreview.net/forum?id=sS8rRmgAatA},
 	abstract = {KL-regularized reinforcement learning from expert demonstrations has proved successful in improving the sample efficiency of deep reinforcement learning algorithms, allowing them to be applied to challenging physical real-world tasks. However, we show that KL-regularized reinforcement learning with behavioral reference policies derived from expert demonstrations can suffer from pathological training dynamics that can lead to slow, unstable, and suboptimal online learning. We show empirically that the pathology occurs for commonly chosen behavioral policy classes and demonstrate its impact on sample efficiency and online policy performance. Finally, we show that the pathology can be remedied by non-parametric behavioral reference policies and that this allows KL-regularized reinforcement learning to significantly outperform state-of-the-art approaches on a variety of challenging locomotion and dexterous hand manipulation tasks.},
 	urldate = {2024-05-24},
 	booktitle = {Advances in {Neural} {Information} {Processing} {Systems}},
@@ -140,7 +140,7 @@
 @inproceedings{wan_adversarial_2021,
 	title = {Adversarial {Attacks} on {Graph} {Classifiers} via {Bayesian} {Optimisation}},
 	volume = {34},
-	url = {https://papers.nips.cc/paper_files/paper/2021/hash/38811c5285e34e2e3319ab7d9f2cfa5b-Abstract.html},
+	url = {https://openreview.net/forum?id=eXxnkL3QfDY},
 	abstract = {Graph neural networks, a popular class of models effective in a wide range of graph-based learning tasks, have been shown to be vulnerable to adversarial attacks. While the majority of the literature focuses on such vulnerability in node-level classification tasks, little effort has been dedicated to analysing adversarial attacks on graph-level classification, an important problem with numerous real-life applications such as biochemistry and social network analysis. The few existing methods often require unrealistic setups, such as access to internal information of the victim models, or an impractically-large number of queries. We present a novel Bayesian optimisation-based attack method for graph classification models. Our method is black-box, query-efficient and parsimonious with respect to the perturbation applied. We empirically validate the effectiveness and flexibility of the proposed method on a wide range of graph classification tasks involving varying graph properties, constraints and modes of attack. Finally, we analyse common interpretable patterns behind the adversarial samples produced, which may shed further light on the adversarial robustness of graph classification models.},
 	urldate = {2024-05-24},
 	booktitle = {Advances in {Neural} {Information} {Processing} {Systems}},
@@ -194,6 +194,7 @@
 	year = {2020},
 	note = {https://github.com/ntienvu/KnownOptimum\_BO},
 	keywords = {Computer Science - Machine Learning, preprint, Statistics - Machine Learning},
+	file = {3669/Nguyen et al. - 2020 - Bayesian Optimization for Iterative Learning.pdf},
 }
 
 @inproceedings{adachi_adaptive_2024,
@@ -247,6 +248,7 @@
 	note = {https://drive.google.com/drive/folders/1gvS9fQ2gG9y5VrPyvRWKCh0yxdsqI9V2},
 	keywords = {automation, bayesian machine learning, interpretable machine learning, labor economics, open datasets},
 	pages = {485--491},
+	file = {3648/Duckworth et al_2019_Inferring Work Task Automatability from AI Expert Evidence.pdf},
 }
 
 @inproceedings{ru_bayesian_2020,
@@ -262,6 +264,7 @@
 	year = {2020},
 	note = {https://github.com/rubinxin/CoCaBO\_code},
 	pages = {8276--8285},
+	file = {3683/Ru et al. - 2020 - Bayesian Optimisation over Multiple Continuous and Categorical Inputs.pdf},
 }
 
 @inproceedings{nguyen_knowing_2020,
@@ -277,6 +280,7 @@
 	year = {2020},
 	note = {https://github.com/ntienvu/KnownOptimum\_BO},
 	pages = {7317--7326},
+	file = {3668/Nguyen and Osborne - 2020 - Knowing The What But Not The Where in Bayesian Optimization.pdf},
 }
 
 @inproceedings{ru_interpretable_2021,
@@ -290,6 +294,7 @@
 	year = {2021},
 	note = {https://github.com/xingchenwan/nasbowl},
 	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {3685/Ru et al. - 2021 - Interpretable Neural Architecture Search via Bayesian Optimisation with Weisfeiler-Lehman Kernels.pdf},
 }
 
 @inproceedings{nguyen_gaussian_2020,
@@ -303,6 +308,7 @@
 	year = {2020},
 	note = {https://github.com/ntienvu/tvo\_gp\_bandit},
 	keywords = {Computer Science - Machine Learning},
+	file = {3667/Nguyen et al. - 2020 - Gaussian Process Bandit Optimization of the Thermodynamic Variational Objective.pdf},
 }
 
 @inproceedings{wan_think_2021,
@@ -317,6 +323,7 @@
 	year = {2021},
 	note = {https://github.com/xingchenwan/Casmopolitan},
 	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {3688/Wan et al. - 2021 - Think Global and Act Local Bayesian Optimisation over High-Dimensional Categorical and Mixed Search.pdf},
 }
 
 @inproceedings{abbati_ares_2019,
@@ -331,6 +338,7 @@
 	year = {2019},
 	note = {https://github.com/gabb7/AReS-MaRS},
 	pages = {1--10},
+	file = {3640/Abbati et al_2019_AReS and MaRS Adversarial and MMD-Minimizing Regression for SDEs.pdf},
 }
 
 @inproceedings{alvi_asynchronous_2019,
@@ -345,6 +353,7 @@
 	year = {2019},
 	note = {https://github.com/a5a/asynchronous-BO},
 	pages = {253--262},
+	file = {3642/Alvi et al_2019_Asynchronous Batch Bayesian Optimisation with Improved Local Penalisation.pdf},
 }
 
 @inproceedings{chai_automated_2019,
@@ -358,6 +367,7 @@
 	month = may,
 	year = {2019},
 	pages = {931--940},
+	file = {3646/Chai et al_2019_Automated Model Selection with Bayesian Quadrature.pdf},
 }
 
 @inproceedings{paul_fingerprint_2019,
@@ -371,6 +381,7 @@
 	month = may,
 	year = {2019},
 	pages = {5082--5091},
+	file = {3677/Paul et al. - 2019 - Fingerprint Policy Optimisation for Robust Reinforcement Learning.pdf},
 }
 
 @inproceedings{wagstaff_limitations_2019,
@@ -384,6 +395,7 @@
 	month = may,
 	year = {2019},
 	pages = {6487--6494},
+	file = {3687/Wagstaff et al. - 2019 - On the Limitations of Representing Functions on Sets.pdf},
 }
 
 @inproceedings{rainforth_bayesian_2016,
@@ -396,6 +408,7 @@
 	year = {2016},
 	note = {https://github.com/probprog/bopp},
 	pages = {280--288},
+	file = {3678/Rainforth et al. - 2016 - Bayesian Optimization for Probabilistic Programs.pdf},
 }
 
 @inproceedings{briol_frank-wolfe_2015,
@@ -408,6 +421,7 @@
 	month = jun,
 	year = {2015},
 	keywords = {Statistics - Machine Learning},
+	file = {3644/Briol et al_2015_Frank-Wolfe Bayesian Quadrature.pdf},
 }
 
 @inproceedings{gunter_sampling_2014,
@@ -420,6 +434,7 @@
 	year = {2014},
 	note = {https://github.com/OxfordML/wsabi},
 	keywords = {Statistics - Machine Learning},
+	file = {3660/Gunter et al. - Sampling for Inference in Probabilistic Models with Fast Bayesian Quadrature.pdf},
 }
 
 @inproceedings{osborne_active_2012,
@@ -429,6 +444,7 @@
 	author = {Osborne, Michael A. and Duvenaud, David K. and Garnett, Roman and Rasmussen, Carl E. and Roberts, Stephen J. and Ghahramani, Zoubin},
 	year = {2012},
 	pages = {46--54},
+	file = {3670/Osborne et al. - 2012 - Active learning of model evidence using Bayesian quadrature.pdf},
 }
 
 @inproceedings{farquhar_radial_2020,
@@ -441,6 +457,7 @@
 	author = {Farquhar, Sebastian and Osborne, Michael and Gal, Yarin},
 	year = {2020},
 	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {3649/Farquhar et al_2020_Radial Bayesian Neural Networks.pdf},
 }
 
 @inproceedings{richardson_battery_2017,
@@ -453,6 +470,7 @@
 	author = {Richardson, Robert R. and Birkl, Christoph R. and Osborne, Michael A. and Howey, David A.},
 	month = oct,
 	year = {2017},
+	file = {3681/Richardson et al. - 2017 - Battery Capacity Estimation From Partial-Charging Data Using Gaussian Process Regression.pdf},
 }
 
 @inproceedings{fitzsimons_bayesian_2017,
@@ -463,6 +481,7 @@
 	booktitle = {Uncertainty in {Artificial} {Intelligence} ({UAI})},
 	author = {Fitzsimons, Jack and Cutajar, Kurt and Osborne, Michael and Roberts, Stephen and Filippone, Maurizio},
 	year = {2017},
+	file = {3651/Fitzsimons et al_2017_Bayesian Inference of Log Determinants.pdf},
 }
 
 @inproceedings{fitzsimons_entropic_2017,
@@ -473,6 +492,7 @@
 	booktitle = { {ECML}/{PKDD} 2017, {European} {Conference} on {Machine} {Learning} and {Principles} and {Practice} of {Knowledge} {Discovery} in {Databases}, {September} 18-22, 2017, {Skopje}, {Macedonia}},
 	author = {Fitzsimons, Jack and Granziol, Diego and Cutajar, Kurt and Osborne, Michael and Filippone, Maurizio and Roberts, Stephen},
 	year = {2017},
+	file = {3652/Fitzsimons et al_2017_Entropic Trace Estimates for Log Determinants.pdf},
 }
 
 @inproceedings{bewsher_distribution_2017,
@@ -485,6 +505,7 @@
 	author = {Bewsher, Justin and Tosi, Alessandra and Osborne, Michael and Roberts, Stephen},
 	month = apr,
 	year = {2017},
+	file = {3643/Bewsher et al_2017_Distribution of Gaussian Process Arc Lengths.pdf},
 }
 
 @inproceedings{gonzalez_glasses:_2016,
@@ -499,6 +520,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2016},
 	note = {https://github.com/SheffieldML/GPyOpt/tree/GLASSES},
 	pages = {790--799},
+	file = {3658/Gonzalez et al_2016_GLASSES.pdf},
 }
 
 @inproceedings{fruehwirt_bayesian_2017,
@@ -511,6 +533,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Fruehwirt, Wolfgang and Zhang, Pengfei and Gerstgrasser, Matthias and Grossegger, Dieter and Schmidt, Reinhold and Benke, Thomas and Dal-Bianco, Peter and Ransmayr, Gerhard and Weydemann, Leonard and Garn, Heinrich and Waser, Markus and Osborne, Michael A and Dorffner, Georg},
 	year = {2017},
 	pages = {65},
+	file = {3654/Fruehwirt et al_2017_Bayesian Gaussian Process Classification from Event-Related Brain Potentials in.pdf},
 }
 
 @inproceedings{sarkar_machine_2016,
@@ -520,6 +543,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	booktitle = {The {Proceedings} of {The} {Twenty}-sixth (2016) {International} {Ocean} {And} {Polar} {Engineering} {Conference}},
 	author = {Sarkar, Dripta and Osborne, Michael and Adcock, Thomas},
 	year = {2016},
+	file = {3686/Sarkar et al. - 2016 - A Machine Learning Approach to the Prediction of Tidal Currents..pdf},
 }
 
 @inproceedings{riar_energy_2016,
@@ -533,6 +557,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2016},
 	keywords = {battery, Batteries, Energy management, energy management systems, Microgrids, Optimization, battery state of charge variations reduction, Battery storage system, computational burden, converter topology, distributed energy resource, distributed power generation, electrical energy storage optimal management, EMS control schemes, energy conservation, energy efficiency awareness, energy management system, energy storage, grid-load connection, microgrid, microgrid energy management system, Model predictive control, model predictive control scheme, MPC scheme, Optimisation, photovoltaic (PV) system, photovoltaic power systems, photovoltaics, power 10 kW, power 5 kW, power convertors, Power generation, power generation control, power generation prediction, power grids, Predictive control, PV, secondary cells, semiconductor device, State of charge},
 	pages = {1--7},
+	file = {3680/Riar et al. - 2016 - Energy management of a microgrid Compensating for the difference between the real and predicted out.pdf},
 }
 
 @inproceedings{calliess_conservative_2014,
@@ -544,6 +569,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Calliess, Jan-Peter and Osborne, Michael A. and Roberts, Stephen J.},
 	year = {2014},
 	pages = {1109--1116},
+	file = {3645/Calliess et al_2014_Conservative collision prediction and avoidance for stochastic trajectories in.pdf},
 }
 
 @inproceedings{cutajar_preconditioning_2016,
@@ -556,6 +582,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2016},
 	note = {https://is.gd/365blF},
 	keywords = {Statistics - Machine Learning, Statistics - Computation, Statistics - Methodology},
+	file = {3647/Cutajar et al_2016_Preconditioning Kernel Matrices.pdf},
 }
 
 @inproceedings{garnett_active_2014,
@@ -566,6 +593,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Garnett, Roman and Osborne, Michael A. and Hennig, Philipp},
 	year = {2014},
 	note = {https://is.gd/orezZh},
+	file = {3655/Garnett et al_2014_Active Learning of Linear Embeddings for Gaussian Processes.pdf},
 }
 
 @inproceedings{garnett_sequential_2009,
@@ -577,6 +605,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Garnett, Roman and Osborne, Michael A. and Roberts, Stephen J.},
 	year = {2009},
 	pages = {345--352},
+	file = {3656/Garnett et al_2009_Sequential Bayesian prediction in the presence of changepoints.pdf},
 }
 
 @inproceedings{garnett_bayesian_2010,
@@ -589,6 +618,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Garnett, Roman and Osborne, Michael A. and Roberts, Stephen J.},
 	year = {2010},
 	pages = {209--219},
+	file = {3657/Garnett et al_2010_Bayesian optimization for sensor set selection.pdf},
 }
 
 @inproceedings{gunter_efficient_2014,
@@ -598,6 +628,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	booktitle = {30th {Conference} on {Uncertainty} in {Artificial} {Intelligence} ({UAI})},
 	author = {Gunter, Tom and Lloyd, Chris and Osborne, Michael A. and Roberts, Stephen J.},
 	year = {2014},
+	file = {3659/Gunter et al_2014_Efficient Bayesian Nonparametric Modelling of Structured Point Processes.pdf},
 }
 
 @inproceedings{lloyd_latent_2016,
@@ -608,6 +639,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Lloyd, Chris and Gunter, Tom and Osborne, Michael A. and Roberts, Stephen J. and Nickson, Tom},
 	year = {2016},
 	pages = {389--397},
+	file = {3663/Lloyd et al_2016_Latent Point Process Allocation.pdf},
 }
 
 @inproceedings{mann_gaussian_2009,
@@ -619,6 +651,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Mann, Richard and Freeman, Robin and Osborne, Michael A. and Garnett, Roman and Meade, Jessica and Armstrong, Chris and Biro, Dora and Guilford, Tim and Roberts, Stephen J. and Goggans, Paul M.},
 	year = {2009},
 	pages = {360},
+	file = {3664/Mann et al_2009_Gaussian Processes for Prediction of Homing Pigeon Flight Trajectories.pdf},
 }
 
 @inproceedings{mathibela_can_2012,
@@ -630,6 +663,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Mathibela, Bonolo and Osborne, Michael A. and Posner, Ingmar and Newman, Paul},
 	year = {2012},
 	pages = {927--932},
+	file = {3665/Mathibela et al_2012_Can priors be trusted.pdf},
 }
 
 @inproceedings{osborne_bayesian_2012,
@@ -639,6 +673,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J. and Hart, Christopher and Aigrain, Suzanne and Gibson, Neale},
 	year = {2012},
 	pages = {832--840},
+	file = {3673/Osborne et al_2012_Bayesian quadrature for ratios2.pdf},
 }
 
 @inproceedings{osborne_gaussian_2009,
@@ -648,6 +683,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J.},
 	year = {2009},
 	pages = {1--15},
+	file = {3671/Osborne et al. - 2009 - Gaussian processes for global optimization.pdf},
 }
 
 @inproceedings{osborne_active_2010,
@@ -659,6 +695,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Osborne, Michael A. and Garnett, Roman and Roberts, Stephen J.},
 	year = {2010},
 	pages = {533--540},
+	file = {3672/Osborne et al_2010_Active data selection for sensor networks with faults and changepoints.pdf},
 }
 
 @inproceedings{osborne_prediction_2012,
@@ -668,6 +705,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Osborne, Michael A. and Garnett, Roman and Swersky, Kevin and De Freitas, Nando},
 	year = {2012},
 	note = {https://is.gd/9M0ZYE},
+	file = {3674/Osborne et al. - 2012 - Prediction and Fault Detection of Environmental Signals with Uncharacterised Faults..pdf},
 }
 
 @inproceedings{osborne_towards_2008,
@@ -685,6 +723,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2008},
 	keywords = {Gaussian processes, information processing, sensor network},
 	pages = {109--120},
+	file = {3675/Osborne et al_2008_Towards Real-Time Information Processing of Sensor Network Data Using.pdf},
 }
 
 @inproceedings{ramchurn_agentswitch_2013,
@@ -696,6 +735,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Ramchurn, Sarvapali D. and Osborne, Michael A. and Parson, Oliver and Rahwan, Talal and Maleki, Sasan and Reece, Steve and Huynh, Trung D. and Alam, Muddasser and Fischer, Joel E. and Rodden, Tom},
 	year = {2013},
 	pages = {981--988},
+	file = {3679/Ramchurn et al. - 2013 - AgentSwitch  towards smart energy tariff selection.pdf},
 }
 
 @inproceedings{rogers_information_2008,
@@ -707,6 +747,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Rogers, Alex and Ramchurn, Sarvapali D. and Jennings, Nicholas R. and Osborne, Michael A. and Roberts, Stephen J.},
 	year = {2008},
 	pages = {294--299},
+	file = {3682/Rogers et al. - 2008 - Information agents for pervasive sensor networks.pdf},
 }
 
 @inproceedings{fischer_recommending_2013,
@@ -718,6 +759,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Fischer, Joel E. and Ramchurn, Sarvapali D. and Osborne, Michael A. and Parson, Oliver and Huynh, Trung Dong and Alam, Muddasser and Pantidi, Nadia and Moran, Stuart and Bachour, Khaled and Reece, Steve},
 	year = {2013},
 	pages = {383--394},
+	file = {3650/Fischer et al_2013_Recommending energy tariffs and load shifting based on smart household usage.pdf},
 }
 
 @inproceedings{ru_fast_2018,
@@ -730,6 +772,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2018},
 	note = {https://github.com/rubinxin/FITBO},
 	keywords = {Statistics - Machine Learning},
+	file = {3684/Ru et al_2018_Fast Information-theoretic Bayesian Optimisation.pdf},
 }
 
 @inproceedings{mcleod_optimization_2018,
@@ -744,6 +787,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2018},
 	note = {https://github.com/markm541374/gpbo},
 	keywords = {Statistics - Machine Learning, Computer Science - Learning},
+	file = {3666/McLeod et al_2018_Optimization, fast and slow.pdf},
 }
 
 @inproceedings{abbati_adageo_2018,
@@ -758,6 +802,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	month = mar,
 	year = {2018},
 	pages = {226--234},
+	file = {3641/Abbati et al_2018_AdaGeo.pdf},
 }
 
 @inproceedings{paul_alternating_2018,
@@ -769,6 +814,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Paul, Supratik and Chatzilygeroudis, Konstantinos and Ciosek, Kamil and Mouret, Jean-Baptiste and Osborne, Michael A. and Whiteson, Shimon},
 	year = {2018},
 	keywords = {Statistics - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Learning},
+	file = {3676/Paul et al_2018_Alternating Optimisation and Quadrature for Robust Control.pdf},
 }
 
 @inproceedings{fitzsimons_improved_2018,
@@ -778,6 +824,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	booktitle = {34th {Conference} on {Uncertainty} in {Artificial} {Intelligence} ({UAI})},
 	author = {Fitzsimons, Jack K. and Osborne, Michael A. and Roberts, Stephen J. and Fitzsimons, Joe F.},
 	year = {2018},
+	file = {3653/Fitzsimons et al_2018_Improved stochastic trace estimation using mutually unbiased bases.pdf},
 }
 
 @inproceedings{lloyd_variational_2015,
@@ -788,6 +835,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	author = {Lloyd, Chris and Gunter, Tom and Osborne, Michael A. and Roberts, Stephen},
 	year = {2015},
 	pages = {1814--1822},
+	file = {3662/Lloyd et al_2015_Variational Inference for Gaussian Process Modulated Poisson Processes.pdf},
 }
 
 @inproceedings{toth_learning_2024,
@@ -803,48 +851,6 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2024},
 	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
 	file = {3524/Tóth et al. - 2024 - Learning to Forget Bayesian Time Series Forecasting using Recurrent Sparse Spectrum Signature Gauss.pdf},
-}
-
-@inproceedings{papamarkou_position_2024,
-	title = {Position: {Bayesian} {Deep} {Learning} is {Needed} in the {Age} of {Large}-{Scale} {AI}},
-	shorttitle = {Position},
-	url = {https://openreview.net/forum?id=PrmxFWI1Fr},
-	abstract = {In the current landscape of deep learning research, there is a predominant emphasis on achieving high predictive accuracy in supervised tasks involving large image and language datasets. However, a broader perspective reveals a multitude of overlooked metrics, tasks, and data types, such as uncertainty, active and continual learning, and scientific data, that demand attention. Bayesian deep learning (BDL) constitutes a promising avenue, offering advantages across these diverse settings. This paper posits that BDL can elevate the capabilities of deep learning. It revisits the strengths of BDL, acknowledges existing challenges, and highlights some exciting research avenues aimed at addressing these obstacles. Looking ahead, the discussion focuses on possible ways to combine large-scale foundation models with BDL to unlock their full potential.},
-	language = {en},
-	urldate = {2025-02-01},
-	booktitle = {Forty-first {International} {Conference} on {Machine} {Learning} ({ICML} 2024)},
-	author = {Papamarkou, Theodore and Skoularidou, Maria and Palla, Konstantina and Aitchison, Laurence and Arbel, Julyan and Dunson, David and Filippone, Maurizio and Fortuin, Vincent and Hennig, Philipp and Hernández-Lobato, José Miguel and Hubin, Aliaksandr and Immer, Alexander and Karaletsos, Theofanis and Khan, Mohammad Emtiyaz and Kristiadi, Agustinus and Li, Yingzhen and Mandt, Stephan and Nemeth, Christopher and Osborne, Michael A. and Rudner, Tim G. J. and Rügamer, David and Teh, Yee Whye and Welling, Max and Wilson, Andrew Gordon and Zhang, Ruqi},
-	month = jun,
-	year = {2024},
-	file = {3527/Papamarkou et al. - 2024 - Position Bayesian Deep Learning is Needed in the Age of Large-Scale AI.pdf},
-}
-
-@inproceedings{ziomek_bayesian_2024,
-	title = {Bayesian {Optimisation} with {Unknown} {Hyperparameters}: {Regret} {Bounds} {Logarithmically} {Closer} to {Optimal}},
-	shorttitle = {Bayesian {Optimisation} with {Unknown} {Hyperparameters}},
-	url = {https://openreview.net/forum?id=eygv0JRvTL},
-	abstract = {Bayesian Optimization (BO) is widely used for optimising black-box functions but requires us to specify the length scale hyperparameter, which defines the smoothness of the functions the optimizer will consider. Most current BO algorithms choose this hyperparameter by maximizing the marginal likelihood of the observed data, albeit risking misspecification if the objective function is less smooth in regions we have not yet explored. The only prior solution addressing this problem with theoretical guarantees was A-GP-UCB, proposed by Berkenkamp et al. (2019). This algorithm progressively decreases the length scale, expanding the class of functions considered by the optimizer. However, A-GP-UCB lacks a stopping mechanism, leading to over-exploration and slow convergence. To overcome this, we introduce Length scale Balancing (LB) - a novel approach, aggregating multiple base surrogate models with varying length scales. LB intermittently adds smaller length scale candidate values while retaining longer scales, balancing exploration and exploitation. We formally derive a cumulative regret bound of LB and compare it with the regret of an oracle BO algorithm using the optimal length scale. Denoting the factor by which the regret bound of A-GP-UCB was away from oracle as \$g(T)\$, we show that LB is only \${\textbackslash}log g(T)\$ away from oracle regret. We also empirically evaluate our algorithm on synthetic and real-world benchmarks and show it outperforms A-GP-UCB and maximum likelihood estimation.},
-	language = {en},
-	urldate = {2025-02-01},
-	booktitle = {The {Thirty}-eighth {Annual} {Conference} on {Neural} {Information} {Processing} {Systems} ({NeurIPS} 2024)},
-	author = {Ziomek, Juliusz and Adachi, Masaki and Osborne, Michael A.},
-	month = nov,
-	year = {2024},
-	file = {3529/Ziomek et al. - 2024 - Bayesian Optimisation with Unknown Hyperparameters Regret Bounds Logarithmically Closer to Optimal.pdf},
-}
-
-@inproceedings{xu_principled_2024,
-	title = {Principled {Bayesian} {Optimization} in {Collaboration} with {Human} {Experts}},
-	url = {https://openreview.net/forum?id=IDn9SiKgLy&noteId=VziDb8gqqH},
-	abstract = {Bayesian optimisation for real-world problems is often performed interactively with human experts, and integrating their domain knowledge is key to accelerate the optimisation process. We consider a setup where experts provide advice on the next query point through binary accept/reject recommendations (labels). Experts’ labels are often costly, requiring efficient use of their efforts, and can at the same time be unreliable, requiring careful adjustment of the degree to which any expert is trusted. We introduce the first principled approach that provides two key guarantees. (1) Handover guarantee: similar to a no-regret property, we establish a sublinear bound on the cumulative number of experts’ binary labels. Initially, multiple labels per query are needed, but the number of expert labels required asymptotically converges to zero, saving both expert effort and computation time. (2) No-harm guarantee with data-driven trust level adjustment: our adaptive trust level ensures that the convergence rate will not be worse than the one without using advice, even if the advice from experts is adversarial. Unlike existing methods that employ a user-defined function that hand-tunes the trust level adjustment, our approach enables data-driven adjustments. Real-world applications empirically demonstrate that our method not only outperforms existing baselines, but also maintains robustness despite varying labelling accuracy, in tasks of battery design with human experts.},
-	language = {en},
-	urldate = {2025-02-01},
-	booktitle = {The {Thirty}-eighth {Annual} {Conference} on {Neural} {Information} {Processing} {Systems} ({NeurIPS} 2024)},
-	author = {Xu, Wenjie and Adachi, Masaki and Jones, Colin and Osborne, Michael A.},
-	month = nov,
-	year = {2024},
-	note = {https://github.com/ma921/COBOL/},
-	file = {3531/Xu et al. - 2024 - Principled Bayesian Optimization in Collaboration with Human Experts.pdf},
 }
 
 @inproceedings{ziomek_time-varying_2024,
@@ -893,7 +899,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	file = {3619/Ziomek et al. - 2025 - Just One Layer Norm Guarantees Stable Extrapolation.pdf},
 }
 
-@inproceedings{ziomek_bayesian_2024-1,
+@inproceedings{ziomek_bayesian_2024,
 	title = {Bayesian {Optimisation} with {Unknown} {Hyperparameters}: {Regret} {Bounds} {Logarithmically} {Closer} to {Optimal}},
 	volume = {37},
 	shorttitle = {Bayesian {Optimisation} with {Unknown} {Hyperparameters}},
@@ -909,7 +915,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	file = {3628/Ziomek et al. - 2024 - Bayesian Optimisation with Unknown Hyperparameters Regret Bounds Logarithmically Closer to Optimal.pdf},
 }
 
-@inproceedings{xu_principled_2024-1,
+@inproceedings{xu_principled_2024,
 	title = {Principled {Bayesian} {Optimisation} in {Collaboration} with {Human} {Experts}},
 	volume = {37},
 	url = {https://doi.org/10.48550/arXiv.2410.10452},
@@ -941,7 +947,7 @@ approaches in use are myopic, in only considering the impact of the next functio
 	file = {3631/Bajgar et al. - 2024 - Walking the Values in Bayesian Inverse Reinforcement Learning.pdf},
 }
 
-@inproceedings{papamarkou_position_2024-1,
+@inproceedings{papamarkou_position_2024,
 	title = {Position: {Bayesian} {Deep} {Learning} is {Needed} in the {Age} of {Large}-{Scale} {AI}},
 	volume = {235},
 	shorttitle = {Position},
@@ -956,21 +962,6 @@ approaches in use are myopic, in only considering the impact of the next functio
 	year = {2024},
 	pages = {39556--39586},
 	file = {3630/Papamarkou et al. - 2024 - Position Bayesian Deep Learning is Needed in the Age of Large-Scale AI.pdf},
-}
-
-@inproceedings{ziomek_time-varying_2025,
-	title = {Time-varying {Gaussian} {Process} {Bandits} with {Unknown} {Prior}},
-	volume = {258},
-	url = {https://proceedings.mlr.press/v258/ziomek25a.html},
-	abstract = {Bayesian optimisation requires fitting a Gaussian process model, which in turn requires specifying prior on the unknown black-box function—most of the theoretical literature assumes this prior is known. However, it is common to have more than one possible prior for a given black-box function, for example suggested by domain experts with differing opinions. In some cases, the type-II maximum likelihood estimator for selecting prior enjoys the consistency guarantee, but it does not universally apply to all types of priors. If the problem is stationary, one could rely on the Regret Balancing scheme to conduct the optimisation, but in the case of time-varying problems, such a scheme cannot be used. To address this gap in existing research, we propose a novel algorithm, PE-GP-UCB, which is capable of solving time-varying Bayesian optimisation problems even without the exact knowledge of the function's prior.},
-	urldate = {2026-05-15},
-	booktitle = {Proceedings of the 28th {International} {Conference} on {Artificial} {Intelligence} and {Statistics} ({AISTATS} 2025)},
-	publisher = {PMLR},
-	author = {Ziomek, Juliusz and Adachi, Masaki and Osborne, Michael A.},
-	month = may,
-	year = {2025},
-	pages = {4294--4302},
-	file = {3627/Ziomek et al. - 2025 - Time-varying Gaussian Process Bandits with Unknown Prior.pdf},
 }
 
 @inproceedings{bajgar_pac_2025,
@@ -1045,12 +1036,4 @@ approaches in use are myopic, in only considering the impact of the next functio
 	month = jul,
 	year = {2026},
 	file = {3617/Whittle et al. - 2026 - Distribution Transformers Fast Approximate Bayesian Inference With On-The-Fly Prior Adaptation.pdf},
-}
-
-@article{ziomek_time-varying_nodate,
-	title = {Time-{Varying} {Gaussian} {Process} {Bandits} with {Unknown} {Prior}},
-	abstract = {Bayesian optimisation requires fitting a Gaussian process model, which in turn requires specifying prior on the unknown blackbox function—most of the theoretical literature assumes this prior is known. However, it is common to have more than one possible prior for a given black-box function, for example suggested by domain experts with differing opinions. In some cases, the typeII maximum likelihood estimator for selecting prior enjoys the consistency guarantee, but it does not universally apply to all types of priors. If the problem is stationary, one could rely on the Regret Balancing scheme to conduct the optimisation, but in the case of time-varying problems, such a scheme cannot be used. To address this gap in existing research, we propose a novel algorithm, PEGP-UCB, which is capable of solving timevarying Bayesian optimisation problems even without the exact knowledge of the function’s prior. The algorithm relies on the fact that either the observed function values are consistent with some of the priors, in which case it is easy to reject the wrong priors, or the observations are consistent with all candidate priors, in which case it does not matter which prior our model relies on. We provide a regret bound on the proposed algorithm. Finally, we empirically evaluate our algorithm on toy and real-world time-varying problems and show that it outperforms the maximum likelihood estimator, fully Bayesian treatment of unknown prior and Regret Balancing.},
-	language = {en},
-	author = {Ziomek, Juliusz and Adachi, Masaki and Osborne, Michael A},
-	file = {3625/Ziomek et al. - Time-Varying Gaussian Process Bandits with Unknown Prior.pdf},
 }

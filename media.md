@@ -4,7 +4,7 @@ title: Talks
 tags: media
 ---
 
-For non-academic talks, please visit [maikeosborne.com.](https://michaelaosborne.com) Videos for my academic talks are listed below. I have also included some talks for which I have only slides. 
+For non-academic talks, please visit [maikeosborne.com.](https://michaelaosborne.com) Videos for my academic talks are listed below. I have also included some talks for which I have only slides. These talks were given before my transition in 2026.
 
 * Nov 2018: [Me walking and talking about probabilistic numerics](https://www.youtube.com/watch?v=__XPG6Gsi1w), Port Meadow, Oxford
 * Sep 2018: [*Probabilistic Numerics: Nano-Machine-Learning* @ Machine Learning Summer School, Madrid](https://youtu.be/kltgG6ILRm0), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne1.pdf?raw=true)

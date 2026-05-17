@@ -2,10 +2,11 @@
 layout: hidden_page
 title: Short biography
 ---
-Dr. Mike Osborne is a Professor of Machine Learning in the Department of Engineering Science at Oxford University. His work on automation and its impact on the world of work, with Carl Benedikt Frey, has been covered by BBC Newsnight, CNN, The Economist, Financial Times, Wall Street Journal, Foreign Affairs, New York Times, Washington Post, Der Spiegel, Scientific American, TIME Magazine and The Guardian, amongst many other venues.
 
-Mike is the co-founder and Chief Science Officer of [Mind Foundry Ltd,](https://www.mindfoundry.ai), which has grown to 90+ employees. Mind Foundry is an Oxford University company that combines innovation, research, and usability to empower teams with AI for high-stakes applications. They are innovators, changemakers and helpful stewards of AI as it begins to shape our world.
+Maike Osborne is Professor of Machine Learning in the Department of Engineering Science at the University of Oxford, and Tutorial Fellow in Engineering at Exeter College. Her work with Carl Benedikt Frey on automation and the future of work has been covered by BBC Newsnight, CNN, The Economist, the Financial Times, the Wall Street Journal, Foreign Affairs, the New York Times, the Washington Post, Der Spiegel, Scientific American, TIME, and The Guardian, among others.
 
-Mike has attracted £18.8M of research funding. He has expertise in Gaussian processes, Bayesian optimisation, and Bayesian quadrature, and is a co-founder of the emerging field of probabilistic numerics. His algorithms have been applied in fields as diverse as battery modelling, ornithology, and quantum devices.
+She is co-founder and Chief Science Officer of [Mind Foundry](https://www.mindfoundry.ai), an Oxford spin-out applying AI to high-stakes problems in defence and national security.
 
-Mike’s work on the societal impacts of machine learning and robotics has been cited over 15,000 times, and has resulted in both sustained coverage in almost all major media venues (e.g. his being interviewed on BBC Newsnight, a cover feature in the Economist) and policy impact (his methodology was employed by Obama's Council of Economic Advisors, Teresa May’s Taylor Report and was built upon by many international institutions, including the OECD, McKinsey, the World Bank, and the International Monetary Fund).
+Maike has attracted over £33M of research funding. Her research focuses on Gaussian processes, Bayesian optimisation, and Bayesian quadrature, and she is a co-founder of the field of probabilistic numerics. Her algorithms have been applied to problems ranging from battery modelling to ornithology to quantum devices.
+
+Her work on the societal impacts of machine learning and robotics has been cited over 20,000 times, and her methodology has been employed by the Obama administration's Council of Economic Advisers and Theresa May's Taylor Review, and built on by the OECD, McKinsey, the World Bank, and the IMF.

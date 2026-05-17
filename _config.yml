@@ -7,8 +7,8 @@ permalink: pretty
 # changing this to custom will put links to pages at *.html rather than */
 
 # Setup
-title:       Michael A Osborne
-name:        Michael A Osborne
+title:       Maike Osborne
+name:        Maike Osborne
 tagline:     'Professor of Machine Learning'
 description: 'Professor of Machine Learning at the <a href="http://www.ox.ac.uk">University of Oxford</a>'
 
@@ -25,7 +25,7 @@ ftp_dir: '/homes/51/mosb/WWW/'
 ftp_passive: false
 
 # publish with the below
-# rsync -avz /Users/michaelosborne/Documents/MosbWWW/robots-www/_site/ mosb@robots.ox.ac.uk:~/WWW
+# rsync -avz /Users/mosb/Documents/MosbWWW/robots-www/_site/ mosb@robots.ox.ac.uk:~/WWW
 
 
 scholar:
@@ -40,7 +40,7 @@ scholar:
 baseurl: /~mosb
 
 author:
-  name:   'Michael Osborne'
+  name:   'Maike Osborne'
 
 github:
   repo: https://github.com/mosb/robots-www
