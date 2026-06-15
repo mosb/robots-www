@@ -47,3 +47,18 @@ _bibliography/Exported Items.bib
 page.html
 public/ico/mail.ico
 public/pdf/
+
+# Lecture videos and large media (host externally, never track)
+*.mp4
+*.mov
+*.m4v
+
+# Ruby / Bundler build artefacts
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+
+# Saved-webpage junk (Elsevier page dumps)
+**/svg+xml;charset=*
