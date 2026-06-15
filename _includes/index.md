@@ -3,7 +3,7 @@
 This is my academic site—you may prefer [maikeosborne.com](https://maikeosborne.com). About me:
 
 * Professor of Machine Learning at the <a href="http://www.ox.ac.uk">University of Oxford</a>;
-* Leader of the [Bayesian Exploration Lab](https://bxl.super.site/), a research group within the University—prospective students/postdocs/visitors, please read [this](https://bxl.super.site/joining-the-bxl);
+* Leader of the [Bayesian Governance Lab](https://bxl.super.site/), a research group within the University—prospective students/postdocs/visitors, please read [this](https://bxl.super.site/joining-the-bxl);
 * Director of the [EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines and Systems](http://aims.robots.ox.ac.uk);
 * Co-Director of the [Oxford Martin AI Governance Initiative](https://www.oxfordmartin.ox.ac.uk/ai-governance);
 * Official Fellow of <a href="http://www.exeter.ox.ac.uk">Exeter College</a>;

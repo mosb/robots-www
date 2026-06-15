@@ -15,27 +15,27 @@ Some coverage of Gaussian processes, and their practical use, concludes the cour
 <ul class='plus'>
     <li>Foundations of probability: 
         <a href="{{ site.baseurl }}/teaching/AIMS_CDT/1_slides_foundations.pdf">handouts;</a>
-        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_1_Foundations.mp4">video.</a>
+        <!-- <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_1_Foundations.mp4">video.</a> -->
     </li>
     <li>Probability of continuous variables: 
         <a href="{{ site.baseurl }}/teaching/AIMS_CDT/2_slides_continuous.pdf">handouts;</a>
-        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_2_Continuous_Variables.mp4">video.</a>
+        <!-- <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_2_Continuous_Variables.mp4">video.</a> -->
     </li>
     <li>The Gaussian distribution: the best distribution: 
         <a href="{{ site.baseurl }}/teaching/AIMS_CDT/3_slides_Gaussian.pdf">handouts;</a>
-        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_3_The_Gaussian.mp4">video.</a>
+        <!-- <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_3_The_Gaussian.mp4">video.</a> -->
     </li>
     <li>Maximum likelihood estimation: 
         <a href="{{ site.baseurl }}/teaching/AIMS_CDT/4_slides_ML.pdf">handouts;</a>
-        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_4_Maximum_Likelihood_Estimation.mp4">video.</a>
+        <!-- <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_4_Maximum_Likelihood_Estimation.mp4">video.</a> -->
     </li>
     <li>Maximum a posteriori estimation: 
         <a href="{{ site.baseurl }}/teaching/AIMS_CDT/5_slides_MAP.pdf">handouts;</a>
-        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_5_Maximum_A_Posteriori Estimation.mp4">video.</a>
+        <!-- <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_5_Maximum_A_Posteriori Estimation.mp4">video.</a> -->
     </li>
     <li>Gaussian processes: 
         <a href="{{ site.baseurl }}/teaching/AIMS_CDT/6_slides_Gaussian_processes.pdf">handouts;</a>
-        <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_6_Gaussian_processes.mp4">video.</a>
+        <!-- <a href="{{ site.baseurl }}/teaching/AIMS_CDT/[AIMS_DEI]_6_Gaussian_processes.mp4">video.</a> -->
     </li>
     <li>
         <a href="{{ site.baseurl }}/teaching/AIMS_CDT/Gaussian_identities.pdf">Gaussian identities cheat sheet</a>
