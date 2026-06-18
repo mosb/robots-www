@@ -1,6 +1,6 @@
 ## Profile
 
-This is my academic site—you may prefer [maikeosborne.com](https://maikeosborne.com). About me:
+About me:
 
 * Professor of Machine Learning at the <a href="http://www.ox.ac.uk">University of Oxford</a>;
 * Leader of the [Bayesian Governance Lab](https://bxl.super.site/), a research group within the University—prospective students/postdocs/visitors, please read [this](https://bxl.super.site/joining-the-bxl);
@@ -14,6 +14,12 @@ This is my academic site—you may prefer [maikeosborne.com](https://maikeosborn
 * Full [academic CV]({{ site.baseurl }}/public/pdf/MAOsborne.pdf).
     
 I primarily work on Bayesian optimisation, Gaussian processes, Bayesian quadrature and [Probabilistic Numerics,](https://www.probabilistic-numerics.org), with applications within [battery modelling](https://howey.eng.ox.ac.uk/) and tuning [quantum devices.](https://www.natalia-ares.com/) I also work on AI safety and [AI Governance.](https://www.oxfordmartin.ox.ac.uk/ai-governance)
+
+This is my academic site—you may prefer [maikeosborne.com](https://maikeosborne.com). 
+
+## Name
+
+My name (which is of German origin) is pronounced "my-KUH", and, in British English, rhymes with "biker".
 
 I previously published as Michael A. Osborne.
 
