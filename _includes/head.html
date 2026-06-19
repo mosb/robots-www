@@ -1,12 +1,12 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!-- Enable responsiveness on mobile devices (zoom no longer disabled) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script type="text/javascript" src="//use.typekit.net/flp8eda.js"></script>
+  <!-- Adobe Fonts (legacy Typekit kit; still resolves over https) -->
+  <script type="text/javascript" src="https://use.typekit.net/flp8eda.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <title>
@@ -18,38 +18,32 @@
   </title>
 
   <!-- CSS -->
-
-   <link href="{{ site.baseurl }}/public/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
+  <link href="{{ site.baseurl }}/public/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/hyde.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
   <link href="{{ site.baseurl }}/public/css/mosb.css" rel="stylesheet">
 
-
-  <!-- Analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-27639330-3', 'ox.ac.uk');
-    ga('send', 'pageview');
-
-  </script>
-
-  <!-- bootstrap -->
-  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- jQuery + Bootstrap 3 (jQuery pinned, was an unversioned 'latest' URL) -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="{{ site.baseurl }}/public/js/bootstrap.min.js"></script>
 
-  <!-- MathJax -->
-  <script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- MathJax 3 (the old cdn.mathjax.org host was retired years ago) -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
   <!-- Icons -->
   <link rel="shortcut icon" href="{{ site.baseurl }}/public/ico/favicon.ico">
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <!-- RSS: only keep this if /atom.xml actually exists (needs the jekyll-feed
+       gem). The path is baseurl-aware so it resolves under /~mosb. -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml">
 </head>

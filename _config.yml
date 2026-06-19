@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink: pretty
@@ -20,12 +20,15 @@ description: 'Professor of Machine Learning at the <a href="http://www.ox.ac.uk"
 # https://github.com/bobgilmore/jekyll-blog/blob/master/_posts/2014-01-13-deferring-publication-in-jekyll.md
 future: false
 
-ftp_host: 'robots.ox.ac.uk'
-ftp_dir: '/homes/51/mosb/WWW/'
-ftp_passive: false
-
 # publish with the below
-# rsync -avz /Users/mosb/Documents/MosbWWW/robots-www/_site/ mosb@robots.ox.ac.uk:~/WWW
+#www() {
+#   /opt/homebrew/bin/rsync -rtvz --chmod=D755,F644 \
+#     --exclude='.DS_Store' --exclude='._*' \
+#     --exclude='*.mp4' --exclude='*.mov' --exclude='*.m4v' \
+#     --iconv=UTF-8-MAC,UTF-8 \
+#     /Users/mosb/Documents/WWW/MosbWWW/robots-www/_site/ \
+#     mosb@login.robots.ox.ac.uk:~/WWW
+# }
 
 
 scholar:
