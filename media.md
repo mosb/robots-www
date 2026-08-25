@@ -1,11 +1,14 @@
 ---
 layout: page
-title: Talks
+title: Talks & Media
 tags: media
 ---
 
-For non-academic talks, please visit [maikeosborne.com.](https://michaelaosborne.com) Videos for my academic talks are listed below. I have also included some talks for which I have only slides. These talks were given before my transition in 2026.
+Please note many of the links below pre-date my transition in 2026.
 
+* Nov 2024: [*Using Bayesian Approaches & Sausage Plots to Improve Machine Learning*](https://www.youtube.com/watch?v=NuBd2HKkJK4), Computerphile
+* Dec 2023: [*Meeting the needs of society with AI*](https://oxford.shorthandstories.com/ai-michael-osborne/index.html), University of Oxford
+* Dec 2023: [an interview on the *Jimmy's Jobs of the Future* podcast](https://open.spotify.com/episode/2ZCXyUOZukG2HaQgARXpCq)
 * Nov 2018: [Me walking and talking about probabilistic numerics](https://www.youtube.com/watch?v=__XPG6Gsi1w), Port Meadow, Oxford
 * Sep 2018: [*Probabilistic Numerics: Nano-Machine-Learning* @ Machine Learning Summer School, Madrid](https://youtu.be/kltgG6ILRm0), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne1.pdf?raw=true)
 * Sep 2018: [*Bayesian Optimisation is Probabilistic Numerics* @ Machine Learning Summer School, Madrid](https://youtu.be/7-UvD3YP61k), also [slides](https://github.com/danielhernandezlobato/MLSS2018_Madrid/blob/master/osborne2.pdf?raw=true)
