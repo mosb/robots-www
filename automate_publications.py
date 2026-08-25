@@ -18,7 +18,7 @@ def copytree(src, dst, symlinks=False, ignore=None):
                 shutil.copy2(s, d)
 
 
-os.chdir('/Users/mosb/Documents/WWW/MosbWWW/robots-www/')
+os.chdir('/Users/mosb/WWW/MosbWWW/robots-www/')
 
 
 publication_types = [
@@ -88,5 +88,5 @@ bashCommand = """
 chmod -R a+rx ./public/pdf
 jekyll build
 # """
-# rsync -avz /Users/mosb/Documents/WWW/MosbWWW/robots-www/_site/ mosb@robots.ox.ac.uk:~/WWW
+# rsync -avz /Users/mosb/WWW/MosbWWW/robots-www/_site/ mosb@robots.ox.ac.uk:~/WWW
 # process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)

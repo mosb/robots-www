@@ -20,13 +20,13 @@ description: 'Professor of Machine Learning at the <a href="http://www.ox.ac.uk"
 # https://github.com/bobgilmore/jekyll-blog/blob/master/_posts/2014-01-13-deferring-publication-in-jekyll.md
 future: false
 
-# publish with the below
-#www() {
+# publish with mosb() from ~/.zshrc:
+#mosb() {
 #   /opt/homebrew/bin/rsync -rtvz --chmod=D755,F644 \
 #     --exclude='.DS_Store' --exclude='._*' \
 #     --exclude='*.mp4' --exclude='*.mov' --exclude='*.m4v' \
 #     --iconv=UTF-8-MAC,UTF-8 \
-#     /Users/mosb/Documents/WWW/MosbWWW/robots-www/_site/ \
+#     /Users/mosb/WWW/MosbWWW/robots-www/_site/ \
 #     mosb@login.robots.ox.ac.uk:~/WWW
 # }
 
