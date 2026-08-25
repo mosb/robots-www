@@ -62,3 +62,18 @@ vendor/
 
 # Saved-webpage junk (Elsevier page dumps)
 **/svg+xml;charset=*
+
+# Editor config
+.vscode/
+
+# Zotero export folders; the site builds from the *_bib.bib files
+_bibliography/*/
+_bibliography/zotero_export_*.bib
+
+# Local utility script
+math-with-slack.sh
+
+# Icons, images and teaching materials, deployed alongside public/pdf/
+public/ico/
+public/image/
+teaching/
