@@ -13,7 +13,7 @@ About me:
 * [Short biography]({{ site.baseurl }}/bio);
 * Full [academic CV]({{ site.baseurl }}/public/pdf/MAOsborne.pdf).
     
-I primarily work on Bayesian optimisation, Gaussian processes, Bayesian quadrature and [Probabilistic Numerics,](https://www.probabilistic-numerics.org), with applications within [battery modelling](https://howey.eng.ox.ac.uk/) and tuning [quantum devices.](https://www.natalia-ares.com/) I also work on AI safety and [AI Governance.](https://www.oxfordmartin.ox.ac.uk/ai-governance)
+I primarily work on Bayesian optimisation, Gaussian processes, Bayesian quadrature and [Probabilistic Numerics,](https://www.probabilistic-numerics.org) with applications within [battery modelling](https://howey.eng.ox.ac.uk/) and tuning [quantum devices.](https://www.natalia-ares.com/) I also work on AI safety and [AI Governance.](https://www.oxfordmartin.ox.ac.uk/ai-governance)
 
 This is my academic site—you may prefer [maikeosborne.com](https://maikeosborne.com). 
 
@@ -36,7 +36,6 @@ document.write('mosb' + '@' + 'robots.ox.ac.uk' + '</a>');
 Walton Well Road  
 Oxford  
 OX2 6ED  
-Oxford  
 United Kingdom  
 
 This website was current as of {{ "now" | date: "%Y-%m-%d %H:%M" }}. 
