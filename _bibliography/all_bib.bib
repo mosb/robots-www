@@ -639,6 +639,21 @@ Conclusions There is considerable potential to extend the use of automation in p
 	file = {3639/Severin et al. - 2024 - Cross-architecture tuning of silicon and SiGe-based quantum devices using machine learning.pdf},
 }
 
+
+@article{frey_advances_2026,
+	title = {Advances, challenges, and opportunities for legged robots},
+	volume = {11},
+	url = {https://doi.org/10.1126/scirobotics.aee0787},
+	doi = {10.1126/scirobotics.aee0787},
+	abstract = {Humanoid and quadrupedal robots have the potential to revolutionize the way we work, interact, and coexist with intelligent machines. To understand their effects on society and how they can enable scientific discovery, we assess the current capabilities of these systems along hardware, locomotion, autonomy, data, and applications. We identify recent advances and key open challenges that must be overcome to enable widespread adoption and new use cases for legged robots. Last, we provide an outlook on the future of legged robots, exploring their ethical considerations, economic potential, policy implications, and broader societal effects.},
+	number = {116},
+	urldate = {2026-08-26},
+	journal = {Science Robotics},
+	author = {Frey, Jonas and Mattamala, Matías and Park, Hae-Won and Mittal, Mayank and Martius, Georg and Osborne, Maike and Sparrow, Robert and Hutter, Marco},
+	month = jul,
+	year = {2026},
+}
+
 @inproceedings{wan_bayesian_2023,
 	title = {Bayesian {Optimisation} of {Functions} on {Graphs}},
 	volume = {36},
@@ -2071,6 +2086,75 @@ signals.},
 	year = {2025},
 	keywords = {Computer Science - Machine Learning, Computer Science - Multiagent Systems, Computer Science and Game Theory, preprint, Statistics - Machine Learning},
 	file = {3567/Adachi et al. - 2025 - Bayesian Optimization for Building Social-Influence-Free Consensus.pdf},
+}
+
+
+@misc{goel_rizz_2026,
+	title = { {RIZZ}: {Routing} {Interactions} to {Near} {Zero}-{Interference} {Zones} for {Continual} {Adaptation} of {Black}-{Box} {Agents}},
+	shorttitle = { {RIZZ}},
+	url = {https://doi.org/10.48550/arXiv.2606.20638},
+	doi = {10.48550/arXiv.2606.20638},
+	abstract = {Large language models are increasingly deployed as long-lived agents that must adapt across users, tasks, domains, modalities, and feedback regimes without access to model weights. Existing black-box adaptation methods typically optimize a single prompt, maintain an undifferentiated memory, or rely on repeated rollout-heavy search. However, these designs struggle when streams of input are nonstationary, feedback is sparse, and failures from one task family can contaminate behavior on another. We introduce RIZZ (Routing Interactions to Near Zero-interference Zones), a continual adaptation framework for compound language-model systems that learns entirely through verifier-gated memory, routing, and prompt compilation. RIZZ organizes input streams into dynamically spawned memory branches. At inference time, either while online or offline, a context-aware router selects or creates a branch that retrieves branch-local, global, graph-structured, and working-memory context, which is compiled into a bounded prompt together with retrieved task evidence. After the model acts, task verifiers score the output, and only verified interactions can update memory, promote reusable rules, demote harmful rules, or create anti-patterns. This yields a black-box agent that improves through persistent natural-language feedback while explicitly controlling interference. RIZZ targets the regime where adaptation must occur online under context budgets. Finally, we demonstrate the effectiveness of our framework against state-of-the-art baselines on competitive benchmarks.},
+	urldate = {2026-08-26},
+	publisher = {arXiv},
+	author = {Goel, Sonali and Vaidhyanathan, Pranav and Schorling, Lucas and Ares, Natalia and Osborne, Maike},
+	month = jun,
+	year = {2026},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning},
+}
+
+@misc{wibault_abstraction_2026,
+	title = {Abstraction for {Offline} {Goal}-{Conditioned} {Reinforcement} {Learning}},
+	url = {https://doi.org/10.48550/arXiv.2605.22711},
+	doi = {10.48550/arXiv.2605.22711},
+	abstract = {Markov Decision Processes (MDPs) often exhibit significant redundancy due to symmetries and shared structure across state-goal pairs in real-world Goal-Conditioned Reinforcement Learning (GCRL). While hierarchical policies have been motivated for horizon reduction via temporal abstraction in offline GCRL, we demonstrate that hierarchy also enables absolute abstraction. By introducing relativised options as well as distinct representations for different levels of the hierarchy, we demonstrate how an agent can reuse experience across similar contexts of the state-space. Based on this framework, we introduce two simple algorithms for learning relativised options and abstracting from the absolute frame of reference. Our experiments show that such inductive biases significantly improve performance in offline GCRL.},
+	urldate = {2026-08-26},
+	publisher = {arXiv},
+	author = {Wibault, Clarisse and Goldie, Alexander and Villares, Antonio and Osborne, Maike and Foerster, Jakob},
+	month = may,
+	year = {2026},
+	note = {https://github.com/CWibault/arl},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning},
+}
+
+@misc{whittle_canonical_2026,
+	title = {Canonical {Regularisation} of {Wide} {Feature}-{Learning} {Neural} {Networks}},
+	url = {https://doi.org/10.48550/arXiv.2605.18180},
+	doi = {10.48550/arXiv.2605.18180},
+	abstract = {Wide neural networks in the feature-learning regime drive modern deep learning, and yet they remain far less studied than their kernel-regime counterparts. We consider a critical yet under-explored difference between these two regimes: the regulariser and prior implied by gradient flow training. This canonical regularisation property is well-studied in kernel regime networks -- of all the infinite global minima, gradient flow selects exactly the vanishing ridge solution -- and underpins the celebrated NN-GP correspondence, precisely allowing the modelling of noise during training. However, we prove ridge regularisation biases gradient flow in feature-learning regime networks, even in the infinitesimal limit of vanishing regularisation. Over training, ridge distorts the inductive bias of the network, with a particular damage done to pretrained networks where the implicit prior is informative. We resolve this by axiomatising the canonical regulariser as a regime-agnostic function-space energy and lift, which uniquely identifies ridge in the kernel regime, and crucially generalises to the feature-learning regime. By studying the Riemannian geometry of feature-learning networks, we derive geodesic ridge from our framework, generalising ridge to the feature-learning regime. Correspondingly, we prove the canonical function-space prior is a Riemannian Gibbs Process, generalising the more familiar Gaussian Process. As a practical contribution, we propose arc ridge as a minimax-robust, scalable surrogate to geodesic ridge, revealing a deep relationship between early stopping and canonical regularisation across learning regimes. Finally, we demonstrate the consequences of our theory empirically on both image processing and NLP transfer-learning problems.},
+	urldate = {2026-08-26},
+	publisher = {arXiv},
+	author = {Whittle, George and Vaidhyanathan, Pranav and Ziomek, Juliusz and Ares, Natalia and Osborne, Maike A.},
+	month = may,
+	year = {2026},
+	note = {https://github.com/GWhittle110/canonical-regularization},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+}
+
+@misc{bajgar_q-based_2026,
+	title = {Q-based {Variational} {Inverse} {Reinforcement} {Learning}},
+	url = {https://doi.org/10.48550/arXiv.2608.16888},
+	doi = {10.48550/arXiv.2608.16888},
+	abstract = {The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. Inverse reinforcement learning (IRL) addresses this challenge by inferring preferences, represented as reward functions, from expert behaviour. We introduce Q-based Variational IRL (QVIRL), a novel Bayesian IRL method that recovers a posterior distribution over rewards from expert demonstrations via primarily learning a variational distribution over optimal Q-values. Unlike previous approaches, QVIRL combines scalability with uncertainty quantification, important for safety-critical applications as well as active learning. We demonstrate QVIRL's strong performance in apprenticeship learning across various tasks, including gridworlds, Lunar Lander, the Highway Environment, and two ATARI games both with static expert data and with active learning. It is the first method for Bayesian IRL that demonstrates training from raw pixel observations.},
+	urldate = {2026-08-26},
+	publisher = {arXiv},
+	author = {Bajgar, Ondrej and Tisnikar, Peter and Abate, Alessandro and Gatsis, Konstantinos and Osborne, Maike},
+	month = aug,
+	year = {2026},
+	keywords = {Computer Science - Machine Learning},
+}
+
+@misc{maathuis_constrained_2026,
+	title = {Constrained {Bayesian} {Optimisation} with {Multiple} {Information} {Sources}},
+	url = {https://doi.org/10.48550/arXiv.2607.00865},
+	doi = {10.48550/arXiv.2607.00865},
+	abstract = {Bayesian Optimisation (BO) under unknown constraints is particularly challenging when feasible regions are small. In such settings, existing methods that typically rely solely on evaluations of the true objective and constraints struggle to efficiently explore the design space. However, many real-world applications offer auxiliary data sources (e.g. surrogate models or simplified simulations) that can support early exploration. Despite this potential, their integration into constrained BO remains largely unexplored. We propose a general multi-source framework that extends constrained Max-value Entropy Search, capturing inter-source correlation while balancing evaluation cost and information gain. Experiments on both synthetic and physics-based benchmarks show that our method efficiently identifies feasible and optimal solutions, even when auxiliary data are only weakly correlated. The proposed approach consistently outperforms existing methods, particularly in early-stage exploration.},
+	urldate = {2026-08-26},
+	publisher = {arXiv},
+	author = {Maathuis, Hauke and De Breuker, Roeland and Castro, Saullo and Osborne, Maike},
+	month = jul,
+	year = {2026},
+	keywords = {Computer Science - Machine Learning},
 }
 
 @techreport{bakhshi_future_2017,
